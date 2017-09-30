@@ -2,18 +2,28 @@
 <div class="container">
 <article>
 <div class="article-meta">
-
-  <div class="categories">
-  {{ range $i, $e := .Params.categories }}
-    {{ if $i }} &hercon; {{ end }}<a href="{{ relURL (print "/categories/" $e | urlize) }}">{{ $e }}</a>
-  {{ end }}
+  <div class="article-meta-top">
+    <div class="categories">
+    {{ range $i, $e := .Params.categories }}
+      {{ if $i }} &hercon; {{ end }}<a href="{{ relURL (print "/categories/" $e | urlize) }}">{{ $e }}</a>
+    {{ end }}
+    </div>
   </div>
+
 
   <h1><span class="title">{{ .Title }}</span></h1>
 
-  {{ if .Params.author }}
-  <h3 class="author">{{ partial "author_names.html" . }}</h3>
-  {{ end }}
+  <div class = "article-meta-authordate">
+
+      {{ if .Params.author }}
+      <h3 class="author">{{ partial "author_names.html" . }}</h3>
+      {{ end }}
+
+
+    <h3 class="date">{{ .Date.Format "2006-01-02" }}
+    </h3>
+
+  </div>
 
   {{ with .Params.tags }}
   <p class="tags">{{ default "Tags: " (index $.Site.Params.text "tags") }}{{ range $i, $e := . }}{{ if $i }}; {{ end }}<a href="{{ relURL (print "/tags/" $e | urlize) }}">{{ $e }}</a>{{ end }}

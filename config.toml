@@ -1,6 +1,6 @@
 baseurl = "/"
 languageCode = "en-us"
-title = ""
+title = "笑神本部"
 theme = "hugo-xmag"
 googleAnalytics = ""
 disqusShortname = "owarai"
@@ -26,13 +26,13 @@ paginate = 12
 [[menu.main]]
     name = "字幕组简介"
     url = "/fansub/"
-    weight = 5    
+    weight = 5
 [[menu.main]]
     name = "转载规则"
     url = "/rules/"
-    weight = 3    
+    weight = 3
 
-    
+
 [[menu.top]]
     name = "首页"
     url = "/"
@@ -66,6 +66,8 @@ paginate = 12
     back = "&larr; 返回首页"
     edit = "编辑此页 &rarr;"
     truncated = "&hellip;"
+    tags = " "
+    about_author = " "
 
 [params.banner]
     src = "/img/logo.png"

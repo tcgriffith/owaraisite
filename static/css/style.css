@@ -2,9 +2,10 @@ body {
   margin: 0;
   line-height: 1.5em;
   background-color: #ffffff;
-background-image: url("/img/banner-mix_new.jpg");
-background-repeat: no-repeat;
-background-size: contain;
+  background-image: url("/img/banner-mix_new.jpg");
+  background-repeat: no-repeat;
+  background-size: contain;
+
 
 
 }
@@ -106,16 +107,24 @@ main { margin-bottom: 15px; }
   color: #666;
 }
 
+.tags {
+  /*border: 3px solid green;*/
+    border-top: 1px dashed #cce5ff;
+    padding: 5px;
+    margin: 0px;
+}
+
 .tags a{
+
   font-size: .9em;
   font-weight: bolder;
   text-decoration: none;
   text-transform: uppercase;
   color: #000;
   border-radius: 5px;
+
   background: #cce5ff;
   padding: 5px;
-  border-radius: 5px;
   transition: background .5s;
 
 }
@@ -124,18 +133,79 @@ main { margin-bottom: 15px; }
   background:#e6ad00;
   color:#fff;
 }
+/*re define article-meta*/
+
+.article-meta {
+  text-decoration: none;
+  /*background: #eee;*/
+  padding: 5px;
+  border-radius: 5px;
+  text-align: left;
+}
+
+.article-meta h1{
+  /*border: 3px solid green;*/
+  /*color:red;*/
+}
+
+.article-meta-authordate {
+  /*height: 2.5em;*/
+  position: relative;
+  width: 100%;
+}
+
+.article-meta-authordate h3 {
+  /*height: 2.5em;*/
+  margin: 0;
+}
+
+.article-meta-authordate .date{
+  position: absolute;
+  top:0;
+  right:0;
+
+  text-align: left;
+}
+
+
+/* redefine article-list*/
+
+.category_date {
+  position: relative;
+  width: 100%;
+}
+
+.category_date .categories a{
+  padding: 2px;
+  border-radius: 5px;
+  border: 1px solid #777796;
+  transition: background .5s;
+
+}
+
+.category_date .categories a:hover{
+  background: #f8ee79;
+
+}
+
+.category_date .date{
+  position: absolute;
+  top:0;
+  right:0;
+
+  text-align: left;
+}
 
 h1 a:hover { text-decoration: underline; }
 .article-list h1 { margin: .2em auto .2em 0; }
 article { padding: 1em; }
-.article-meta {
-  text-decoration: none;
-  background: #eee;
-  padding: 5px;
-  border-radius: 5px;
+
+.menu, footer, .post-nav { text-align: center; }
+.article-footer {
+   text-align: left;
+   border: 1px solid #777796;
+
 }
-.menu, .article-meta, footer, .post-nav { text-align: center; }
-.article-footer { text-align: left; }
 .title { font-size: 1.2em; }
 .article-list h1, .title { line-height: 1.2em; }
 .article-list a, .header a, footer a, .categories a, .active a, .comments a { text-decoration: none; }
