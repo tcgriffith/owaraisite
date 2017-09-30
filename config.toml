@@ -14,10 +14,7 @@ paginate = 12
 [permalinks]
     post = "/post/:year/:month/:day/:slug/"
 
-[[menu.main]]
-    name = "首页"
-    url = "/"
-    weight = 1
+
 [[menu.main]]
     name = "订阅"
     url = "/index.xml"
