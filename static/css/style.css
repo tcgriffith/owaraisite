@@ -13,6 +13,14 @@ background-size: contain;
   margin: auto;
   padding: 0 15px;
 }
+
+.menu {
+  max-width: 1100px;
+  width:70%;
+  margin: auto;
+  padding: 0 15px;
+}
+
 .page .header div, .page .container, .page .copyright, .page .menu { max-width: 900px; }
 .container { hyphens: auto; }
 @media (max-width: 930px) {
@@ -30,10 +38,10 @@ main { margin-bottom: 15px; }
 
   /*background-color: #cccccc;*/
 }
- .menu {
+/* .menu {
   display: flex;
-  /*justify-content: space-between;*/
-}
+  justify-content: space-between;
+}*/
 
 .head-meta {
   display: none;
