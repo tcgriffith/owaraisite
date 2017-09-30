@@ -30,7 +30,7 @@ main { margin-bottom: 15px; }
 }
  .menu {
   display: flex;
-  justify-content: space-between;
+  /*justify-content: space-between;*/
 }
 
 .head-meta {
