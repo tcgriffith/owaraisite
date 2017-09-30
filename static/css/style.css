@@ -1,7 +1,9 @@
 body {
   margin: 0;
   line-height: 1.5em;
-  background: #fafafa;
+  background-color: #fafafa;
+
+
 }
 .header div, .container, .copyright, .menu {
   max-width: 1100px;
@@ -22,14 +24,18 @@ main { margin-bottom: 15px; }
   text-align: center;
   padding: 15px 0 5px;
    /*border: 3px solid green;*/
+  background-image: url("/img/banner2017.jpg");
+
+  /*background-color: #cccccc;*/
 }
 .head-meta, .menu {
   display: flex;
   justify-content: space-between;
 }
-.header, .list section, article { background: #fff; }
+ .list section, article { background: #fff; }
 /*.banner { font-size: 4em; }*/
 .banner .text {
+  padding:0;
   display: block;
   line-height: 1em;
 
