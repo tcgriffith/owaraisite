@@ -46,11 +46,11 @@ paginate = 12
     url = "/tags/"
     weight = 4
 [[menu.top]]
-    name = "字幕组作品"
+    name = "作品"
     url = "/post/"
     weight = 5
 [[menu.top]]
-    name = "博客"
+    name = "文章"
     url = "/blog/"
     weight = 6
 

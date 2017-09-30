@@ -2,7 +2,7 @@ body {
   margin: 0;
   line-height: 1.5em;
   background-color: #ffffff;
-background-image: url("/img/banner2017.jpg");
+background-image: url("/img/banner-mix_new.jpg");
 background-repeat: no-repeat;
 background-size: contain;
 
@@ -42,12 +42,26 @@ main { margin-bottom: 15px; }
 
  .list section, article { background: #fff; }
 /*.banner { font-size: 4em; }*/
-.banner .text {
+/*.banner .text {
   padding:0;
   display: block;
   line-height: 1em;
+}*/
 
+.banner{
+  /*border: 3px solid green;*/
 }
+.header .banner-image{
+  margin-top: 5px;
+    /*margin-left: 0;*/
+  /*padding-left: 0;*/
+  /*width:50%;*/
+  /*border: 3px solid green;*/
+}
+
+
+
+
 .list {
   display: flex;
   flex-wrap: wrap;
@@ -121,7 +135,7 @@ article { padding: 1em; }
 .pagination li, .terms li { display: inline; }
 .pagination a { padding: 0 .2em; }
 .footer {
-  background: #666;
+  background: #777796;
   padding: 1em 0;
 }
 .footer, .footer a { color: #fff; }
@@ -175,6 +189,8 @@ table thead th { border-bottom: 1px solid #ddd; }
 th, td { padding: 5px; }
 tr:nth-child(even) { background: #eee }
 
+/* removed thumbnail pic css*/
+/* by TC*/
 /*.thumbnail {
   height: 5.5em;
   width: 6.8em;
@@ -210,39 +226,47 @@ tr:nth-child(even) { background: #eee }
   width: 50%;
   margin-left: 0;
 }
-
+/* redefined menu top*/
+/* by TC*/
 .menu-top {
   display: flex;
    /*justify-content: space-between;*/
     /*border: 3px solid green;*/
-    /*width: 50%;*/
+    width: 60%;
     /*margin:auto;*/
   margin-bottom:0;
   padding-left:0;
   /*padding-top:20;*/
 
+  border-radius: 5px;
+    /*display: table-cell;*/
+   vertical-align: middle;
+
 }
 
-.menu-top li:first-child { border-left: 1px solid #e6ad00; }
+/*.menu-top li:first-child { border-left: 1px solid #e6ad00; }*/
 
 .menu-top li {
-  display: inline-block;
-
+  /*display: inline-block;*/
+  background: #fff;
   display: flex;
+  /*border-radius: 5px;*/
   /*width: 1em;*/
   /*word-break: break-all;*/
   /*border-left: 1px solid #e6ad00;*/
-  border-right: 1px solid #e6ad00;
+  /*border-right: 1px solid #fff;*/
   transition: background .5s;
-  padding: 0.3em;
+  padding: 5px 1em 5px 1em;
   font-weight: bolder;
   align-items: center;
+
+
 }
-.menu-top li:hover { background: #e6ad00; }
-/*.menu-top li a { display: flex; }*/
-.menu-top li:hover a { color: #fff; }
-.menu-top {
-  /*display: table-cell;*/
-   vertical-align: middle;
+.menu-top li:hover { background: #f8ee79; }
+.menu-top li a {
+  color: #777796;
+  /*display: flex;*/
 }
+/*.menu-top li:hover a { color: #fff; }*/
+
 
