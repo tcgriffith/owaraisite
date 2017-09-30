@@ -27,7 +27,11 @@ paginate = 12
     name = "字幕组简介"
     url = "/fansub/"
     weight = 5    
-    
+[[menu.main]]
+    name = "转载规则"
+    url = "/rules/"
+    weight = 3    
+
     
 [[menu.top]]
     name = "首页"
@@ -56,7 +60,7 @@ paginate = 12
     description = "笑神本部"
     summary_length = 200
     github_edit = "https://github.com/tcgriffith/owaraisite/blob/master/content/"
-    footer = "Powered by [Hugo](https://gohugo.io/), [blogdown](https://github.com/rstudio/blogdown) & [netlify](https://www.netlify.com/) &copy; [OWARAICLUB](https://owarai.netlify.com/) 2017 | [转载规则](/rules/) | [关于我们](/about/)"
+    footer = "Powered by [Hugo](https://gohugo.io/), [blogdown](https://github.com/rstudio/blogdown) & [netlify](https://www.netlify.com/) &copy; [OWARAICLUB](https://owarai.netlify.com/) 2017"
 
 [params.text]
     back = "&larr; 返回首页"
