@@ -43,9 +43,11 @@ paginate = 12
     weight = 4
 [[menu.top]]
     name = "字幕组"
-    url = "/fansubs/"
+    url = "/fansub/"
     weight = 5
-
+[[menu.top]]
+    name = "加入我们"
+    url = "/joinus/"
 
 
 [params]
@@ -55,8 +57,8 @@ paginate = 12
     footer = "&copy; [OWARAICLUB](https://owarai.netlify.com/) 2017 | [转载规则](https://owarai.netlify.com/) | [加入我们](https://owarai.netlify.com/) | [FAQ](https://owarai.netlify.com/) | [关于我们](/about/)"
 
 [params.text]
-    back = "&larr; Back to Home"
-    edit = "Edit this page &rarr;"
+    back = "&larr; 返回首页"
+    edit = "编辑此页 &rarr;"
     truncated = "&hellip;"
 
 [params.banner]
