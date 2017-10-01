@@ -3,4 +3,4 @@
 	url = https://github.com/yihui/hugo-xmin.git
 [submodule "themes/hugo-xmag"]
 	path = themes/hugo-xmag
-	url = git@github.com:yihui/hugo-xmag.git
+	url = https://github.com/yihui/hugo-xmag.git
