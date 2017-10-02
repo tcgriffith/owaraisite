@@ -23,6 +23,21 @@ description: "本站所有文章均基于markdown格式，遂作次简易入门"
 
 ## 基本语法
 
+### B站视频 
+
+由于md支持直接插入html代码，所以插入个bilibili播放器也不在话下
+
+```
+<iframe src="//www.bilibili.com/html/html5player.html?cid=24415801&aid=14988412" width="100%" height="500" frameborder="0" allowfullscreen="allowfullscreen"></iframe>
+```
+
+↓
+
+<iframe src="//www.bilibili.com/html/html5player.html?cid=24415801&aid=14988412" width="100%" height="500" frameborder="0" allowfullscreen="allowfullscreen"></iframe>
+
+
+
+
 ***
 
 ### emoji
@@ -70,17 +85,6 @@ ___
 ___
 
 
-### B站视频
-
-由于md支持直接插入html代码，所以插入个bilibili播放器也不在话下
-
-```
-<iframe src="//www.bilibili.com/html/html5player.html?cid=24415801&aid=14988412" width="100%" height="500" frameborder="0" allowfullscreen="allowfullscreen"></iframe>
-```
-
-↓
-
-<iframe src="//www.bilibili.com/html/html5player.html?cid=24415801&aid=14988412" width="100%" height="500" frameborder="0" allowfullscreen="allowfullscreen"></iframe>
 
 ### 链接
 
