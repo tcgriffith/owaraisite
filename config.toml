@@ -64,7 +64,7 @@ paginate = 12
 
 [params.text]
     back = "&larr; 返回首页"
-    edit = "编辑此页 &rarr;"
+    edit = "编辑此页"
     truncated = "&hellip;"
     tags = " "
     about_author = " "

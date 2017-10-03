@@ -160,6 +160,27 @@ main { margin-bottom: 15px; }
   /*color:red;*/
 }
 
+.article-meta-top {
+  /*height: 2.5em;*/
+  position: relative;
+  width: 100%;
+}
+
+.article-meta-top .categories {
+  /*height: 2.5em;*/
+  margin: 0;
+}
+
+.article-meta-top .editpage{
+  width: 50%;
+  position: absolute;
+  top:0;
+  right:0;
+
+  text-align: right;
+}
+
+
 .article-meta-authordate {
   /*height: 2.5em;*/
   position: relative;
