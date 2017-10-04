@@ -10,9 +10,11 @@ tags:
 description: "本站所有文章均基于markdown格式，遂作次简易入门"
 ---
 
-![](https://upload.wikimedia.org/wikipedia/commons/thumb/4/48/Markdown-mark.svg/1200px-Markdown-mark.svg.png)
+![](https://i.imgur.com/Ce0lBtF.png)
 
 ## 为什么要用markdown
+
+***
 
 - 写文章的时候不用死磕格式！  
 - 易写易读！  
@@ -21,13 +23,89 @@ description: "本站所有文章均基于markdown格式，遂作次简易入门"
 
 ## 基本语法
 
-- 贴图:
+### B站视频 
+
+由于md支持直接插入html代码，所以插入个bilibili播放器也不在话下
 
 ```
-![]()
+<iframe src="//www.bilibili.com/html/html5player.html?cid=24415801&aid=14988412" width="100%" height="500" frameborder="0" allowfullscreen="allowfullscreen"></iframe>
 ```
 
-- 标题:  
+↓
+
+<iframe src="//www.bilibili.com/html/html5player.html?cid=24415801&aid=14988412" width="100%" height="500" frameborder="0" allowfullscreen="allowfullscreen"></iframe>
+
+
+
+
+***
+
+### emoji
+`:`smile`:` → :smile:
+
+### 引用块
+
+```
+> **来一发**~~好久没出阿妹脱裤了~~！
+```
+
+↓
+
+> **来一发**~~好久没出阿妹脱裤了~~！
+
+### 分割线
+
+```
+连字符
+
+---
+
+星号
+
+***
+
+下划线
+
+___
+
+```
+
+↓
+
+连字符
+
+---
+
+星号
+
+***
+
+下划线
+
+___
+
+
+
+### 链接
+
+```
+[点击就送屠龙宝刀](http://127.0.0.1:4321/blog/markdowndoc/)
+```
+
+↓
+
+[点击就送屠龙宝刀](http://127.0.0.1:4321/blog/markdowndoc/)
+
+
+### 贴图:
+
+```
+![](https://i.imgur.com/B53NwRs.png)
+```
+↓  
+![](https://i.imgur.com/B53NwRs.png)
+
+### 标题:  
 
 ```
 # header level 1  
@@ -36,14 +114,14 @@ description: "本站所有文章均基于markdown格式，遂作次简易入门"
 #### header level 4  
 ```
 
-效果: 
+↓  
 
 # header level 1 
 ## header level 2
 ### header level 3
 #### header level 4
 
-- 字体
+### 强调
 
 ```
 *斜体*
@@ -52,14 +130,39 @@ _下划线_
 ~~删除~~
 ```
 
-效果: 
+↓
 
 *斜体*  
 **加粗**  
 _下划线_  
 ~~删除~~  
 
+### 列表
+
+```
+1. 编号1
+1. 编号2  
+    a. 子列表需要缩进4空格  
+        - 还可以混合无编号列表  
+
+- 无编号1
+- 无编号2
+* 无编号3
++ 无编号4
+```
+
+↓
+
+1. 有序列表   
+1. 编号并不重要  
+    a. 子列表需要缩进4空格  
+
+- 无序表
+- 的符号
+* 一点也
++ 不重要
 
 
 
-## 进阶 
+
+

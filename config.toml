@@ -2,7 +2,7 @@ baseurl = "/"
 languageCode = "en-us"
 title = "笑神本部"
 theme = "hugo-xmag"
-googleAnalytics = ""
+googleAnalytics = "UA-107230532-1"
 disqusShortname = "owarai"
 ignoreFiles = ["\\.Rmd$", "_files$", "_cache$"]
 preserveTaxonomyNames = true
@@ -64,7 +64,7 @@ paginate = 12
 
 [params.text]
     back = "&larr; 返回首页"
-    edit = "编辑此页 &rarr;"
+    edit = "编辑此页"
     truncated = "&hellip;"
     tags = " "
     about_author = " "
