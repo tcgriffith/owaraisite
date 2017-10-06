@@ -1,0 +1,7 @@
+<table class="profile">
+<tbody>
+{{ range $.Site.Data.authors.list }}
+<tr><td><h3>{{ .name }}</h3>{{ .intro | markdownify }}</td><td><img class="profile-img" src="{{ .image }}" alt="{{ .name }}"/></td></tr>
+{{ end }}
+</tbody>
+</table>

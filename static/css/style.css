@@ -155,6 +155,16 @@ main { margin-bottom: 15px; }
   text-align: left;
 }
 
+.article-meta .profile{
+  border-top: 1px dashed #777796;
+  border-bottom: none;
+
+}
+
+.profile .profile-img{
+  width: 200px;
+}
+
 .article-meta h1{
   /*border: 3px solid green;*/
   /*color:red;*/
@@ -178,6 +188,26 @@ main { margin-bottom: 15px; }
   right:0;
 
   text-align: right;
+}
+
+.editpage a{
+  /*border: 3px solid green;*/
+    font-size: .9em;
+  font-weight: bolder;
+  text-decoration: none;
+  text-transform: uppercase;
+  color: #000;
+  /*border-radius: 5px;*/
+
+  background: #cce5ff;
+  padding: 10px;
+  transition: background .5s;
+
+}
+
+.editpage a:hover{
+  background:#e6ad00;
+  color:#fff;
 }
 
 
@@ -234,9 +264,10 @@ h1 a:hover { text-decoration: underline; }
 article { padding: 1em; }
 
 .menu, footer, .post-nav { text-align: center; }
-.article-footer {
+.article-meta.article-footer {
    text-align: left;
    border: 1px solid #777796;
+   /*background-color: #dddeff*/
 
 }
 .title { font-size: 1.2em; }
