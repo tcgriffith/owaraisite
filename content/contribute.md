@@ -41,18 +41,13 @@ nocomment: true
 
 
 ## <span id="pr">第三步 提交文章内容</span>
-- 一路绿色按钮点下去直到没有东西可以点:
-   - 点击页面底部的`propose new file`,   
 
-   <img src="/img/contribute/3.png" style="width: 600px;">
-
-   - 新页面里点击`create pull request`
-
-   <img src="/img/contribute/4.png" style="width: 600px;">
-   
-   - 当出现如下界面时即为投稿成功,点击图示netlify右侧的`detail` 即可预览刚刚投稿的文章的实际效果
-
-   <img src="/img/contribute/5.png" style="width: 600px;">
+- 点击页面底部的`propose new file`,   
+    <img src="/img/contribute/3.png" style="width: 600px;">  
+- 新页面里点击`create pull request`  
+    <img src="/img/contribute/4.png" style="width: 600px;">   
+- 当出现如下界面时即为投稿成功,点击图示netlify右侧的`detail` 即可预览刚刚投稿的文章的实际效果  
+    <img src="/img/contribute/5.png" style="width: 600px;">  
 
 
 # <span id="notes">附注</span>
