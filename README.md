@@ -1,6 +1,6 @@
 # owaraisite
 
-The site for [owaraiclub](owaraiclub.com)
+The site for [owaraiclub](http://owaraiclub.com)
 
 Powered by hugo, blogdown and netlify.
 
