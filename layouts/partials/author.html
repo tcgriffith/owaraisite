@@ -11,9 +11,12 @@
 
 {{ with $.Scratch.Get "author_info" }}
 <section class="article-meta article-footer">
-  <h3>{{ default "About the Author" $.Site.Params.text.about_author }}</h3>
-  <table class="profile">
+   <table class="profile">
     <tbody>
+        <tr>
+           <td><h3>{{ default "About the Author" $.Site.Params.text.about_author }}</h3>
+            </td>
+        </tr>
     {{ range . }}
     <tr><td><h3>{{ .name }}</h3>{{ .intro | markdownify }}</td><td><img class="profile-img" src="{{ .image }}" alt="{{ .name }}"/></td></tr>
     {{ end }}

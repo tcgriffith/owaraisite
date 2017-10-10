@@ -47,7 +47,12 @@
 {{ .Content }}
 </main>
 
+{{ if .Params.noprofile }}
+
+{{ else }}
 {{ partial "author.html" . }}
+{{ end }}
+
 {{ partial "info.html" . }}
 {{ partial "prev_next.html" . }}
 

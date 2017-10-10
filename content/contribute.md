@@ -1,6 +1,6 @@
 ---
 title: contribute
-author: 疾风
+author: HUMI
 date: '2017-10-06'
 slug: contribute
 categories: 
@@ -69,5 +69,6 @@ slug: article-base-name-in-english
 ---
 ```
 - 本站不支持上传附件，故请将图传至图床(如微博，imgur等)，再以`![](https://i.imgur.com/sdQ8QKR.jpg)`的形式贴图。
+
 
 

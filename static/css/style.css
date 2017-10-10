@@ -151,13 +151,14 @@ main { margin-bottom: 15px; }
   text-decoration: none;
   /*background: #eee;*/
   padding: 5px;
-  border-radius: 5px;
+  /*border-radius: 5px;*/
   text-align: left;
 }
 
 .article-meta .profile{
-  border-top: 1px dashed #777796;
-  border-bottom: none;
+  /*border-top: 1px dashed #777796;*/
+  border: none;
+  /*visibility: collapse;*/
 
 }
 
@@ -199,7 +200,7 @@ main { margin-bottom: 15px; }
   color: #000;
   /*border-radius: 5px;*/
 
-  background: #cce5ff;
+  /*background: #cce5ff;*/
   padding: 10px;
   transition: background .5s;
 
@@ -266,8 +267,8 @@ article { padding: 1em; }
 .menu, footer, .post-nav { text-align: center; }
 .article-meta.article-footer {
    text-align: left;
-   border: 1px solid #777796;
-   /*background-color: #dddeff*/
+   /*border: 1px solid #777796;*/
+   /*background-color: #dfdfdf*/
 
 }
 .title { font-size: 1.2em; }

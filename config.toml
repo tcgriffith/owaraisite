@@ -71,7 +71,7 @@ paginate = 12
     back = "&larr; 返回首页"
     edit = "&#9988;  编辑本页"
     truncated = "&hellip;"
-    tags = " "
+    tags = "标签： "
     about_author = "关于作者"
 
 [params.banner]
