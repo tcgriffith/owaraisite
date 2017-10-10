@@ -16,17 +16,17 @@ paginate = 12
 
 
 [[menu.main]]
-    name = "订阅"
+    name = "RSS订阅"
     url = "/index.xml"
-    weight = 2
+    weight = 6
 [[menu.main]]
     name = "加入我们"
     url = "/joinus/"
-    weight = 6
-[[menu.main]]
-    name = "字幕组简介"
-    url = "/fansub/"
     weight = 5
+[[menu.main]]
+    name = "成员简介"
+    url = "/fansub/"
+    weight = 2
 [[menu.main]]
     name = "转载规则"
     url = "/rules/"
@@ -34,7 +34,12 @@ paginate = 12
 [[menu.main]]
     name = "投稿方法"
     url = "/contribute/"
+    weight = 4
+[[menu.main]]
+    name = "档案索引"
+    url = "/archives/"
     weight = 7
+
 
 
 [[menu.top]]
@@ -57,6 +62,7 @@ paginate = 12
     name = "文章"
     url = "/blog/"
     weight = 6
+
 
 
 
