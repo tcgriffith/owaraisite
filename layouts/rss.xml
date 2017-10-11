@@ -23,10 +23,7 @@
 
     <description><![CDATA[
 
-    {{ with .Description }}
-      {{ $.Scratch.Set "summary" (markdownify .) }}
-    {{ end }}
-    {{ $.Scratch.Get "summary" }}
+   
 
     {{ $img := findRE "<img src=\"[^\"]+\"" .Content 1 }}
     {{ range $img }}
