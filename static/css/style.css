@@ -330,6 +330,7 @@ table {
 }
 table thead th { border-bottom: 1px solid #ddd; }
 th, td { padding: 5px; }
+td{min-width: 100px;}
 tr:nth-child(even) { background: #eee }
 
 /* removed thumbnail pic css*/

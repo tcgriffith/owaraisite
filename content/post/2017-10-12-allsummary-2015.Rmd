@@ -1,0 +1,58 @@
+---
+title: 伦敦之心作品总表
+author: 伦敦之心
+date: '2017-10-12'
+slug: allsummary-2015
+categories:
+  - 伦敦之心字幕组
+tags:
+  - ametalk
+  - 不准笑
+  - 黄金传说
+  - 今夜比一比
+  - 伦敦之心
+  - 矛盾 
+  - 女主播的惩罚
+  - 神舌
+  - 水曜日的DOWN TOWN
+  - 有吉反省会
+  - 月耀夜
+  - 真的假的TV
+draft: true
+---
+
+```{r setup, include=FALSE}
+knitr::opts_chunk$set(echo = FALSE,message = FALSE)
+```
+
+```{r}
+load("C:/Users/TC/GIT/lhdata/data/mytbl_owarai.year.bangumi.filtered.deduplicated.rda")
+```
+
+```{r }
+library(dplyr)
+df <-
+  mytbl_owarai.year.bangumi.filtered.deduplicated %>%
+  ungroup() %>%
+  select(server_filename,year4,bangumi)
+```
+
+```{r results='asis'}
+
+showtable <- function(df,caption){
+  knitr::kable(df,format="markdown",caption = caption)
+}
+
+bangumi <-unique(df$bangumi)
+
+for (bgm in bangumi){
+
+
+  subdf <- df %>% filter(bangumi == bgm) %>% select(server_filename,year4) %>% rename("番组"=server_filename,"播出时间"=year4)
+  
+  print(showtable(subdf,bgm))
+}
+
+
+```
+
