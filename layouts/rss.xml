@@ -22,12 +22,12 @@
 
     <description>
 
-    <div class = "thumbblock">
+
     {{ $img := findRE "<img src=\"[^\"]+\"" .Content 1 }}
     {{ range $img }}
-    <div class="thumbnail">{{ (print . " alt=\"Thumbnail\" />") | safeHTML }}</div>
+      {{ (print . " alt=\"Thumbnail\" style=\"width: 100%;\"/>") | safeHTML }}
     {{ end }}
-    </div>
+
 
 
 
