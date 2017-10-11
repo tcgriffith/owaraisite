@@ -19,10 +19,7 @@ paginate = 12
     name = "RSS订阅"
     url = "/index.xml"
     weight = 6
-[[menu.main]]
-    name = "加入我们"
-    url = "/joinus/"
-    weight = 5
+
 [[menu.main]]
     name = "成员简介"
     url = "/fansub/"
