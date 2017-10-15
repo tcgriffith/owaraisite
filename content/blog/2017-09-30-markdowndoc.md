@@ -5,10 +5,9 @@ date: '2017-09-30'
 publishdate: '2017-10-01'
 bangumi: 博客
 slug: markdowndoc
-categories:
+categories: 
   - 疾风
-tags:
-  - other
+  - 莱姆籽
 description: "本站所有文章均基于markdown格式，遂作次简易入门"
 ---
 
