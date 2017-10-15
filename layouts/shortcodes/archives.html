@@ -1,4 +1,4 @@
-{{ range (where .Site.RegularPages "Section" "!=" "").GroupBy "Section" }}
+{{ range (where .Site.RegularPages "Section" "!=" "").GroupByParam "Bangumi" }}
 <h2 class="archive-title">{{ .Key }}</h2>
 <ul>
   {{ range .Pages }}

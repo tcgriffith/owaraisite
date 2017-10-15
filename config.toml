@@ -52,8 +52,8 @@ paginate = 1000
     url = "/tags/"
     weight = 4
 [[menu.top]]
-    name = "作品"
-    url = "/post/"
+    name = "番组"
+    url = "/bangumis//"
     weight = 5
 [[menu.top]]
     name = "文章"
@@ -80,4 +80,9 @@ paginate = 1000
 
 [params.banner]
     src = "/img/logo.png"
+
+[taxonomies]
+  tag = "tags"
+  category = "categories"
+  bangumi = "bangumis"
 
