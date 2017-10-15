@@ -2,6 +2,7 @@
 title: markdown简介
 author: 疾风
 date: '2017-09-30'
+publishdate: '2017-10-01'
 slug: markdowndoc
 categories:
   - blog
