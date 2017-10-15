@@ -5,7 +5,7 @@ date: '2017-09-30'
 publishdate: '2017-10-01'
 bangumi: 博客
 bangumis: 
-  - 博客
+  - 博客
 slug: markdowndoc
 categories: 
   - 疾风
