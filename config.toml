@@ -9,7 +9,7 @@ preserveTaxonomyNames = true
 footnotereturnlinkcontents = "↩"
 hasCJKLanguage = true
 enableEmoji = true
-paginate = 12
+paginate = 1000
 
 [permalinks]
     post = "/post/:year/:month/:day/:slug/"
@@ -76,6 +76,7 @@ paginate = 12
     truncated = "&hellip;"
     tags = "标签： "
     about_author = "关于作者"
+    author_delimiter= "&#x1F575"
 
 [params.banner]
     src = "/img/logo.png"

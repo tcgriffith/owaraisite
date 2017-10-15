@@ -1,9 +1,10 @@
-{{ range (where .Site.RegularPages "Section" "!=" "").GroupByDate "2006" }}
+{{ range (where .Site.RegularPages "Section" "!=" "").GroupBy "Section" }}
 <h2 class="archive-title">{{ .Key }}</h2>
 <ul>
   {{ range .Pages }}
   <li>
-    <span class="date">{{ .Date.Format "2006/01/02" }}</span>
+    <span class="date">{{ .PublishDate.Format "2006/01/02" }}</span>
+
     <a href="{{ .URL }}">{{ .Title }}</a>
   </li>
   {{ end }}

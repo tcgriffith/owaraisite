@@ -2,7 +2,7 @@
 
 <div class="container">
 <main class="list">
-{{ $paginator := .Paginate (where .Data.Pages "Section" "!=" "") }}
+{{ $paginator := .Paginate (where .Data.Pages.ByWeight "Section" "!=" "" ) }}
 {{ range $paginator.Pages }}
 <section class="article-list">
   <div class = "category_date">
