@@ -6,7 +6,7 @@ publishdate: '2017-10-01'
 bangumi: 博客
 slug: markdowndoc
 categories:
-  - blog
+  - 疾风
 tags:
   - other
 description: "本站所有文章均基于markdown格式，遂作次简易入门"
