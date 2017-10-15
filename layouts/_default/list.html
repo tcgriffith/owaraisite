@@ -10,9 +10,9 @@
   <div class = "category_date">
 
       <div class="categories">
-      {{ with .Params.categories }}
+      {{ with .Params.bangumis }}
       {{ range first 1 . }}
-        <a href="{{ relURL (print "/categories/" . | urlize) }}">{{ . }}</a>
+        <a href="{{ relURL (print "/bangumis/" . | urlize) }}">{{ . }}</a>
       {{ end }}
       {{ else }}
         <a>{{ default "Uncategorized" .Site.Params.text.uncategorized }}</a>

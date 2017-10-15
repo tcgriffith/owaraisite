@@ -4,6 +4,10 @@
 <div class="article-meta">
   <div class="article-meta-top">
     <div class="categories">
+    {{ range $i, $e := .Params.bangumis }}
+      {{ if $i }} &hercon; {{ end }}<a href="{{ relURL (print "/bangumis/" $e | urlize) }}">{{ $e }}</a>
+    {{ end }}
+    &hercon;
     {{ range $i, $e := .Params.categories }}
       {{ if $i }} &hercon; {{ end }}<a href="{{ relURL (print "/categories/" $e | urlize) }}">{{ $e }}</a>
     {{ end }}

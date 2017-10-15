@@ -134,15 +134,15 @@ main { margin-bottom: 15px; }
   text-transform: uppercase;
   color: #000;
   border-radius: 5px;
-
-  background: #cce5ff;
   padding: 5px;
+  background: #cce5ff;
+  
   transition: background .5s;
 
 }
 
 .tags a:hover{
-  background:#e6ad00;
+  background: #f8ee79;
   color:#fff;
 }
 /*re define article-meta*/
@@ -169,6 +169,8 @@ main { margin-bottom: 15px; }
 .article-meta h1{
   /*border: 3px solid green;*/
   /*color:red;*/
+  /*margin: 30px;*/
+
 }
 
 .article-meta-top {
@@ -180,6 +182,8 @@ main { margin-bottom: 15px; }
 .article-meta-top .categories {
   /*height: 2.5em;*/
   margin: 0;
+  border-radius: 5px;
+  padding: 5px;
 }
 
 .article-meta-top .editpage{
@@ -188,10 +192,11 @@ main { margin-bottom: 15px; }
   top:0;
   right:0;
 
+
   text-align: right;
 }
 
-.editpage a{
+.editpage a,.article-meta-top .categories a{
   /*border: 3px solid green;*/
     font-size: .9em;
   font-weight: bolder;
@@ -201,14 +206,18 @@ main { margin-bottom: 15px; }
   /*border-radius: 5px;*/
 
   /*background: #cce5ff;*/
-  padding: 10px;
+  
   transition: background .5s;
+  border-radius: 5px;
+  padding: 5px;
 
 }
 
-.editpage a:hover{
-  background:#e6ad00;
-  color:#fff;
+
+
+.editpage a:hover,.article-meta-top .categories a:hover{
+  background: #f8ee79;
+  /*color:#fff;*/
 }
 
 
@@ -220,14 +229,13 @@ main { margin-bottom: 15px; }
 
 .article-meta-authordate h3 {
   /*height: 2.5em;*/
-  margin: 0;
+  margin: 5px;
 }
 
 .article-meta-authordate .date{
   position: absolute;
   top:0;
   right:0;
-
   text-align: left;
 }
 
