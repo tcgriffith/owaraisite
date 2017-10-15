@@ -55,20 +55,87 @@ nocomment: true
 - 文件名请以`2000-01-01_title.md`方式命名，文件名包含日期与英文简写，方便归档。  
 
 - 文件头：
+头文件为YAML格式(YAML Ain't Markup Language)。不过在这里，只需要知道头文件里的以下两种语法
 
-以下是文件头的信息，请把这段内容复制到文章的最前面，并填写相关的信息。其中 categories 为栏目名称，tags 为文章的关键字，方便归档。如果有不清楚该怎么填的地方可以先留空。
+1:1对应的属性设置：
+```
+属性: 属性值
+```
+或 1:N的属性设置：
+```
+列表:
+  - 列表值1
+  - 列表值2
+
+# 或者还可以这样写：
+
+列表: ["列表值1"，"列表值2"]
+```
+
+
+以下是文件头的信息，请把这段内容复制到文章的最前面，并填写相关的信息。
 
 ```yaml
 ---
-title: "文章的标题"
-date: yyyy-mm-dd
-author: "作者"
-categories: ["分类1", "分类2"]
-tags: ["标签1", "标签2"]
-slug: article-base-name-in-english
+title: 161111 london hearts 红不起来的艺人父母想法 
+author: 伦敦之心字幕组
+bangumi: 伦敦之心
+date: 2017-10-15
+publishdate: 2016-11-11
+slug: 2017-10-15_9611864_161111_NA
+categories: 
+  - 伦敦之心字幕组
+  - 九條
+tags: 
+  - AKB48
+  - 伦敦之心字幕组
+bangumis: #
+  - 伦敦之心
+description: 161111 london hearts红不起来的艺人父母想法
+weight: 38889
+nocomment: false
 ---
 ```
-- 本站不支持上传附件，故请将图传至图床(如微博，imgur等)，再以`![](https://i.imgur.com/sdQ8QKR.jpg)`的形式贴图。
+
+以下介绍支持头文件设置的功能
+
+- 基本信息  
+单篇文章的基本属性，包括标题，作者，番组，
+
+```
+title: 161111 london hearts 红不起来的艺人父母想法 
+author: 伦敦之心字幕组
+bangumi: 伦敦之心
+date: 2017-10-15
+publishdate: 2016-11-11
+slug: 2017-10-15_9611864_161111_NA
+bangumi: 伦敦之心
+```
+
+- 类别信息  
+目前支持以下类别信息，每一种类别均有对应的类别页。比如[bangumis](/bangumis/) 
+注意类别信息必须使用列表形式，即使只有一项
+
+```
+categories: 
+  - 伦敦之心字幕组
+  - 九條
+tags: 
+  - AKB48
+  - 伦敦之心字幕组
+bangumis: #
+  - 伦敦之心
+```
+
+- 页面设置信息
+
+**draft**: `草稿`默认为false，设为true可让帖子不显示
+**ocomment**: `关闭评论`默认为false(打开评论),设为true可关闭帖子的评论
+**noprofile**: `关闭作者信息` 默认为false(打开作者信息)，设为true可关闭页面底部的作者信息
+
+
+
+
 
 
 
