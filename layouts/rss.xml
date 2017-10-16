@@ -21,20 +21,23 @@
       {{ with .Site.Author.email }}<author>{{.}}{{ with $.Site.Author.name }} ({{.}}){{end}}</author>{{end}}
       <guid>{{ .Permalink }}</guid>
 
-    <description><![CDATA[
-
-   
+    <description>
+      &lt;p&gt; 
 
     {{ $img := findRE "<img src=\"[^\"]+\"" .Content 1 }}
     {{ range $img }}
-    {{ print . "/>" | safeHTML }}
+    <div class="thumbnail">{{ (print . " alt=\"Thumbnail\" />") | safeHTML }}</div>
     {{ end }}
 
+      {{ .Content | html }}
 
-      ]]&gt;</description>
+       &lt;/p&gt;
+      
+    </description>
 
 
     </item>
     {{ end }}
+      }
   </channel>
 </rss>

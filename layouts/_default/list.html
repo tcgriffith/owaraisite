@@ -4,7 +4,7 @@
 <main class="list">
 
 
-{{ range (where .Data.Pages "Section" "!=" "") .Data.Pages.ByPublishDate  }}
+{{ range (where .Data.Pages "Section" "!=" "") .Data.Pages  }}
 
 <section class="article-list">
   <div class = "category_date">
