@@ -136,7 +136,7 @@ main { margin-bottom: 15px; }
   border-radius: 5px;
   padding: 5px;
   background: #cce5ff;
-  
+
   transition: background .5s;
 
 }
@@ -162,7 +162,7 @@ main { margin-bottom: 15px; }
 
 }
 
-.profile .profile-img{
+.profile-img{
   width: 200px;
 }
 
@@ -206,7 +206,7 @@ main { margin-bottom: 15px; }
   /*border-radius: 5px;*/
 
   /*background: #cce5ff;*/
-  
+
   transition: background .5s;
   border-radius: 5px;
   padding: 5px;
@@ -367,6 +367,16 @@ blockquote {
   background: #f9f9f9;
   border-left: 5px solid #ccc;
   padding: 3px 1em 3px;
+}
+
+.subteams{
+  width:100%;
+
+}
+
+.subteams td{
+  max-width: 20%;
+
 }
 
 table {

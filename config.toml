@@ -40,8 +40,8 @@ paginate = 1000
     url = "/"
     weight = 1
 [[menu.top]]
-    name = "分类"
-    url = "/categories/"
+    name = "分部"
+    url = "/subteams/"
     weight = 3
 [[menu.top]]
     name = "标签"
