@@ -7,15 +7,18 @@
     {{ range $i, $e := .Params.bangumis }}
       {{ if $i }} &hercon; {{ end }}<a href="{{ relURL (print "/bangumis/" $e | urlize) }}">{{ $e }}</a>
     {{ end }}
-    &hercon;
+    {{ if .Params.categories }}&hercon; {{ end }}
     {{ range $i, $e := .Params.categories }}
       {{ if $i }} &hercon; {{ end }}<a href="{{ relURL (print "/categories/" $e | urlize) }}">{{ $e }}</a>
     {{ end }}
     </div>
     <div class="editpage">
+      {{ if .Params.noedit }}
+      {{ else }}
         {{ with .Site.Params.github_edit}}
         <span><a href="{{ . }}{{ $.Scratch.Get "FilePath" }}">{{ (default "Edit this page" $.Site.Params.text.edit) | safeHTML }}</a></span>
         {{ end }}
+      {{ end }}
 
     </div>
   </div>
@@ -29,8 +32,11 @@
       <h3 class="author">{{ partial "author_names.html" . }}</h3>
       {{ end }}
 
-
+    {{ if .Params.nodate }}
+    {{ else }}
     <h3 class="date">{{ .Date.Format "2006-01-02" }}
+    {{ end }}
+
     </h3>
 
   </div>
