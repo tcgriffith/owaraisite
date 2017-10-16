@@ -29,10 +29,6 @@ paginate = 1000
     url = "/rules/"
     weight = 3
 [[menu.main]]
-    name = "投稿方法"
-    url = "/contribute/"
-    weight = 4
-[[menu.main]]
     name = "档案索引"
     url = "/archives/"
     weight = 7
