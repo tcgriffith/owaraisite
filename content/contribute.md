@@ -110,6 +110,11 @@ bangumi: 伦敦之心
 - 类别信息  
 目前支持以下类别信息，每一种类别均有对应的类别页。比如[bangumis](/bangumis/) 
 注意类别信息必须使用列表形式，即使只有一项
+- categories 分类 包括字幕组+UP主，目前隐藏
+- tags 标签 抓取自Bilibili
+- bangumis 番组 为节目名
+
+
 
 ```
 categories: 
@@ -118,15 +123,20 @@ categories:
 tags: 
   - AKB48
   - 伦敦之心字幕组
-bangumis: #
+bangumis: 
   - 伦敦之心
 ```
 
 - 页面设置信息
 
-**draft**: `草稿`默认为false，设为true可让帖子不显示
-**ocomment**: `关闭评论`默认为false(打开评论),设为true可关闭帖子的评论
-**noprofile**: `关闭作者信息` 默认为false(打开作者信息)，设为true可关闭页面底部的作者信息
+**draft**: `草稿` 默认为false，设为true可让帖子不显示
+**ocomment**: `关闭评论` 设为true可关闭帖子的评论
+**noprofile**: `关闭作者信息`  
+**noedit**: `关闭编辑图标` 
+**nodate**: `隐藏发帖时间`
+
+
+默认为false(打开作者信息)，设为true可关闭页面底部的作者信息
 
 
 
