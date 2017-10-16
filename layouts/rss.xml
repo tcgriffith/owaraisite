@@ -29,7 +29,7 @@
     <div class="thumbnail">{{ (print . " alt=\"Thumbnail\" />") | safeHTML }}</div>
     {{ end }}
 
-      {{ .Content | html }}
+      {{ .Description | html }}
 
        &lt;/p&gt;
       
