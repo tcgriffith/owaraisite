@@ -2,16 +2,10 @@
 title: Owaraiclub 使用说明书
 author: 疾风
 date: '2017-10-01'
-bangumi: 博客
 publishdate: '2017-10-01'
 slug: owaraiclub_tutorial
-categories:
-  - 疾风
-tags:
-  - other
 description: "笑神本部使用说明书"
 toc: true
-draft: 
 ---
 
 # Owaraiclub 使用说明书

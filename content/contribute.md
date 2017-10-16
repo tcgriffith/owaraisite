@@ -3,12 +3,7 @@ title: contribute
 author: HUMI
 date: '2017-10-06'
 slug: contribute
-categories: 
-  - other
-tags:
-  - other
 nocomment: true
-
 ---
 
 # 投稿指南
