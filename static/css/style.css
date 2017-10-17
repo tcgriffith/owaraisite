@@ -268,7 +268,7 @@ main { margin-bottom: 15px; }
 .category_date .categories a{
   padding: 2px;
   border-radius: 3px;
-  border: 1px solid #777796;
+  /*border: 1px solid #777796;*/
   transition: background .5s;
 
 }
@@ -387,8 +387,11 @@ blockquote {
   padding: 3px 1em 3px;
 }
 img:hover {
-    opacity: 0.5;
-    filter: alpha(opacity=50); /* For IE8 and earlier */
+    /*opacity: 0.5;*/
+    /*filter: alpha(opacity=50); /* For IE8 and earlier */
+     -webkit-filter: blur(5px);
+     /*-webkit-filter: grayscale(100%);*/
+     transition: .5s
 }
 
 .subteams{
