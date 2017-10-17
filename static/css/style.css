@@ -99,8 +99,11 @@ main { margin-bottom: 15px; }
   padding: 1em;
   overflow-x: hidden;
 }
-@media (max-width: 380px) {
+@media (max-width: 715px) {
   .list section { flex: auto; }
+  .full-title {
+      display: none;
+  }
 }
 @media (min-width: 715px) {
   .article-list h1 {
