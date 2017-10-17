@@ -7,7 +7,8 @@
 
 
 
-{{ range (where .Data.Pages "Section"  "post")   }}
+{{ $paginator := .Paginate (where .Data.Pages "Section" "!=" "") }}
+{{ range $paginator.Pages }}
 
 
 <section class="article-list">
