@@ -28,10 +28,7 @@ paginate = 12
     name = "转载规则"
     url = "/rules/"
     weight = 3
-[[menu.main]]
-    name = "档案索引"
-    url = "/archives/"
-    weight = 7
+
 
 
 
@@ -49,12 +46,16 @@ paginate = 12
     weight = 4
 [[menu.top]]
     name = "番组"
-    url = "/bangumis//"
+    url = "/bangumis/"
     weight = 5
 [[menu.top]]
-    name = "文章"
-    url = "/blog/"
+    name = "索引"
+    url = "/archives/"
     weight = 6
+[[menu.top]]
+    name = "留言"
+    url = "/crit/"
+
 
 
 
