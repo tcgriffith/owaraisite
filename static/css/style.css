@@ -104,7 +104,13 @@ main { margin-bottom: 15px; }
   .full-title {
       display: none;
   }
+
+.pagination .other,.pagination .disabled{
+  display:none;
 }
+
+}
+
 @media (min-width: 715px) {
   .article-list h1 {
     white-space: nowrap;
@@ -338,6 +344,9 @@ article { padding: 1em; }
   color: #777796;
   transition-duration:0.4s
 }
+
+
+
 .pagination li a{
   /*border: 1px solid #ddd;*/
     border-radius: 5px;
@@ -353,9 +362,6 @@ article { padding: 1em; }
   font-size:1.7em;
 }
 
-.pagination li .active{
-
-}
 
 /*.pagination a:hover {
   color: #000;
