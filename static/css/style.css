@@ -108,6 +108,11 @@ main { margin-bottom: 15px; }
 .pagination .other,.pagination .disabled{
   display:none;
 }
+.pagination {
+  text-align: center;
+  padding: 1em 0em;
+  margin:3em 0em;
+}
 
 }
 
