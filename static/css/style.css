@@ -105,9 +105,15 @@ main { margin-bottom: 15px; }
       display: none;
   }
 
-.pagination .other,.pagination .disabled{
-  display:none;
-}
+  .pagination .other,.pagination .disabled{
+    display:none;
+  }
+  .pagination li a {
+    /*display: grid;*/
+  }
+  .pagination {
+    display: inline-flex;
+  }
 
 }
 
@@ -333,11 +339,9 @@ article { padding: 1em; }
 .article-list h1, .title { line-height: 1.2em; }
 .article-list a, .header a, footer a, .categories a, .active a, .comments a { text-decoration: none; }
 .pagination {
+  /*display:grid;*/
   text-align: center;
-  padding: 1em 0em;
-  margin-top: 3em;
-  /*margin:3em;*/
-  /*margin: 1em 1em;*/
+  padding: 1em;
 }
 .pagination li { display: inline; }
 /*.pagination a { padding: 0 .2em; }*/
@@ -350,18 +354,20 @@ article { padding: 1em; }
 
 
 .pagination li a{
+  display:inline-flex;
   /*border: 1px solid #ddd;*/
-    border-radius: 5px;
-    padding: .7em;
+    border-radius: 3px;
+    padding: .25em .5em;
   margin-left: .2em;
-  font-size: 1.3em;
+  font-size: 1em;
+  font-weight:bolder;
   color: white;
   background: #777796;
   text-decoration: none;
 }
 
 .pagination .active a{
-  font-size:1.7em;
+  font-size:2.5em;
 }
 
 

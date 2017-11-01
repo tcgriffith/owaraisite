@@ -8,13 +8,13 @@
     {{ end }}
     <li
     {{ if not $pag.HasPrev }}class="disabled"{{ end }}>
-    <a href="{{ if $pag.HasPrev }}{{ $pag.Prev.URL }}{{ end }}" aria-label="Previous"><span aria-hidden="true">上一页</span></a>
+    <a href="{{ if $pag.HasPrev }}{{ $pag.Prev.URL }}{{ end }}" aria-label="Previous"><span aria-hidden="true">前页</span></a>
     </li>
     {{ $.Scratch.Set "__paginator.ellipsed" false }}
     {{ range $pag.Pagers }}
     {{ $right := sub .TotalPages .PageNumber }}
     {{ $showNumber := or (le .PageNumber 1) (eq $right 0) }}
-    {{ $showNumber := or $showNumber (and (gt .PageNumber (sub $pag.PageNumber 2)) (lt .PageNumber (add $pag.PageNumber 5)))  }}
+    {{ $showNumber := or $showNumber (and (gt .PageNumber (sub $pag.PageNumber 2)) (lt .PageNumber (add $pag.PageNumber 10)))  }}
     {{ if $showNumber }}
         {{ $.Scratch.Set "__paginator.ellipsed" false }}
         {{ $.Scratch.Set "__paginator.shouldEllipse" false }}
@@ -31,7 +31,7 @@
     {{ end }}
     <li
     {{ if not $pag.HasNext }}class="disabled"{{ end }}>
-    <a href="{{ if $pag.HasNext }}{{ $pag.Next.URL }}{{ end }}" aria-label="Next"><span aria-hidden="true">下一页</span></a>
+    <a href="{{ if $pag.HasNext }}{{ $pag.Next.URL }}{{ end }}" aria-label="Next"><span aria-hidden="true">后页</span></a>
     </li>
     {{ with $pag.Last }}
     <li>
