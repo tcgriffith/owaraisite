@@ -10,6 +10,7 @@ footnotereturnlinkcontents = "↩"
 hasCJKLanguage = true
 enableEmoji = true
 paginate = 12
+enableGitInfo = true
 
 [permalinks]
     post = "/post/:year/:month/:day/:slug/"

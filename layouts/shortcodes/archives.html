@@ -3,9 +3,15 @@
 <ul>
   {{ range .Pages }}
   <li>
+
+
     <span class="date">{{ .PublishDate.Format "2006/01/02" }}</span>
 
     <a href="{{ .URL }}">{{ .Title }}</a>
+    {{ if lt (sub now.YearDay .Lastmod.YearDay) 7 }}
+        <span class="last-modified">更新于{{ sub now.YearDay .Lastmod.YearDay }} 天前</span>
+    {{ end }}
+
   </li>
   {{ end }}
 </ul>

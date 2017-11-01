@@ -383,6 +383,12 @@ article { padding: 1em; }
 }
 
 /*list*/
+
+.last-modified {
+    color: orangered;
+}
+
+
 li {
   margin: 4px 0;
   padding: 0;
@@ -568,5 +574,4 @@ tr:nth-child(even) { background: #eee }
   /*display: flex;*/
 }
 /*.menu-top li:hover a { color: #fff; }*/
-
 
