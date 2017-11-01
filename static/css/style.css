@@ -360,7 +360,8 @@ article { padding: 1em; }
     border-radius: 3px;
     padding: .25em .5em;
   margin-left: .2em;
-  font-size: 1.3em;
+  font-size: 1em;
+  font-weight:bolder;
   color: white;
   background: #777796;
   text-decoration: none;
