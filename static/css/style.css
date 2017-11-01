@@ -334,8 +334,10 @@ article { padding: 1em; }
 .article-list a, .header a, footer a, .categories a, .active a, .comments a { text-decoration: none; }
 .pagination {
   text-align: center;
-  padding: 1em;
-  margin:3em;
+  padding: 1em 0em;
+  margin-top: 3em;
+  /*margin:3em;*/
+  /*margin: 1em 1em;*/
 }
 .pagination li { display: inline; }
 /*.pagination a { padding: 0 .2em; }*/
