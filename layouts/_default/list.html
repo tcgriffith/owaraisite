@@ -4,8 +4,7 @@
 <main class="list">
 
 
-{{ $paginator := .Paginate (where .Data.Pages "Section" "!=" "") }}
-{{ range $paginator.Pages }}
+{{ range .Paginator.Pages.ByWeight }}
 
 
 <section class="article-list">
