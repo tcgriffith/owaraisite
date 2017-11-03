@@ -7,12 +7,16 @@
 
 <ul class="terms">
   {{ range $key, $value := .Data.Terms }}
+
+  {{ if gt (len $value) 1}}
+
   <li>
     <a href="{{ (print "/" $.Data.Plural "/" $key) | relURL }}">
       {{ $key }}
     </a>
     ({{ len $value }})
   </li>
+  {{ end }}
   {{ end }}
 </ul>
 </main>
