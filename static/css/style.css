@@ -568,6 +568,11 @@ tr:nth-child(even) { background: #eee }
 
 
 }
+
+.ball {
+  display:flex;
+}
+
 .menu-top li:hover { background: #f8ee79; }
 .menu-top li a {
   color: #777796;
