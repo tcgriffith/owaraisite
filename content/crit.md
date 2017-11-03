@@ -5,7 +5,9 @@ nodate: true
 noedit: true
 ---
 
-<script type='text/javascript' id='clustrmaps' src='//cdn.clustrmaps.com/map_v2.js?cl=777796&w=a&t=tt&d=7kZRQOkRCnfU8ANWvd02QiVNnSWdl5sBQsqfApcfClM&co=ffffff&ct=777796&cmo=3acc3a&cmn=ff5353'></script>
+
+<script type="text/javascript" id="clstr_globe" src="//cdn.clustrmaps.com/globe.js?d=7kZRQOkRCnfU8ANWvd02QiVNnSWdl5sBQsqfApcfClM"></script>
+
 
 ```
 对本站有任何意见或反馈，

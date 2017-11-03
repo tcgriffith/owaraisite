@@ -67,6 +67,7 @@ enableGitInfo = true
     github_edit = "https://github.com/tcgriffith/owaraisite/blob/master/content/"
     footer = "Powered by [Hugo](https://gohugo.io/), [blogdown](https://github.com/rstudio/blogdown) & [netlify](https://www.netlify.com/) &copy; [OWARAICLUB](https://owarai.netlify.com/) 2017"
     comment = true
+    noedit = true
 
 [params.text]
     back = "&larr; 返回首页"
