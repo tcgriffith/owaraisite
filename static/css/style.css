@@ -99,6 +99,9 @@ main { margin-bottom: 15px;   z-index:1;}
   line-height: 1em;
 }*/
 
+article{
+  z-index:2;
+}
 .banner{
   /*border: 3px solid green;*/
 }
@@ -501,7 +504,7 @@ img{
   /*filter: sepia(80%);*/
   -webkit-transition: .3s ease-in-out;
   transition: .3s ease-in-out;
-
+  z-index:2;
 }
 img:hover {
     -webkit-filter: sepia(0);

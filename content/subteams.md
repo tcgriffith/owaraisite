@@ -14,7 +14,7 @@ noedit: true
 
 
 <!-- particles.js container -->
-<div id="particles-js"></div>
+<div id="particles-js" style="z-index:-1;height:auto"></div>
 
 <script src="/js/particles.min.js"></script>
 
