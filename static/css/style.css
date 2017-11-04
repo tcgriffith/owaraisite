@@ -38,6 +38,7 @@ body {
   max-width: 1100px;
   margin: auto;
   padding: 0 15px;
+  z-index:1;
 }
 
 
@@ -60,6 +61,7 @@ body {
   width:70%;
   margin: auto;
   padding: 0 15px;
+  z-index:1;
 }
 
 .page .header div, .page .container, .page .copyright, .page .menu { max-width: 900px; }
@@ -67,7 +69,7 @@ body {
 @media (max-width: 930px) {
   .page .container { padding: 0; }
 }
-main { margin-bottom: 15px; }
+main { margin-bottom: 15px;   z-index:1;}
 
 /* header and footer areas */
 .header {
@@ -580,6 +582,7 @@ tr:nth-child(even) { background: #eee }
 /* redefined menu top*/
 /* by TC*/
 .menu-top {
+  z-index:1;
   display: flex;
    /*justify-content: space-between;*/
     /*border: 3px solid green;*/
@@ -611,6 +614,7 @@ tr:nth-child(even) { background: #eee }
   padding: 5px 1em 5px 1em;
   font-weight: bolder;
   align-items: center;
+  z-index:1;
 
 
 }
