@@ -1,9 +1,40 @@
 {{ partial "header.html" . }}
 
+  <div class="ball">
+    <script type="text/javascript" src="//rf.revolvermaps.com/0/0/8.js?i=5w6acuy1p50&amp;m=6&amp;c=ff0000&amp;cr1=ffffff&amp;f=arial&amp;l=33" async="async"></script>
+  </div>
+
+
+<script src="{{ relURL "/js/wordcloud2.js" }}"></script>
+
+
+
 <div class="container">
 <article>
 <main>
 <h1>{{ $.Scratch.Get "Title" }}</h1>
+
+{{ if eq .Title "Tags" }} 
+
+  <div class=frontcontent id="sourrounding_div">    
+    <canvas id="canvas_cloud"></canvas>
+
+    <script src="{{ relURL "/js/drawtag.js" }}"></script>
+  </div>
+
+{{ end }}
+
+{{ if eq .Title "Bangumis" }} 
+
+  <div class=frontcontent id="sourrounding_div">    
+    <canvas id="canvas_cloud"></canvas>
+
+    <script src="{{ relURL "/js/drawbangumis.js" }}"></script>
+  </div>
+
+{{ end }}
+
+
 
 <ul class="terms">
   {{ range $key, $value := .Data.Terms }}

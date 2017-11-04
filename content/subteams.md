@@ -7,6 +7,22 @@ noedit: true
 ---
 
 
+  <div class="ball">
+    <script type="text/javascript" src="//rf.revolvermaps.com/0/0/8.js?i=5w6acuy1p50&amp;m=6&amp;c=ff0000&amp;cr1=ffffff&amp;f=arial&amp;l=33" async="async"></script>
+  </div>
+
+
+
+<!-- particles.js container -->
+<div id="particles-js"></div>
+
+<script src="/js/particles.min.js"></script>
+
+<script src="/js/particle.js"></script>
+<!-- stats - count particles -->
+
+
+
 
 <table class="subteams">
 <tbody>

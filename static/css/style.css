@@ -9,6 +9,30 @@ body {
 
 
 }
+
+.frontface{
+  height: max-content;
+  margin: auto;
+  padding: 10px;
+  display:flex;
+}
+
+
+.frontcontent{
+  width: 100%;
+  height: 400px;
+  position: relative;
+  /*flex: 0 0 65%;*/
+}
+
+.ball {
+    /* margin-left: 60%; */
+    position: absolute;
+    top: 25px;
+    right: 0;
+    width: 15%;
+}
+
 .header div, .container, .copyright, .menu {
   max-width: 1100px;
   margin: auto;
@@ -104,7 +128,9 @@ main { margin-bottom: 15px; }
   .full-title {
       display: none;
   }
-
+  .frontface{
+    display: none;
+  }
   .pagination .other,.pagination .disabled{
     display:none;
   }
@@ -466,12 +492,31 @@ blockquote {
   border-left: 5px solid #ccc;
   padding: 3px 1em 3px;
 }
+
+img{
+  /*-webkit-filter: sepia(100%);*/
+  /*filter: sepia(80%);*/
+  -webkit-transition: .3s ease-in-out;
+  transition: .3s ease-in-out;
+
+}
 img:hover {
+    -webkit-filter: sepia(0);
+     filter: sepia(0);
+      -webkit-transform: scale(1.3);
+     transform: scale(1.2);
     /*opacity: 0.5;*/
     /*filter: alpha(opacity=50); /* For IE8 and earlier */
-     -webkit-filter: blur(5px);
+     /*-webkit-filter: blur(5px);*/
+     /*opacity: .5;*/
      /*-webkit-filter: grayscale(100%);*/
      transition: .5s
+       /*display: inline-block;*/
+  /*vertical-align: middle;*/
+
+
+
+
 }
 
 .subteams{
@@ -569,9 +614,7 @@ tr:nth-child(even) { background: #eee }
 
 }
 
-.ball {
-  display:flex;
-}
+
 
 .menu-top li:hover { background: #f8ee79; }
 .menu-top li a {
@@ -579,4 +622,69 @@ tr:nth-child(even) { background: #eee }
   /*display: flex;*/
 }
 /*.menu-top li:hover a { color: #fff; }*/
+
+/*front page*/
+/* ---- reset ---- */
+
+body {
+  margin: 0;
+  font:normal 75% Arial, Helvetica, sans-serif;
+}
+
+canvas {
+  display: block;
+  vertical-align: bottom;
+}
+
+/* ---- particles.js container ---- */
+
+#particles-js {
+  position: fixed;
+  top:0;
+  left:0;
+  width: 100%;
+  /*height: 100%;*/
+  background: transparent;
+  background-image: url("");
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: 50% 50%;
+   z-index:-1;
+}
+
+/* ---- stats.js ---- */
+
+.count-particles{
+  background: #ffffff;
+  position: absolute;
+  top: 48px;
+  left: 0;
+  width: 80px;
+  color: #13E8E9;
+  font-size: .8em;
+  text-align: left;
+  text-indent: 4px;
+  line-height: 14px;
+  padding-bottom: 2px;
+  font-family: Helvetica, Arial, sans-serif;
+  font-weight: bold;
+}
+
+.js-count-particles{
+  font-size: 1.1em;
+}
+
+#stats,
+.count-particles{
+  -webkit-user-select: none;
+}
+
+#stats{
+  border-radius: 3px 3px 0 0;
+  overflow: hidden;
+}
+
+.count-particles{
+  border-radius: 0 0 3px 3px;
+}
 

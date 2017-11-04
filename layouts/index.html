@@ -1,9 +1,39 @@
+
 {{ partial "header.html" . }}
 
 
+<div id="particles-js"></div>
+
+<script src="/js/particles.min.js"></script>
+
+<script src="/js/particle.js"></script>
+
+  <div class="ball">
+    <script type="text/javascript" src="//rf.revolvermaps.com/0/0/8.js?i=5w6acuy1p50&amp;m=6&amp;c=ff0000&amp;cr1=ffffff&amp;f=arial&amp;l=33" async="async"></script>
+  </div>
+
+<script src="{{ relURL "/js/wordcloud2.js" }}"></script>
 
 <div class="container">
+
+{{ if eq .Paginator.PageNumber 1 }}
+
+<!-- <section class="frontface">
+   
+  <div class=frontcontent id="sourrounding_div">    
+    <canvas id="canvas_cloud"></canvas>
+    {{ .Content }}
+  </div>
+
+
+</section> -->
+
+{{ end }}
+
+
 <main class="list">
+
+
 
 {{ range .Paginator.Pages.ByWeight }}
 
@@ -55,8 +85,5 @@
 </main>
 <nav>{{ template "partials/pagination.html" . }}</nav>
 </div>
-<div class="ball">
 
-<script type="text/javascript" src="//rf.revolvermaps.com/0/0/8.js?i=5w6acuy1p50&amp;m=6&amp;c=ff0000&amp;cr1=ffffff&amp;f=arial&amp;l=33" async="async"></script>
-</div>
 {{ partial "footer.html" . }}
