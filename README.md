@@ -1,3 +1,16 @@
+# Recent changes
+
+## 2017-11-04 
+- added [wordcloud2.js](https://github.com/timdream/wordcloud2.js/) under tags and bangumis
+- added [particles.js](https://github.com/VincentGarreau/particles.js/) under home and subteams
+- added [revolvermaps](https://www.revolvermaps.com/) under most main pages(home, taxonomy etc)
+- [tags are cleaned up](https://github.com/tcgriffith/lhdata/tree/master/notebook)
+- rework archive, now highlight posts updated within 7 days
+- many minor tweaks of css
+
+
+
+
 # owaraisite
 
 The site for [owaraiclub](http://owaraiclub.com)
