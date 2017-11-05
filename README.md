@@ -5,6 +5,7 @@
 - added [particles.js](https://github.com/VincentGarreau/particles.js/) under home and subteams
 - added [revolvermaps](https://www.revolvermaps.com/) under most main pages(home, taxonomy etc)
 - [tags are cleaned up](https://github.com/tcgriffith/lhdata/tree/master/notebook)
+- rework paginator navigator
 - rework archive, now highlight posts updated within 7 days
 - many minor tweaks of css
 
