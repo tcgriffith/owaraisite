@@ -513,6 +513,21 @@ pre code {
 
 /* misc elements */
 img, iframe, video { max-width: 100%; }
+
+.vcontainer {
+    position: relative;
+    width: 100%;
+    height: 0;
+    padding-bottom: 56.25%;
+}
+.video {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+}
+
 blockquote {
   background: #f9f9f9;
   border-left: 5px solid #ccc;
