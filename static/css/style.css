@@ -362,7 +362,7 @@ h1 a:hover { text-decoration: underline; }
 .article-list h1 { margin: .2em auto .2em 0; }
 article { padding: 1em; }
 
-.menu, footer, .post-nav { text-align: center;   
+.menu, footer, .post-nav { text-align: center;
   position:inherit;
   z-index: 1;}
 .article-meta.article-footer {
@@ -481,7 +481,7 @@ ol.w {list-style-type: inherit;}
     position:inherit;
   z-index: 1;
 }
-.menu a { padding: .5em; 
+.menu a { padding: .5em;
     position:inherit;
   z-index: 1;
 
@@ -563,6 +563,7 @@ img:hover {
 .subteams{
   width:100%;
 
+  border:none;
 }
 
 .subteams td{
