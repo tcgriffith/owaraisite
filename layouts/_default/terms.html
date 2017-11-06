@@ -6,7 +6,7 @@
 
 
 <script src="{{ relURL "/js/wordcloud2.js" }}"></script>
-
+<script src="https://code.jquery.com/jquery-3.2.1.min.js"></script>
 
 
 <div class="container">
@@ -14,27 +14,25 @@
 <main>
 <h1>{{ $.Scratch.Get "Title" }}</h1>
 
-{{ if eq .Title "Tags" }} 
+{{ if eq .Title "Tags" }}
 
-  <div class=frontcontent id="sourrounding_div">    
-    <canvas id="canvas_cloud"></canvas>
 
-    <script src="{{ relURL "/js/drawtag.js" }}"></script>
-  </div>
+    <script src="{{ relURL "/js/tag_data.js" }}"></script>
+
 
 {{ end }}
 
-{{ if eq .Title "Bangumis" }} 
+{{ if eq .Title "Bangumis" }}
 
-  <div class=frontcontent id="sourrounding_div">    
-    <canvas id="canvas_cloud"></canvas>
-
-    <script src="{{ relURL "/js/drawbangumis.js" }}"></script>
-  </div>
+    <script src="{{ relURL "/js/bangumi_data.js" }}"></script>
 
 {{ end }}
 
+  <div class=frontcontent id="sourrounding_div">
+    <canvas id="canvas_cloud"></canvas>
 
+    <script src="{{ relURL "/js/draw_wordcloud.js" }}"></script>
+  </div>
 
 <ul class="terms">
   {{ range $key, $value := .Data.Terms }}
