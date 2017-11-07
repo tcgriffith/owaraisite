@@ -254,8 +254,13 @@ article{
 
 .profile-img{
   width: 200px;
+
 }
 
+.team-img{
+  width: 200px;
+  border-radius: 50%;
+}
 .article-meta h1{
   /*border: 3px solid green;*/
   /*color:red;*/
@@ -561,6 +566,7 @@ img:hover {
 }
 
 .subteams{
+  border: 1px solid #666;
   width:100%;
 
   border:none;
