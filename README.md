@@ -1,5 +1,9 @@
 # Recent changes
 
+## 2017-11-7
+
+- remove unecessary files from obsoleted themes
+
 ## 2017-11-04 
 - added [wordcloud2.js](https://github.com/timdream/wordcloud2.js/) under tags and bangumis
 - added [particles.js](https://github.com/VincentGarreau/particles.js/) under home and subteams
