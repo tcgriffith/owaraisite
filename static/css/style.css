@@ -692,6 +692,8 @@ body {
 canvas {
   display: block;
   vertical-align: bottom;
+  height: 30%;
+  width:100%;
 }
 
 /* ---- particles.js container ---- */
