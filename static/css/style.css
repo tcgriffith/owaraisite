@@ -16,11 +16,12 @@ z-index:1;
   height: max-content;
   margin: auto;
   padding: 10px;
+  /*margin-top: 5%;*/
   display:flex;
   /*border: 3px solid green;*/
-  background-color: #fff;
+  background-color: rgba(255, 255, 255, 0.5);;
   border-radius: 20px;
-  opacity: 0.7;
+  /*opacity: 0;*/
   font-size: 1.5em; 
     /*color: #777796;*/
 }
@@ -36,7 +37,7 @@ z-index:1;
 .ball {
     /* margin-left: 60%; */
     position: absolute;
-    top: 25px;
+    top: 20%;
     right: 0;
     width: 15%;
 }
@@ -143,18 +144,18 @@ article{
   .full-title {
       display: none;
   }
-  .frontface{
-    display: none;
-  }
-  .pagination .other,.pagination .disabled{
-    display:none;
-  }
-  .pagination li a {
+  /*.frontface{*/
+    /*display: none;*/
+  /*}*/
+  /*.pagination .other,.pagination .disabled{*/
+    /*display:none;*/
+  /*}*/
+  /*.pagination li a {*/
     /*display: grid;*/
-  }
-  .pagination {
-    display: inline-flex;
-  }
+  /*}*/
+  /*.pagination {*/
+    /*display: inline-flex;*/
+  /*}*/
 
 }
 
@@ -640,7 +641,8 @@ tr:nth-child(even) { background: #eee }
     /*border: 3px solid green;*/
     width: 60%;
     /*margin:auto;*/
-  margin-bottom:0;
+  margin-top: 15%;  
+  /*margin-bottom: 15%;*/
   padding-left:0;
   /*padding-top:20;*/
 
