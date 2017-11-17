@@ -13,7 +13,10 @@ noedit: true
 ## 2017-11-17
 
 - 修复播放器地址错误
+
 sed -i 's+www.bilibili.com/html/html5player.html+www.bilibili.com/blackboard/player.html+' *
+
+sed -i 's+cid=[[:digit:]]*&++' *
 
 ## 2017-11-09
 - 番组整理，根据叔叔的建议设置 段子 分类，并按出演者排序
