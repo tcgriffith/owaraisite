@@ -9,7 +9,7 @@ preserveTaxonomyNames = true
 footnotereturnlinkcontents = "↩"
 hasCJKLanguage = true
 enableEmoji = true
-paginate = 12
+paginate = 24
 enableGitInfo = true
 
 [permalinks]

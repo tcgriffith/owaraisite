@@ -6,7 +6,8 @@ body {
   background-repeat: no-repeat;
   background-size: contain;
   background-position: absolute;
-z-index:1;
+  z-index:1;
+
 
 
 }
@@ -22,7 +23,7 @@ z-index:1;
   background-color: rgba(255, 255, 255, 0.5);;
   border-radius: 20px;
   /*opacity: 0;*/
-  font-size: 1.5em; 
+  font-size: 1.5em;
     /*color: #777796;*/
 }
 
@@ -79,7 +80,11 @@ z-index:1;
 @media (max-width: 930px) {
   .page .container { padding: 0; }
 }
-main { margin-bottom: 15px;   z-index:1;}
+main {
+  margin-bottom: 15px;
+  font-size: 15px;
+  z-index:1;
+}
 
 /* header and footer areas */
 .header {
@@ -641,7 +646,7 @@ tr:nth-child(even) { background: #eee }
     /*border: 3px solid green;*/
     width: 60%;
     /*margin:auto;*/
-  margin-top: 15%;  
+  margin-top: 15%;
   /*margin-bottom: 15%;*/
   padding-left:0;
   /*padding-top:20;*/
