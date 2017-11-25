@@ -1,87 +1,49 @@
+<!DOCTYPE html>
+<html>
+<head>
+<style>
 
-{{ partial "header.html" . }}
+body {
+    font-family: Helvetica sans-serif;
+    padding: 0;
+    margin: 0;
+    background-color: #333;
+    overflow: hidden;
+    -webkit-user-select: none;
+       -moz-user-select: none;
+         -o-user-select: none;
+        -ms-user-select: none;
+            user-select: none;
+}
+
+canvas {
+    position: absolute;
+    top: 0;
+    left: 0;
+}
+
+.info {
+    position: absolute;
+    top: 0;
+    left: 0;
+    padding: 5px 15px;
+    color: #eee;
+    font-size: 13px;
+    background-color: rgba(0, 0, 0, .5);
+}
+
+</style>
+</head>
+<body>
 
 
-<div id="particles-js"></div>
+<canvas id="c"></canvas>
+<!-- <div class="info">Click to add gravity point.</div> -->
 
-<script src="/js/particles.min.js"></script>
-
-<script src="/js/particle.js"></script>
-
-  <div class="ball">
-    <script type="text/javascript" src="//rf.revolvermaps.com/0/0/8.js?i=5w6acuy1p50&amp;m=6&amp;c=ff0000&amp;cr1=ffffff&amp;f=arial&amp;l=33" async="async"></script>
-  </div>
-
-<div class="container">
-
-{{ if eq .Paginator.PageNumber 1 }}
-
-<section class="frontface">
-   
-  <div class=frontcontent id="sourrounding_div">    
-
-    {{ .Content }}
-  </div>
-
-
-</section>
-
-{{ end }}
-
-
-<main class="list">
+<script src="{{ relURL "/js/datgui.js" }}"></script>
+<script src="{{ relURL "/js/particle_gravity.js" }}"></script>
 
 
 
-{{ range .Paginator.Pages.ByWeight }}
-
-
-<section class="article-list">
-  <div class = "category_date">
-
-      <div class="categories">
-      {{ with .Params.bangumis }}
-      {{ range first 1 . }}
-        <a href="{{ relURL (print "/bangumis/" . | urlize) }}">{{ . }}</a>
-      {{ end }}
-      {{ else }}
-        <a>{{ default "Uncategorized" .Site.Params.text.uncategorized }}</a>
-      {{ end }}
-      </div>
-
-      <div class="date">{{ .Date.Format "2006-01-02" }}</div>
-
-  </div>
-
-  <div class = "thumbblock">
-    <a href="{{ .URL }}">
-    {{ with .Params.thumbnail }}
-    <div class="thumbnail"><img src="{{ relURL . }}" alt="Thumbnail" /></div>
-    {{ else }}
-    {{ $img := findRE "<img src=\"[^\"]+\"" .Content 1 }}
-    {{ range $img }}
-    <div class="thumbnail">{{ (print . " alt=\"Thumbnail\" />") | safeHTML }}</div>
-    {{ end }}
-    {{ end }}
-  </div>
-
-  <h1><a href="{{ .URL }}">{{ .Title }}</a></h1>
-  <div class="date-author">
-    {{ if .Params.author }}<span class="author">{{ partial "author_names.html" . }}</span>  {{ end }}
-  </div>
-  <div class="summary">
-    {{ with .Description }}
-      {{ $.Scratch.Set "summary" (markdownify .) }}
-    {{ else }}
-      {{ $.Scratch.Set "summary" ((delimit (findRE "(<p.*?>(.|\n)*?</p>\\s*)+" .Content) "[&hellip;] ") | plainify | truncate (default 200 .Site.Params.summary_length) (default " &hellip;" .Site.Params.text.truncated ) | replaceRE "&amp;" "&" | safeHTML) }}
-    {{ end }}
-    {{ $.Scratch.Get "summary" }}
-    </a>
-  </div>
-</section>
-{{ end }}
-</main>
-<nav>{{ template "partials/pagination.html" . }}</nav>
-</div>
-
-{{ partial "footer.html" . }}
+</body>
+</html>

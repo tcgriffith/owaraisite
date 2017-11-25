@@ -696,19 +696,29 @@ body {
 canvas {
   display: block;
   vertical-align: bottom;
-  height: 30%;
-  width:100%;
 }
 
 /* ---- particles.js container ---- */
+
+/*#particles-js {
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  background-color: #b61924;
+  background-image: url("");
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: 50% 50%;
+}*/
 
 #particles-js {
   position: fixed;
   top:0;
   left:0;
   width: 100%;
-  height: 90%;
+  height: 100%;
   background: transparent;
+  background-color: #b61924;
   background-image: url("");
   background-repeat: no-repeat;
   background-size: cover;
