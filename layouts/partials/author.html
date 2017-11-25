@@ -11,18 +11,26 @@
 
 {{ with $.Scratch.Get "author_info" }}
 <section class="article-meta article-footer">
-   <table class="profile">
-    <tbody>
-        <tr>
-           <td><h3>{{ default "About the Author" $.Site.Params.text.about_author }}</h3>
-            </td>
-        </tr>
+    <div class="profile-header">
+    &#11044; 关于作者 <hr style="float: right; width: 90%; border-style: solid;"/>
+    </div>
     {{ range . }}
-    <tr><td><h3>{{ .name }}</h3>{{ .intro | markdownify }}</td><td><img class="profile-img" src="{{ .image }}" alt="{{ .name }}"/></td></tr>
+    
+    <div class="profile-container">
+      
+        <div class="profile-text">
+          <h1 class="profile-text-author">{{ .name }}</h1>
+          {{ .intro | markdownify }}
+        </div>
+        <div class="profile-img-wrapper">
+          <img class="profile-img" src="{{ .image }}" alt="{{ .name }}"/>
+        </div>
+    </div>
+    
     {{ end }}
-    </tbody>
-  </table>
+
 </section>
 {{ end }}
 
 {{ end }}
+
