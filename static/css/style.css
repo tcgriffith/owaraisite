@@ -816,7 +816,7 @@ canvas {
   position: relative;
   /*font-size: 17px;*/
   padding: 10px;
-  background: rgba(0, 0, 0, 0.6);
+  background: rgba(119,119,150,0.8);
   color: #fff;
 }
 
@@ -825,7 +825,7 @@ canvas {
   text-decoration: none;
   padding: 7px 14px;
   /*border: 1px solid #fff;*/
-  margin: 50px 0 0 0;
+  margin: 20px 0 0 0;
   background-color: transparent;
   color: #000;
   font-weight: bold;
