@@ -28,7 +28,7 @@ noedit: true
 <tbody>
 
 <tr>
-    <td><a href=/categories/伦敦之心字幕组/> <img class="profile-img" src=/img/lhlogo.png></a></td>
+    <td><a href=/categories/伦敦之心字幕组/> <img class="team-img" src=/img/logo_lh_square.jpg></a></td>
 
     <td><a href=/categories/来一发就走字幕组/> <img class="team-img" src=https://tva2.sinaimg.cn/crop.0.0.100.100.180/006quAfWjw8f3wjbpu00mj302s02sq2v.jpg></a></td>
 
