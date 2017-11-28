@@ -22,7 +22,7 @@ particlesJS("particles-js", {
         "nb_sides": 5
       },
       "image": {
-       
+        "src": "https://unpkg.com/simple-icons@1.2.12/icons/stackoverflow.svg",
         "width": 100,
         "height": 100
       }
