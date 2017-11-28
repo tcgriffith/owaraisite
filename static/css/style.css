@@ -140,8 +140,10 @@ article{
 }
 .banner{
   /*border: 3px solid green;*/
+   z-index: 2
 }
 .header .banner-image{
+  z-index: 2
   margin-top: 5px;
     /*margin-left: 0;*/
   /*padding-left: 0;*/
