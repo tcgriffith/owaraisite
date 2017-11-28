@@ -32,11 +32,14 @@ enableGitInfo = true
 
 
 
-
 [[menu.top]]
-    name = "首页"
-    url = "/"
+    name = "作品"
+    url = "/post/"
     weight = 1
+[[menu.top]]
+    name = "专栏"
+    url = "/matome/"
+    weight = 2
 [[menu.top]]
     name = "分部"
     url = "/subteams/"
@@ -44,10 +47,6 @@ enableGitInfo = true
 [[menu.top]]
     name = "标签"
     url = "/tags/"
-    weight = 4
-[[menu.top]]
-    name = "番组"
-    url = "/bangumis/"
     weight = 5
 [[menu.top]]
     name = "索引"
@@ -56,6 +55,7 @@ enableGitInfo = true
 [[menu.top]]
     name = "留言"
     url = "/crit/"
+    weight = 10
 
 
 

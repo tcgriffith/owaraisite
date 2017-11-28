@@ -5,6 +5,22 @@
   </div>
 
 <div class="container">
+
+{{ if eq .Paginator.PageNumber 1 }}
+
+<section class="frontface">
+   
+  <div class=frontcontent id="sourrounding_div">    
+
+    {{ .Content }}
+  </div>
+
+
+</section>
+
+{{ end }}
+
+
 <main class="list">
 
 
