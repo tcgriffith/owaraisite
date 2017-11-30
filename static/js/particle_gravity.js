@@ -139,7 +139,7 @@ function GravityPoint(x, y, radius, targets) {
     this._speed = new Vector();
 }
 
-GravityPoint.RADIUS_LIMIT = 65;
+GravityPoint.RADIUS_LIMIT = 80;
 GravityPoint.interferenceToPoint = true;
 
 GravityPoint.prototype = (function(o) {
@@ -325,8 +325,8 @@ Particle.prototype = (function(o) {
 
     var BACKGROUND_COLOR      = 'rgba(15, 15, 30, 1)',
         PARTICLE_RADIUS       = 1,
-        G_POINT_RADIUS        = 10,
-        G_POINT_RADIUS_LIMITS = 65;
+        G_POINT_RADIUS        = 15,
+        G_POINT_RADIUS_LIMITS = 650;
 
 
     // Vars
