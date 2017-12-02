@@ -57,8 +57,10 @@ enableGitInfo = true
     url = "/crit/"
     weight = 10
 
-
-
+[[menu.top]]
+    name = "百科"
+    url = "/wiki/"
+    weight = 11
 
 
 [params]
