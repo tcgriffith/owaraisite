@@ -228,6 +228,7 @@ article{
     border-top: 1px dashed #cce5ff;
     padding: 5px;
     margin: 0px;
+    line-height: 2.5em;
 }
 
 .tags a{
