@@ -87,7 +87,26 @@ main {
 }
 /* h1 style in main*/ 
 
-article main h1 {
+article main h1 h2 {
+    background: #777796;
+    border-radius: 6px 6px 6px 6px;
+    box-shadow: 0 0 0 1px #5F5A4B, 1px 1px 6px 1px rgba(10, 10, 0, 0.5);
+    color: #FFFFFF;
+    /*font-family: "微软雅黑" , "宋体" , "黑体" ,Arial;*/
+    font-size: 30px;
+    font-weight: bold;
+    height: 32px;
+    line-height: 25px;
+    margin: 18px 0 !important;
+    padding: 8px 0 5px 5px;
+    text-shadow: 2px 2px 3px #222222;
+    /* border-left: solid 5px deepskyblue; */
+    /* border-top: solid 5px rgba(0, 0, 0, 0); */
+    /* border-bottom: solid 5px rgba(0, 0, 0, 0); */
+    /* background-color: #fbfbfb; */
+}
+
+article main h2 {
     background: #777796;
     border-radius: 6px 6px 6px 6px;
     box-shadow: 0 0 0 1px #5F5A4B, 1px 1px 6px 1px rgba(10, 10, 0, 0.5);
