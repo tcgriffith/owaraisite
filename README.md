@@ -22,7 +22,7 @@ The site for [owaraiclub](http://owaraiclub.com)
 
 Powered by hugo, blogdown and netlify.
 
-# How to preview locally (MAC ios, linux)
+# How to preview locally (macOS, linux)
 
 1. Install [hugo](https://github.com/gohugoio/hugo/releases) and git
 
