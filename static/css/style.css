@@ -659,7 +659,7 @@ tr:nth-child(even) { background: #eee }
     /*border: 3px solid green;*/
     width: 60%;
     /*margin:auto;*/
-  margin-top: 15%;
+  margin-top: 5%;
   /*margin-bottom: 15%;*/
   padding-left:0;
   /*padding-top:20;*/
@@ -696,6 +696,7 @@ tr:nth-child(even) { background: #eee }
 
 .menu-top li:hover { background: #f8ee79; }
 .menu-top li a {
+  font-size: large;
   color: #777796;
   /*display: flex;*/
 }

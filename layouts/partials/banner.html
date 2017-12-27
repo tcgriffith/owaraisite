@@ -3,7 +3,7 @@
 <div class="banner-image"><a href="{{ relURL .Site.BaseURL }}">{{ with .Site.Params.banner }}
 <picture>
   {{ range .source }}<source media="{{ .media }}" srcset="{{ relURL .srcset }}">{{ end }}
-  <img src="{{ relURL .src }}" alt="{{ .alt }}">
+  <img src="{{ relURL .src }}" alt="{{ .alt }}" style="width: 40%" >
 </picture>
 {{ end }}</a></div>
 <ul class="menu-top">

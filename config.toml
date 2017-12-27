@@ -80,7 +80,7 @@ enableGitInfo = true
     author_delimiter= "&#x1F575"
 
 [params.banner]
-    src = "/img/logo.png"
+    src = "/img/logo_lh_main.svg"
 
 [taxonomies]
   tag = "tags"
