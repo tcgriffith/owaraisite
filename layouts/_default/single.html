@@ -28,8 +28,11 @@
 
   <div class = "article-meta-authordate">
 
-      {{ if .Params.author }}
-      <h3 class="author">{{ partial "author_names.html" . }}</h3>
+      {{ if not .Params.displayauthor }}
+      {{ else }}
+        {{ if .Params.author }}
+        <h3 class="author">{{ partial "author_names.html" . }}</h3>
+        {{ end }}
       {{ end }}
 
     {{ if .Params.nodate }}

@@ -4,6 +4,14 @@ date: 2017-10-16
 nocomment: true
 nodate: true
 noedit: true
+author: 
+  - 伦敦之心字幕组
+  - 来一发就走字幕组
+  - 大喜利王字幕组
+  - 4431字幕组
+displayauthor: false
+noedit: true
+nodate: true
 ---
 
 
@@ -21,7 +29,9 @@ noedit: true
 <script src="/js/particle.js"></script>
 <!-- stats - count particles -->
 
+ 本站由**伦敦之心**，**大喜利王**，**4431** 和**来一发就走**四个字幕组共同维护的日综发布站，旨在发布，整合，梳理各日综字幕组作品，~~同时避免被河蟹~~ 希望大家喜欢。
 
+ 点击下面字幕组LOGO即可浏览对应字幕组的所有作品ﾍ(=￣∇￣)ﾉ
 
 
 <table class="subteams">
