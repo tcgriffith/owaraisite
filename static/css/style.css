@@ -2,7 +2,7 @@ body {
   margin: 0;
   line-height: 1.5em;
   background-color: #ffffff;
-  background-image: url("/img/banner_mix_2018.jpg");
+  background-image: url("/img/banner_mix_2018_v2.jpg");
   background-repeat: no-repeat;
   background-size: contain;
   background-position: absolute;
@@ -659,7 +659,7 @@ tr:nth-child(even) { background: #eee }
     /*border: 3px solid green;*/
     width: 60%;
     /*margin:auto;*/
-  margin-top: 5%;
+  margin-top: 0;
   /*margin-bottom: 15%;*/
   padding-left:0;
   /*padding-top:20;*/
@@ -675,7 +675,8 @@ tr:nth-child(even) { background: #eee }
 
 .menu-top li {
   /*display: inline-block;*/
-  background: #fff;
+  /*background: #fff;*/
+  background-color: rgba(255, 255, 255, 0.65);
   display: flex;
   /*border-radius: 5px;*/
   /*width: 1em;*/
