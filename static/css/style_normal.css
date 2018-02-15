@@ -1,8 +1,8 @@
 body {
   margin: 0;
   line-height: 1.5em;
-  background-color: red;
-  /*background-image: url("/img/banner_mix_2018_v2.jpg");*/
+  background-color: #ffffff;
+  background-image: url("/img/banner_mix_2018_v2.jpg");
   background-repeat: no-repeat;
   background-size: contain;
   background-position: absolute;
@@ -20,9 +20,7 @@ body {
   /*margin-top: 5%;*/
   display:flex;
   /*border: 3px solid green;*/
-  /*background-color: rgba(63, 191, 63, 0.1);;*/
-  /*spring festival*/
-    background-color: rgba(255, 0, 0, 0.4);
+  background-color: rgba(63, 191, 63, 0.1);;
   border-radius: 20px;
   /*opacity: 0;*/
   font-size: 1.5em;
@@ -87,10 +85,10 @@ main {
   font-size: 15px;
   z-index:1;
 }
-/* h1 style in main*/
+/* h1 style in main*/ 
 
 article main h1 h2 {
-    background: #b61924;
+    background: #777796;
     border-radius: 6px 6px 6px 6px;
     box-shadow: 0 0 0 1px #5F5A4B, 1px 1px 6px 1px rgba(10, 10, 0, 0.5);
     color: #FFFFFF;
@@ -109,7 +107,7 @@ article main h1 h2 {
 }
 
 article main h2 {
-    background: #b61924;
+    background: #777796;
     border-radius: 6px 6px 6px 6px;
     box-shadow: 0 0 0 1px #5F5A4B, 1px 1px 6px 1px rgba(10, 10, 0, 0.5);
     color: #FFFFFF;
@@ -875,7 +873,7 @@ canvas {
   transition: all 0.4s ease-in;
   opacity: 0;
   filter: alpha(opacity=0);
-
+  
   text-transform: uppercase;
 }
 

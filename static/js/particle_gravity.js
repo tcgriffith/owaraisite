@@ -323,7 +323,9 @@ Particle.prototype = (function(o) {
 
     // Configs
 
-    var BACKGROUND_COLOR      = 'rgba(15, 15, 30, 1)',
+    var
+        // BACKGROUND_COLOR      = 'rgba(15, 15, 30, 1)',
+        BACKGROUND_COLOR = 'rgba(255, 0, 0, 0.4)',
         PARTICLE_RADIUS       = 1,
         G_POINT_RADIUS        = 15,
         G_POINT_RADIUS_LIMITS = 650;
@@ -488,7 +490,7 @@ Particle.prototype = (function(o) {
                 i--;
             }
         }
-      
+
         bufferCtx.save();
         bufferCtx.globalCompositeOperation = 'destination-out';
         bufferCtx.globalAlpha = 0.35;
