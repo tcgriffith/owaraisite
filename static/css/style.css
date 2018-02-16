@@ -1,8 +1,14 @@
 body {
   margin: 0;
   line-height: 1.5em;
+<<<<<<< HEAD
   background-color: #ffffff;
   background-image: url("/img/banner_mix_2018_v2.jpg");
+=======
+  background-color: rgba(255, 0, 0, 0.4);
+  /*background-image: url("/img/banner_mix_2018_v2.jpg");*/
+  background-image: url("/img/banner_spring.jpg");
+>>>>>>> 8dc4d3de4504acc7d0daac029eb968eb86337c27
   background-repeat: no-repeat;
   background-size: contain;
   background-position: absolute;
@@ -20,7 +26,13 @@ body {
   /*margin-top: 5%;*/
   display:flex;
   /*border: 3px solid green;*/
+<<<<<<< HEAD
   background-color: rgba(63, 191, 63, 0.1);;
+=======
+  /*background-color: rgba(63, 191, 63, 0.1);;*/
+  /*spring festival*/
+    background-color: rgba(255, 0, 0, 0.1);
+>>>>>>> 8dc4d3de4504acc7d0daac029eb968eb86337c27
   border-radius: 20px;
   /*opacity: 0;*/
   font-size: 1.5em;
