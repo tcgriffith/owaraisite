@@ -35,7 +35,27 @@
 {{ range .Paginator.Pages.ByWeight }}
 
 
-<section class="article-list">
+  {{ if gt (sub now.YearDay .Lastmod.YearDay) 0 }}
+
+    {{ if lt (sub now.YearDay .Lastmod.YearDay) 3 }}
+        <section class="article-list-highlight3">
+
+    {{ else if lt (sub now.YearDay .Lastmod.YearDay) 7}}
+        <section class="article-list-highlight7">
+
+    {{ else if lt (sub now.YearDay .Lastmod.YearDay) 14}}
+        <section class="article-list-highlight14">
+    {{ else }}
+        <section class="article-list">
+
+    {{ end }}
+  {{ else }}
+        <section class="article-list">
+
+  {{ end }}
+
+
+
   <div class = "category_date">
 
       <div class="categories">
