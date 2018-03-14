@@ -17,8 +17,8 @@
 {{ if eq .Paginator.PageNumber 1 }}
 
 <section class="frontface">
-   
-  <div class=frontcontent id="sourrounding_div">    
+
+  <div class=frontcontent id="sourrounding_div">
 
     {{ .Content }}
   </div>
@@ -35,7 +35,7 @@
 {{ range .Paginator.Pages.ByWeight }}
 
 
-  {{ if gt (sub now.YearDay .Lastmod.YearDay) 0 }}
+  {{ if gt (sub now.YearDay .Lastmod.YearDay) -3}}
 
     {{ if lt (sub now.YearDay .Lastmod.YearDay) 3 }}
         <section class="article-list-highlight3">
@@ -86,11 +86,11 @@
       {{ range $img }}
         <div class="thumbnail hovereffect">{{ (print . " alt=\"Thumbnail\" />") | safeHTML }}
       {{ end }}
-      
+
     {{ end }}
 
         <div class="overlay">
-       
+
            <h2>
                 {{ with .Description }}
                    {{ $.Scratch.Set "summary" (markdownify .) }}
@@ -99,18 +99,18 @@
                 {{ end }}
               {{ $.Scratch.Get "summary" }}
            </h2>
-           <a class="info" href="{{ .URL }}">{{ .Title }}</a> 
+           <a class="info" href="{{ .URL }}">{{ .Title }}</a>
         </div>
     </div>
 
   </div>
 
- 
+
   <!-- <h1><a href="{{ .URL }}">{{ .Title }}</a></h1> -->
   <div class="date-author">
     {{ if .Params.author }}<span class="author">{{ partial "author_names.html" . }}</span>  {{ end }}
   </div>
-  
+
 </section>
 {{ end }}
 </main>
