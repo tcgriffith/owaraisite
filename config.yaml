@@ -1,0 +1,7 @@
+---
+metaDataFormat: "yaml"
+algolia:
+  index: "owaraiclub_search"
+  key: "7afd6d46df6d8fae79769e7b70f9d7dc"
+  appID: "AK96YQUG40"
+---

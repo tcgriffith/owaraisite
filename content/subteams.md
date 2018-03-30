@@ -10,8 +10,6 @@ author:
   - 大喜利王字幕组
   - 4431字幕组
 displayauthor: false
-noedit: true
-nodate: true
 ---
 
 
