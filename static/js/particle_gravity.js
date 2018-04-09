@@ -324,8 +324,8 @@ Particle.prototype = (function(o) {
     // Configs
 
     var
-        // BACKGROUND_COLOR      = 'rgba(15, 15, 30, 1)',
-        BACKGROUND_COLOR = 'rgba(255, 0, 0, 0.4)',
+        BACKGROUND_COLOR      = 'rgba(15, 15, 30, 1)',
+        // BACKGROUND_COLOR = 'rgba(255, 0, 0, 0.4)',
         PARTICLE_RADIUS       = 1,
         G_POINT_RADIUS        = 15,
         G_POINT_RADIUS_LIMITS = 650;
