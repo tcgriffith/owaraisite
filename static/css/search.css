@@ -5,7 +5,7 @@
   width: 100%;
 }
 .aa-input-container span,.aa-input-container input {
-    width: inherit;
+    width: -webkit-fill-available;
 }
 .aa-input-search {
   width: 300px;

@@ -13,8 +13,7 @@ paginate = 24
 enableGitInfo = true
 
 
-[permalinks]
-    post = "/post/:year/:month/:day/:slug/"
+
 
 
 [[menu.main]]
