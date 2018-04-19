@@ -12,3 +12,5 @@ noedit: true
 欢迎贡献力量~
 
 [owaraipedia 入口](https://owaraipedia.netlify.com/)
+
+{{< algosearch >}}
