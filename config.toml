@@ -76,7 +76,7 @@ enableGitInfo = true
     truncated = "&hellip;"
     tags = "标签： "
     about_author = "关于作者"
-    author_delimiter= "&#x1F575"
+    author_delimiter= "&#x1F575 "
 
 [params.banner]
     src = "/img/logo_lh_main.svg"
