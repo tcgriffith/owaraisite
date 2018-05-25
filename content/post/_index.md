@@ -6,7 +6,9 @@
 
 {{< now >}}
 
-**最近更新:** 添加东京03的几个短剧，感谢 [@三葉__](https://space.bilibili.com/119571380/#/) [@akihoni](https://space.bilibili.com/412335/#/) 
+**最近更新:** 添加奥特曼艺人，感谢 [@长野县名产翅膀](https://space.bilibili.com/1464994/#/) ヾ(￣▽￣)
+
+<!-- **最近更新:** 添加东京03的几个短剧，感谢 [@三葉__](https://space.bilibili.com/119571380/#/) [@akihoni](https://space.bilibili.com/412335/#/)  -->
 
 <!-- **最近更新:** 由algolia支援的站内搜索上线ヾ(￣▽￣) -->
 
