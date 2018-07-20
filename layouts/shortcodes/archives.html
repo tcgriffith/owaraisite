@@ -8,33 +8,37 @@
 
         <ul>
         {{ if eq .Key "段子" }}
-            {{ range .Pages.ByTitle }}          
+            {{ range .Pages.ByTitle }}
           <li>
 
             <span class="date">{{ .PublishDate.Format "2006/01/02" }}</span>
 
             <a href="{{ .URL }}">{{ .Title }}</a>
-            {{ if gt (sub now.YearDay .Lastmod.YearDay) 0 }}
 
-            {{ if lt (sub now.YearDay .Lastmod.YearDay) 7 }}
-                <span class="last-modified">更新于{{ sub now.YearDay .Lastmod.YearDay }} 天前</span>
-            {{ end }}
-
-            {{ end }}
+                {{ if gt (sub now.YearDay .Lastmod.YearDay) -5 }}
+                {{ if lt (sub now.YearDay .Lastmod.YearDay) 7 }}
+                    <span class="last-modified"> 最近更新 </span>
+                {{ end }}
+                {{ end }}
 
           </li>
           {{ end }}
        {{ else }}
-          {{ range .Pages.ByPublishDate.Reverse }}          
+          {{ range .Pages.ByPublishDate.Reverse }}
               <li>
                 <span class="date">{{ .PublishDate.Format "2006/01/02" }}</span>
                 <a href="{{ .URL }}">{{ .Title }}</a>
 
-                {{ if gt (sub now.YearDay .Lastmod.YearDay) 0 }}
+<!--             {{ if lt (sub now.YearDay .Lastmod.YearDay) 7 }}
+                <span class="last-modified">最近更新 {{ sub now.YearDay .Lastmod.YearDay }} </span>
+            {{ end }} -->
+
+                {{ if gt (sub now.YearDay .Lastmod.YearDay) -5 }}
                 {{ if lt (sub now.YearDay .Lastmod.YearDay) 7 }}
-                    <span class="last-modified">更新于{{ sub now.YearDay .Lastmod.YearDay }} 天前</span>
+                    <span class="last-modified"> 最近更新 </span>
                 {{ end }}
                 {{ end }}
+
               </li>
           {{ end }}
        {{ end }}
