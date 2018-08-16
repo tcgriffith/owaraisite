@@ -1,0 +1,46 @@
+<!doctype html>
+<head>
+  <meta charset="UTF-8">
+  <!-- <title>InstantSearch Demo</title> -->
+  <link rel="stylesheet" type="text/css" href="/css/style_search.css">
+  <!-- <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/instantsearch.js@2.3/dist/instantsearch.min.css"> -->
+  <!-- Always use `2.x` versions in production rather than `2` to mitigate any side effects on your website,
+  Find the latest version on InstantSearch.js website: https://community.algolia.com/instantsearch.js/v2/guides/usage.html -->
+
+  <script type="text/html" id="hit-template">
+  <div class="hit">
+    <a href = "/post/{{slug}}">
+      <div class="hit-content">
+        <h2 class="hit-name">{{{_highlightResult.title.value}}}</h2>
+        <p class="hit-description">{{{_highlightResult.brief.value}}}</p>
+      </div>
+    </a>
+  </div>
+  </script>
+</head>
+<body>
+    <div class="banner-image">
+      <a href = "/post/">
+
+        <img src="/img/logo.png" style=" display: block; margin-left: auto; margin-right: auto; width: 25%" >
+      </a>
+    </div>
+  <header>
+
+    <div>
+       <input id="search-input" placeholder="Search for keywords">
+       <!-- We use a specific placeholder in the input to guides users in their search. -->
+    </div>
+  </header>
+  <main>
+      <div id="hits"></div>
+      <div id="pagination"></div>
+  </main>
+  <script src="https://cdn.jsdelivr.net/npm/instantsearch.js@2.3/dist/instantsearch.min.js"></script>
+  <script src="https://res.cloudinary.com/jimmysong/raw/upload/rootsongjc-hugo/algoliasearch.min.js"></script>
+  <script src="/js/search_app.js"></script>
+
+  <!-- <link rel="stylesheet" type="text/css" href="/css/style.css"> -->
+</body>
+
+
