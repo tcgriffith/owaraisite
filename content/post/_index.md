@@ -1,5 +1,5 @@
 ---
-index:false
+index: false
 ---
 
 # 公告板
