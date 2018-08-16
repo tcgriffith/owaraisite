@@ -6,6 +6,7 @@ publishdate: '2017-10-01'
 slug: owaraiclub_tutorial
 description: "笑神本部使用说明书"
 toc: true
+index: false
 ---
 
 # Owaraiclub 使用说明书
@@ -15,7 +16,7 @@ toc: true
 
 
 
-本教程演示网站owaraiclub的基本使用方法，包括如何在本地预览网站，如何编辑帖子，如何通过github合作进行网站管理更新等等。 
+本教程演示网站owaraiclub的基本使用方法，包括如何在本地预览网站，如何编辑帖子，如何通过github合作进行网站管理更新等等。
 
 
 
@@ -77,7 +78,7 @@ Rstudio是基于R语言的集成开发环境(IDE)。其中，`blogdown` 包内�
 #### 如何本地预览网站
 
 1. 克隆网站文件夹至本地  (假设github账号已有，为`yourusename`)
-    - 浏览器打开 `https://github.com/tcgriffith/owaraisite/`， 
+    - 浏览器打开 `https://github.com/tcgriffith/owaraisite/`，
     - fork 该项目到你自己账号下
     - 克隆至本地^[](事实上直接克隆 `https://github.com/tcgriffith/owaraisite/`也可以，不过为方便后面多人合作部分，还是克隆一份自己的项目吧)
         - MAC & linux
@@ -86,44 +87,44 @@ Rstudio是基于R语言的集成开发环境(IDE)。其中，`blogdown` 包内�
             mkdir GIT
             cd GIT
             git clone --recursive https://github.com/yourusename/owaraisite/
-            ```  
+            ```
         - Windows:
-            假设本地网站地址为 `C:\GIT\owaraisite`  
+            假设本地网站地址为 `C:\GIT\owaraisite`
             - 安装 `Git GUI`
             - `Repository->Clone`，
             - `source location` 填入 `https://github.com/yourusename/owaraisite/`
-            - 设置`target directory` 为 `C:\GIT\owaraisite` 
+            - 设置`target directory` 为 `C:\GIT\owaraisite`
             - 勾选 `Recursively clone submodules too`, 点击`Clone`
 
-2. 设置Rstudio环境  
-    - 安装[Rstudio](https://www.rstudio.com/products/rstudio/download/)  
-    界面如下  
-    ![](https://upload.wikimedia.org/wikipedia/commons/thumb/4/4d/Rstudio.png/1200px-Rstudio.png)  
-    - 在Rstudio中安装blogdown  
-        打开Rstudio, 在console里依次输入  如下命令  
+2. 设置Rstudio环境
+    - 安装[Rstudio](https://www.rstudio.com/products/rstudio/download/)
+    界面如下
+    ![](https://upload.wikimedia.org/wikipedia/commons/thumb/4/4d/Rstudio.png/1200px-Rstudio.png)
+    - 在Rstudio中安装blogdown
+        打开Rstudio, 在console里依次输入  如下命令
 
         ```
         install.packages("devtools")
         install.packages("rmarkdown")
         devtools::install_github('rstudio/blogdown')
-        ```  
-    - 安装hugo  
+        ```
+    - 安装hugo
 
         ```
         blogdown::install_hugo()
         ```
-    - 设置 git  
+    - 设置 git
     在`Tools->Global Options->GIT/SVN` 里设置GIT excutable位置 （例如 `C:/Program Files/Git/bin/git.exe`）
 3. 本地预览网站
-    - Rstudio中选择 `Addins->Serve Site` 
+    - Rstudio中选择 `Addins->Serve Site`
     - 在右下模块的Viewer选项卡下预览网站
 
 #### 如何编辑文章
 
 - 使用Rstudio 发新帖较为容易，如下：
     - 单击 `Addins-New Posts` ,
-    - 设置文章标题，作者，分类，标签文章信息，content下的子目录（如post,blog） 
-    
+    - 设置文章标题，作者，分类，标签文章信息，content下的子目录（如post,blog）
+
     ![](https://bookdown.org/yihui/blogdown/images/new-post.png)
 
     - 选择 `Addins->Serve Site`
@@ -139,7 +140,7 @@ Rstudio是基于R语言的集成开发环境(IDE)。其中，`blogdown` 包内�
 以下为具体操作
 
 
-- push 更新内容至github的你个人owaraisite项目下  
+- push 更新内容至github的你个人owaraisite项目下
     如图，在git选项卡下依次 commit push即可
     ![](https://i.imgur.com/emSM47h.png)
 
@@ -156,24 +157,24 @@ Rstudio是基于R语言的集成开发环境(IDE)。其中，`blogdown` 包内�
     git pull https://github.com/yourusername/owaraisite
     ```
 
-    
 
-### 方案B hugo  
+
+### 方案B hugo
 
 #### 如何本地预览网站
-hugo轻便到只包含一个可执行文件 
+hugo轻便到只包含一个可执行文件
 
 1. 克隆网站文件夹至本地，参见方案A
 
 2. 安装Hugo  [hugo下载地址](https://github.com/gohugoio/hugo/releases)
-   - MAC & linux  
-       a. 下载对应操作系统版本hugo  
-       b. 解压，将文件 hugo 拷贝至`/usr/local/bin/`下  
+   - MAC & linux
+       a. 下载对应操作系统版本hugo
+       b. 解压，将文件 hugo 拷贝至`/usr/local/bin/`下
    - Windows
        假设安装在`C:\Hugo\bin`
        a. 下载对应操作系统版本hugo
        b. 解压，拷贝hugo.exe 至C:\hugo\bin
-       c. C:\hugo\bin添加至Windows的PATH变量下,在此仅收录win10设置方法  
+       c. C:\hugo\bin添加至Windows的PATH变量下,在此仅收录win10设置方法
            - 点击 开始
            - 点击 系统
            - 点击左侧 高级系统设置
@@ -182,20 +183,20 @@ hugo轻便到只包含一个可执行文件
            - 点击新建， 输入`C:\hugo\bin`保存退出
 
 3. 本地预览网站
-    假设本地网站地址为 `C:\GIT\owaraisite`  
-    - 打开CMD  
-    - 进入网站目录 
+    假设本地网站地址为 `C:\GIT\owaraisite`
+    - 打开CMD
+    - 进入网站目录
 
         ```
         cd C:\GIT\owaraisite
-        ```  
+        ```
     - 输入如下命令
 
         ```
         hugo serve
 
         ```
-    - 若显示如下内容即成功  
+    - 若显示如下内容即成功
 
         ```
         Built site for language en:
@@ -223,7 +224,7 @@ hugo轻便到只包含一个可执行文件
     - 使用任意文本编辑器，在/content/blog/或 /content/post/下新建 格式为 `2006-01-01-title.md`的文档
     - 按其他文章模板，手动设置文章信息
     - 编写正文 浏览器预览网站中文章效果，满意后保存即可
-    
+
 
 
 
@@ -233,7 +234,7 @@ hugo轻便到只包含一个可执行文件
 
 以下为具体操作
 
-- push 更新内容至github的你个人owaraisite项目下  
+- push 更新内容至github的你个人owaraisite项目下
     如图，在git选项卡下依次 commit push即可
     ![](https://i.imgur.com/emSM47h.png)
 
@@ -255,13 +256,13 @@ hugo轻便到只包含一个可执行文件
 
 ### 发现文章内容有错怎么办（错字，错图）
 
-- 2017-10-04  
+- 2017-10-04
     点击文章右上角的“编辑本页” 即可链接至github源文件页，编辑之后提交pull request即可
 
 ### 如何进行评论管理
 
-- 2017-10-04  
-    - TODO 
+- 2017-10-04
+    - TODO
     - 目前使用liveRe，可能需要重新注册一个帐号 ~~现在服务器挂了~~
 
 # 扩展资料
@@ -272,7 +273,7 @@ hugo轻便到只包含一个可执行文件
 
 - [blogdown](https://bookdown.org/yihui/blogdown/)
 
-- [xmag主题](https://themes.gohugo.io/hugo-xmag/) 
+- [xmag主题](https://themes.gohugo.io/hugo-xmag/)
 
 - [netlify](https://www.netlify.com/)
 

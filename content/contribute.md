@@ -4,6 +4,7 @@ author: HUMI
 date: '2017-10-06'
 slug: contribute
 nocomment: true
+index: false
 ---
 
 # 投稿指南
@@ -20,7 +21,7 @@ nocomment: true
 
 - 文章类(blog)，请点击这个链接：<https://github.com/tcgriffith/owaraisite/new/master/content/blog/>；
 
-界面如下  
+界面如下
 
 <img src="/img/contribute/1.png" style="width: 600px;">
 
@@ -37,17 +38,17 @@ nocomment: true
 
 ## <span id="pr">第三步 提交文章内容</span>
 
-- 点击页面底部的`propose new file`,   
-    <img src="/img/contribute/3.png" style="width: 600px;">  
-- 新页面里点击`create pull request`  
-    <img src="/img/contribute/4.png" style="width: 600px;">   
-- 当出现如下界面时即为投稿成功,点击图示netlify右侧的`detail` 即可预览刚刚投稿的文章的实际效果  
-    <img src="/img/contribute/5.png" style="width: 600px;">  
+- 点击页面底部的`propose new file`,
+    <img src="/img/contribute/3.png" style="width: 600px;">
+- 新页面里点击`create pull request`
+    <img src="/img/contribute/4.png" style="width: 600px;">
+- 当出现如下界面时即为投稿成功,点击图示netlify右侧的`detail` 即可预览刚刚投稿的文章的实际效果
+    <img src="/img/contribute/5.png" style="width: 600px;">
 
 
 # <span id="notes">附注</span>
 
-- 文件名请以`2000-01-01_title.md`方式命名，文件名包含日期与英文简写，方便归档。  
+- 文件名请以`2000-01-01_title.md`方式命名，文件名包含日期与英文简写，方便归档。
 
 - 文件头：
 头文件为YAML格式(YAML Ain't Markup Language)。不过在这里，只需要知道头文件里的以下两种语法
@@ -72,16 +73,16 @@ nocomment: true
 
 ```yaml
 ---
-title: 161111 london hearts 红不起来的艺人父母想法 
+title: 161111 london hearts 红不起来的艺人父母想法
 author: 伦敦之心字幕组
 bangumi: 伦敦之心
 date: 2017-10-15
 publishdate: 2016-11-11
 slug: 2017-10-15_9611864_161111_NA
-categories: 
+categories:
   - 伦敦之心字幕组
   - 九條
-tags: 
+tags:
   - AKB48
   - 伦敦之心字幕组
 bangumis: #
@@ -94,11 +95,11 @@ nocomment: false
 
 以下介绍支持头文件设置的功能
 
-- 基本信息  
+- 基本信息
 单篇文章的基本属性，包括标题，作者，番组，
 
 ```
-title: 161111 london hearts 红不起来的艺人父母想法 
+title: 161111 london hearts 红不起来的艺人父母想法
 author: 伦敦之心字幕组
 bangumi: 伦敦之心
 date: 2017-10-15
@@ -107,8 +108,8 @@ slug: 2017-10-15_9611864_161111_NA
 bangumi: 伦敦之心
 ```
 
-- 类别信息  
-目前支持以下类别信息，每一种类别均有对应的类别页。比如[bangumis](/bangumis/) 
+- 类别信息
+目前支持以下类别信息，每一种类别均有对应的类别页。比如[bangumis](/bangumis/)
 注意类别信息必须使用列表形式，即使只有一项
 - categories 分类 包括字幕组+UP主，目前隐藏
 - tags 标签 抓取自Bilibili
@@ -117,13 +118,13 @@ bangumi: 伦敦之心
 
 
 ```
-categories: 
+categories:
   - 伦敦之心字幕组
   - 九條
-tags: 
+tags:
   - AKB48
   - 伦敦之心字幕组
-bangumis: 
+bangumis:
   - 伦敦之心
 ```
 
@@ -131,8 +132,8 @@ bangumis:
 
 **draft**: `草稿` 默认为false，设为true可让帖子不显示
 **ocomment**: `关闭评论` 设为true可关闭帖子的评论
-**noprofile**: `关闭作者信息`  
-**noedit**: `关闭编辑图标` 
+**noprofile**: `关闭作者信息`
+**noedit**: `关闭编辑图标`
 **nodate**: `隐藏发帖时间`
 
 

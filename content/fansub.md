@@ -14,6 +14,7 @@ author:
 displayauthor: false
 noedit: true
 nodate: true
+index: false
 ---
 
 

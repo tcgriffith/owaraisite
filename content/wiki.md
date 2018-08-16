@@ -3,6 +3,7 @@ title: owaraipedia
 nocomment: true
 nodate: true
 noedit: true
+index: false
 ---
 
 > 施工中

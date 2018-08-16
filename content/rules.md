@@ -2,6 +2,7 @@
 title: "转载规则"
 nocomment: true
 date : "2017-10-10"
+index: false
 ---
 
 
