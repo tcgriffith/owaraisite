@@ -657,7 +657,11 @@ tr:nth-child(even) { background: #eee }
   text-align: center;
   font-size: 1.2em;
 }
-.terms { padding-left: 0; }
+.terms {
+    padding-left: 0;
+    columns: 5;
+
+}
 .post-nav {
   margin: .5em 0;
   display: flex;
