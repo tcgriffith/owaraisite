@@ -14,4 +14,4 @@ index: false
 
 [owaraipedia 入口](https://owaraipedia.netlify.com/)
 
-<iframe height=350 width=100% src="http://www.fantasy.tv/videoAd/videoAd.html?id=475643&channelId=1516612319011&code=f9187d7ebb9fce44ee9171111a69ebc4" frameborder=0 "allowfullscreen"></iframe>
+<iframe src="//player.bilibili.com/player.html?aid=30574862&cid=53358135&page=1" scrolling="no" border="0" frameborder="no" framespacing="0" allowfullscreen="true"> </iframe>
