@@ -6,23 +6,7 @@ noedit: true
 index: false
 ---
 
-<style type="text/css">
-    .resp-container {
-        position: relative;
-        overflow: hidden;
-        padding-top: 56.25%;
-    }
 
-    .testiframe {
-        position: absolute;
-        top: 0;
-        left: 0;
-        width: 100%;
-        height: 100%;
-        border: 0;
-    }
-
-</style>
 
 
 > 施工中
@@ -32,6 +16,17 @@ index: false
 欢迎贡献力量~
 
 [owaraipedia 入口](https://owaraipedia.netlify.com/)
+
+
+
+<div class ="resp-container">
+<!--     <iframe class="testiframe" src="//player.bilibili.com/player.html?aid=30574862"", scrolling="no", allowfullscreen="true" > </iframe> -->
+    <iframe class="testiframe" src="https://www.fantasy.tv/videoAd/videoAd.html?id=2103781&channelId=0&code=ca34560415ad6cfe3e885a228c21dc55" frameborder=0 allowfullscreen allowfullscreen="true" >
+    </iframe>
+
+
+</div>
+
 
 <!-- <div class ="resp-container">
 <iframe class="testiframe" src="//player.bilibili.com/player.html?aid=30574862"", scrolling="no", allowfullscreen="true" > </iframe>
