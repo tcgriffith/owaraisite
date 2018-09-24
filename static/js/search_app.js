@@ -6,11 +6,18 @@ var index = client.initIndex('owaraiclub_search');
 
 
 index.setSettings({
-  searchableAttributes: [
-    'brand',
-    'name',
-    'categories',
-    'unordered(description)',
+  // searchableAttributes: [
+  //   'title',
+  //   'brief',
+  //   'tags',
+
+
+  // ],
+  attributesToHighlight: [
+    'content',
+    'description',
+    'title',
+    'brief'
   ],
   customRanking: ['desc(popularity)'],
 });
@@ -46,9 +53,11 @@ search.addWidget(
 // Add this after the other search.addWidget() calls
 search.addWidget(
   instantsearch.widgets.pagination({
-    container: '#pagination'
+    container: '#pagination',
   })
 );
+
+
 
 // Add this after all the search.addWidget() calls
 search.start();
