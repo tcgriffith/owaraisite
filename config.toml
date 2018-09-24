@@ -37,13 +37,17 @@ enableGitInfo = true
     url = "/post/"
     weight = 1
 [[menu.top]]
-    name = "专栏"
+    name = "合集"
     url = "/matome/"
     weight = 2
 [[menu.top]]
+    name = "拾遗"
+    url = "/lost_found/"
+    weight = 3
+[[menu.top]]
     name = "分部"
     url = "/subteams/"
-    weight = 3
+    weight = 4
 [[menu.top]]
     name = "标签"
     url = "/tags/"
