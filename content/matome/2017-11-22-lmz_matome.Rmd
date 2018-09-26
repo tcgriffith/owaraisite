@@ -2,7 +2,7 @@
 title: 莱姆籽的爆笑经典漫才合集
 author: 莱姆籽
 date: '2017-11-22'
-slug: neta_matome_lmz
+slug: neta-matome-lmz
 categories:
   - 莱姆籽
 tags:
