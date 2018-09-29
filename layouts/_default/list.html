@@ -82,9 +82,12 @@
         </div>
     </div>
     {{ else }}
-      {{ $img := findRE "http.*(png|jpg)" .Content 1 }}
-        <div class="thumbnail hovereffect", id = "imgholder">
-        <img data-src={{print .}} />
+      {{ $img := findRE "http.*?(png|jpg)" .Content 1 }}
+
+      {{ range $img }}
+        <div class="thumbnail hovereffect">
+          <img data-src={{print .}} />
+      {{ end }}  
 
     {{ end }}
 
@@ -124,6 +127,7 @@
 
 [].forEach.call(document.querySelectorAll('img[data-src]'),    function(img) {
   img.setAttribute('src', img.getAttribute('data-src'));
+  console.log(img.getAttribute('data-src'))
   img.onload = function() {
     img.removeAttribute('data-src');
   };
