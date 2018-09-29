@@ -14,13 +14,6 @@
   {{ range .Site.Menus.top }}
   <li><a href="{{ .URL | relURL }}"><span data-hover="{{ .Name }}">{{ .Name }}</span></a></li>
   {{ end }}
-  <li>
-  <a href="/search_page.html">
-    <span class="hidden-sm hidden-md hidden-lg">{{ i18n "gcseLabelShort" }}</span> <span id="searchGlyph" class="glyphicon glyphicon-search"></span>
-  </a>
-</li>
-
-
 
 </ul>
 </div>

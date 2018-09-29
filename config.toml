@@ -66,6 +66,12 @@ disablePathToLower = true
     url = "/wiki/"
     weight = 11
 
+[[menu.top]]
+    name = "搜索"
+    url = "/search_page.html"
+    weight = 12
+
+
 
 [params]
     description = "笑神本部"
