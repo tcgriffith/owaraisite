@@ -1,5 +1,9 @@
 # Recent changes
 
+## 2018-09-28
+
+- lazy load images
+
 ## 2018-08-15
 
 - added [algolia search](https://www.algolia.com/doc/tutorials/), detailed ideas stole from [this blog post](https://blog.qikqiak.com/post/hugo-integrated-algolia-search/) (actually this is done in April)
