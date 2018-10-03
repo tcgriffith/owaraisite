@@ -706,7 +706,8 @@ tr:nth-child(even) { background: #eee }
   /*border-left: 1px solid #e6ad00;*/
   /*border-right: 1px solid #fff;*/
   transition: background .5s;
-  padding: 5px 1em 5px 1em;
+  /*padding: 5px 1em 5px 1em;*/
+  padding: 0.7em;
   font-weight: bolder;
   align-items: center;
   z-index:1;
