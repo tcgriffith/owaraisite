@@ -7,9 +7,11 @@ index: false
 
 **最近更新:**
 
-- 伦心组的国庆七天乐(￣▽￣)
+- M-1 准决赛啦， 更新了由[克罗斯]() (还有叔叔) 带来的一系列三回战段子，请欣赏
 
-- 收录了[hitori字幕组](/categories/hitori%E5%AD%97%E5%B9%95%E7%BB%84/)的作品，感谢[@sclarkca_](https://space.bilibili.com/764931/#/) ヾ(￣▽￣)
+<!-- - 伦心组的国庆七天乐(￣▽￣)
+
+- 收录了[hitori字幕组](/categories/hitori%E5%AD%97%E5%B9%95%E7%BB%84/)的作品，感谢[@sclarkca_](https://space.bilibili.com/764931/#/) ヾ(￣▽￣) -->
 
 
 
