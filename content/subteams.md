@@ -9,6 +9,7 @@ author:
   - 来一发就走字幕组
   - 大喜利王字幕组
   - 4431字幕组
+  - 风物诗字幕组
 displayauthor: false
 index: false
 ---
@@ -37,7 +38,7 @@ index: false
 <script src="/js/particle.js"></script>
 <!-- stats - count particles -->
 
- 本站由**伦敦之心**，**大喜利王**，**4431** 和**来一发就走**四个字幕组共同维护的日综发布站，旨在发布，整合，梳理各日综字幕组作品，~~同时避免被河蟹~~ 希望大家喜欢。
+ 本站由**伦敦之心**，**大喜利王**，**4431**，**来一发就走**，风物诗五个字幕组共同维护的日综发布站，旨在发布，整合，梳理各日综字幕组作品，~~同时避免被河蟹~~ 希望大家喜欢。
 
  点击下面字幕组LOGO即可浏览对应字幕组的所有作品ﾍ(=￣∇￣)ﾉ
 
@@ -50,13 +51,17 @@ index: false
 
     <td><a href=/categories/来一发就走字幕组/> <img class="team-img" src=https://tva2.sinaimg.cn/crop.0.0.100.100.180/006quAfWjw8f3wjbpu00mj302s02sq2v.jpg></a></td>
 
+<!-- </tr>
+
+<tr> -->
     <td><a href=/categories/大喜利王字幕组/> <img class="team-img" src=https://tva1.sinaimg.cn/crop.13.0.613.613.180/006g7LSRjw8f9ngkuprifj30hs0h1t9h.jpg></a></td>
 
     <td><a href=/categories/4431字幕组/> <img class="team-img" src="/img/logo_4431_min.png"></a></td>
 
+    <td><a href=/categories/风物诗字幕组/> <img class="team-img" src="/img/fuubutsushi.jpg"></a></td>
+
 
 </tr>
-
 
 
 </tbody>
