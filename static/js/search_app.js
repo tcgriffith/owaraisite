@@ -6,13 +6,14 @@ var index = client.initIndex('owaraiclub_search');
 
 
 index.setSettings({
-  // searchableAttributes: [
-  //   'title',
-  //   'brief',
-  //   'tags',
+  searchableAttributes: [
+    'title',
+    'brief',
+    'tags',
+    'categories'
 
 
-  // ],
+  ],
   attributesToHighlight: [
     'content',
     'description',
