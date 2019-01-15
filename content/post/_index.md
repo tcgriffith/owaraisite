@@ -5,6 +5,36 @@ index: false
 # 公告板
 {{< now >}}
 
+笑神本部成员新加入[hitori字幕组](https://space.bilibili.com/764931/)和[水曜侦探事务所(仮)](https://space.bilibili.com/2916169/)
+
+感谢支持～
+
+<table class="subteams">
+<tbody>
+
+<tr>
+    <td><a href=/categories/伦敦之心字幕组/> <img class="team-img" src=/img/logo_lh_square.jpg></a></td>
+
+    <td><a href=/categories/来一发就走字幕组/> <img class="team-img" src=https://tva2.sinaimg.cn/crop.0.0.100.100.180/006quAfWjw8f3wjbpu00mj302s02sq2v.jpg></a></td>
+
+<!-- </tr>
+
+<tr> -->
+    <td><a href=/categories/大喜利王字幕组/> <img class="team-img" src=https://tva1.sinaimg.cn/crop.13.0.613.613.180/006g7LSRjw8f9ngkuprifj30hs0h1t9h.jpg></a></td>
+
+    <td><a href=/categories/4431字幕组/> <img class="team-img" src="/img/logo_4431_min.png"></a></td>
+
+    <td><a href=/categories/风物诗字幕组/> <img class="team-img" src="/img/fuubutsushi.jpg"></a></td>
+    <td><a href=/categories/水曜侦探事务所仮/> <img class="team-img" src="https://i.imgur.com/WCycNS5.jpg"></a></td>
+    <td><a href=/categories/hitori字幕组/> <img class="team-img" src="https://i.imgur.com/rCUlVTt.jpg"></a></td>
+
+</tr>
+
+</tbody>
+</table>
+
+
+<!-- 
 NGT48成员山口真帆为遇袭事件鞠躬道歉。
 
 [正义路人整理的事件始末](https://i.imgur.com/jCS0CXZ.jpg)
@@ -13,7 +43,7 @@ NGT48成员山口真帆为遇袭事件鞠躬道歉。
 
 [有条件的小伙伴可以参与此请愿支持她](https://www.change.org/p/%E4%BB%8A%E6%9D%91%E6%82%A6%E9%83%8E-ngt48%E3%82%B0%E3%83%AB%E3%83%BC%E3%83%97%E4%BB%8A%E6%9D%91%E6%94%AF%E9%85%8D%E4%BA%BA%E3%81%AE%E8%BE%9E%E8%81%B7%E3%81%A8%E9%81%8B%E5%96%B6%E3%82%B9%E3%82%BF%E3%83%83%E3%83%95%E3%81%AB%E5%85%AC%E5%BC%8F%E3%81%AA%E5%A0%B4%E3%81%A7%E3%81%AE%E8%AC%9D%E7%BD%AA%E3%82%92%E6%B1%82%E3%82%81%E3%81%BE%E3%81%99-7f45807a-850d-427b-9982-ba125a5eae3d?recruiter=928133723&utm_source=share_petition&utm_medium=twitter&utm_campaign=psf_combo_share_abi.pacific_email_copy_en_gb_4.v1.pacific_email_copy_en_us_3.control.pacific_email_copy_en_us_5.v1.pacific_post_sap_share_gmail_abi.gmail_abi.lightning_2primary_share_options_more.variant&utm_term=psf_combo_share_abi.pacific_email_copy_en_gb_4.v1.pacific_email_copy_en_us_5.v1.pacific_email_copy_en_us_3.control.pacific_post_sap_share_gmail_abi.gmail_abi.lightning_2primary_share_options_more.control)
 
-谢谢！
+谢谢！ -->
 
 <!-- **最近更新:** -->
 
