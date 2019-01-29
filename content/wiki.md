@@ -15,7 +15,7 @@ index: false
 
 欢迎贡献力量~
 
-[owaraipedia 入口](https://github.com/tcgriffith/owarai_wiki/wiki)
+[owaraipedia 入口](https://owaraipedia.netlify.com/)
 
 
 

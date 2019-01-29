@@ -63,7 +63,7 @@ disablePathToLower = true
 
 [[menu.top]]
     name = "百科"
-    url = "/wiki/"
+    url = "https://owaraipedia.netlify.com/"
     weight = 11
 
 [[menu.top]]

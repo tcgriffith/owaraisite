@@ -60,10 +60,7 @@ index: false
 
     <td><a href=/categories/4431字幕组/> <img class="team-img" src="/img/logo_4431_min.png"></a></td>
 
-</tr>
 
-
-<tr>
     <td><a href=/categories/风物诗字幕组/> <img class="team-img" src="/img/fuubutsushi.jpg"></a></td>
     <td><a href=/categories/水曜侦探事务所仮/> <img class="team-img" src="https://i.imgur.com/WCycNS5.jpg"></a></td>
     <td><a href=/categories/hitori字幕组/> <img class="team-img" src="https://i.imgur.com/rCUlVTt.jpg"></a></td>

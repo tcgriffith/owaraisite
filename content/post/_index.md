@@ -5,9 +5,11 @@ index: false
 # 公告板
 {{< now >}}
 
+<!-- 
+
 笑神本部成员新加入[hitori字幕组](https://space.bilibili.com/764931/)和[水曜侦探事务所(仮)](https://space.bilibili.com/2916169/)
 
-感谢支持～
+感谢支持～ -->
 
 <table class="subteams">
 <tbody>
