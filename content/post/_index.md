@@ -5,6 +5,14 @@ index: false
 # 公告板
 {{< now >}}
 
+
+<!-- <link rel="stylesheet" href="/css/screen.css"> -->
+
+
+<!-- <link rel="stylesheet" href="//maxcdn.bootstrapcdn.com/font-awesome/4.3.0/css/font-awesome.min.css"> -->
+
+
+
 <!-- 
 
 笑神本部成员新加入[hitori字幕组](https://space.bilibili.com/764931/)和[水曜侦探事务所(仮)](https://space.bilibili.com/2916169/)
@@ -19,9 +27,6 @@ index: false
 
     <td><a href=/categories/来一发就走字幕组/> <img class="team-img" src=https://tva2.sinaimg.cn/crop.0.0.100.100.180/006quAfWjw8f3wjbpu00mj302s02sq2v.jpg></a></td>
 
-<!-- </tr>
-
-<tr> -->
     <td><a href=/categories/大喜利王字幕组/> <img class="team-img" src=https://tva1.sinaimg.cn/crop.13.0.613.613.180/006g7LSRjw8f9ngkuprifj30hs0h1t9h.jpg></a></td>
 
     <td><a href=/categories/4431字幕组/> <img class="team-img" src="/img/logo_4431_min.png"></a></td>
