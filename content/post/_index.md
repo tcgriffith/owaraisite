@@ -5,6 +5,7 @@ index: false
 # 公告板
 {{< now >}}
 
+# 伦敦之心字幕组粉丝群，催更请戳 459273694
 
 <!-- <link rel="stylesheet" href="/css/screen.css"> -->
 
