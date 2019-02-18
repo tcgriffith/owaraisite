@@ -7,10 +7,9 @@ author:
   - 来一发就走字幕组
   - 大喜利王字幕组
   - 4431字幕组
-  - 莱姆梓
-  - 疾风
-  - 九条
-  - らみぱす
+  - 风物诗字幕组
+  - hitori字幕组
+  - 水曜侦探事务所(仮)
 displayauthor: false
 noedit: true
 nodate: true
@@ -18,4 +17,4 @@ index: false
 ---
 
 
-
+<!-- {{< members >}} -->

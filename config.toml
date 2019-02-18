@@ -22,10 +22,6 @@ disablePathToLower = true
     weight = 6
 
 [[menu.main]]
-    name = "成员简介"
-    url = "/fansub/"
-    weight = 2
-[[menu.main]]
     name = "转载规则"
     url = "/rules/"
     weight = 3
