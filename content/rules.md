@@ -14,3 +14,5 @@ index: false
 ● 禁止以任何形式外传到YouTube, Twitter, Facebook, Instagram等外网。
 
 ● 禁止二改。
+
+● 禁止二传B站
