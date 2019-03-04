@@ -2,10 +2,39 @@
 index: false
 ---
 
-# 公告板
+
+<table class="subteams">
+<tbody>
+
+<tr>
+    <td><a href=/categories/伦敦之心字幕组/> <img class="team-img" src=/img/logo_lh_square.jpg></a></td>
+
+    <td><a href=/categories/来一发就走字幕组/> <img class="team-img" src=https://tva2.sinaimg.cn/crop.0.0.100.100.180/006quAfWjw8f3wjbpu00mj302s02sq2v.jpg></a></td>
+
+    <td><a href=/categories/大喜利王字幕组/> <img class="team-img" src=https://tva1.sinaimg.cn/crop.13.0.613.613.180/006g7LSRjw8f9ngkuprifj30hs0h1t9h.jpg></a></td>
+
+    <td><a href=/categories/4431字幕组/> <img class="team-img" src="/img/logo_4431_min.png"></a></td>
+
+
+    <td><a href=/categories/风物诗字幕组/> <img class="team-img" src="/img/fuubutsushi.jpg"></a></td>
+    <td><a href=/categories/水曜侦探事务所仮/> <img class="team-img" src="https://i.imgur.com/poy2685.jpg"></a></td>
+    <td><a href=/categories/hitori字幕组/> <img class="team-img" src="https://i.imgur.com/rCUlVTt.jpg"></a></td>
+    <td><a href=/categories/6222C字幕组/> <img class="team-img" src="https://i.imgur.com/uWbz5d9.jpg"></a></td>
+
+</tr>
+
+</tbody>
+</table>
+
+# Hello ヾ(￣▽￣) 
 {{< now >}}
 
-补了一下M-1的段子，[看这里](/lost_found/190226-NA-m1/)
+
+- 新加入 6222C字幕组，和牛专属字幕组，欢迎～ 快看上面一排最右边的蛋蛋！
+- 用来补档的视频平台好像又跑路了…补了的神舌全跪，可能大家又得网盘见了
+
+
+<!-- 补了一下M-1的段子，[看这里](/lost_found/190226-NA-m1/) -->
 
 <!-- # 伦敦之心字幕组粉丝群，催更请戳 459273694 -->
 
@@ -22,26 +51,6 @@ index: false
 
 感谢支持～ -->
 
-<table class="subteams">
-<tbody>
-
-<tr>
-    <td><a href=/categories/伦敦之心字幕组/> <img class="team-img" src=/img/logo_lh_square.jpg></a></td>
-
-    <td><a href=/categories/来一发就走字幕组/> <img class="team-img" src=https://tva2.sinaimg.cn/crop.0.0.100.100.180/006quAfWjw8f3wjbpu00mj302s02sq2v.jpg></a></td>
-
-    <td><a href=/categories/大喜利王字幕组/> <img class="team-img" src=https://tva1.sinaimg.cn/crop.13.0.613.613.180/006g7LSRjw8f9ngkuprifj30hs0h1t9h.jpg></a></td>
-
-    <td><a href=/categories/4431字幕组/> <img class="team-img" src="/img/logo_4431_min.png"></a></td>
-
-    <td><a href=/categories/风物诗字幕组/> <img class="team-img" src="/img/fuubutsushi.jpg"></a></td>
-    <td><a href=/categories/水曜侦探事务所仮/> <img class="team-img" src="https://i.imgur.com/poy2685.jpg"></a></td>
-    <td><a href=/categories/hitori字幕组/> <img class="team-img" src="https://i.imgur.com/rCUlVTt.jpg"></a></td>
-
-</tr>
-
-</tbody>
-</table>
 
 
 <!-- 
