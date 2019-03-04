@@ -2,7 +2,7 @@
 title: 字幕组探班系列 - 4431突击访谈
 author: 疾风
 date: '2017-11-23'
-slug: shushu-blablabla
+slug: 2017-11-23-shushu-blablabla
 categories:
   - 疾风
 tags: 

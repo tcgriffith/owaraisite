@@ -5,7 +5,7 @@ zmz: 大喜利王字幕组
 publishdate: '2001-01-03'
 bangumi: 其他
 date: '2018-11-09'
-slug: 20181109-NA-1971270
+slug: 2018-11-09-baka_drama
 description: 其他&#8226;NA
 weight: 1
 bangumis:

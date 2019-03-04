@@ -6,7 +6,7 @@ publishdate: '2017-10-01'
 bangumi: 博客
 bangumis: 
   - 博客
-slug: markdowndoc
+slug: 2017-09-30-2017-09-30-markdowndoc
 categories: 
   - 疾风
   - 莱姆籽
@@ -93,12 +93,12 @@ ___
 ### 链接
 
 ```
-[点击就送屠龙宝刀](http://127.0.0.1:4321/blog/markdowndoc/)
+[点击就送屠龙宝刀](http://127.0.0.1:4321/blog/2017-09-30-2017-09-30-markdowndoc/)
 ```
 
 ↓
 
-[点击就送屠龙宝刀](http://127.0.0.1:4321/blog/markdowndoc/)
+[点击就送屠龙宝刀](http://127.0.0.1:4321/blog/2017-09-30-2017-09-30-markdowndoc/)
 
 
 ### 贴图:
