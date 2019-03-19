@@ -1,5 +1,9 @@
 # Recent changes
 
+## 2019-03-18
+
+- manually load comments
+
 ## 2018-09-28
 
 - lazy load images
