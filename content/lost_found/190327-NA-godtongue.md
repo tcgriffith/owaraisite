@@ -32,4 +32,4 @@ brief: "拾遗 补一下神舌"
 
 **解压密码:**
 
-`owaraiclub.com`
+`owaraiclub`
