@@ -3,8 +3,6 @@ title: JARU JARU TOWER
 author: 今天鱼
 bangumis: 
   - 笑神推荐
-bangumis:
-  - 合集
 description: 其他&#8226;NA
 nodate: true
 ---
