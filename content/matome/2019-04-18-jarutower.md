@@ -12,6 +12,13 @@ nodate: true
 
 |  id|TITLE                                             |UPDATE     |link                                                   |
 |---:|:-------------------------------------------------|:----------|:------------------------------------------------------|
+| 363|问错人的家伙                                      |2019-04-26 |[去B站观看](https://www.bilibili.com/video/av49932036) |
+|  68|不相信朋友的家伙                                  |2019-04-22 |[去B站观看](https://www.bilibili.com/video/av49653767) |
+| 487|看轻浮男番长段子的家伙PART.26                     |2019-04-21 |[去B站观看](https://www.bilibili.com/video/av49166934) |
+| 496|看轻浮男番长段子的家伙PART.28                     |2019-04-20 |[去B站观看](https://www.bilibili.com/video/av49645073) |
+| 489|在咖啡馆点运动饮料的家伙                          |2019-04-20 |[去B站观看](https://www.bilibili.com/video/av49163165) |
+| 485|看轻浮男番长段子的家伙PART.25                     |2019-04-19 |[去B站观看](https://www.bilibili.com/video/av49049712) |
+|  67|用头劈瓦片的家伙                                  |2019-04-18 |[去B站观看](https://www.bilibili.com/video/av49014445) |
 | 469|感受到与师匠代沟的家伙                            |2019-04-18 |[去B站观看](https://www.bilibili.com/video/av48650747) |
 | 364|想到小段子就把别人叫出来的家伙                    |2019-04-17 |[去B站观看](https://www.bilibili.com/video/av48466365) |
 | 366|说「诶诶ー诶」的家伙                              |2019-04-16 |[去B站观看](https://www.bilibili.com/video/av48455932) |
