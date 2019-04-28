@@ -3,6 +3,8 @@ title: JARU JARU TOWER
 author: 今天鱼
 bangumis: 
   - 笑神推荐
+bangumis:
+  - 合集
 description: 其他&#8226;NA
 nodate: true
 ---
@@ -12,6 +14,7 @@ nodate: true
 
 |  id|TITLE                                             |UPDATE     |link                                                   |
 |---:|:-------------------------------------------------|:----------|:------------------------------------------------------|
+| 498|给不来上学的学生看盆栽的家伙                      |2019-04-27 |[去B站观看](https://www.bilibili.com/video/av49959973) |
 | 363|问错人的家伙                                      |2019-04-26 |[去B站观看](https://www.bilibili.com/video/av49932036) |
 |  68|不相信朋友的家伙                                  |2019-04-22 |[去B站观看](https://www.bilibili.com/video/av49653767) |
 | 487|看轻浮男番长段子的家伙PART.26                     |2019-04-21 |[去B站观看](https://www.bilibili.com/video/av49166934) |
