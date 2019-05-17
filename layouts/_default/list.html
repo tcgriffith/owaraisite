@@ -82,7 +82,7 @@
         </div>
     </div>
     {{ else }}
-      {{ $img := findRE "http.*?(png|jpg)" .Content 1 }}
+      {{ $img := findRE "http.*(png|jpg)" .Content 1 }}
 
       {{ range $img }}
         <div class="thumbnail hovereffect">
