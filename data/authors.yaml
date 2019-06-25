@@ -11,18 +11,6 @@ list:
   - name: 4431字幕组
     image: /img/logo_4431_min.png
     intro: 主推奥黛丽，墙头众多的个人字幕，制作各种up主喜欢的综艺，漫才短剧w 奥黛丽粉丝交流群： 141864747
-  - name: 疾风
-    image: https://i.imgur.com/2NLJP8V.jpg
-    intro: 坐标土澳，天天吃土，职业学生，喜欢折腾代码和网站，宅，懒，生活懒散，常常对工作效率过于乐观导致一直赶DL，屡教不改。炉石最高打到6级，steam常常喜+1，dota的话是一条两千分咸鱼。
-  - name: 莱姆籽
-    image: https://i.imgur.com/69kXh0u.png
-    intro: 出没于多个日综字幕组的大佬，活好声甜的00后B站网红UP主，高贵冷艳的macbook用户，据说喜欢星野源，是一只[INTJ](https://www.16personalities.com/intp-personality)。
-  - name: 九條
-    image: https://i.imgur.com/35qcgjw.png
-    intro: 新人up主请多关照
-  - name: らみぱす
-    image: https://i.imgur.com/UC5u4SC.png
-    intro: 职业是偶像，美妆博主，和唱伦心的OP
   - name: 风物诗字幕组
     image: /img/fuubutsushi.jpg
     intro: 主推Rahmens/Speed Wagon，用爱发电，水平有限，偶尔做Ametalk和本命上的综艺，如果有错误请务必指正m(_ _)m 字幕组群：123784839 Rahmens粉丝群：174581107 SPW粉丝群：759704914
@@ -44,3 +32,21 @@ list:
   - name: 翅膀包工队字幕组
     image: https://i.imgur.com/XGrAVbR.jpg
     intro: 目前本命 山崎育三郎/重冈大毅/exile旺财/众多搞笑艺人 不爱撕逼爱安利。挑事弹幕直接删。
+  - name: OWALIAR字幕组
+    image: https://i.imgur.com/tVEzf7O.jpg
+    intro: 【求校对】日语上手/了解NPB的朋友速速私信 救救up吧！
+  - name: 永远的新规
+    image: https://i.imgur.com/FYTe89X.jpg
+    intro: 日语很差，随便做做，特别特别特别粗心，欢迎捉虫
+  # - name: 疾风
+  #   image: https://i.imgur.com/2NLJP8V.jpg
+  #   intro: 坐标土澳，天天吃土，职业学生，喜欢折腾代码和网站，宅，懒，生活懒散，常常对工作效率过于乐观导致一直赶DL，屡教不改。炉石最高打到6级，steam常常喜+1，dota的话是一条两千分咸鱼。
+  # - name: 莱姆籽
+  #   image: https://i.imgur.com/69kXh0u.png
+  #   intro: 出没于多个日综字幕组的大佬，活好声甜的00后B站网红UP主，高贵冷艳的macbook用户，据说喜欢星野源，是一只[INTJ](https://www.16personalities.com/intp-personality)。
+  # - name: 九條
+  #   image: https://i.imgur.com/35qcgjw.png
+  #   intro: 新人up主请多关照
+  # - name: らみぱす
+  #   image: https://i.imgur.com/UC5u4SC.png
+  #   intro: 职业是偶像，美妆博主，和唱伦心的OP

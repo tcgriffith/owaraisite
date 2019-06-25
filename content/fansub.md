@@ -10,7 +10,7 @@ author:
   - 风物诗字幕组
   - hitori字幕组
   - 水曜侦探事务所(仮)
-displayauthor: false
+noauthor: true
 noedit: true
 nodate: true
 index: false
@@ -18,3 +18,4 @@ index: false
 
 
 <!-- {{< members >}} -->
+{{< members >}}

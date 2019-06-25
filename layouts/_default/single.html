@@ -28,7 +28,7 @@
 
   <div class = "article-meta-authordate">
 
-      {{ if not .Params.displayauthor }}
+      {{ if .Params.noauthor }}
       {{ else }}
         {{ if .Params.author }}
         <h3 class="author">{{ partial "author_names.html" . }}</h3>
@@ -60,7 +60,7 @@
 {{ .Content }}
 </main>
 
-{{ if .Params.noprofile }}
+{{ if .Params.noauthor }}
 
 {{ else }}
 {{ partial "author.html" . }}
