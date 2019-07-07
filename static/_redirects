@@ -2,4 +2,8 @@ http://owarai.netlify.com/* http://owaraiclub.com/:splat  301!
 https://owarai.netlify.com/* http://owaraiclub.com/:splat  301!
 /post/neta_matome_lmz /matome/neta_matome_lmz
 
-/search_page https://tctest2.github.io/search_page 302 Country=cn
+# /search_page https://tctest2.github.io/search_page 302 Country=cn
+
+# redirect users in china to github pages
+
+/ https://tctest2.github.io/ 302 Country=cn
