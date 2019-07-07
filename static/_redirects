@@ -6,4 +6,4 @@ https://owarai.netlify.com/* http://owaraiclub.com/:splat  301!
 
 # redirect users in china to github pages
 
-/* https://tctest2.github.io/:splat 302 Country=cn
+# /* https://tctest2.github.io/:splat 302 Country=cn
