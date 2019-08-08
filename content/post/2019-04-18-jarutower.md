@@ -5,7 +5,7 @@ bangumis:
   - 笑神推荐
 description: 其他&#8226;NA
 weight: 1.0
-date: 2019-08-01
+date: 2019-08-08
 nodate: true
 desc: "JARUJARU自称拥有8000个段子，现在以「JARU JARU TOWER」的形式在公式HP和油管每天更新一个。更新一次即是加建一层，居民则是短剧角色：由JARUJARU扮演的奇怪的人。距离「JARU JARU TOWER」建成8000层的2039年11月7日还有二十年。"
 ---
@@ -179,6 +179,7 @@ desc: "JARUJARU自称拥有8000个段子，现在以「JARU JARU TOWER」的形�
 | 223|得到父爱而长大的家伙                              |2019-03-19 |[去B站观看](https://www.bilibili.com/video/av46643503) |
 | 222|没有父爱而长大的家伙                              |2019-03-18 |[去B站观看](https://www.bilibili.com/video/av46581162) |
 | 154|两个人一起上课的家伙                              |2019-04-01 |[去B站观看](https://www.bilibili.com/video/av47701062) |
+|  81|对奇怪的家伙轻易说出奇怪的家伙的家伙              |2019-08-07 |[去B站观看](https://www.bilibili.com/video/av62581254) |
 |  68|不相信朋友的家伙                                  |2019-04-22 |[去B站观看](https://www.bilibili.com/video/av49653767) |
 |  67|用头劈瓦片的家伙                                  |2019-04-18 |[去B站观看](https://www.bilibili.com/video/av49014445) |
 |  66|对六点开始的补习班忧心忡忡的家伙                  |2019-04-10 |[去B站观看](https://www.bilibili.com/video/av48678507) |
