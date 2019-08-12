@@ -29,7 +29,9 @@ index: false
 # ヾ(￣▽￣) 
 {{< now >}}
 
-新加入 [OWALIAR字幕组](https://space.bilibili.com/1878868) 和 [永远的新规字幕组](https://space.bilibili.com/2092340)，欢迎～
+新加入推镰鼬的[Notti桑](/categories/鎌鼬字幕/)，欢迎~
+
+<!-- 新加入 [OWALIAR字幕组](https://space.bilibili.com/1878868) 和 [永远的新规字幕组](https://space.bilibili.com/2092340)，欢迎～ -->
 
 
 

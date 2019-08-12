@@ -64,7 +64,7 @@ disablePathToLower = true
 
 [[menu.top]]
     name = "搜索"
-    url = "/search_page.html"
+    url = "/search/"
     weight = 12
 
 
