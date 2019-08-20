@@ -29,11 +29,13 @@ index: false
 # ヾ(￣▽￣) 
 {{< now >}}
 
+- [Engei 190817](/tags/engei190817)
+
 - 新加入推镰鼬的[Notti桑](/categories/鎌鼬字幕/)，欢迎~
 
-- 重做搜索页，主要是与主站风格保持一致
+<!-- - 重做搜索页，主要是与主站风格保持一致 -->
 
-- 用了一段时间cloudflare加速 然而好像国内依然很卡hhhh
+<!-- - 用了一段时间cloudflare加速 然而好像国内依然很卡hhhh -->
 
 <!-- 新加入 [OWALIAR字幕组](https://space.bilibili.com/1878868) 和 [永远的新规字幕组](https://space.bilibili.com/2092340)，欢迎～ -->
 
