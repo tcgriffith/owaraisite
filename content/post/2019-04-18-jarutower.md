@@ -5,7 +5,7 @@ bangumis:
   - 笑神推荐
 description: 其他&#8226;NA
 weight: 1.0
-date: 2019-08-19
+date: 2019-08-20
 nodate: true
 desc: "JARUJARU自称拥有8000个段子，现在以「JARU JARU TOWER」的形式在公式HP和油管每天更新一个。更新一次即是加建一层，居民则是短剧角色：由JARUJARU扮演的奇怪的人。距离「JARU JARU TOWER」建成8000层的2039年11月7日还有二十年。"
 ---
