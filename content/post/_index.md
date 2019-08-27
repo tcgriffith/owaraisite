@@ -29,6 +29,8 @@ index: false
 # ヾ(￣▽￣) 
 {{< now >}}
 
+- [补了下ippon](/lost_found/190725_na_ippon/)
+
 - [Engei 190817](/tags/engei190817)
 
 - 新加入推镰鼬的[Notti桑](/categories/鎌鼬字幕/)，欢迎~
