@@ -29,7 +29,7 @@ index: false
 # ヾ(￣▽￣) 
 {{< now >}}
 
-- [补了下ippon](/lost_found/190725_na_ippon/)
+- [补了下ippon](/lost_found/190725_NA_IPPON/)
 
 - [Engei 190817](/tags/engei190817)
 
