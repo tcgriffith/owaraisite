@@ -2,6 +2,10 @@
   display: none;
 }
 
+#livereAd {
+  display: none !important; 
+}
+
 button{
   -webkit-transition-duration: 0.4s; /* Safari */
   transition-duration: 0.4s;
