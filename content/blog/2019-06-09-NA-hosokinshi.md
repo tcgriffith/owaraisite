@@ -32,7 +32,7 @@ brief: "# 简介 放送禁止"
 |:----|:----|:-----|
 |01 废楼连环失踪事件|[第一弹](http://www.diyidan.com/main/post/6295053995636865358/detail/1?channel=share)|[网盘链接](https://pan.baidu.com/s/1RRIbEFYZpWPdFZWy9cICaQ) 提取码：9HXL|
 |02 被诅咒的大家庭|[第一弹](http://www.diyidan.com/main/post/6295053995655654954/detail/1?channel=share)|[网盘链接](https://pan.baidu.com/s/1Mq4_1iT3KE29rR1rBo8l5Q) 提取码: xp6v|
-|03 跟踪狂地狱编|||
+|03 跟踪狂地狱编||[网盘链接](https://pan.baidu.com/s/1vR2PO8EXg4P6NkGtYq_SLA) q03s|
 |04 恐怖的邻里纠纷|||
 |05 自杀之村|||
 |06 DEATH LIMIT|||
