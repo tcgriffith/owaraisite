@@ -15,7 +15,7 @@ categories:
 brief: "# 简介 放送禁止"
 ---
 
-# 简介 
+
 
 ![](https://raw.githubusercontent.com/tcgriffith/owaraisite/master/static/tmpimg/hosokinshi.jpg)
 
@@ -26,15 +26,19 @@ brief: "# 简介 放送禁止"
 你看到真相了吗
 
 
-地址：
 
 |分集    |第一弹  |网盘 |
 |:----|:----|:-----|
 |01 废楼连环失踪事件|[第一弹](http://www.diyidan.com/main/post/6295053995636865358/detail/1?channel=share)|[网盘链接](https://pan.baidu.com/s/1RRIbEFYZpWPdFZWy9cICaQ) 提取码：9HXL|
 |02 被诅咒的大家庭|[第一弹](http://www.diyidan.com/main/post/6295053995655654954/detail/1?channel=share)|[网盘链接](https://pan.baidu.com/s/1Mq4_1iT3KE29rR1rBo8l5Q) 提取码: xp6v|
-|03 跟踪狂地狱编||[网盘链接](https://pan.baidu.com/s/1vR2PO8EXg4P6NkGtYq_SLA) q03s|
+|03 跟踪狂地狱编||[网盘链接](https://pan.baidu.com/s/1dT9-u-VboHPZb26vE1uV0g) q05k|
 |04 恐怖的邻里纠纷|||
-|05 自杀之村|||
+|05 诗人之村|||
 |06 DEATH LIMIT|||
 
 
+#### 相关资料
+
+[我们做了个放送禁止中文解析](http://fsjz.netlify.com)
+
+[B站UP主朝夕观影的解说](https://space.bilibili.com/3285014/video?keyword=%E6%94%BE%E9%80%81%E7%A6%81%E6%AD%A2)
