@@ -13,7 +13,7 @@
 
             <span class="date">{{ .PublishDate.Format "2006/01/02" }}</span>
 
-            <a href="{{ .URL }}">{{ .Title }}</a>
+            <a href="{{ .Permalink }}">{{ .Title }}</a>
 
                 {{ if gt (sub now.YearDay .Lastmod.YearDay) -5 }}
                 {{ if lt (sub now.YearDay .Lastmod.YearDay) 7 }}
@@ -27,7 +27,7 @@
           {{ range .Pages.ByPublishDate.Reverse }}
               <li>
                 <span class="date">{{ .PublishDate.Format "2006/01/02" }}</span>
-                <a href="{{ .URL }}">{{ .Title }}</a>
+                <a href="{{ .Permalink }}">{{ .Title }}</a>
 
 <!--             {{ if lt (sub now.YearDay .Lastmod.YearDay) 7 }}
                 <span class="last-modified">最近更新 {{ sub now.YearDay .Lastmod.YearDay }} </span>

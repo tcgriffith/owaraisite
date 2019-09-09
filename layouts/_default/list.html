@@ -73,7 +73,7 @@
   </div>
 
   <div class = "thumbblock hoverdiv">
-    <a href="{{ .URL }}">
+    <a href="{{ .Permalink }}">
     {{ with .Params.thumbnail }}
     <div class="thumbnail hovereffect"><img src="{{ relURL . }}" alt="Thumbnail" />
         <div class="overlay">
@@ -101,7 +101,7 @@
                 {{ end }}
               {{ $.Scratch.Get "summary" }}
            </h2>
-           <a class="info" href="{{ .URL }}">
+           <a class="info" href="{{ .Permalink }}">
            <!-- {{ .Title }} -->
            <!-- <br/> -->
            <span class="author">{{ partial "author_names.html" . }}</span>
@@ -113,12 +113,9 @@
 
   </div>
 
-
-  <!-- <h1><a href="{{ .URL }}">{{ .Title }}</a></h1> -->
   <div class="date-author">
-    <a href="{{ .URL }}">
+    <a href="{{ .Permalink }}">
     <span class = "smalltitle"><h3>{{ .Title }}</h3></span>
-    <!-- {{ if .Params.author }}<span class="author">{{ partial "author_names.html" . }}</span>  {{ end }} -->
     </a>
   </div>
 
