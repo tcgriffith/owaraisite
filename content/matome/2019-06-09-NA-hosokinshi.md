@@ -2,6 +2,7 @@
 title: 放送禁止系列
 author: 
     - 水清and疾风
+    - 风物诗字幕组
 zmz: 小水小风
 publishdate: '2001-01-03'
 bangumi: 其他
@@ -19,6 +20,7 @@ brief: "# 简介 放送禁止"
 
 ![](https://raw.githubusercontent.com/tcgriffith/owaraisite/master/static/tmpimg/hosokinshi.jpg)
 
+校对是风物诗字幕组的橙子小天使，感谢！
 
 
 放送禁止系列为不定期播放的推理作品，以“事实的堆叠未必能抵达真相”为宗旨，导演长江俊和以伪纪录片的形式记录了一个个“初看平常但细思恐极”的故事。
