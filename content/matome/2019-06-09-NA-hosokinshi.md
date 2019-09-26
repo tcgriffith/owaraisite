@@ -33,7 +33,7 @@ brief: "# 简介 放送禁止"
 |02 被诅咒的大家庭|[第一弹](http://www.diyidan.com/main/post/6295053995655654954/detail/1?channel=share)|[网盘](https://pan.baidu.com/s/1ZXkdXOu7Yllgu5oWL0ndfw) bp3e|
 |03 跟踪狂地狱编||[网盘](https://pan.baidu.com/s/1dT9-u-VboHPZb26vE1uV0g) q05k|
 |04 恐怖的邻里纠纷||[网盘](https://pan.baidu.com/s/1oFN9P9unvHtc5iDDBcs4jg) sfqz |
-|05 诗人之村|||
+|05 诗人之村||[网盘](https://pan.baidu.com/s/1cGNkyOsz5nAThhMTUN0htA) bv6x|
 |06 DEATH LIMIT|||
 
 
