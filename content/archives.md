@@ -12,4 +12,4 @@ index: false
 最近更新了站内搜索，点击导航栏的放大镜试试吧
 
 
-{{< archives >}}
+{{< archives_tbl >}}
