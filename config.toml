@@ -27,7 +27,7 @@ disablePathToLower = true
     weight = 3
 
 [[menu.top]]
-    name = "作品"
+    name = "全部"
     url = "/post/"
     weight = 1
 [[menu.top]]
@@ -51,7 +51,7 @@ disablePathToLower = true
     url = "/archives/"
     weight = 6
 [[menu.top]]
-    name = "留言"
+    name = "论坛"
     url = "https://d.owaraiclub.com/"
     weight = 10
 
