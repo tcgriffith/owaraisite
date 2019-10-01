@@ -73,6 +73,7 @@ disablePathToLower = true
     github_edit = "https://github.com/tcgriffith/owaraisite/blob/master/content/"
     footer = "Powered by [Hugo](https://gohugo.io/), [blogdown](https://github.com/rstudio/blogdown) & [netlify](https://www.netlify.com/) &copy; [OWARAICLUB](https://owarai.netlify.com/) 2017-2019"
     comment = true
+    mainBangumis = ["伦敦之心", "神舌", "ametalk"]
 
 [params.text]
     back = "&larr; 返回首页"
@@ -89,4 +90,3 @@ disablePathToLower = true
   tag = "tags"
   category = "categories"
   bangumi = "bangumis"
-

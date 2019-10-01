@@ -1,185 +1,49 @@
-<!DOCTYPE html>
-<html>
-<head>
+{{ partial "header.html" . }}
+<div class="container">
+    <main class="list">
+        <section class="landing legendary"> 
 
-<meta name="baidu-site-verification" content="DvLyyiejlf" />
-<!-- <link rel="stylesheet" href="{{ "/css/style.css" | relURL }}" /> -->
-<style>
-canvas {
-    position: absolute;
-    top: 0;
-    left: 0;
-    z-index: 0;
-}
-
-.info {
-    position: absolute;
-    top: 0;
-    left: 0;
-    padding: 5px 15px;
-    color: #eee;
-    font-size: 13px;
-    background-color: rgba(0, 0, 0, .5);
-}
-
-.logo{
-  animation-delay: 0.7s;
-  position: relative;
-  color: #eee;
-  vertical-align:middle;
-  /*border:solid white;*/
-  margin:auto;
-  /*border:solid;*/
-  /*width: min-content;*/
-    width: 20%;
-  /*text-align: center;*/
-  /*width:100%;*/
-  /*width:100%;*/
-
-  /*bottom:20%;*/
-  /*transform: scale(2);*/
-  /*text-align: center;*/
-/*  max-width: 1100px;
-  margin: auto;
-  padding: 0 15px;
-  top:50%;
-  left:50%;*/
-}
+          {{ .Content }}
 
 
-html, body {
-  margin: 0;
-  padding: 0;
-  line-height: 1.5em;
-  z-index:1;
-  text-align: center;
-}
+        </section>
 
+        <section class="landing epic">
 
-img{
-  transform: scale(2);
-   transition: .5s
-}
+          <h1>节目</h1>
 
-img:hover {
-    -webkit-filter: sepia(0);
-     filter: sepia(0);
-      -webkit-transform: scale(2.25);
-     transform: scale(2.25);
-    /*opacity: 0.5;*/
-    /*filter: alpha(opacity=50); /* For IE8 and earlier */
-     /*-webkit-filter: blur(5px);*/
-     /*opacity: .5;*/
-     /*-webkit-filter: grayscale(100%);*/
-     transition: .5s
-       /*display: inline-block;*/
-  /*vertical-align: middle;*/
+            {{ range first 10 (where .Site.RegularPages "Params.bangumi" "in" site.Params.mainBangumis) }}
+            <ul><a href="{{ .Permalink }}">{{ .Title }}</a></ul>
+            {{ end }}
 
+            <a href="/post/">查看更多</a>
+        </section>
+        <section class="landing rare"> 
 
+          <h1>段子</h1>
 
+          {{ range (where .Site.RegularPages "Section" "!=" "").GroupByParam "Bangumi" }}
 
-}
+            {{ if eq .Key "段子" }}
 
-.frontcontent{
-  position: relative;
-  color: #eee;
-  /*border:solid;*/
-  font-size: 1.5em;
+              {{ range first 10 .Pages  }}
+              <ul><a href="{{ .Permalink }}">{{ .Title }}</a></ul>
+              {{ end }}
 
-    margin: 10% auto;
-    /*width: 50%;*/
-    /*border: 3px solid green;*/
-    padding: 10px;
-  width: max-content;
-  animation-delay: 0.7s;
-}
+            {{ end }}
 
-.fade-in {
-    opacity: 0;
-    -webkit-animation: fadeIn ease-in 1;
-    animation: fadeIn ease-in 1;
-    -webkit-animation-fill-mode: forwards;
-    animation-fill-mode: forwards;
-    -webkit-animation-duration: 1s;
-    animation-duration: 1s;
-}
+          {{ end }}
+            <a href="/post/">查看更多</a>
+        </section>
 
-.fade-in.one {
-    -webkit-animation-delay: 0.7s;
-    animation-delay: 0.7s;
-}
+        <section class="landing common"> 
 
-.fade-in.two {
-    -webkit-animation-delay: 1.4s;
-    animation-delay: 1.4s;
-}
+          <h1>其他</h1>
+            {{ range first 10 (where .Site.RegularPages "Params.bangumi" "其他") }}
+            <ul><a href="{{ .Permalink }}">{{ .Title }}</a></ul>
+            {{ end }}
 
-@-webkit-keyframes fadeIn {
-    from {
-        opacity: 0
-    }
-
-    to {
-        opacity: 1
-    }
-}
-
-@keyframes fadeIn {
-    from {
-        opacity: 0
-    }
-
-    to {
-        opacity: 1
-    }
-}
-
-
-</style>
-</head>
-<body>
-
-
-
-<canvas id="c"></canvas>
-
-
-
-
-
-
-<section class="frontface">
-
-  <div class="frontcontent  fade-in one" id="sourrounding_div">
-
-    {{ .Content }}
-  </div>
-
-<div class="logo fade-in two">
-
-  <a  href="/post/">
-
-  <img src="/img/logo_lh_blue.svg" >
-
-  </a>
-
+            <a href="/post/">查看更多</a>
+        </section>
 </div>
-
-
-</section>
-
-
-
-
-
-
-
-
-<!-- <div class="info">Click to add gravity point.</div> -->
-
-<script src="{{ relURL "/js/datgui.js" }}"></script>
-<script src="{{ relURL "/js/particle_gravity.js" }}"></script>
-{{ template "_internal/google_analytics.html" . }}
-
-</body>
-</html>
+{{ partial "footer.html" . }}
