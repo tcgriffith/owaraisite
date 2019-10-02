@@ -52,9 +52,13 @@
 
 </div>
 
+<div class="sidenav">
+
 {{ if .Params.toc }}
 {{ .TableOfContents }}
 {{ end }}
+
+</div>
 
 <main>
 {{ .Content }}
@@ -74,6 +78,7 @@
 {{ else }}
 {{ partial "comments.html" . }}
 {{ end }}
+
 
 </article>
 </div>

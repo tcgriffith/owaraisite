@@ -1,0 +1,50 @@
+{{ partial "header.html" . }}
+<div class="container">
+    <div class="sidenav">
+        {{ range .Data.Terms.ByCount }}
+        {{ if gt .Count 5}}
+        <a href="#{{ .Page.Title }}">{{ .Page.Title }} ({{ .Count }})</a>
+        {{ end }}
+        {{ end }}
+    </div>
+    <div>
+        <article>
+            <main>
+                {{ range $key, $value := .Data.Terms.ByCount }}
+                <a href="{{ .Page.Permalink }}">
+                <h1 id="{{ .Page.Title }}">{{ .Page.Title }}</h1>
+                </a>
+                <table style="width:100%">
+                    <tr>
+                        <th> 播出时间 </th>
+                        <th> 标题 </th>
+                        <th> 字幕组 </th>
+                        <th> 在线 </th>
+                        <th> 下载 </th>
+                    </tr>
+                    {{ range $value.Pages.ByPublishDate.Reverse }}
+                    <tr>
+                        <td> {{ .PublishDate.Format "2006/01/02" }} </td>
+                        <td> <a href="{{ .Permalink }}">{{ .Title }}</a> </td>
+                        <td> {{ .Params.zmz }} </td>
+                        {{ $aid := findRE "http.*www.bilibili.*/video/(av.*?)/" .Content 1 }}
+                        {{ range $aid }}
+                        <td> <a href="{{print .}}">B站</a> </td>
+                        {{ end }}
+                        <td>
+                            {{ $aid := findRE "pan.baidu.com" .Content 1 }}
+                            <a href="{{ .Permalink }}">
+                                {{ range $aid }}
+                                网盘
+                                {{ end }}
+                            </a>
+                        </td>
+                    </tr>
+                    {{ end }}
+                </table>
+                {{ end }}
+            </main>
+        </article>
+    </div>
+</div>
+{{ partial "footer.html" . }}
