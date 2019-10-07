@@ -1,4 +1,4 @@
-
+{{ .Params.netatype }}
 <a href="{{ .Permalink }}">{{ .Title }}</a>
 <span>
     {{ $aid := findRE "pan.baidu.com" .Content 1 }}

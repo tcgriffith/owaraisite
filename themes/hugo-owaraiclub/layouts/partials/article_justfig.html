@@ -1,0 +1,13 @@
+<section>
+<span>{{ .Params.bangumi }}</span>
+<a href="{{ .Permalink }}">
+{{ $img := findRE "<img src=\"[^\"]+\"" .Content 1 }} 
+
+{{ range $img }}
+
+ <div>{{ (print . "class=\"article-img2\" alt=\"Thumbnail\" />") | safeHTML }}</div>
+
+{{ end }}
+</a>
+{{ .Date.Format "20060102" }}
+</section>

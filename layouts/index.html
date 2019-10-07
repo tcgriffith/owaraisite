@@ -32,31 +32,20 @@
     <div class="article-metamain shadowbox">
         <h1 class="strong"> 最新节目 </h1>
         <main class="list">
-            {{ range first 6 (where .Site.RegularPages "Params.bangumi" "not in" site.Params.otherbangumis) }}
-            {{ partial "article_card.html" .}}
-            {{ end }}
-        </main>
-        <h1> 段子 </h1>
-        <main class="list">
-            {{ range first 6 (where .Site.RegularPages "Params.bangumi" "段子" )}}
-            {{ partial "article_card.html" .}}
+            {{ range first 10 (where .Site.RegularPages "Params.bangumi" "not in" site.Params.otherbangumis) }}
+            {{ partial "article_justfig.html" . }}
             {{ end }}
         </main>
 
-        <h1> 一周内 </h1>
+                <h1 class="strong"> 段子 </h1>
         <main class="list">
-            {{ range first 100 (where .Site.RegularPages "Section" "!=" "")}}
-
-
-                {{ if gt (sub now.YearDay .Date.YearDay) -5 }}
-                {{ if lt (sub now.YearDay .Date.YearDay) 7 }}
-                    {{ partial "article_card.html" .}}
-
-                {{ end }}
-                {{ end }}
+            {{ range first 10 (where .Site.RegularPages "Params.bangumi" "段子") }}
+            {{ partial "article_justfig_neta.html" . }}
             {{ end }}
         </main>
     </div>
+
+
 
 </div>
 {{ end }}

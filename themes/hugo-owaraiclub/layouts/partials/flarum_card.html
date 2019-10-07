@@ -3,6 +3,6 @@
 <div class="forum-card">
 {{ range  $dataJ.data }}
 
-<li>	<a href="{{site.Params.flarum}}{{.attributes.slug}}">{{ .attributes.title }}</a></li>
+<h2>	<a href="{{site.Params.flarum}}{{.attributes.slug}}">{{ .attributes.title }}</a></h2>
 {{ end }}
 </div>

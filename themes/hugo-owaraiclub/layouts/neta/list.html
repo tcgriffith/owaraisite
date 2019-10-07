@@ -1,0 +1,41 @@
+{{ define "main" }}
+
+
+
+
+<div class="sidenav">
+    {{ range .Data.Pages.GroupByParam "combi" }}
+    <a href="#{{.Key}}">{{.Key}}</a>
+    {{ end }}
+</div>
+<div class="container article-container homecontainer">
+    <div class="article-rightbar">
+        <div class="article-rightbar-child">
+            <h1><a href="/{{ .Data.Plural }}"> {{.Data.Plural}}/</a><h1>
+                <h3>{{.Title}}</h1>
+            
+            <div class="article-content">
+                {{if gt (len .Content) 0 }}
+                {{ .Content }}
+                {{ else }}
+                <p>空空如也，等待补充</p>
+                {{ end }}
+            </div>
+        </div>
+    </div>
+    <div class="article-metamain">
+        
+            {{ range .Data.Pages.GroupByParam "combi" }}
+            <h1 id="{{.Key}}"> {{.Key}} </h1>
+                {{ range .Pages }}
+                <li>
+                {{ partial "article_li_neta.html" .}}
+                </li>
+                {{end}}
+            {{ end }}
+        
+    </div>
+</div>
+{{ end }}
+
+
