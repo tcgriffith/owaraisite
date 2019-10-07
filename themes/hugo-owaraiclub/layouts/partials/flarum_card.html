@@ -1,0 +1,8 @@
+{{ $dataJ := getJSON site.Params.flarumurl }}
+
+<div class="forum-card">
+{{ range  $dataJ.data }}
+
+<li>	<a href="{{site.Params.flarum}}{{.attributes.slug}}">{{ .attributes.title }}</a></li>
+{{ end }}
+</div>

@@ -1,0 +1,15 @@
+<header>
+    <section class="intro">
+        <div class="intro-container">
+            <div class="row">
+                {{ with .Site.Params.banner }}
+                {{ range .source }}
+                <source media="{{ .media }}" srcset="{{ relURL .srcset }}">{{ end }}
+                <a href="/">
+                    <img id="bannerlogo" src="{{ relURL .src }}" alt="{{ .alt }}">
+                </a>
+                {{ end }}
+            </div>
+        </div>
+    </section>
+</header>

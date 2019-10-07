@@ -1,0 +1,27 @@
+<div class="sidebartop">
+    <div class="menu-top" id="myTopnav">
+        {{ range .Site.Menus.top }}
+        <li>
+            <a href="{{ .URL | relURL }}"><span data-hover="{{ .Name }}">{{ .Name }}</span></a>
+        </li>
+        {{ end }}
+    </div>
+    <input type="checkbox" class="openSidebarMenu" id="openSidebarMenu">
+    <label for="openSidebarMenu" class="sidebarIconToggle">
+        <div class="spinner diagonal part-1"></div>
+        <div class="spinner horizontal"></div>
+        <div class="spinner diagonal part-2"></div>
+    </label>
+    <div id="sidebarMenu">
+        <ul class="sidebarMenuInner">
+            {{ range .Site.Menus.side }}
+            <a href="{{ .URL | relURL }}">
+            <li>
+                {{ .Name }}
+            </li>
+            </a>
+            {{ end }}
+
+        </ul>
+    </div>
+</div>

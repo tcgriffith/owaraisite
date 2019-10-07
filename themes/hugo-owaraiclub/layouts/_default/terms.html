@@ -1,0 +1,19 @@
+{{ define "main" }}
+<div id="mysidenav" class="container shadowbox">
+    <div class="sidenav" style="position:sticky; top:0">
+        {{ range .Data.Terms.ByCount }}
+        <a href="#{{ .Page.Title }}">{{ .Page.Title }} ({{ .Count }})</a>
+        {{ end }}
+    </div>
+    <div>
+        {{ range $key, $value := .Data.Terms.ByCount }}
+           <h2 id="{{ .Page.Title }}"> <a href="{{ .Page.Permalink }}"style="font-size:{{ add (div .Count 200) 1 }}em">{{ .Page.Title }}</a> ({{ .Count }})</h2>
+
+                {{ range first 5 $value.Pages }}
+                    <li>{{ partial "article_li.html" .}}</li>
+                {{ end }}
+
+        {{ end }}
+    </div>
+</div>
+{{ end }}

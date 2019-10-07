@@ -1,0 +1,64 @@
+{{ define "main" }}
+<div class="container article-container">
+
+    <div class="article-rightbar">
+   
+        <div class="article-rightbar-child">
+            <div class="article-content shadowbox">
+                {{ .Content }}
+            </div>
+        </div>
+
+        <div class="article-rightbar-child">
+            <h4> 论坛新鲜事 </h4>
+            <div class="article-content shadowbox">
+                {{ partial "flarum_card.html" }}
+            </div>
+        </div>      
+
+
+        <div class="article-rightbar-child">
+            <h4> 由以下字幕组强力驱动 </h4>
+            <div class="flexcol">
+                {{ range $.Site.Data.authors.list }}
+                <a href="/categories/{{ .name }}">
+                    <img class="author-img" src="{{ .image }}" alt="{{ .name }}" />
+                </a>
+                {{ end }}
+            </div>
+        </div>
+    </div>
+    
+    <div class="article-metamain shadowbox">
+        <h1 class="strong"> 最新节目 </h1>
+        <main class="list">
+            {{ range first 6 (where .Site.RegularPages "Params.bangumi" "not in" site.Params.otherbangumis) }}
+            {{ partial "article_card.html" .}}
+            {{ end }}
+        </main>
+        <h1> 段子 </h1>
+        <main class="list">
+            {{ range first 6 (where .Site.RegularPages "Params.bangumi" "段子" )}}
+            {{ partial "article_card.html" .}}
+            {{ end }}
+        </main>
+
+        <h1> 一周内 </h1>
+        <main class="list">
+            {{ range first 100 (where .Site.RegularPages "Section" "!=" "")}}
+
+
+                {{ if gt (sub now.YearDay .Date.YearDay) -5 }}
+                {{ if lt (sub now.YearDay .Date.YearDay) 7 }}
+                    {{ partial "article_card.html" .}}
+
+                {{ end }}
+                {{ end }}
+            {{ end }}
+        </main>
+    </div>
+
+</div>
+{{ end }}
+
+

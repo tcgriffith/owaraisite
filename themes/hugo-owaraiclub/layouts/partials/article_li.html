@@ -1,0 +1,17 @@
+
+{{ .PublishDate.Format "20060102" }}
+<a href="{{ .Permalink }}">{{ .Title }}</a>
+<span>
+    {{ $aid := findRE "pan.baidu.com" .Content 1 }}
+    
+        {{ if $aid }}
+        <a class="highlightit linkbutton" href="{{ .Permalink }}">
+        网盘
+        </a>
+        {{ end }}
+    
+</span>
+{{ $aid := findRE "http.*www.bilibili.*/video/(av.*?)/" .Content 1 }}
+{{ range $aid }}
+<td> <a class="linkbutton" href="{{print .}}">B站</a> </td>
+{{ end }}

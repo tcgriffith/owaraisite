@@ -1,7 +1,7 @@
 baseurl = "/"
 languageCode = "en-us"
 title = "笑神本部"
-theme = "hugo-xmag"
+theme = "hugo-owaraiclub"
 googleAnalytics = "UA-107230532-1"
 disqusShortname = "owarai"
 ignoreFiles = ["\\.Rmd$", "_files$", "_cache$"]
@@ -16,71 +16,75 @@ disablePathToLower = true
 
 
 
-[[menu.main]]
-    name = "RSS订阅"
-    url = "/index.xml"
-    weight = 6
 
-[[menu.main]]
-    name = "转载规则"
-    url = "/rules/"
-    weight = 3
 
 [[menu.top]]
-    name = "全部"
-    url = "/post/"
+    name = "本部"
+    url = "/"
     weight = 1
 [[menu.top]]
-    name = "合集"
-    url = "/matome/"
-    weight = 2
-[[menu.top]]
-    name = "拾遗"
-    url = "/lost_found/"
+    name = "节目"
+    url = "/bangumis/"
     weight = 3
 [[menu.top]]
-    name = "分部"
-    url = "/subteams/"
+    name = "段子"
+    url = "/bangumis/段子"
     weight = 4
-[[menu.top]]
-    name = "标签"
-    url = "/tags/"
-    weight = 5
-[[menu.top]]
-    name = "索引"
-    url = "/archives/"
-    weight = 6
 [[menu.top]]
     name = "论坛"
     url = "https://d.owaraiclub.com/"
     weight = 10
-
-[[menu.top]]
-    name = "百科"
-    url = "https://owaraipedia.netlify.com/"
-    weight = 11
-
 [[menu.top]]
     name = "搜索"
     url = "/search/"
     weight = 12
 
 
+[[menu.side]]
+    name = "全部"
+    url = "/post/"
+    weight = 1
+    desc = "haha"
+[[menu.side]]
+    name = "字幕组"
+    url = "/categories/"
+    weight = 2
+[[menu.side]]
+    name = "标签"
+    url = "/tags/"
+    weight = 5
+[[menu.side]]
+    name = "RSS订阅"
+    url = "/index.xml"
+    weight = 6
+[[menu.side]]
+    name = "转载规则"
+    url = "/rules/"
+    weight = 3
+
 
 [params]
+
     description = "笑神本部"
     summary_length = 2
     github_edit = "https://github.com/tcgriffith/owaraisite/blob/master/content/"
     footer = "Powered by [Hugo](https://gohugo.io/), [blogdown](https://github.com/rstudio/blogdown) & [netlify](https://www.netlify.com/) &copy; [OWARAICLUB](https://owarai.netlify.com/) 2017-2019"
     comment = true
-
+    mainBangumis = ["伦敦之心", "神舌", "ametalk"]
+    
+    otherbangumis = ["段子", "其他"]
+    othertags=["漫才", "短剧", "神舌","ametalk", "男女纠察队"]
+    flarumurl="https://d.owaraiclub.com/api/discussions?filter[q]=tag:whatsnew"
+    flarum="https://d.owaraiclub.com/d/"
 [params.text]
     back = "&larr; 返回首页"
     edit = "&#9988;  编辑本页"
     truncated = "&hellip;"
-    tags = "标签： "
+    tags = "标签"
+    bangumi="节目"
     about_author = "关于作者"
     author_delimiter= "&#x1F575 "
+    sharetitle = "来自笑神本部"
 
 [params.banner]
     src = "/img/logo_lh_main.svg"
@@ -89,4 +93,3 @@ disablePathToLower = true
   tag = "tags"
   category = "categories"
   bangumi = "bangumis"
-
