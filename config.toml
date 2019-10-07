@@ -28,7 +28,7 @@ disablePathToLower = true
     weight = 3
 [[menu.top]]
     name = "段子"
-    url = "/bangumis/段子"
+    url = "/neta/"
     weight = 4
 [[menu.top]]
     name = "论坛"
@@ -53,14 +53,22 @@ disablePathToLower = true
     name = "标签"
     url = "/tags/"
     weight = 5
+
+[[menu.side]]
+    name = "艺人组合"
+    url = "/combi/"
+    weight = 6
+
+
+
 [[menu.side]]
     name = "RSS订阅"
     url = "/index.xml"
-    weight = 6
+    weight = 8
 [[menu.side]]
     name = "转载规则"
     url = "/rules/"
-    weight = 3
+    weight = 9
 
 
 [params]
