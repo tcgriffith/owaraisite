@@ -908,8 +908,6 @@ input[type=checkbox]:checked ~ .sidebarIconToggle > .diagonal.part-2 {
 
 .sidenav{
   z-index: 1;
-  position: sticky;
-  top: 60px;
   background:white;
 }
 
@@ -918,9 +916,10 @@ input[type=checkbox]:checked ~ .sidebarIconToggle > .diagonal.part-2 {
 .sidenav {
   height:auto;  
   width: 160px; /* Set the width of the sidebar */
-  position: fixed; /* Fixed Sidebar (stay in place on scroll) */
+  position: sticky; /* Fixed Sidebar (stay in place on scroll) */
   /*z-index: 1;  Stay on top */
-  top: 350px; 
+  /*top: 350px; */
+  top: 60px;
   right: 5%;
   border-left-style: solid;
   border-left-width: 1px;
