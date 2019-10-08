@@ -53,11 +53,13 @@ disablePathToLower = true
     name = "标签"
     url = "/tags/"
     weight = 5
-
 [[menu.side]]
-    name = "艺人组合"
+    name = "艺人组合(段子)"
     url = "/combi/"
     weight = 6
+
+
+
 
 
 
