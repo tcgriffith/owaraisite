@@ -91,6 +91,7 @@ disablePathToLower = true
     edit = "&#9988;  编辑本页"
     truncated = "&hellip;"
     tags = "标签"
+    combi = "搞笑艺人组合"
     bangumi="节目"
     about_author = "关于作者"
     author_delimiter= "&#x1F575 "

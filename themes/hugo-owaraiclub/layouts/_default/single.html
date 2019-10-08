@@ -4,6 +4,18 @@
         <div class="article-rightbar-child">
             {{ partial "author_card.html" .}}
         </div>
+
+        {{ if ".Params.combi"}}
+        <div class="article-rightbar-child">
+            <h2> {{ default "Combi: " (index $.Site.Params.text "combi") }}</h2>
+            {{ with .Params.combi }}
+            <p class="tags">
+                <a href="/combi/{{.}}">{{ . }}</a>
+            </p>
+            {{ end }}
+        </div>
+        {{ end }}
+
         <div class="article-rightbar-child">
             <h2> {{ default "Bangumis: " (index $.Site.Params.text "bangumi") }}</h2>
             {{ with .Params.bangumis }}

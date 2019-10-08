@@ -22,7 +22,7 @@ a {color:#666;text-decoration:none}  /* 重置链接a标签 */
 a:active, a:hover {text-decoration:none}   /* 重置链接a标签的鼠标滑动效果 */
 a {outline: none;}  
 a:active {star:expression(this.onFocus=this.blur());}
- 
+
 
 /* clear*/
 
