@@ -1,8 +1,7 @@
-{{ $dataJ := getJSON site.Params.flarumurl }}
+{{ range $.Site.Data.flarum.data }}
 
-<div class="forum-card">
-{{ range  $dataJ.data }}
+<ul>
+    <a href="{{site.Params.flarum}}{{.attributes.slug}}">{{ .attributes.title }}</a>
+</ul>
 
-<h2>	<a href="{{site.Params.flarum}}{{.attributes.slug}}">{{ .attributes.title }}</a></h2>
 {{ end }}
-</div>
