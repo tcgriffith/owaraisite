@@ -5,7 +5,7 @@
 
 <div class="sidenav">
     {{ range .Data.Pages.GroupByParam "combi" }}
-    <a href="#{{.Key}}">{{.Key}}</a>
+    <a href="#{{.Key}}">{{.Key}} {{ len .Pages }}</a>
     {{ end }}
 </div>
 <div class="container article-container homecontainer">

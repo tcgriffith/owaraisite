@@ -17,7 +17,25 @@
         </div>      
 
 
-        <div class="article-rightbar-child">
+
+    </div>
+    
+    <div class="article-metamain shadowbox">
+        <h1 class="strong"> 最新节目 </h1>
+        <main class="list">
+            {{ range first 16 (where .Site.RegularPages "Params.bangumi" "not in" site.Params.otherbangumis) }}
+            {{ partial "article_justfig.html" . }}
+            {{ end }}
+        </main>
+
+                <h1 class="strong"> 段子 </h1>
+        <main class="list">
+            {{ range first 16 (where (.Site.RegularPages.ByParam "slug").Reverse "Section" "neta") }}
+            {{ partial "article_justfig_neta.html" . }}
+            {{ end }}
+        </main>
+
+                <div class="article-rightbar-child">
             <h4> 由以下字幕组强力驱动 </h4>
             <div class="flexcol">
                 {{ range $.Site.Data.authors.list }}
@@ -27,22 +45,6 @@
                 {{ end }}
             </div>
         </div>
-    </div>
-    
-    <div class="article-metamain shadowbox">
-        <h1 class="strong"> 最新节目 </h1>
-        <main class="list">
-            {{ range first 10 (where .Site.RegularPages "Params.bangumi" "not in" site.Params.otherbangumis) }}
-            {{ partial "article_justfig.html" . }}
-            {{ end }}
-        </main>
-
-                <h1 class="strong"> 段子 </h1>
-        <main class="list">
-            {{ range first 10 (where .Site.RegularPages "Params.bangumi" "段子") }}
-            {{ partial "article_justfig_neta.html" . }}
-            {{ end }}
-        </main>
     </div>
 
 
