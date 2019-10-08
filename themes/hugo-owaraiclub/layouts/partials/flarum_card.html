@@ -1,7 +1,8 @@
 {{ range $.Site.Data.flarum.data }}
 
-<ul>
-    <a href="{{site.Params.flarum}}{{.attributes.slug}}">{{ .attributes.title }}</a>
-</ul>
+<li>
+    <a href="{{site.Params.flarum}}{{.id}}">{{ .attributes.title }}</a>
+    <span style="font-size: 0.5em">({{ (time .attributes.lastPostedAt).Format "20060102" }})</span>
+</li>
 
 {{ end }}
