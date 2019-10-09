@@ -106,10 +106,17 @@ h1,h2,h3,h4,h5,h6{
 
 /*---------------article card*/
 
+.flex-container-evenly{
+  display: flex;
+  justify-content:space-evenly;
+}
 
 .flex-col{
   display: flex;
   flex-flow: column;
+  /*align-items: center;*/
+  padding-bottom: 1rem;
+
 }
 
 .flex-colrev{
@@ -165,6 +172,7 @@ h1,h2,h3,h4,h5,h6{
 }
 
 .article-img2{
+  margin:auto;
   position: relative;
   border-radius: 5px;
   height: 9em;
@@ -310,6 +318,12 @@ h1,h2,h3,h4,h5,h6{
   top: -1.5em;
   left: -1.5em;
   position: relative;
+}
+.imgwrapper-mid{
+  /*top: -1.5em;*/
+  /*left: -1.5em;*/
+  /*position: relative;*/
+  margin:auto;
 }
 
 
@@ -577,7 +591,9 @@ hr {
   }
 
 
-
+.grey-container{
+  background-color: grey;
+}
 
 
 /* list section*/
@@ -592,15 +608,12 @@ hr {
 .list section {
   border-radius: 5px;
   /*flex:1 0 350px;*/
-  flex: 0 1 14em;
+  flex: 0 1 12em;
   position: relative;
 
   box-sizing: border-box;
-  box-shadow:
-             0 0  0 2px rgb(255,255,255),
-             0.3em 0.3em 1em rgba(0,0,0,0.3);
   margin: 15px 0 0 15px;
-  padding: 1em;
+  /*padding: 5px;*/
   /*overflow-x: hidden;*/
 }
 @media (max-width: 380px) {
@@ -634,7 +647,7 @@ hr {
 
 .flexcol{
   display: flex;
-  margin-left: 2em;
+  /*margin-left: 2em;*/
   flex-wrap: wrap;
 }
 

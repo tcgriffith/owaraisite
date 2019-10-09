@@ -1,32 +1,42 @@
 {{ define "main" }}
 <div class="article-container container">
+
     <div class="article-rightbar">
+
+
         <div class="article-rightbar-child">
             {{ partial "author_card.html" .}}
         </div>
 
-        {{ if ".Params.combi"}}
-        <div class="article-rightbar-child">
-            <h2> {{ default "Combi: " (index $.Site.Params.text "combi") }}</h2>
-            {{ with .Params.combi }}
-            <p class="tags">
-                <a href="/combi/{{.}}">{{ . }}</a>
-            </p>
-            {{ end }}
-        </div>
-        {{ end }}
+    </div>
 
-        <div class="article-rightbar-child">
-            <h2> {{ default "Bangumis: " (index $.Site.Params.text "bangumi") }}</h2>
-            {{ with .Params.bangumis }}
-            <p class="tags">
-                {{ range $i, $e := . }}
-                {{ if $i }} {{ end }}
-                <a href="{{ relURL (print "/bangumis/" $e | urlize) }}">{{ $e }}</a>
+
+
+    <div class="article-metamain">
+        <div class="article-meta">
+            <h1><span class="title">{{ .Title }}</span></h1>
+
+            {{ if .Params.combi }}
+            <div class="article-rightbar-child">
+                <h2> {{ default "Combi: " (index $.Site.Params.text "combi") }}</h2>
+                {{ with .Params.combi }}
+                <p class="tags">
+                    <a href="/combi/{{.}}">{{ . }}</a>
+                </p>
                 {{ end }}
-            </p>
-            {{end}}
-          </div>
+            </div>
+            {{ end }}
+            <div class="article-rightbar-child">
+                <h2> {{ default "Bangumis: " (index $.Site.Params.text "bangumi") }}</h2>
+                {{ with .Params.bangumis }}
+                <p class="tags">
+                    {{ range $i, $e := . }}
+                    {{ if $i }} {{ end }}
+                    <a href="{{ relURL (print "/bangumis/" $e | urlize) }}">{{ $e }}</a>
+                    {{ end }}
+                </p>
+                {{end}}
+            </div>
             <div class="article-rightbar-child">
                 <h2> {{ default "Tags: " (index $.Site.Params.text "tags") }}</h2>
                 {{ with .Params.tags }}
@@ -38,33 +48,34 @@
                 </p>
                 {{ end }}
             </div>
+
         </div>
-    
-    <div class="article-metamain shadowbox">
-        <div class="article-meta">
-            <h1><span class="title">{{ .Title }}</span></h1>
-            {{ partial "meta.html" . }}
-        </div>
+
+
+
+
+
         <div class="article-content">
             {{ .Content }}
         </div>
         <div class="article-related">
-          <h1><span class="title"> {{.Params.zmz}}最新</span></h1>
+            <h1><span class="title"> {{.Params.zmz}}最新</span></h1>
             <main class="list">
-                {{ range first 3 (where .Site.RegularPages "Params.zmz" .Params.zmz) }}
-                {{ partial "article_card.html" .}}
+                {{ range first 8 (where .Site.RegularPages "Params.zmz" .Params.zmz) }}
+                {{ partial "article_justfig_title.html" .}}
                 {{ end }}
             </main>
         </div>
         <div class="article-related">
-          <h1><span class="title"> {{.Params.bangumi}}最新 </span></h1>
+            <h1><span class="title"> {{.Params.bangumi}}最新 </span></h1>
             <main class="list">
-                {{ range first 5 (where .Site.RegularPages "Params.bangumi" .Params.bangumi) }}
-                {{ partial "article_card.html" .}}
+                {{ range first 8 (where .Site.RegularPages "Params.bangumi" .Params.bangumi) }}
+                {{ partial "article_justfig_title.html" .}}
                 {{ end }}
-            </main>            
+            </main>
         </div>
     </div>
 
-  </div>
-    {{ end}}
+
+</div>
+{{ end}}

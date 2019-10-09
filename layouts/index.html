@@ -4,14 +4,14 @@
     <div class="article-rightbar">
    
         <div class="article-rightbar-child">
-            <div class="article-content shadowbox">
+            <div class="article-content">
                 {{ .Content }}
             </div>
         </div>
 
         <div class="article-rightbar-child">
             <h4> 论坛新鲜事 </h4>
-            <div class="article-content shadowbox">
+            <div class="article-content">
                 {{ partial "flarum_card.html" . }}
             </div>
         </div>      
@@ -20,7 +20,7 @@
 
     </div>
     
-    <div class="article-metamain shadowbox">
+    <div class="article-metamain">
         <h1 class="strong"> 最新节目 </h1>
         <main class="list">
             {{ range first 16 (where .Site.RegularPages "Params.bangumi" "not in" site.Params.otherbangumis) }}

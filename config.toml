@@ -9,7 +9,7 @@ preserveTaxonomyNames = true
 footnotereturnlinkcontents = "↩"
 hasCJKLanguage = true
 enableEmoji = true
-paginate = 24
+paginate = 20
 enableGitInfo = true
 disablePathToLower = true
 
@@ -82,7 +82,7 @@ disablePathToLower = true
     comment = true
     mainBangumis = ["伦敦之心", "神舌", "ametalk"]
     
-    otherbangumis = ["段子", "其他"]
+    otherbangumis = ["段子", "其他", "cut"]
     othertags=["漫才", "短剧", "神舌","ametalk", "男女纠察队"]
     flarumurl="https://d.owaraiclub.com/api/discussions?filter[q]=tag:whatsnew"
     flarum="https://d.owaraiclub.com/d/"
