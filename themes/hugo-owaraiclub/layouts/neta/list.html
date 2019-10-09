@@ -1,11 +1,8 @@
 {{ define "main" }}
 
-
-
-
 <div class="sidenav">
-    {{ range .Data.Pages.GroupByParam "combi" }}
-    <a href="#{{.Key}}">{{.Key}} {{ len .Pages }}</a>
+    {{ range .Data.Pages.GroupByPublishDate "2006-01" }}
+    <a href="#{{.Key}}">{{.Key}}</a>
     {{ end }}
 </div>
 <div class="container article-container homecontainer">
@@ -25,10 +22,14 @@
     </div>
     <div class="article-metamain">
         
-            {{ range .Data.Pages.GroupByParam "combi" }}
+            {{ range .Data.Pages.GroupByPublishDate "2006-01" }}
             <h1 id="{{.Key}}"> {{.Key}} </h1>
-                {{ range .Pages }}
-                <li>
+                {{ range .Pages.ByPublishDate.Reverse }}
+                <li style="list-style:none">
+                {{ if ".Params.combi"}}
+                <span> {{ .Params.combi}} </span>
+                {{ end}}
+
                 {{ partial "article_li_neta.html" .}}
                 </li>
                 {{end}}
