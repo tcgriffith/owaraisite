@@ -7,6 +7,38 @@
         <div class="article-rightbar-child">
             {{ partial "author_card.html" .}}
         </div>
+        {{ if .Params.combi }}
+        <div class="article-rightbar-child">
+            <h2> {{ default "Combi: " (index $.Site.Params.text "combi") }}</h2>
+            {{ with .Params.combi }}
+            <p class="tags">
+                <a href="/combi/{{.}}">{{ . }}</a>
+            </p>
+            {{ end }}
+        </div>
+        {{ end }}
+        <div class="article-rightbar-child">
+            <h2> {{ default "Bangumis: " (index $.Site.Params.text "bangumi") }}</h2>
+            {{ with .Params.bangumis }}
+            <p class="tags">
+                {{ range $i, $e := . }}
+                {{ if $i }} {{ end }}
+                <a href="{{ relURL (print "/bangumis/" $e | urlize) }}">{{ $e }}</a>
+                {{ end }}
+            </p>
+            {{end}}
+        </div>
+        <div class="article-rightbar-child">
+            <h2> {{ default "Tags: " (index $.Site.Params.text "tags") }}</h2>
+            {{ with .Params.tags }}
+            <p class="tags">
+                {{ range $i, $e := . }}
+                {{ if $i }} {{ end }}
+                <a href="{{ relURL (print "/tags/" $e | urlize) }}">{{ $e }}</a>
+                {{ end }}
+            </p>
+            {{ end }}
+        </div>
 
     </div>
 
@@ -15,40 +47,6 @@
     <div class="article-metamain">
         <div class="article-meta">
             <h1><span class="title">{{ .Title }}</span></h1>
-
-            {{ if .Params.combi }}
-            <div class="article-rightbar-child">
-                <h2> {{ default "Combi: " (index $.Site.Params.text "combi") }}</h2>
-                {{ with .Params.combi }}
-                <p class="tags">
-                    <a href="/combi/{{.}}">{{ . }}</a>
-                </p>
-                {{ end }}
-            </div>
-            {{ end }}
-            <div class="article-rightbar-child">
-                <h2> {{ default "Bangumis: " (index $.Site.Params.text "bangumi") }}</h2>
-                {{ with .Params.bangumis }}
-                <p class="tags">
-                    {{ range $i, $e := . }}
-                    {{ if $i }} {{ end }}
-                    <a href="{{ relURL (print "/bangumis/" $e | urlize) }}">{{ $e }}</a>
-                    {{ end }}
-                </p>
-                {{end}}
-            </div>
-            <div class="article-rightbar-child">
-                <h2> {{ default "Tags: " (index $.Site.Params.text "tags") }}</h2>
-                {{ with .Params.tags }}
-                <p class="tags">
-                    {{ range $i, $e := . }}
-                    {{ if $i }} {{ end }}
-                    <a href="{{ relURL (print "/tags/" $e | urlize) }}">{{ $e }}</a>
-                    {{ end }}
-                </p>
-                {{ end }}
-            </div>
-
         </div>
 
 
