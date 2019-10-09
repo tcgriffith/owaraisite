@@ -59,7 +59,7 @@
         <div class="article-related">
             <h1><span class="title"> {{.Params.zmz}}最新</span></h1>
             <main class="list">
-                {{ range first 8 (where .Site.RegularPages "Params.zmz" .Params.zmz) }}
+                {{ range first 3 (where .Site.RegularPages "Params.zmz" .Params.zmz) }}
                 {{ partial "article_justfig_title.html" .}}
                 {{ end }}
             </main>
@@ -67,8 +67,8 @@
         <div class="article-related">
             <h1><span class="title"> {{.Params.bangumi}}最新 </span></h1>
             <main class="list">
-                {{ range first 8 (where .Site.RegularPages "Params.bangumi" .Params.bangumi) }}
-                {{ partial "article_justfig.html" .}}
+                {{ range first 3 (where .Site.RegularPages "Params.bangumi" .Params.bangumi) }}
+                {{ partial "article_justfig_neta.html" .}}
                 {{ end }}
             </main>
         </div>
