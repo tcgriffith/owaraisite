@@ -68,7 +68,7 @@
             <h1><span class="title"> {{.Params.bangumi}}最新 </span></h1>
             <main class="list">
                 {{ range first 8 (where .Site.RegularPages "Params.bangumi" .Params.bangumi) }}
-                {{ partial "article_justfig_title.html" .}}
+                {{ partial "article_justfig.html" .}}
                 {{ end }}
             </main>
         </div>

@@ -175,8 +175,8 @@ h1,h2,h3,h4,h5,h6{
   margin:auto;
   position: relative;
   border-radius: 5px;
-  height: 9em;
-  width: 12em;
+  height: 7.5em;
+  width: 10em;
 }
 
 .article-card-container{
@@ -608,29 +608,13 @@ hr {
 .list section {
   border-radius: 5px;
   /*flex:1 0 350px;*/
-  flex: 0 1 12em;
+  flex: 0 1 10em;
   position: relative;
 
   box-sizing: border-box;
   margin: 15px 0 0 15px;
   /*padding: 5px;*/
   /*overflow-x: hidden;*/
-}
-@media (max-width: 380px) {
-  .list section { flex: auto; }
-}
-@media (min-width: 715px) {
-  /*.list section { max-width: calc(50% - 15px); }*/
-  .article-list h1 {
-    overflow-x: hidden;
-    white-space: nowrap;
-    text-overflow: ellipsis;
-  }
-  .article-list h1:hover { white-space: inherit; }
-}
-@media (min-width: 1080px) {
-  /*.list section { max-width: calc(33.33333% - 15px); }*/
-  /*.list section { max-width: calc(50% - 15px); }*/
 }
 
 
