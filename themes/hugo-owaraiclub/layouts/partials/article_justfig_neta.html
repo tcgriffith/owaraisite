@@ -1,5 +1,5 @@
-<section>
-<span>{{ .Title }}</span>
+<section class="flex-col">
+
 <a href="{{ .Permalink }}">
 {{ $img := findRE "<img src=\"[^\"]+\"" .Content 1 }} 
 
@@ -9,4 +9,5 @@
 
 {{ end }}
 </a>
+<span>{{ .Title }}</span>
 </section>

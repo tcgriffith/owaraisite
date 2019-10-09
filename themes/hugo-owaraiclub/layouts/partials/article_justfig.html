@@ -1,5 +1,5 @@
-<section>
-<span>{{ .Params.bangumi }}</span>
+<section class="flex-col">
+
 <a href="{{ .Permalink }}">
 {{ $img := findRE "<img src=\"[^\"]+\"" .Content 1 }} 
 
@@ -9,5 +9,7 @@
 
 {{ end }}
 </a>
-{{ .Date.Format "20060102" }}
+
+<span style="font-size:1.4em">{{ .Params.bangumi }}</span>
+<div style="position: absolute; bottom: 0"> {{ .Date.Format "20060102" }}</div>
 </section>
