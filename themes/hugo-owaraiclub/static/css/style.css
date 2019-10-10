@@ -18,14 +18,18 @@
   /* 取消a标签点击后的虚线框 */
 
 /*dl,ul,ol,menu,li {list-style:none} */
-a {color:#666;text-decoration:none}  /* 重置链接a标签 */
+a {color:#0645ad;text-decoration:none}  /* 重置链接a标签 */
 a:active, a:hover {text-decoration:none}   /* 重置链接a标签的鼠标滑动效果 */
 a {outline: none;}  
 a:active {star:expression(this.onFocus=this.blur());}
 
+ul,li{list-style:none;}
 
 /* clear*/
 
+a .not-found{
+  color: red;
+}
 
 
 /*forum card*/
@@ -658,9 +662,15 @@ hr {
 .article-metamain{
   max-width: 700px;
   flex-grow: 2;
+}
 
 
-
+.wiki-content img{
+    display: block;
+    margin: 0.7rem auto; /* you can replace the vertical '0.7rem' by
+                            whatever floats your boat, but keep the
+                            horizontal 'auto' for this to work */
+    /* whatever else styles you fancy here */
 }
 
 .article-rightbar{

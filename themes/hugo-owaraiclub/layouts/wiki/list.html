@@ -1,0 +1,38 @@
+{{ define "main" }}
+
+
+
+
+<div class="container article-container ">
+
+    <div class="article-rightbar">
+        <div class="article-rightbar-child">
+            <h3>/{{.Title}}</h1>
+        </div>
+
+        <div class = "article-rightbar-child">
+
+
+            {{ with .Site.GetPage "/_sidebar.md" }}{{ .Content }}{{ end }}
+
+
+        </div>        
+    </div>    
+
+    
+
+    <div class="article-metamain">
+            <div class="article-content">
+                {{if gt (len .Content) 0 }}
+                {{ .Content }}
+                {{ else }}
+                <p>空空如也，等待补充</p>
+                {{ end }}
+            </div>
+
+    </div>
+
+
+</div>
+{{ end }}
+

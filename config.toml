@@ -13,7 +13,8 @@ paginate = 20
 enableGitInfo = true
 disablePathToLower = true
 
-
+refLinksErrorLevel = "WARNING"
+refLinksNotFoundURL = '#'
 
 
 

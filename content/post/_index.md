@@ -32,6 +32,9 @@ index: false
 
 - 一晃眼，笑神本部也建站两年了。目前我们在计划新一轮的网站改版，如果有什么建议或想法，[欢迎到临时论坛讨论](https://d.owaraiclub.com/)
 
+
+{{< ref "后藤辉基" >}}
+
 <!-- - [补了下ippon](/lost_found/190725_NA_IPPON/)
 
 - [Engei 190817](/tags/engei190817)
