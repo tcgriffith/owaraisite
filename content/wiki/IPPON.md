@@ -1,9 +1,3 @@
----
-title: IPPON
-tags:
-    - 节目
----
-
 ![](https://i.imgur.com/ilO4O4R.jpg)
 
 "Ippon Grand Prix" (日: 『IPPONグランプリ』)是富士TV从2009年开始不定期播出的[大喜利](大喜利)综艺节目。
