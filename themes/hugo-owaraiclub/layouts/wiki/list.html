@@ -13,7 +13,13 @@
         <div class = "article-rightbar-child">
 
 
-            {{ with .Site.GetPage "/_sidebar.md" }}{{ .Content }}{{ end }}
+            {{ with .Site.GetPage "/_Sidebar.md" }}
+
+            {{ .Content }}
+
+            {{ end }}
+
+            
 
 
         </div>        
