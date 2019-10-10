@@ -2,7 +2,7 @@
 
 {{ .Date.Format "20060102" }}
 
-<a href="{{ .Permalink }}">{{ .Params.bangumi }} {{ .PublishDate.Format "20060102" }}</a>
+<a href="{{ .Permalink }}">{{ .Params.title }} {{ .PublishDate.Format "20060102" }}</a>
 <span>
     {{ $aid := findRE "pan.baidu.com" .Content 1 }}
     
