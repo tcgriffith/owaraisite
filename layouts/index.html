@@ -21,20 +21,53 @@
     </div>
     
     <div class="article-metamain">
-        <h1 class="strong"> 最新节目 </h1>
+
+
+        <h1 class="strong"> 节目 </h1>
         <main class="list">
-            {{ range first 16 (where .Site.RegularPages "Params.bangumi" "not in" site.Params.otherbangumis) }}
-            {{ partial "article_justfig.html" . }}
+
+            {{ range first 2 (where .Site.RegularPages "Params.bangumi" "not in" site.Params.otherbangumis) }}
+
+                {{ partial "article_justfig.html" . }}
+
             {{ end }}
+
+            <div class = "container1em">
+            {{ range first 8 (after 2 (where .Site.RegularPages "Params.bangumi" "not in" site.Params.otherbangumis)) }}
+                <li>{{ partial "article_li.html" .}}</li>
+            {{ end }}
+            </div>
         </main>
 
                 <h1 class="strong"> 段子 </h1>
         <main class="list">
-            {{ range first 16 (where (.Site.RegularPages.ByParam "slug").Reverse "Section" "neta") }}
-            {{ partial "article_justfig_neta.html" . }}
+
+            {{ range first 2 (where .Site.RegularPages "Section" "neta") }}
+
+                {{ partial "article_justfig_neta.html" . }}
+
+            {{ end }}            
+            <div class = "container1em">
+            {{ range first 8 (after 2 (where .Site.RegularPages "Section" "neta")) }}
+                <li> {{ .Params.combi}} {{ partial "article_li_neta.html" .}}</li>
             {{ end }}
+            </div>
         </main>
 
+                <h1 class="strong"> cut/其他 </h1>
+        <main class="list">
+
+            {{ range first 2 (where .Site.RegularPages "Params.bangumi" "in" .Site.Params.otherbangumis2) }}
+
+                {{ partial "article_justfig_neta.html" . }}
+
+            {{ end }}            
+            <div class = "container1em">
+            {{ range first 8 (after 2 (where .Site.RegularPages "Params.bangumi" "in" .Site.Params.otherbangumis2)) }}
+                <li> {{ .Params.combi}} {{ partial "article_li_neta.html" .}}</li>
+            {{ end }}
+            </div>
+        </main>
                 <div class="article-rightbar-child">
             <h4> 由以下字幕组强力驱动 </h4>
             <div class="flexcol">

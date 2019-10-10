@@ -167,8 +167,8 @@ h1,h2,h3,h4,h5,h6{
 .article-img{
   position: relative;
   border-radius: 5px;
-  height: 6em;
-  width: 8em;
+  height: 10em;
+  /*width: 8em;*/
   float: left;
   overflow: hidden;
   margin: 5px 8px 5px 0;
@@ -235,7 +235,7 @@ h1,h2,h3,h4,h5,h6{
 .card-categories{
   position: absolute;
   bottom: 0;
-  left: 8em;
+  right: 0em;
   margin:1em;
   /*background-color: pink;*/  
 }
@@ -738,6 +738,9 @@ hr {
   margin: auto;
 }
 
+.container1em{
+  margin:1em;
+}
 
 
 article{

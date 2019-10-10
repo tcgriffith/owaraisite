@@ -86,7 +86,7 @@ refLinksNotFoundURL = '#'
     footer = "Powered by [Hugo](https://gohugo.io/), [blogdown](https://github.com/rstudio/blogdown) & [netlify](https://www.netlify.com/) &copy; [OWARAICLUB](https://owarai.netlify.com/) 2017-2019"
     comment = true
     mainBangumis = ["伦敦之心", "神舌", "ametalk"]
-    
+    otherbangumis2 = ["其他", "cut"]    
     otherbangumis = ["段子", "其他", "cut"]
     othertags=["漫才", "短剧", "神舌","ametalk", "男女纠察队"]
     flarumurl="https://d.owaraiclub.com/api/discussions?filter[q]=tag:whatsnew"
