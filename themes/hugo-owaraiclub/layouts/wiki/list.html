@@ -29,14 +29,28 @@
 
     <div class="article-metamain">
             <div class="article-content">
-                {{if gt (len .Content) 0 }}
+
+                {{ with .Site.GetPage "/Home.md" }}
+
                 {{ .Content }}
-                {{ else }}
-                <p>空空如也，等待补充</p>
+
                 {{ end }}
+
+            </div>
+
+            <div class="article-content">
+
+                {{ with .Site.GetPage "/_footer.md" }}
+
+                {{ .Content }}
+
+                {{ end }}
+
             </div>
 
     </div>
+
+
 
 
 </div>

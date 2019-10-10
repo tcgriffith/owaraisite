@@ -957,6 +957,24 @@ input[type=checkbox]:checked ~ .sidebarIconToggle > .diagonal.part-2 {
   background:white;
 }
 
+.sidetoc {
+  height:auto;  
+  /*width: 160px;  Set the width of the sidebar */
+  position: sticky; /* Fixed Sidebar (stay in place on scroll) */
+  /*z-index: 1;  Stay on top */
+  /*top: 350px; */
+  top: 60px;
+  right: 5%;
+  margin-right: 3em;
+  border-right-style: solid;
+  border-right-width: 3px;
+  border-right-color: #ccc;
+  /*background-color: #111;  Black   */
+  background-color: rgba(255, 255, 255, 0.65);
+  overflow-x: hidden; 
+  padding-top: 20px;
+  /*float: right;*/
+}
 
 @media (min-width: 1366px) {
 .sidenav {

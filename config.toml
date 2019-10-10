@@ -55,6 +55,10 @@ refLinksNotFoundURL = '#'
     url = "/tags/"
     weight = 5
 [[menu.side]]
+    name = "笑神百科"
+    url = "/wiki/"
+    weight = 5
+[[menu.side]]
     name = "艺人组合(段子)"
     url = "/combi/"
     weight = 6
