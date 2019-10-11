@@ -6,6 +6,7 @@ nocomment: true
 nodate: true
 noedit: true
 index: false
+draft: true
 ---
 
 ![题图是吉本坂的小寺真理](https://i.imgur.com/Q8ZYuRs.jpg)
