@@ -34,7 +34,7 @@
 
             <div class = "container1em">
             {{ range first 8 (after 2 (where .Site.RegularPages "Params.bangumi" "not in" site.Params.otherbangumis)) }}
-                <li>{{ partial "article_li.html" .}}</li>
+                <li> {{ .Params.bangumi }} {{ partial "article_li.html" .}}</li>
             {{ end }}
             </div>
         </main>

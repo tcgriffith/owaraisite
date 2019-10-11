@@ -13,7 +13,7 @@
             </a>
             <div style="padding-left:1em">
                 {{ range first 5 $value.Pages }}
-                    <li>{{ partial "article_li.html" .}}</li>
+                    <li> {{ .Date.Format "2006/01/02" }} {{ partial "article_li.html" .}}</li>
                 {{ end }}
             </div>
         {{ end }}
