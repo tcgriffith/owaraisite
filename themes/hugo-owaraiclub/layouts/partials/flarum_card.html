@@ -1,4 +1,4 @@
-{{ range $.Site.Data.flarum.data }}
+{{ range  first 1 $.Site.Data.flarum.data }}
 
 <li>
     <a href="{{site.Params.flarum}}{{.id}}">{{ .attributes.title }}</a>

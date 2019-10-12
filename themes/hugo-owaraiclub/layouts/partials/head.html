@@ -1,4 +1,17 @@
 <head>
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <link href="/css/style.css" rel="stylesheet" type="text/css" />
+
+    <title> 
+    	{{ if gt (len .Title) 0 }}
+
+    	{{ .Title }}|
+
+    	{{ end}}
+
+    	{{.Site.Title}}
+    </title>
+
+	<meta name="description" content="{{.Params.brief}}">
+	<meta name="author" content="{{ .Params.author }}">
 </head>
