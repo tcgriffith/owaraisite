@@ -7,11 +7,11 @@
 </div>
 
 
-<div id="mysidenav" class="container article-container">
+<div class="container article-container">
     <div class="article-rightbar">
         <div class="article-rightbar-child">
-            <h1><a href="/{{ .Data.Plural }}"> {{ .Section }}/</a><h1>
-                <h3>{{.Title}}</h1>
+            <h1><a href="/{{ .Data.Plural }}"> {{ .Section }}</a><h1>
+                
             {{ partial "wiki_card.html" . }}
         </div>
     </div>

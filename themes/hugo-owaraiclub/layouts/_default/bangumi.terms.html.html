@@ -1,36 +1,27 @@
 {{ define "main" }}
-
-    <div class="sidenav" >
-        {{ range .Data.Terms.ByCount }}
-        <a href="#{{ .Page.Title }}">{{ .Page.Title }} ({{ .Count }})</a>
-        {{ end }}
-    </div>
-
-
-<div class="article-container">
-
+<div class="sidenav">
+    {{ range .Data.Terms.ByCount }}
+    <a href="#{{ .Page.Title }}">{{ .Page.Title }}</a>
+    {{ end }}
+</div>
+<div class="container article-container">
     <div class="article-rightbar">
         <div class="article-rightbar-child">
-            <h1><a href="/{{ .Data.Plural }}"> {{ .Section }}/</a><h1>
-                <h3>{{.Title}}</h1>
-
+            <h1><a href="/{{ .Data.Plural }}"> {{ .Section }}</a></h1>
             {{ partial "wiki_card.html" . }}
-            
-
         </div>
     </div>
-
     <div class="article-metamain">
         <h2> 最近更新 </h2>
         {{ range $key, $value := .Data.Terms.ByCount }}
-            <a  id="{{ .Page.Title }}" href="{{ .Page.Permalink }}">
-                <h2>{{ .Page.Title }}</h2>
-            </a>
-            <div style="padding-left:1em">
-                {{ range first 5 $value.Pages }}
-                    <li> {{ .Date.Format "2006/01/02" }} {{ partial "article_li.html" .}}</li>
-                {{ end }}
-            </div>
+        <a id="{{ .Page.Title }}" href="{{ .Page.Permalink }}">
+            <h2>{{ .Page.Title }} ({{ .Count }})</h2>
+        </a>
+        <div>
+            {{ range first 4 $value.Pages }}
+            <li> {{ partial "article_li.html" .}}</li>
+            {{ end }}
+        </div>
         {{ end }}
     </div>
 </div>

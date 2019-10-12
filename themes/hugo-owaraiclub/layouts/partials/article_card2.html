@@ -1,0 +1,24 @@
+<div class="article-card-container">
+    <div>
+        {{ $img := findRE "<img src=\"[^\"]+\"" .Content 1 }} {{ range $img }} <div>{{ (print . "class=\"article-img\" alt=\"Thumbnail\" />") | safeHTML }}
+    </div>
+    {{ end }}
+    </div>
+    <div class="card-meta">
+        <h1 class="card-title"><a href="{{ .URL }}">{{ .Title }}</a></h1>
+        <div class="card-categories card-link">
+            {{ with .Params.bangumis }}
+            {{ range first 1 . }}
+            <a href="{{ relURL (print "/bangumis/" . | urlize) }}">{{ . }}</a>
+            {{ end }}
+            {{ else }}
+            <a>{{ default "Uncategorized" .Site.Params.text.uncategorized }}</a>
+            {{ end }}
+        </div>
+        <div class="card-date-author">
+            {{ if .Params.zmz }}<span class="author">{{ .Params.zmz }}</span> {{ end }}
+            <span class="date">{{ .Date.Format "2006-01-02" }}</span>
+        </div>
+
+    </div>
+</div>

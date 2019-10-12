@@ -1,16 +1,23 @@
 {{ define "main" }}
-<div class="container article-container">
+<div class="container article-container home-container">
 
     <div class="article-rightbar">
    
-        <div class="article-rightbar-child">
+        <div class="article-rightbar-child roundit">
             <div class="article-content">
                 {{ .Content }}
             </div>
         </div>
 
-        <div class="article-rightbar-child">
-            <h4> 论坛新鲜事 </h4>
+        <div class="article-rightbar-child roundit">
+            <h4> 笑神论坛 </h4>
+            <div class="article-content">
+                {{ partial "flarum_card.html" . }}
+            </div>
+        </div>      
+
+        <div class="article-rightbar-child roundit">
+            <h4>  </h4>
             <div class="article-content">
                 {{ partial "flarum_card.html" . }}
             </div>
@@ -18,57 +25,77 @@
 
 
 
+
     </div>
     
     <div class="article-metamain">
 
+        <div class="homeblock roundit">
+            <h1 class="strong"> 节目 </h1>
+            <main class="list">
 
-        <h1 class="strong"> 节目 </h1>
-        <main class="list">
+                {{ range first 2 (where .Site.RegularPages "Params.bangumi" "not in" site.Params.otherbangumis) }}
 
-            {{ range first 2 (where .Site.RegularPages "Params.bangumi" "not in" site.Params.otherbangumis) }}
+                    {{ partial "article_justfig_title.html" . }}
 
-                {{ partial "article_justfig.html" . }}
+                {{ end }}
 
-            {{ end }}
+                <div style="font-size:1.2em; width: 100%">
+                    <table>
+                    {{ range first 9 (after 2 (where .Site.RegularPages "Params.bangumi" "not in" site.Params.otherbangumis)) }}
+                          {{ partial "article_table.html" .}}
+                    {{ end }}
+                    </table>
+                </div>
+            </main>
 
-            <div class = "container1em">
-            {{ range first 8 (after 2 (where .Site.RegularPages "Params.bangumi" "not in" site.Params.otherbangumis)) }}
-                <li> {{ .Params.bangumi }} {{ partial "article_li.html" .}}</li>
-            {{ end }}
-            </div>
-        </main>
+            <a href="/bangumis"><h2 class="linkbutton"  style="text-align:center;">=More=</h2></a>
+        </div>
 
-                <h1 class="strong"> 段子 </h1>
-        <main class="list">
+        <div class="homeblock roundit">
+        
+            <h1 class="strong"> 段子 </h1>
+            <main class="list">
 
-            {{ range first 2 (where .Site.RegularPages "Section" "neta") }}
+                {{ range first 2 (where .Site.RegularPages "Section" "neta") }}
 
-                {{ partial "article_justfig_neta.html" . }}
+                    {{ partial "article_justfig_neta.html" . }}
 
-            {{ end }}            
-            <div class = "container1em">
-            {{ range first 8 (after 2 (where .Site.RegularPages "Section" "neta")) }}
-                <li> {{ .Params.combi}} {{ partial "article_li_neta.html" .}}</li>
-            {{ end }}
-            </div>
-        </main>
+                {{ end }}            
+                <div class = "container1em" style="font-size:1.2em">
+                    <table>
+                        {{ range first 9 (after 2 (where .Site.RegularPages "Section" "neta")) }}
+                             {{ partial "article_table_neta.html" .}}
+                        {{ end }}
+                    </table>
+                </div>
+            </main>
 
-                <h1 class="strong"> cut/其他 </h1>
-        <main class="list">
+            <a href="/neta"><h2 class="linkbutton"  style="text-align:center;">=More=</h2></a>
+        </div>
 
-            {{ range first 2 (where .Site.RegularPages "Params.bangumi" "in" .Site.Params.otherbangumis2) }}
+        <div class="homeblock roundit">
+            <h1 class="strong"> cut/其他 </h1>
+            <main class="list">
 
-                {{ partial "article_justfig_neta.html" . }}
+                {{ range first 2 (where .Site.RegularPages "Params.bangumi" "in" .Site.Params.otherbangumis2) }}
 
-            {{ end }}            
-            <div class = "container1em">
-            {{ range first 8 (after 2 (where .Site.RegularPages "Params.bangumi" "in" .Site.Params.otherbangumis2)) }}
-                <li> {{ .Params.combi}} {{ partial "article_li_neta.html" .}}</li>
-            {{ end }}
-            </div>
-        </main>
-                <div class="article-rightbar-child">
+                    {{ partial "article_justfig_title.html" . }}
+
+                {{ end }}            
+                <div style="font-size:1.2em; width: 100%">
+                    <table>
+                        {{ range first 9 (after 2 (where .Site.RegularPages "Params.bangumi" "in" .Site.Params.otherbangumis2)) }}
+                             {{ partial "article_table.html" .}}
+                        {{ end }}
+                    </table>
+                </div>
+            </main>
+
+            <a href="/post"><h2 class="linkbutton"  style="text-align:center;">=More=</h2></a>
+
+        </div>
+                <div class="article-rightbar-child roundit">
             <h4> 由以下字幕组强力驱动 </h4>
             <div class="flexcol">
                 {{ range $.Site.Data.authors.list }}

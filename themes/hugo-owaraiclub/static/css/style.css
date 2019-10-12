@@ -105,7 +105,7 @@ h1,h2,h3,h4,h5,h6{
 
 #main{
   /*background:yellow;*/
-  background: rgba(255,255,255,0.5);
+  background: rgba(255,255,255,0.9);
 }
 
 /*---------------article card*/
@@ -304,10 +304,12 @@ h1,h2,h3,h4,h5,h6{
 }
 
 .card-container{
-  padding: 1em;
+
+  width:80%;
+  text-align: right; 
 
   max-width: 350px;
-   background-color:white;
+   /*background-color:white;*/
    position: relative;
    left:0;
    top:0;
@@ -315,6 +317,8 @@ h1,h2,h3,h4,h5,h6{
    border-radius: 10px;
    /*margin-left: 5em;*/
    /*margin-left:2em;*/
+   margin-left:2em;
+   margin-right: 1em;
 
 }
 
@@ -436,6 +440,9 @@ table thead th { border-bottom: 1px solid #ddd; }
 th, td { padding: 5px; }
 /*td{min-width: 100px;}*/
 tr:nth-child(even) { background: #eee }
+
+
+
 
 /* removed thumbnail pic css*/
 /* by TC*/
@@ -692,7 +699,7 @@ hr {
 }
 
 .article-rightbar{
-  font-size: 1.4em;
+  font-size: 1.0rem;
   flex-grow:2;
   max-width: 700px;    
   background-color: transparent;
@@ -1078,3 +1085,102 @@ article{
 .pagination .active a{
   font-size:1.5em;
 }
+
+
+.homeblock table, thead, th, td {
+  border-style: none;
+  background: white;
+
+}
+
+
+.homeblock .article-img2 {
+  width:auto;
+  height: auto;
+
+}
+
+.homeblock .list section{
+  /*width: 50em;*/
+  flex: 1 0 45%;
+}
+
+
+/*foldable*/
+
+.accordion > input[type="checkbox"] {
+  position: absolute;
+  left: -100vw;
+}
+
+.accordion .content {
+  overflow-y: hidden;
+  height: 0;
+  transition: height 0.3s ease;
+}
+
+.accordion > input[type="checkbox"]:checked ~ .content {
+  height: auto;
+  overflow: visible;
+}
+
+.accordion label {
+  display: block;
+}
+
+
+
+/*style*/
+
+.accordion label {
+  color: #333;
+  cursor: pointer;
+  font-weight: normal;
+  padding: 15px;
+  background: #e8e8e8;
+}
+
+
+.accordion {
+  margin-bottom: 1em;
+}
+
+.accordion > input[type="checkbox"]:checked ~ .content {
+  padding: 15px;
+  border: 1px solid #e8e8e8;
+  border-top: 0;
+}
+
+.accordion .handle {
+  margin: 0;
+  font-size: 1.125em;
+  line-height: 1.2em;
+}
+
+.accordion label {
+  color: #333;
+  cursor: pointer;
+  font-weight: normal;
+  padding: 15px;
+  background: #e8e8e8;
+}
+
+.accordion label:hover,
+.accordion label:focus {
+  background: #d8d8d8;
+}
+
+.accordion .handle label:before {
+  font-family: 'fontawesome';
+  content: "\f054";
+  display: inline-block;
+  margin-right: 10px;
+  font-size: .58em;
+  line-height: 1.556em;
+  vertical-align: middle;
+}
+
+.accordion > input[type="checkbox"]:checked ~ .handle label:before {
+  content: "\f078";
+}
+

@@ -1,29 +1,19 @@
 {{ define "main" }}
-
 <div class="article-container">
-
-        <div class="article-rightbar">
-            <div class="article-rightbar-child">
-                <h1><a href="/{{ .Data.Plural }}"> {{ .Section }}</a><h1>
-                
-            </div>
-        </div>    
-
-
+    <div class="article-rightbar">
+        <div class="article-rightbar-child">
+            <h1><a href="/{{ .Data.Plural }}"> {{ .Section }}</a>
+                <h1>
+        </div>
+    </div>
     <div class="article-metamain">
-
         <ul class="taxonomy-cloud">
             {{ range $key, $value := .Data.Terms.ByCount }}
-
-               {{ if gt .Count 3}}
-
-                   <li id="{{ .Page.Title }}"> <a href="{{ .Page.Permalink }}"style="font-size:{{ add (div .Count 30) 1 }}em">{{ .Page.Title }}</a> ({{ .Count }})</li>
-
-               {{ end }}
-
+            {{ if gt .Count 3}}
+            <li id="{{ .Page.Title }}"> <a href="{{ .Page.Permalink }}" style="font-size:{{ add (div .Count 30) 1 }}em">{{ .Page.Title }}</a> ({{ .Count }})</li>
+            {{ end }}
             {{ end }}
         </ul>
     </div>
-
 </div>
 {{ end }}

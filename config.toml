@@ -26,43 +26,39 @@ refLinksNotFoundURL = '#'
 [[menu.top]]
     name = "节目"
     url = "/bangumis/"
-    weight = 3
+    weight = 2
 [[menu.top]]
     name = "段子"
-    url = "/neta/"
-    weight = 4
+    url = "/combi/"
+    weight = 3
 [[menu.top]]
     name = "论坛"
     url = "https://d.owaraiclub.com/"
-    weight = 10
-[[menu.top]]
-    name = "搜索"
-    url = "/search/"
-    weight = 12
+    weight = 5
+
 
 
 [[menu.side]]
-    name = "全部"
+    name = "时间线-节目"
     url = "/post/"
     weight = 1
     desc = "haha"
 [[menu.side]]
-    name = "字幕组"
-    url = "/categories/"
+    name = "时间线-段子"
+    url = "/neta/"
     weight = 2
 [[menu.side]]
-    name = "标签"
+    name = "分类-标签"
     url = "/tags/"
-    weight = 5
+    weight = 3
 [[menu.side]]
-    name = "笑神百科"
+    name = "分类-字幕组"
+    url = "/categories/"
+    weight = 4
+[[menu.side]]
+    name = "百科"
     url = "/wiki/"
     weight = 5
-[[menu.side]]
-    name = "艺人组合(段子)"
-    url = "/combi/"
-    weight = 6
-
 
 
 

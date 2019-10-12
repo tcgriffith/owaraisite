@@ -1,29 +1,30 @@
 {{ define "main" }}
-<div class="container article-container ">
+<div class="sidenav">
 
+    <h1> 更新时间 </h1>
+
+    {{ range .Data.Pages.GroupByDate "2006-01" }}
+    <a href="#{{.Key}}">{{.Key}}</a>
+    {{ end }}
+</div>
+<div class="container article-container">
     <div class="article-rightbar">
         <div class="article-rightbar-child">
-            <h1><a href="/{{ .Data.Plural }}">{{.Section}}/ </a></h1>
-            <h2>{{.Title}}</h2>
-                
-            
-            <div class="article-content">
-                {{if gt (len .Content) 0 }}
-                {{ .Content }}
-                {{ end }}
-            </div>
+            <h1><a href="/{{ .Data.Plural }}"> {{.Section}}</a>/{{.Title}}</h1>
             {{ partial "wiki_summary.html" . }}
         </div>
-
     </div>
-
-
-    <main class="list article-metamain">
-        {{ $paginator := .Paginate (where .Data.Pages "Section" "!=" "") }}
-        {{ range $paginator.Pages }}
-        {{ partial "article_justfig_title.html" . }}
-        {{ end }}
-    </main>
+    <div class="article-metamain">
+        <table>
+            {{ range .Data.Pages.GroupByDate "2006-01" }}
+            <th nowrap id="{{.Key}}">
+                <h1>{{.Key}}</h1>
+            </th>
+            {{ range .Pages }}
+            {{ partial "article_table.html" .}}
+            {{end}}
+            {{ end }}
+        </table>
+    </div>
 </div>
-<nav>{{ template "_internal/pagination.html" . }}</nav>
 {{ end }}

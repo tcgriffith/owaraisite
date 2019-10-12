@@ -1,21 +1,17 @@
 {{ define "main" }}
 <div class="article-container container">
-
     <div class="article-rightbar">
-
         <div class="article-rightbar">
             <div class="article-rightbar-child">
-                <h1><a href="/{{ .Section }}"> {{ .Section }}</a><h1>
-                <h3>{{.Title}}</h1>
+                <h1><a href="/{{ .Section }}"> {{ .Section }}</a>
+                    <h1>
+                        <h3>{{.Title}}
+                    </h1>
             </div>
-        </div>    
-
+        </div>
         <div class="sidetoc">
             {{.TableOfContents}}
-        </div>         
-
-
-
+        </div>
         <div class="article-rightbar-child">
             {{ partial "author_card.html" .}}
         </div>
@@ -29,7 +25,6 @@
             {{ end }}
         </div>
         {{ end }}
-
         {{ if .Params.bangumis }}
         <div class="article-rightbar-child">
             <h2> {{ default "Bangumis: " (index $.Site.Params.text "bangumi") }}</h2>
@@ -42,9 +37,7 @@
             </p>
             {{end}}
         </div>
-
         {{ end }}
-
         {{ if .Params.tags }}
         <div class="article-rightbar-child">
             <h2> {{ default "Tags: " (index $.Site.Params.text "tags") }}</h2>
@@ -57,24 +50,15 @@
             </p>
             {{ end }}
         </div>
-
         {{ end }}
-
     </div>
-
-
-
     <div class="article-metamain">
         <div class="article-meta">
             <h1><span class="title">{{ .Title }}</span></h1>
         </div>
-
         <div class="wiki-content">
             {{ .Content }}
         </div>
-
     </div>
-
-    
 </div>
 {{ end}}

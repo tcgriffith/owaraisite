@@ -1,18 +1,37 @@
 {{ define "main" }}
-<div id="mysidenav" class="container shadowbox">
-    <div class="sidenav">
+
+    <div class="sidenav" >
         {{ range .Data.Terms.ByCount }}
-        <a href="#{{ .Page.Title }}">{{ .Page.Title }} ({{ .Count }})</a>
+        <a href="#{{ .Page.Title }}">{{ .Page.Title }}</a>
         {{ end }}
     </div>
-    <div>
+
+
+<div class="article-container">
+
+    <div class="article-rightbar">
+        <div class="article-rightbar-child">
+            <h1><a href="/{{ .Data.Plural }}"> {{ .Section }}</a></h1>
+                
+
+            {{ partial "wiki_card.html" . }}
+            
+
+        </div>
+    </div>
+
+    <div class="article-metamain">
+        
         {{ range $key, $value := .Data.Terms.ByCount }}
-           <h2 id="{{ .Page.Title }}"> <a href="{{ .Page.Permalink }}"style="font-size:{{ add (div .Count 200) 1 }}em">{{ .Page.Title }}</a> ({{ .Count }})</h2>
-
-                {{ range first 5 $value.Pages }}
-                    <li>{{ partial "article_li.html" .}}</li>
+            <a  id="{{ .Page.Title }}" href="{{ .Page.Permalink }}">
+                <h2>{{ .Page.Title }}({{ .Count }})</h2>
+            </a>
+            <div>
+                {{ range first 4 $value.Pages }}
+               <li>     {{ partial "article_li.html" .}}</li> 
                 {{ end }}
-
+            </div>
+            
         {{ end }}
     </div>
 </div>
