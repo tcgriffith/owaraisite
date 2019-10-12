@@ -1,0 +1,8 @@
+<div class ="wiki-container">
+ {{ with .Site.GetPage .Title }}
+    {{ if gt (len .Content ) 0}} 
+       <a href="{{ .Permalink }}"><h1>Wiki</h1></a>
+       {{ .Content }}
+    {{ end}}
+ {{ end }}
+</div>

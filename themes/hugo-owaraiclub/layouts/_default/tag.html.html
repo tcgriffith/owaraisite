@@ -22,14 +22,7 @@
             </div>
         </div>
 
-        <div class ="wiki-container">
-         
-
-         {{ with .Site.GetPage .Title }}
-             <a href="{{ .Permalink }}"><h1>Wiki</h1></a>
-             {{ .Content }}
-         {{ end }}
-        </div>
+        {{ partial "wiki_card.html" . }}
 
     </div>
 

@@ -1,11 +1,21 @@
 {{ define "main" }}
-<div id="mysidenav" class="container shadowbox">
+
 <div class="sidenav">
     {{ range $.Site.Data.authors.list }}
     <a href="#{{ .name }}">{{ .name }}</a>
     {{ end }}
 </div>
-    <div>
+
+
+<div id="mysidenav" class="container article-container">
+    <div class="article-rightbar">
+        <div class="article-rightbar-child">
+            <h1><a href="/{{ .Data.Plural }}"> {{ .Section }}/</a><h1>
+                <h3>{{.Title}}</h1>
+            {{ partial "wiki_card.html" . }}
+        </div>
+    </div>
+    <div class="article-metamain">
         {{ range $key, $value := .Data.Terms.ByCount }}
            <h2 id="{{ .Page.Title }}"> <a href="{{ .Page.Permalink }}"style="font-size:{{ add (div .Count 200) 1 }}em">{{ .Page.Title }}</a> ({{ .Count }})</h2>
 

@@ -10,15 +10,7 @@
         <div class="article-rightbar-child">
             <h1><a href="/{{ .Data.Plural }}"> {{ .Section }}/</a><h1>
                 <h3>{{.Title}}</h1>
-            
-            <div class ="wiki-container">
-             
-
-             {{ with .Site.GetPage .Title }}
-                 <a href="{{ .Permalink }}"><h1>Wiki</h1></a>
-                 {{ .Summary }}
-             {{ end }}
-            </div>
+            {{ partial "wiki_card.html" . }}
         </div>
     </div>
     <div class="article-metamain">
