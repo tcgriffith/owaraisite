@@ -642,6 +642,24 @@ hr {
 
 /*layout*/
 
+.taxonomy-cloud{
+  display: flex;
+  justify-content: flex-end;
+  font-size: .875em;
+  flex-wrap: wrap;
+  align-items: center;
+}
+
+.taxonomy-cloud li {
+  padding: 0 0 .4em .8em;
+
+}
+
+.wiki-container{
+  padding: .5em;
+  font-size: 0.8em;
+}
+
 .article-container{
   display: flex;
   flex-wrap: wrap;

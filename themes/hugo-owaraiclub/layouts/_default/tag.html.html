@@ -1,28 +1,40 @@
 {{ define "main" }}
 
+
 <div class="sidenav">
     {{ range .Data.Pages.GroupByPublishDate "2006" }}
     <a href="#{{.Key}}">{{.Key}}</a>
     {{ end }}
 </div>
-<div class="container article-container homecontainer">
+
+<div class="article-container container">
+
     <div class="article-rightbar">
         <div class="article-rightbar-child">
-            <h1><a href="/{{ .Data.Plural }}"> {{ .Section }}/</a><h1>
-                <h3>{{.Title}}</h1>
+            <h1><a href="/{{ .Data.Plural }}">{{.Section}}/ </a></h1>
+            <h2>{{.Title}}</h2>
+                
             
-            <div class ="wiki-container">
-             
-
-             {{ with .Site.GetPage .Title }}
-                 <a href="{{ .Permalink }}"><h1>Wiki</h1></a>
-                 {{ .Summary }}
-             {{ end }}
+            <div class="article-content">
+                {{if gt (len .Content) 0 }}
+                {{ .Content }}
+                {{ end }}
             </div>
         </div>
+
+        <div class ="wiki-container">
+         
+
+         {{ with .Site.GetPage .Title }}
+             <a href="{{ .Permalink }}"><h1>Wiki</h1></a>
+             {{ .Content }}
+         {{ end }}
+        </div>
+
     </div>
+
     <div class="article-metamain">
-        
+        <div class="article-content">
             {{ range .Data.Pages.GroupByPublishDate "2006" }}
             <h1 id="{{.Key}}"> {{.Key}} </h1>
                 {{ range .Pages.ByPublishDate.Reverse }}
@@ -31,9 +43,11 @@
                 </li>
                 {{end}}
             {{ end }}
-        
+
+        </div>
     </div>
 </div>
+
 {{ end }}
 
 
