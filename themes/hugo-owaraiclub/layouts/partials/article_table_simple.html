@@ -1,0 +1,27 @@
+
+
+
+<tr>
+
+	{{ if .Params.combi }}
+		<td style="text-align:right">{{ .Params.combi }}</td>
+	{{ else }}
+		<td style="text-align:right">{{ .Params.bangumi }}</td>
+	{{ end }}
+	<td><a href="{{ .Permalink }}">{{ .Params.title }}</a></td>
+    {{ $pan := findRE "pan.baidu.com" .Content 1 }}
+	{{ $aid := findRE "http.*www.bilibili.*/video/(av.*?)/" .Content 1 }}
+	    <td nowrap>    
+    {{ if $pan }}
+    	<a class="highlightit linkbutton" href="{{ .Permalink }}">网盘</a>
+    {{ end }}
+    
+	{{ if $aid }}
+
+		{{ range $aid }}
+			<a class="linkbutton" href="{{print .}}">B站</a> 
+		{{ end }}
+	{{ end }}
+	 </td>
+</tr>
+

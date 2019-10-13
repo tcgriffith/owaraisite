@@ -43,7 +43,7 @@
                 <div style="font-size:1.2em; width: 100%">
                     <table>
                     {{ range first 9 (after 2 (where .Site.RegularPages "Params.bangumi" "not in" site.Params.otherbangumis)) }}
-                          {{ partial "article_table.html" .}}
+                          {{ partial "article_table_simple.html" .}}
                     {{ end }}
                     </table>
                 </div>
@@ -65,7 +65,7 @@
                 <div class = "container1em" style="font-size:1.2em">
                     <table>
                         {{ range first 9 (after 2 (where .Site.RegularPages "Section" "neta")) }}
-                             {{ partial "article_table_neta.html" .}}
+                             {{ partial "article_table_simple.html" .}}
                         {{ end }}
                     </table>
                 </div>
@@ -86,7 +86,7 @@
                 <div style="font-size:1.2em; width: 100%">
                     <table>
                         {{ range first 9 (after 2 (where .Site.RegularPages "Params.bangumi" "in" .Site.Params.otherbangumis2)) }}
-                             {{ partial "article_table.html" .}}
+                             {{ partial "article_table_simple.html" .}}
                         {{ end }}
                     </table>
                 </div>

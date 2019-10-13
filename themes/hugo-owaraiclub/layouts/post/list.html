@@ -9,7 +9,17 @@
     <div class="article-rightbar">
         <div class="article-rightbar-child">
             <h1><a href="/{{ .Data.Plural }}"> {{.Section}}</a>/{{.Title}}</h1>
+            <div class="article-content">
+            {{ if gt (len .Content) 0 }}
+
+              {{ .Content }}
+
+            {{ end}}
+
+            </div>
+
             {{ partial "wiki_summary.html" . }}
+
         </div>
     </div>
     <div class="article-metamain">
@@ -26,7 +36,7 @@
             <div class="content">
                 <table>
                 {{ range .Pages }}
-                {{ partial "article_table.html" .}}
+                {{ partial "article_table_simple.html" .}}
                 {{end}}
                 </table>
             </div>         
