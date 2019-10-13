@@ -25,8 +25,9 @@
     - [剧团一人]({{< ref "剧团一人" >}})
 
 ## 综艺
+- [短剧之王大赛]({{< ref "短剧之王大赛" >}})
 - [M1大赛]({{< ref "M1大赛" >}})
-- [Engei Grand Slam]({{< ref "Engei Grand Slam" >}})
+- [Engei]({{< ref "Engei" >}})
 - [Ametalk]({{< ref "Ametalk" >}})
 - [ippon]({{< ref "ippon" >}})
 - [伦敦之心]({{< ref "伦敦之心" >}})
