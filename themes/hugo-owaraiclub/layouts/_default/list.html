@@ -28,7 +28,7 @@
         <table>
             {{ range .Data.Pages.GroupByDate "2006-01" }}
             <th nowrap id="{{.Key}}">
-                <h1>{{.Key}}</h1>
+                <h4>{{.Key}}</h4>
             </th>
             {{ range .Pages }}
             {{ partial "article_table_simple.html" .}}
