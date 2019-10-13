@@ -39,7 +39,7 @@
                 </div>
             </main>
 
-            <a href="/bangumis"><h2 class="linkbutton"  style="text-align:center;">=More=</h2></a>
+            <a href="/bangumis"><h2 class="linkbutton"  style="background: #777796; text-align:center;">=More=</h2></a>
         </div>
 
         <div class="homeblock roundit">
@@ -52,7 +52,7 @@
                     {{ partial "article_justfig_neta.html" . }}
 
                 {{ end }}            
-                <div class = "container1em" style="font-size:1.2em">
+                <div style="font-size:1.2em; width: 100%">
                     <table>
                         {{ range first 9 (after 2 (where .Site.RegularPages "Section" "neta")) }}
                              {{ partial "article_table_simple.html" .}}
