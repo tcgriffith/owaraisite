@@ -5,12 +5,16 @@ author:
     - 风物诗字幕组
 zmz: 小水小风
 publishdate: '2001-01-03'
-bangumi: 其他
+bangumi: 电视剧
 date: '2019-06-09'
 description: 其他&#8226;NA
 weight: 9280.0
+tags:
+    - 推理
+    - 悬疑
+    - 细思恐极
 bangumis:
-  - 其他
+  - 电视剧
 categories:
   - 小水小风
 brief: "# 简介 放送禁止"

@@ -3,6 +3,12 @@ title: ippon 补档
 brief: "拾遗 补一下ippon"
 nodate: true
 draft: false
+bangumi: IPPON
+bangumis: 
+    - IPPON
+tags:
+    - IPPON
+    - 手动档
 ---
 
 

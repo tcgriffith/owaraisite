@@ -3,13 +3,13 @@ title: 未完成少女三部曲
 author: 大喜利王字幕组
 zmz: 大喜利王字幕组
 publishdate: '2001-01-03'
-bangumi: 其他
+bangumi: 电视剧
 date: '2018-11-09'
 slug: 2018-11-09-baka_drama
 description: 其他&#8226;NA
 weight: 9999
 bangumis:
-  - 其他
+  - 电视剧
 tags:
   - 早见明里
   - 笨蛋主义
