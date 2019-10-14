@@ -23,7 +23,7 @@ a:active, a:hover {text-decoration:none}   /* 重置链接a标签的鼠标滑动
 a {outline: none;}  
 a:active {star:expression(this.onFocus=this.blur());}
 
-ul,li{list-style:none;}
+/*ul,li{list-style:none;}*/
 
 /* clear*/
 

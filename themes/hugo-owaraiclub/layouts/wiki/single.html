@@ -10,7 +10,9 @@
             </div>
         </div>
         <div class="sidetoc">
-            {{.TableOfContents}}
+
+            {{ partial "toc_fixed.html" .}}
+
         </div>
         <div class="article-rightbar-child">
             {{ partial "author_card.html" .}}
