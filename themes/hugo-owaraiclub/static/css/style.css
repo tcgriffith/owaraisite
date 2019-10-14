@@ -845,6 +845,7 @@ article{
     width: 250px;
     /*margin-top: 60px;*/ 
     transform: translateX(-250px);
+    -webkit-transform: translateX(-250px);
     transition: transform 250ms ease-in-out;
     /*background: linear-gradient(180deg, #FC466B 0%, #3F5EFB 100%);*/
     background: #777796
@@ -884,6 +885,7 @@ article{
 
 input[type="checkbox"]:checked ~ #sidebarMenu {
     transform: translateX(0);
+    -webkit-transform: translateX(0);
 }
 
 input[type=checkbox] {
@@ -1129,6 +1131,7 @@ article{
   overflow-y: hidden;
   height: 0;
   transition: height 0.3s ease;
+  -webkit-transition: height 0.3s ease;
 }
 
 .accordion > input[type="checkbox"]:checked ~ .content {
