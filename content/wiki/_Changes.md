@@ -1,21 +1,21 @@
-* ce0f6b4 - (HEAD -> master, origin/master, origin/HEAD) Created R1大赛 (markdown) (10 hours ago) <TC>
-* 107ce8c - Updated _Sidebar (markdown) (11 hours ago) <TC>
-* dae2cc8 - Updated _Sidebar (markdown) (11 hours ago) <TC>
-* 6516558 - Created 霜降明星 (markdown) (11 hours ago) <TC>
-* 8ce2812 - Created 搞笑第七世代 (markdown) (11 hours ago) <TC>
-* 8dcf631 - Updated _Sidebar (markdown) (11 hours ago) <TC>
-* a6b8307 - Created 花子 (markdown) (11 hours ago) <TC>
-* 2f4d112 - Updated 剧团一人 (markdown) (13 hours ago) <TC>
-* df90681 - Updated 伦敦之心 (markdown) (13 hours ago) <TC>
-* 09ecd63 - Updated Engei Grand Slam (markdown) (34 hours ago) <TC>
-* 9679d96 - Updated _Sidebar (markdown) (34 hours ago) <TC>
-* 465a15b - Created 短剧之王大赛 (markdown) (34 hours ago) <TC>
-* 8956522 - Updated Home (markdown) (35 hours ago) <TC>
-* 2993d53 - Updated Speed Wagon (markdown) (2 days ago) <TC>
-* 3d95b8f - Updated Speed Wagon (markdown) (2 days ago) <TC>
+* ce0f6b4 - (HEAD -> master, origin/master, origin/HEAD) Created R1大赛 (markdown) (14 hours ago) <TC>
+* 107ce8c - Updated _Sidebar (markdown) (15 hours ago) <TC>
+* dae2cc8 - Updated _Sidebar (markdown) (15 hours ago) <TC>
+* 6516558 - Created 霜降明星 (markdown) (15 hours ago) <TC>
+* 8ce2812 - Created 搞笑第七世代 (markdown) (15 hours ago) <TC>
+* 8dcf631 - Updated _Sidebar (markdown) (15 hours ago) <TC>
+* a6b8307 - Created 花子 (markdown) (15 hours ago) <TC>
+* 2f4d112 - Updated 剧团一人 (markdown) (17 hours ago) <TC>
+* df90681 - Updated 伦敦之心 (markdown) (17 hours ago) <TC>
+* 09ecd63 - Updated Engei Grand Slam (markdown) (2 days ago) <TC>
+* 9679d96 - Updated _Sidebar (markdown) (2 days ago) <TC>
+* 465a15b - Created 短剧之王大赛 (markdown) (2 days ago) <TC>
+* 8956522 - Updated Home (markdown) (2 days ago) <TC>
+* 2993d53 - Updated Speed Wagon (markdown) (3 days ago) <TC>
+* 3d95b8f - Updated Speed Wagon (markdown) (3 days ago) <TC>
 * 9e7d912 - add more (3 days ago) <tcgriffith>
 * 474d1cc - Updated 伦敦之心 (markdown) (3 days ago) <TC>
-* 9e399da - Updated 吉本兴业 (markdown) (3 days ago) <TC>
+* 9e399da - Updated 吉本兴业 (markdown) (4 days ago) <TC>
 * f0fd6d2 - Updated 中川家 (markdown) (4 days ago) <TC>
 * 645f8cb - Updated 足球时间 (markdown) (4 days ago) <TC>
 * 371785d - Updated Non Style (markdown) (4 days ago) <TC>
@@ -35,8 +35,8 @@
 * ac75f2b - Updated 水曜日的DownTown (markdown) (4 days ago) <TC>
 * 6f3fb33 - Updated _Sidebar (markdown) (4 days ago) <TC>
 * 75578d4 - Updated _Sidebar (markdown) (4 days ago) <TC>
-* f9d87ad - Updated Home (markdown) (4 days ago) <TC>
-* 60d9ae1 - Updated Home (markdown) (4 days ago) <TC>
+* f9d87ad - Updated Home (markdown) (5 days ago) <TC>
+* 60d9ae1 - Updated Home (markdown) (5 days ago) <TC>
 * 4f39476 - rm index (5 days ago) <tcgriffith>
 * 61e9df4 - Updated Engei Grand Slam (markdown) (5 days ago) <TC>
 * 689920e - Updated Ametalk (markdown) (5 days ago) <TC>
