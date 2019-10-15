@@ -92,7 +92,7 @@ header{
 }
 
 body{
-        background: url(/img/banner_2019_v2.jpg) no-repeat;
+    background: url(/img/banner_2019_v2.jpg) no-repeat;
     background-size: 100% auto;
     background-attachment: fixed;
     background-position: right 60px;
@@ -105,7 +105,9 @@ h1,h2,h3,h4,h5,h6{
 
 #main{
   /*background:yellow;*/
-  background: rgba(255,255,255,0.9);
+  /*background: rgba(255,255,255,0.9);*/
+
+  background-image: linear-gradient(to top, #777796, white);
 }
 
 /*---------------article card*/
@@ -289,7 +291,7 @@ h1,h2,h3,h4,h5,h6{
 /* ---- author card ---- */
 
 .author-card-container{
-  width: 80%;
+  /*width: 80%;*/
 
   background-color: bisque;
    position: relative;
@@ -583,7 +585,7 @@ hr {
 
     .row{
       width:100%;
-      padding-bottom: 23%;
+      padding-bottom: 21.5%;
     /*height: 200px;*/
     line-height: 115px;
     text-align: center;
@@ -816,7 +818,9 @@ article{
 
 .homecontainer{
   background-color: white;
-  color: #777796
+  /*color: #777796*/
+
+  background-image: linear-gradient(to bottom, #777796, white);
 }
 
 
@@ -832,6 +836,7 @@ article{
     max-width: 100%;
     box-shadow: none;
     background-color: #777796;
+
     position: fixed;
     height: 60px!important;
     overflow: hidden;
@@ -847,8 +852,9 @@ article{
     transform: translateX(-250px);
     -webkit-transform: translateX(-250px);
     transition: transform 250ms ease-in-out;
-    /*background: linear-gradient(180deg, #FC466B 0%, #3F5EFB 100%);*/
-    background: #777796
+    background: linear-gradient(180deg, #777796 0%, pink 100%);
+    /*background-image: linear-gradient(to top, #777796, white);*/
+    /*background: #777796*/
 }
 .sidebarMenuInner{
     margin:0;

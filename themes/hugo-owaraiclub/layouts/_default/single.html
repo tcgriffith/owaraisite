@@ -4,12 +4,12 @@
     <div class="article-rightbar">
 
 
-        <div class="article-rightbar-child">
+        <div class="article-rightbar-child  ">
             {{ partial "author_card.html" .}}
         </div>
         {{ if .Params.combi }}
-        <div class="article-rightbar-child">
-            <div class="card-container">
+        <div class="article-rightbar-child roundit shadowbox container1em">
+            <div class="card-container roundit shadowbox container1em ">
             <h2> {{ default "Combi: " (index $.Site.Params.text "combi") }}</h2>
             {{ with .Params.combi }}
             <p class="tags taxonomy-cloud">
@@ -19,8 +19,8 @@
             </div>
         </div>
         {{ end }}
-        <div class="article-rightbar-child">
-            <div class="card-container">
+        <div class="article-rightbar-child roundit shadowbox container1em ">
+            <div class="card-container ">
             <h2> {{ default "Bangumis: " (index $.Site.Params.text "bangumi") }}</h2>
             {{ with .Params.bangumis }}
             <p class="tags taxonomy-cloud">
@@ -32,8 +32,8 @@
             {{end}}
             </div>
         </div>
-        <div class="article-rightbar-child">
-            <div class="card-container">
+        <div class="article-rightbar-child roundit shadowbox container1em ">
+            <div class="card-container ">
             <h2> {{ default "Tags: " (index $.Site.Params.text "tags") }}</h2>
             {{ with .Params.tags }}
             <p class="tags taxonomy-cloud">
@@ -50,7 +50,7 @@
 
 
 
-    <div class="article-metamain">
+    <div class="article-metamain roundit shadowbox container1em">
         <div class="article-meta">
             <h1><span class="title">{{ .Title }}</span></h1>
         </div>
