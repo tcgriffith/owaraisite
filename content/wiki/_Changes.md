@@ -1,12 +1,14 @@
-* ce0f6b4 - (HEAD -> master, origin/master, origin/HEAD) Created R1大赛 (markdown) (18 hours ago) <TC>
-* 107ce8c - Updated _Sidebar (markdown) (19 hours ago) <TC>
-* dae2cc8 - Updated _Sidebar (markdown) (19 hours ago) <TC>
-* 6516558 - Created 霜降明星 (markdown) (19 hours ago) <TC>
-* 8ce2812 - Created 搞笑第七世代 (markdown) (19 hours ago) <TC>
-* 8dcf631 - Updated _Sidebar (markdown) (19 hours ago) <TC>
-* a6b8307 - Created 花子 (markdown) (19 hours ago) <TC>
-* 2f4d112 - Updated 剧团一人 (markdown) (21 hours ago) <TC>
-* df90681 - Updated 伦敦之心 (markdown) (21 hours ago) <TC>
+* 0029542 - (HEAD -> master, origin/master, origin/HEAD) Updated 搞笑组合译名对照 (markdown) (82 minutes ago) <TC>
+* 1c679b9 - Created 搞笑组合译名对照 (markdown) (82 minutes ago) <TC>
+* ce0f6b4 - Created R1大赛 (markdown) (22 hours ago) <TC>
+* 107ce8c - Updated _Sidebar (markdown) (23 hours ago) <TC>
+* dae2cc8 - Updated _Sidebar (markdown) (23 hours ago) <TC>
+* 6516558 - Created 霜降明星 (markdown) (23 hours ago) <TC>
+* 8ce2812 - Created 搞笑第七世代 (markdown) (23 hours ago) <TC>
+* 8dcf631 - Updated _Sidebar (markdown) (23 hours ago) <TC>
+* a6b8307 - Created 花子 (markdown) (23 hours ago) <TC>
+* 2f4d112 - Updated 剧团一人 (markdown) (25 hours ago) <TC>
+* df90681 - Updated 伦敦之心 (markdown) (25 hours ago) <TC>
 * 09ecd63 - Updated Engei Grand Slam (markdown) (2 days ago) <TC>
 * 9679d96 - Updated _Sidebar (markdown) (2 days ago) <TC>
 * 465a15b - Created 短剧之王大赛 (markdown) (2 days ago) <TC>
@@ -16,25 +18,25 @@
 * 9e7d912 - add more (3 days ago) <tcgriffith>
 * 474d1cc - Updated 伦敦之心 (markdown) (3 days ago) <TC>
 * 9e399da - Updated 吉本兴业 (markdown) (4 days ago) <TC>
-* f0fd6d2 - Updated 中川家 (markdown) (4 days ago) <TC>
-* 645f8cb - Updated 足球时间 (markdown) (4 days ago) <TC>
-* 371785d - Updated Non Style (markdown) (4 days ago) <TC>
-* 60fb066 - Updated Downtown (markdown) (4 days ago) <TC>
-* 9baae4f - Updated Downtown (markdown) (4 days ago) <TC>
-* 18c1798 - Updated Downtown (markdown) (4 days ago) <TC>
-* e8a1584 - Updated 千鸟 (markdown) (4 days ago) <TC>
-* b0699e6 - Updated 镰鼬 (markdown) (4 days ago) <TC>
-* 466ad5e - Updated 奥黛丽 (markdown) (4 days ago) <TC>
-* e6bee3b - Updated 流星 (markdown) (4 days ago) <TC>
-* 8375337 - Updated 东京03 (markdown) (4 days ago) <TC>
-* 655f674 - Updated M1大赛 (markdown) (4 days ago) <TC>
-* bdb732c - Updated Engei Grand Slam (markdown) (4 days ago) <TC>
-* 0831e88 - Updated Ametalk (markdown) (4 days ago) <TC>
-* b9c4d6f - Updated IPPON (markdown) (4 days ago) <TC>
-* 59d3be0 - Updated 伦敦之心 (markdown) (4 days ago) <TC>
-* ac75f2b - Updated 水曜日的DownTown (markdown) (4 days ago) <TC>
-* 6f3fb33 - Updated _Sidebar (markdown) (4 days ago) <TC>
-* 75578d4 - Updated _Sidebar (markdown) (4 days ago) <TC>
+* f0fd6d2 - Updated 中川家 (markdown) (5 days ago) <TC>
+* 645f8cb - Updated 足球时间 (markdown) (5 days ago) <TC>
+* 371785d - Updated Non Style (markdown) (5 days ago) <TC>
+* 60fb066 - Updated Downtown (markdown) (5 days ago) <TC>
+* 9baae4f - Updated Downtown (markdown) (5 days ago) <TC>
+* 18c1798 - Updated Downtown (markdown) (5 days ago) <TC>
+* e8a1584 - Updated 千鸟 (markdown) (5 days ago) <TC>
+* b0699e6 - Updated 镰鼬 (markdown) (5 days ago) <TC>
+* 466ad5e - Updated 奥黛丽 (markdown) (5 days ago) <TC>
+* e6bee3b - Updated 流星 (markdown) (5 days ago) <TC>
+* 8375337 - Updated 东京03 (markdown) (5 days ago) <TC>
+* 655f674 - Updated M1大赛 (markdown) (5 days ago) <TC>
+* bdb732c - Updated Engei Grand Slam (markdown) (5 days ago) <TC>
+* 0831e88 - Updated Ametalk (markdown) (5 days ago) <TC>
+* b9c4d6f - Updated IPPON (markdown) (5 days ago) <TC>
+* 59d3be0 - Updated 伦敦之心 (markdown) (5 days ago) <TC>
+* ac75f2b - Updated 水曜日的DownTown (markdown) (5 days ago) <TC>
+* 6f3fb33 - Updated _Sidebar (markdown) (5 days ago) <TC>
+* 75578d4 - Updated _Sidebar (markdown) (5 days ago) <TC>
 * f9d87ad - Updated Home (markdown) (5 days ago) <TC>
 * 60d9ae1 - Updated Home (markdown) (5 days ago) <TC>
 * 4f39476 - rm index (5 days ago) <tcgriffith>
