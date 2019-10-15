@@ -105,9 +105,9 @@ h1,h2,h3,h4,h5,h6{
 
 #main{
   /*background:yellow;*/
-  /*background: rgba(255,255,255,0.9);*/
+  background: rgba(240,240,240,0.9);
 
-  background-image: linear-gradient(to top, #777796, white);
+  /*background-image: linear-gradient(to top, #777796, white);*/
 }
 
 /*---------------article card*/
