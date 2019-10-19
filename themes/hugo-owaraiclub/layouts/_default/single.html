@@ -9,7 +9,7 @@
         </div>
         {{ if .Params.combi }}
         <div class="article-rightbar-child roundit shadowbox container1em">
-            <div class="card-container roundit shadowbox container1em ">
+            <div class="card-container">
             <h2> {{ default "Combi: " (index $.Site.Params.text "combi") }}</h2>
             {{ with .Params.combi }}
             <p class="tags taxonomy-cloud">
