@@ -1,6 +1,5 @@
 {{ define "main" }}
 <div class="sidenav">
-    <h1> 更新时间 </h1>
     {{ range .Data.Pages.GroupByDate "2006-01" }}
     <a href="#{{.Key}}">{{.Key}}</a>
     {{ end }}
