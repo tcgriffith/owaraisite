@@ -2,6 +2,7 @@
 combi: 加鲁加鲁
 title: 【中字】JARUJARU TOWER 340「说「让我放心嘛～」的家伙」
 author: 今天鱼
+zmz: 今天鱼
 bangumi: 段子
 bangumis: 
   - 段子
@@ -12,7 +13,7 @@ brief: "JARUJARU自称拥有8000个段子，现在以「JARU JARU TOWER」的形
 ---
 
 
-![flyer](https://raw.githubusercontent.com/tcgriffith/owaraisite/master/static/tmpimg/Ys56PvP.jpg)
+![flyer](https://raw.githubusercontent.com/tcgriffith/owaraisite/master/static/img/jarutower.jpg)
 
 
 > JARUJARU自称拥有8000个段子，现在以「JARU JARU TOWER」的形式在公式HP和油管每天更新一个。更新一次即是加建一层，居民则是短剧角色：由JARUJARU扮演的奇怪的人。距离「JARU JARU TOWER」建成8000层的2039年11月7日还有二十年。
