@@ -9,6 +9,10 @@ a .not-found{
   color: red;
 }
 
+mark{
+  color: red;
+}
+
 
 /*forum card*/
 
@@ -56,7 +60,10 @@ body {
   /*padding: 0 15px;*/
 }
 .page .header div, .page .container, .page .copyright, .page .menu { max-width: 900px; }
-.container { hyphens: auto; }
+.container { 
+  hyphens: auto;
+  max-width: 1400px;
+}
 
 
 html {
