@@ -1,9 +1,9 @@
-* 590201e - (HEAD -> master, origin/master, origin/HEAD) Created 日文维基收录的搞笑组合 (markdown) (4 days ago) <TC>
-* b9aba14 - Updated _Sidebar (markdown) (4 days ago) <TC>
-* 651f3e7 - Updated 日文维基收录的搞笑艺人 (markdown) (4 days ago) <TC>
-* 88c62f1 - Updated 日文维基收录的搞笑艺人 (markdown) (4 days ago) <TC>
-* f833ce1 - Updated 日文维基收录的搞笑艺人 (markdown) (4 days ago) <TC>
-* 1e61082 - Created 日文维基收录的搞笑艺人 (markdown) (4 days ago) <TC>
+* 590201e - (HEAD -> master, origin/master, origin/HEAD) Created 日文维基收录的搞笑组合 (markdown) (5 days ago) <TC>
+* b9aba14 - Updated _Sidebar (markdown) (5 days ago) <TC>
+* 651f3e7 - Updated 日文维基收录的搞笑艺人 (markdown) (5 days ago) <TC>
+* 88c62f1 - Updated 日文维基收录的搞笑艺人 (markdown) (5 days ago) <TC>
+* f833ce1 - Updated 日文维基收录的搞笑艺人 (markdown) (5 days ago) <TC>
+* 1e61082 - Created 日文维基收录的搞笑艺人 (markdown) (5 days ago) <TC>
 * 0029542 - Updated 搞笑组合译名对照 (markdown) (8 days ago) <TC>
 * 1c679b9 - Created 搞笑组合译名对照 (markdown) (8 days ago) <TC>
 * ce0f6b4 - Created R1大赛 (markdown) (9 days ago) <TC>
@@ -50,7 +50,7 @@
 * 689920e - Updated Ametalk (markdown) (13 days ago) <TC>
 * 6dffba1 - diaaaaaazeeeeeeeeeepam (9 months ago) <tcgriffith>
 * b8e7afe - Created 短剧 (markdown) (12 months ago) <TC>
-* 736ea19 - Created 中川家 (markdown) (12 months ago) <TC>
+* 736ea19 - Created 中川家 (markdown) (1 year ago) <TC>
 * 8790ef4 - Updated Home (markdown) (1 year ago) <TC>
 * 0105276 - Updated Home (markdown) (1 year ago) <TC>
 * 801f7a3 - test edit (1 year ago) <TC>
