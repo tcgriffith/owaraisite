@@ -1,7 +1,8 @@
 ---
 title: 放送禁止系列
 author: 
-    - 水清and疾风
+    - 疾了个风
+    - 水清而深
     - 风物诗字幕组
 zmz: 小水小风
 publishdate: '2001-01-03'
@@ -16,7 +17,10 @@ tags:
 bangumis:
   - 电视剧
 categories:
+  - 水清而深
   - 小水小风
+  - 疾了个风
+  - 风物诗字幕组
 brief: "# 简介 放送禁止"
 ---
 
@@ -31,10 +35,10 @@ brief: "# 简介 放送禁止"
 
 你看到真相了吗
 
-|分集    |第一弹  |网盘 |
+|分集    |在线  |网盘 |
 |:----|:----|:-----|
-|01 狂人之宴|[第一弹](http://www.diyidan.com/main/post/6295053995636865358/detail/1?channel=share)|[网盘](https://pan.baidu.com/s/1kORCNCwuoEKZzILAGX7YGQ) qr5x|
-|02 被诅咒的大家庭|[第一弹](http://www.diyidan.com/main/post/6295053995655654954/detail/1?channel=share)|[网盘](https://pan.baidu.com/s/1ZXkdXOu7Yllgu5oWL0ndfw) bp3e|
+|01 狂人之宴|[BILIBILI](https://www.bilibili.com/video/av69174903)|[网盘](https://pan.baidu.com/s/1kORCNCwuoEKZzILAGX7YGQ) qr5x|
+|02 被诅咒的大家庭||[网盘](https://pan.baidu.com/s/1ZXkdXOu7Yllgu5oWL0ndfw) bp3e|
 |03 跟踪狂地狱编||[网盘](https://pan.baidu.com/s/1dT9-u-VboHPZb26vE1uV0g) q05k|
 |04 恐怖的邻里纠纷||[网盘](https://pan.baidu.com/s/1oFN9P9unvHtc5iDDBcs4jg) sfqz |
 |05 诗人之村||[网盘](https://pan.baidu.com/s/1cGNkyOsz5nAThhMTUN0htA) bv6x|

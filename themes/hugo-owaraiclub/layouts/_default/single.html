@@ -1,6 +1,11 @@
 {{ define "main" }}
 <div class="article-container container">
 
+    {{ if .Params.nometa }}
+    {{ else }}
+
+
+
     <div class="article-rightbar">
 
 
@@ -8,7 +13,7 @@
             {{ partial "author_card.html" .}}
         </div>
         {{ if .Params.combi }}
-        <div class="article-rightbar-child roundit shadowbox container1em">
+        <div class="article-rightbar-child roundit  container1em">
             <div class="card-container">
             <h2> {{ default "Combi: " (index $.Site.Params.text "combi") }}</h2>
             {{ with .Params.combi }}
@@ -19,7 +24,7 @@
             </div>
         </div>
         {{ end }}
-        <div class="article-rightbar-child roundit shadowbox container1em ">
+        <div class="article-rightbar-child roundit  container1em ">
             <div class="card-container ">
             <h2> {{ default "Bangumis: " (index $.Site.Params.text "bangumi") }}</h2>
             {{ with .Params.bangumis }}
@@ -32,7 +37,7 @@
             {{end}}
             </div>
         </div>
-        <div class="article-rightbar-child roundit shadowbox container1em ">
+        <div class="article-rightbar-child roundit  container1em ">
             <div class="card-container ">
             <h2> {{ default "Tags: " (index $.Site.Params.text "tags") }}</h2>
             {{ with .Params.tags }}
@@ -48,9 +53,13 @@
 
     </div>
 
+    {{ end }}
 
 
-    <div class="article-metamain roundit shadowbox">
+    <div class="article-metamain roundit ">
+
+
+    
         <div class="article-meta">
             <h1><span class="title">{{ .Title }}</span></h1>
         </div>
@@ -58,6 +67,12 @@
         <div class="article-content">
             {{ .Content }}
         </div>
+
+
+        {{ if .Params.minimo }}
+
+
+        {{ else }}
 
 
         <div class="article-related">
@@ -77,6 +92,8 @@
                 {{ end }}
             </main>
         </div>
+
+        {{ end }}
     </div>
 
 

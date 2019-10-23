@@ -725,11 +725,11 @@ hr {
 
   .article-rightbar{
     /*max-width: 20em;*/
-    max-width: 30%;
+    max-width: 20%;
   }
 
   .article-metamain{
-    max-width: 60%;
+    max-width: 75%;
   }
 }
 

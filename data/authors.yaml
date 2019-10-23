@@ -53,15 +53,18 @@ list:
   - name: 伤不起的见光死
     image: /img/jgs_avatar.jpg
     intro: 立志当一个法定节假日能更新的up/有吉弘行❤/伊泽拓司应援中
-  # - name: 疾风
-  #   image: https://i.imgur.com/2NLJP8V.jpg
-  #   intro: 坐标土澳，天天吃土，职业学生，喜欢折腾代码和网站，宅，懒，生活懒散，常常对工作效率过于乐观导致一直赶DL，屡教不改。炉石最高打到6级，steam常常喜+1，dota的话是一条两千分咸鱼。
-  # - name: 莱姆籽
-  #   image: https://i.imgur.com/69kXh0u.png
-  #   intro: 出没于多个日综字幕组的大佬，活好声甜的00后B站网红UP主，高贵冷艳的macbook用户，据说喜欢星野源，是一只[INTJ](https://www.16personalities.com/intp-personality)。
-  # - name: 九條
-  #   image: https://i.imgur.com/35qcgjw.png
-  #   intro: 新人up主请多关照
+  - name: 水清而深
+    image: /img/sq_avatar.jpeg
+    intro: 天心月圆
+  - name: 疾了个风
+    image: /img/jf_avatar.png
+    intro: 坐标土澳，喜欢折腾代码和网站，自学乌干达日语，目前在跟小水一起做放送禁止，主页 https://tc.rbind.io
+  - name: 莱姆籽
+    image: /img/lmz_avatar.png
+    intro: 出没于多个日综字幕组的大佬，活好声甜的00后B站网红UP主，高贵冷艳的macbook用户，据说喜欢星野源，是一只[INTJ](https://www.16personalities.com/intp-personality)。
   # - name: らみぱす
   #   image: https://i.imgur.com/UC5u4SC.png
   #   intro: 职业是偶像，美妆博主，和唱伦心的OP
+  # - name: 九條
+  #   image: https://i.imgur.com/35qcgjw.png
+  #   intro: 新人up主请多关照
