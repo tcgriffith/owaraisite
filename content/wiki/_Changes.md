@@ -1,9 +1,9 @@
-* 590201e - (HEAD -> master, origin/master, origin/HEAD) Created 日文维基收录的搞笑组合 (markdown) (5 days ago) <TC>
-* b9aba14 - Updated _Sidebar (markdown) (5 days ago) <TC>
-* 651f3e7 - Updated 日文维基收录的搞笑艺人 (markdown) (5 days ago) <TC>
-* 88c62f1 - Updated 日文维基收录的搞笑艺人 (markdown) (5 days ago) <TC>
-* f833ce1 - Updated 日文维基收录的搞笑艺人 (markdown) (5 days ago) <TC>
-* 1e61082 - Created 日文维基收录的搞笑艺人 (markdown) (5 days ago) <TC>
+* 590201e - (HEAD -> master, origin/master, origin/HEAD) Created 日文维基收录的搞笑组合 (markdown) (6 days ago) <TC>
+* b9aba14 - Updated _Sidebar (markdown) (6 days ago) <TC>
+* 651f3e7 - Updated 日文维基收录的搞笑艺人 (markdown) (6 days ago) <TC>
+* 88c62f1 - Updated 日文维基收录的搞笑艺人 (markdown) (6 days ago) <TC>
+* f833ce1 - Updated 日文维基收录的搞笑艺人 (markdown) (6 days ago) <TC>
+* 1e61082 - Created 日文维基收录的搞笑艺人 (markdown) (6 days ago) <TC>
 * 0029542 - Updated 搞笑组合译名对照 (markdown) (9 days ago) <TC>
 * 1c679b9 - Created 搞笑组合译名对照 (markdown) (9 days ago) <TC>
 * ce0f6b4 - Created R1大赛 (markdown) (10 days ago) <TC>
@@ -63,8 +63,8 @@
 * 8f7f368 - Updated _Sidebar (markdown) (1 year, 5 months ago) <TC>
 * ea97c77 - structure (1 year, 5 months ago) <tcgriffith>
 * 51a4865 - Created 千鸟 (markdown) (1 year, 5 months ago) <TC>
-* 0fda774 - Updated Tutorial (markdown) (1 year, 5 months ago) <TC>
-* cce4d29 - Updated 东方收音机 (markdown) (1 year, 5 months ago) <TC>
+* 0fda774 - Updated Tutorial (markdown) (1 year, 6 months ago) <TC>
+* cce4d29 - Updated 东方收音机 (markdown) (1 year, 6 months ago) <TC>
 * c21b311 - Updated 日本搞笑史 (markdown) (1 year, 10 months ago) <TC>
 * 754cc97 - Updated 日本搞笑史 (markdown) (1 year, 10 months ago) <TC>
 * 56e5282 - Created 日本搞笑史 (markdown) (1 year, 10 months ago) <TC>
@@ -76,9 +76,9 @@
 * 8cad247 - Updated _Sidebar (markdown) (1 year, 10 months ago) <TC>
 * 8c42f50 - Updated _Sidebar (markdown) (1 year, 10 months ago) <TC>
 * 465995c - Created IPPON (markdown) (1 year, 10 months ago) <TC>
-* 820c803 - Updated 剧团一人 (markdown) (1 year, 10 months ago) <TC>
-* a8abe08 - Created 岩尾望 (markdown) (1 year, 10 months ago) <TC>
-* b99e092 - Updated 绝对不准笑系列 (markdown) (1 year, 10 months ago) <Humi2314>
+* 820c803 - Updated 剧团一人 (markdown) (1 year, 11 months ago) <TC>
+* a8abe08 - Created 岩尾望 (markdown) (1 year, 11 months ago) <TC>
+* b99e092 - Updated 绝对不准笑系列 (markdown) (1 year, 11 months ago) <Humi2314>
 * be8004f - restructure it (1 year, 11 months ago) <tcgriffith>
 * 96deb6a - Updated 水曜日的DownTown (markdown) (1 year, 11 months ago) <Humi2314>
 * 52c998c - Updated 流星 (markdown) (1 year, 11 months ago) <tohrusnbs>
