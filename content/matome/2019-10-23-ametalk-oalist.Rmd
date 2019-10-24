@@ -14,7 +14,7 @@ bangumi: 节目表
 bangumis:
   - 节目表
   - ametalk
-weight: '`r (200000 - as.numeric(format(Sys.Date(),"%y%m%d")))`'
+weight: '`r (200000 - as.numeric(format(Sys.Date(),"%y%m%d")) +1)`'
 draft: false
 ---
 
@@ -60,7 +60,7 @@ ame_list.cln %>%
   select(date, title=title2, guest=summary, link=link.y) %>%
   arrange(desc(date))
 
-readr::write_csv2(ame_list.cln2, path= here::here("static/ametalk.csv"))
+readr::write_csv2(ame_list.cln, path= here::here("static/ametalk.csv"))
   
 ame_list.cln2 %>%
   DT::datatable(escape= FALSE) %>%

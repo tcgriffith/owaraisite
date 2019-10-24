@@ -1,0 +1,62 @@
+---
+title: 伦敦之心节目表
+author: 疾了个风
+date: '2019-10-24'
+publishdate: '2019-10-24'
+slug: lonha-oalist
+categories:
+  - 疾了个风
+tags:
+  - matome
+  - 伦敦之心
+minimo: true
+bangumi: 节目表
+bangumis:
+  - 节目表
+  - 伦敦之心
+weight: '`r (200000 - as.numeric(format(Sys.Date(),"%y%m%d")) +1)`'
+draft: false
+---
+
+
+```{r setup, include=FALSE}
+knitr::opts_chunk$set(echo = FALSE)
+library(dplyr)
+library(DT)
+library(lubridate)
+load("~/GIT/lhdata/data/lh_list.cln.rda")
+```
+
+
+![](https://raw.githubusercontent.com/tcgriffith/owaraisite/master/static/img/lonha.jpg)
+
+
+
+## 简介
+
+LH的官网最早只有2015年的记录，就酱吧…
+
+
+[CSV下载](/lonha.csv)
+
+[有建议的话欢迎论坛反馈](https://d.owaraiclub.com/d/3/14)
+
+```{r}
+
+lh_list.cln2 =
+lh_list.cln %>%
+  as_tibble() %>%
+  mutate(date= publishdate,
+         title = ifelse(is.na(title.y), "", paste0("</br><mark>", title.y,"</mark>")),
+         title2=paste0('<a href="',link.x,'"', 'title=',summary,'>',title.x, title,'</a>')) %>%
+  # select(date, id=a, title=title2, guest=d, link) %>%
+  select(date, title=title2, link=link.y) %>%
+  arrange(desc(date))
+
+readr::write_csv2(lh_list.cln, path= here::here("static/lonha.csv"))
+  
+lh_list.cln2 %>%
+  DT::datatable(escape= FALSE) %>%
+  formatStyle(c("title","date"), "white-space"="nowrap")
+```
+
