@@ -1,18 +1,19 @@
 ---
-title: 神舌节目表
+title: AMETALK节目表
 author: 疾了个风
-date: '2019-10-23'
-publishdate: '2019-10-23'
-slug: godtongue-oalist
+date: '2019-10-24'
+publishdate: '2019-10-24'
+slug: ametalk-oalist
 categories:
   - 疾了个风
 tags:
   - matome
+  - ametalk
 minimo: true
 bangumi: 节目表
 bangumis:
-  - 神舌
   - 节目表
+  - ametalk
 weight: '`r (200000 - as.numeric(format(Sys.Date(),"%y%m%d")))`'
 draft: false
 ---
@@ -23,17 +24,17 @@ knitr::opts_chunk$set(echo = FALSE)
 library(dplyr)
 library(DT)
 library(lubridate)
-load("~/GIT/lhdata/data/godtongue_list_cln.rda")
+load("~/GIT/lhdata/data/ame_list.cln.rda")
 ```
 
 
-![](https://raw.githubusercontent.com/tcgriffith/owaraisite/master/static/img/godtongue.jpg)
+![](https://raw.githubusercontent.com/tcgriffith/owaraisite/master/static/img/ametalk.jpg)
 
 
 
 ## 简介
 
-论坛的小伙伴[@lidaye](https://d.owaraiclub.com/d/3/14) 建议
+论坛的小伙伴[lidaye](https://d.owaraiclub.com/d/3/14) 建议
 
 > 还有一个就是希望能有有完整的合集目录，即使当前那一期没有字幕，甚至没有资源，只需要有标题介绍也行啊，这样也心里有个数啊哈哈哈
 
@@ -43,23 +44,25 @@ load("~/GIT/lhdata/data/godtongue_list_cln.rda")
 另外其实好多档字幕组自己也没留所以能不能找到就随缘了啊哈哈哈
 
 
-[CSV下载](/godtongue.csv)
+[CSV下载](/ametalk.csv)
 
 [有建议的话欢迎论坛反馈](https://d.owaraiclub.com/d/3/14)
 
 ```{r}
-godtong_list.cln2 = 
-godtong_list.cln %>%
+
+ame_list.cln2 =
+ame_list.cln %>%
   as_tibble() %>%
   mutate(date= publishdate,
-         title = ifelse(is.na(title), "", paste0("</br><mark>", title,"</mark>")),
-         title2=paste0(c, title)) %>%
-  select(date, id=a, title=title2, guest=d, link) %>%
+         title = ifelse(is.na(title.y), "", paste0("</br><mark>", title.y,"</mark>")),
+         title2=paste0(title.x, title)) %>%
+  # select(date, id=a, title=title2, guest=d, link) %>%
+  select(date, title=title2, guest=summary, link=link.y) %>%
   arrange(desc(date))
 
-readr::write_csv2(godtong_list.cln, path= here::here("static/godtongue.csv"))
+readr::write_csv2(ame_list.cln2, path= here::here("static/ametalk.csv"))
   
-godtong_list.cln2 %>%
+ame_list.cln2 %>%
   DT::datatable(escape= FALSE) %>%
   formatStyle(c("title","date"), "white-space"="nowrap")
 ```
