@@ -24,25 +24,25 @@
 * 9e7d912 - add more (12 days ago) <tcgriffith>
 * 474d1cc - Updated 伦敦之心 (markdown) (12 days ago) <TC>
 * 9e399da - Updated 吉本兴业 (markdown) (13 days ago) <TC>
-* f0fd6d2 - Updated 中川家 (markdown) (13 days ago) <TC>
-* 645f8cb - Updated 足球时间 (markdown) (13 days ago) <TC>
-* 371785d - Updated Non Style (markdown) (13 days ago) <TC>
-* 60fb066 - Updated Downtown (markdown) (13 days ago) <TC>
-* 9baae4f - Updated Downtown (markdown) (13 days ago) <TC>
-* 18c1798 - Updated Downtown (markdown) (13 days ago) <TC>
-* e8a1584 - Updated 千鸟 (markdown) (13 days ago) <TC>
-* b0699e6 - Updated 镰鼬 (markdown) (13 days ago) <TC>
-* 466ad5e - Updated 奥黛丽 (markdown) (13 days ago) <TC>
-* e6bee3b - Updated 流星 (markdown) (13 days ago) <TC>
-* 8375337 - Updated 东京03 (markdown) (13 days ago) <TC>
-* 655f674 - Updated M1大赛 (markdown) (13 days ago) <TC>
-* bdb732c - Updated Engei Grand Slam (markdown) (13 days ago) <TC>
-* 0831e88 - Updated Ametalk (markdown) (13 days ago) <TC>
-* b9c4d6f - Updated IPPON (markdown) (13 days ago) <TC>
-* 59d3be0 - Updated 伦敦之心 (markdown) (13 days ago) <TC>
-* ac75f2b - Updated 水曜日的DownTown (markdown) (13 days ago) <TC>
-* 6f3fb33 - Updated _Sidebar (markdown) (13 days ago) <TC>
-* 75578d4 - Updated _Sidebar (markdown) (13 days ago) <TC>
+* f0fd6d2 - Updated 中川家 (markdown) (2 weeks ago) <TC>
+* 645f8cb - Updated 足球时间 (markdown) (2 weeks ago) <TC>
+* 371785d - Updated Non Style (markdown) (2 weeks ago) <TC>
+* 60fb066 - Updated Downtown (markdown) (2 weeks ago) <TC>
+* 9baae4f - Updated Downtown (markdown) (2 weeks ago) <TC>
+* 18c1798 - Updated Downtown (markdown) (2 weeks ago) <TC>
+* e8a1584 - Updated 千鸟 (markdown) (2 weeks ago) <TC>
+* b0699e6 - Updated 镰鼬 (markdown) (2 weeks ago) <TC>
+* 466ad5e - Updated 奥黛丽 (markdown) (2 weeks ago) <TC>
+* e6bee3b - Updated 流星 (markdown) (2 weeks ago) <TC>
+* 8375337 - Updated 东京03 (markdown) (2 weeks ago) <TC>
+* 655f674 - Updated M1大赛 (markdown) (2 weeks ago) <TC>
+* bdb732c - Updated Engei Grand Slam (markdown) (2 weeks ago) <TC>
+* 0831e88 - Updated Ametalk (markdown) (2 weeks ago) <TC>
+* b9c4d6f - Updated IPPON (markdown) (2 weeks ago) <TC>
+* 59d3be0 - Updated 伦敦之心 (markdown) (2 weeks ago) <TC>
+* ac75f2b - Updated 水曜日的DownTown (markdown) (2 weeks ago) <TC>
+* 6f3fb33 - Updated _Sidebar (markdown) (2 weeks ago) <TC>
+* 75578d4 - Updated _Sidebar (markdown) (2 weeks ago) <TC>
 * f9d87ad - Updated Home (markdown) (2 weeks ago) <TC>
 * 60d9ae1 - Updated Home (markdown) (2 weeks ago) <TC>
 * 4f39476 - rm index (2 weeks ago) <tcgriffith>
@@ -74,8 +74,8 @@
 * 9befadb - Updated 东京03 (markdown) (1 year, 10 months ago) <TC>
 * ef8d39f - Created 东京03 (markdown) (1 year, 10 months ago) <TC>
 * 8cad247 - Updated _Sidebar (markdown) (1 year, 10 months ago) <TC>
-* 8c42f50 - Updated _Sidebar (markdown) (1 year, 10 months ago) <TC>
-* 465995c - Created IPPON (markdown) (1 year, 10 months ago) <TC>
+* 8c42f50 - Updated _Sidebar (markdown) (1 year, 11 months ago) <TC>
+* 465995c - Created IPPON (markdown) (1 year, 11 months ago) <TC>
 * 820c803 - Updated 剧团一人 (markdown) (1 year, 11 months ago) <TC>
 * a8abe08 - Created 岩尾望 (markdown) (1 year, 11 months ago) <TC>
 * b99e092 - Updated 绝对不准笑系列 (markdown) (1 year, 11 months ago) <Humi2314>
