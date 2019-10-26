@@ -1102,6 +1102,8 @@ article{
   width:auto;
   height: auto;
 
+  max-height: 16rem;
+
 }
 
 .homeblock .list section{
