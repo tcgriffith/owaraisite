@@ -1,24 +1,24 @@
-* 590201e - (HEAD -> master, origin/master, origin/HEAD) Created 日文维基收录的搞笑组合 (markdown) (8 days ago) <TC>
-* b9aba14 - Updated _Sidebar (markdown) (8 days ago) <TC>
-* 651f3e7 - Updated 日文维基收录的搞笑艺人 (markdown) (8 days ago) <TC>
-* 88c62f1 - Updated 日文维基收录的搞笑艺人 (markdown) (8 days ago) <TC>
-* f833ce1 - Updated 日文维基收录的搞笑艺人 (markdown) (8 days ago) <TC>
-* 1e61082 - Created 日文维基收录的搞笑艺人 (markdown) (8 days ago) <TC>
-* 0029542 - Updated 搞笑组合译名对照 (markdown) (11 days ago) <TC>
-* 1c679b9 - Created 搞笑组合译名对照 (markdown) (11 days ago) <TC>
-* ce0f6b4 - Created R1大赛 (markdown) (12 days ago) <TC>
-* 107ce8c - Updated _Sidebar (markdown) (12 days ago) <TC>
-* dae2cc8 - Updated _Sidebar (markdown) (12 days ago) <TC>
-* 6516558 - Created 霜降明星 (markdown) (12 days ago) <TC>
-* 8ce2812 - Created 搞笑第七世代 (markdown) (12 days ago) <TC>
-* 8dcf631 - Updated _Sidebar (markdown) (12 days ago) <TC>
-* a6b8307 - Created 花子 (markdown) (12 days ago) <TC>
-* 2f4d112 - Updated 剧团一人 (markdown) (12 days ago) <TC>
-* df90681 - Updated 伦敦之心 (markdown) (12 days ago) <TC>
-* 09ecd63 - Updated Engei Grand Slam (markdown) (13 days ago) <TC>
-* 9679d96 - Updated _Sidebar (markdown) (13 days ago) <TC>
-* 465a15b - Created 短剧之王大赛 (markdown) (13 days ago) <TC>
-* 8956522 - Updated Home (markdown) (13 days ago) <TC>
+* 590201e - (HEAD -> master, origin/master, origin/HEAD) Created 日文维基收录的搞笑组合 (markdown) (9 days ago) <TC>
+* b9aba14 - Updated _Sidebar (markdown) (9 days ago) <TC>
+* 651f3e7 - Updated 日文维基收录的搞笑艺人 (markdown) (9 days ago) <TC>
+* 88c62f1 - Updated 日文维基收录的搞笑艺人 (markdown) (9 days ago) <TC>
+* f833ce1 - Updated 日文维基收录的搞笑艺人 (markdown) (9 days ago) <TC>
+* 1e61082 - Created 日文维基收录的搞笑艺人 (markdown) (9 days ago) <TC>
+* 0029542 - Updated 搞笑组合译名对照 (markdown) (12 days ago) <TC>
+* 1c679b9 - Created 搞笑组合译名对照 (markdown) (12 days ago) <TC>
+* ce0f6b4 - Created R1大赛 (markdown) (13 days ago) <TC>
+* 107ce8c - Updated _Sidebar (markdown) (13 days ago) <TC>
+* dae2cc8 - Updated _Sidebar (markdown) (13 days ago) <TC>
+* 6516558 - Created 霜降明星 (markdown) (13 days ago) <TC>
+* 8ce2812 - Created 搞笑第七世代 (markdown) (13 days ago) <TC>
+* 8dcf631 - Updated _Sidebar (markdown) (13 days ago) <TC>
+* a6b8307 - Created 花子 (markdown) (13 days ago) <TC>
+* 2f4d112 - Updated 剧团一人 (markdown) (13 days ago) <TC>
+* df90681 - Updated 伦敦之心 (markdown) (13 days ago) <TC>
+* 09ecd63 - Updated Engei Grand Slam (markdown) (2 weeks ago) <TC>
+* 9679d96 - Updated _Sidebar (markdown) (2 weeks ago) <TC>
+* 465a15b - Created 短剧之王大赛 (markdown) (2 weeks ago) <TC>
+* 8956522 - Updated Home (markdown) (2 weeks ago) <TC>
 * 2993d53 - Updated Speed Wagon (markdown) (2 weeks ago) <TC>
 * 3d95b8f - Updated Speed Wagon (markdown) (2 weeks ago) <TC>
 * 9e7d912 - add more (2 weeks ago) <tcgriffith>
@@ -70,7 +70,7 @@
 * 56e5282 - Created 日本搞笑史 (markdown) (1 year, 10 months ago) <TC>
 * c3d0f80 - Updated 搞笑艺人 (markdown) (1 year, 10 months ago) <TC>
 * 1641234 - Updated 不可接触 (markdown) (1 year, 10 months ago) <crossrx>
-* 765577f - Updated 搞笑艺人 (markdown) (1 year, 10 months ago) <TC>
+* 765577f - Updated 搞笑艺人 (markdown) (1 year, 11 months ago) <TC>
 * 9befadb - Updated 东京03 (markdown) (1 year, 11 months ago) <TC>
 * ef8d39f - Created 东京03 (markdown) (1 year, 11 months ago) <TC>
 * 8cad247 - Updated _Sidebar (markdown) (1 year, 11 months ago) <TC>
