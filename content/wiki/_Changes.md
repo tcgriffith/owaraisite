@@ -6,13 +6,13 @@
 * 1e61082 - Created 日文维基收录的搞笑艺人 (markdown) (9 days ago) <TC>
 * 0029542 - Updated 搞笑组合译名对照 (markdown) (13 days ago) <TC>
 * 1c679b9 - Created 搞笑组合译名对照 (markdown) (13 days ago) <TC>
-* ce0f6b4 - Created R1大赛 (markdown) (13 days ago) <TC>
-* 107ce8c - Updated _Sidebar (markdown) (13 days ago) <TC>
-* dae2cc8 - Updated _Sidebar (markdown) (13 days ago) <TC>
-* 6516558 - Created 霜降明星 (markdown) (13 days ago) <TC>
-* 8ce2812 - Created 搞笑第七世代 (markdown) (13 days ago) <TC>
-* 8dcf631 - Updated _Sidebar (markdown) (13 days ago) <TC>
-* a6b8307 - Created 花子 (markdown) (13 days ago) <TC>
+* ce0f6b4 - Created R1大赛 (markdown) (2 weeks ago) <TC>
+* 107ce8c - Updated _Sidebar (markdown) (2 weeks ago) <TC>
+* dae2cc8 - Updated _Sidebar (markdown) (2 weeks ago) <TC>
+* 6516558 - Created 霜降明星 (markdown) (2 weeks ago) <TC>
+* 8ce2812 - Created 搞笑第七世代 (markdown) (2 weeks ago) <TC>
+* 8dcf631 - Updated _Sidebar (markdown) (2 weeks ago) <TC>
+* a6b8307 - Created 花子 (markdown) (2 weeks ago) <TC>
 * 2f4d112 - Updated 剧团一人 (markdown) (2 weeks ago) <TC>
 * df90681 - Updated 伦敦之心 (markdown) (2 weeks ago) <TC>
 * 09ecd63 - Updated Engei Grand Slam (markdown) (2 weeks ago) <TC>
@@ -43,8 +43,8 @@
 * ac75f2b - Updated 水曜日的DownTown (markdown) (2 weeks ago) <TC>
 * 6f3fb33 - Updated _Sidebar (markdown) (2 weeks ago) <TC>
 * 75578d4 - Updated _Sidebar (markdown) (2 weeks ago) <TC>
-* f9d87ad - Updated Home (markdown) (2 weeks ago) <TC>
-* 60d9ae1 - Updated Home (markdown) (2 weeks ago) <TC>
+* f9d87ad - Updated Home (markdown) (3 weeks ago) <TC>
+* 60d9ae1 - Updated Home (markdown) (3 weeks ago) <TC>
 * 4f39476 - rm index (3 weeks ago) <tcgriffith>
 * 61e9df4 - Updated Engei Grand Slam (markdown) (3 weeks ago) <TC>
 * 689920e - Updated Ametalk (markdown) (3 weeks ago) <TC>
