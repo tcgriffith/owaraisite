@@ -1,0 +1,14 @@
+<div class="bubble">
+    <img class="logo" src="/img/baloon/logo_large.png">
+</div>
+{{ range (seq 30) }}
+{{ $.Scratch.Set "rand1" (index (seq 3 | shuffle) 0)}}
+<div class="object-wrapper speed-{{$.Scratch.Get "rand1"}}">
+    <div class="img-bubble" style="
+            top:{{index (seq 60 | shuffle) 0}}%;
+            left:{{index (seq 100 | shuffle) 0}}%;
+            width: 4em; height: 4em;
+            animation-delay: {{index (seq 10 | shuffle) 0}}s;
+            "></div>
+</div>
+{{ end }}
