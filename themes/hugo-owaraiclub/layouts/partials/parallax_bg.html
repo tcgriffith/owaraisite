@@ -3,11 +3,13 @@
 </div>
 {{ range (seq 30) }}
 {{ $.Scratch.Set "rand1" (index (seq 3 | shuffle) 0)}}
+{{ $.Scratch.Set "rand2" (index (seq 3 | shuffle) 0)}}
+
 <div class="object-wrapper speed-{{$.Scratch.Get "rand1"}}">
-    <div class="img-bubble" style="
-            top:{{index (seq 60 | shuffle) 0}}%;
-            left:{{index (seq 100 | shuffle) 0}}%;
-            width: 4em; height: 4em;
+    <div class="img-bubble filter-{{$.Scratch.Get "rand2"}}" style="
+            top:{{index (seq 10 80 | shuffle) 0}}%;
+            left:{{index (seq 100 | shuffle) 0}}%; 
+            width: 8em; height: 8em;
             animation-delay: {{index (seq 10 | shuffle) 0}}s;
             "></div>
 </div>
