@@ -1,7 +1,7 @@
 <div class="bubble">
     <img class="logo" src="/img/baloon/logo_large.png">
 </div>
-{{ range (seq 30) }}
+{{ range (seq 100) }}
 {{ $.Scratch.Set "rand1" (index (seq 3 | shuffle) 0)}}
 {{ $.Scratch.Set "rand2" (index (seq 3 | shuffle) 0)}}
 

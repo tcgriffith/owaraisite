@@ -99,7 +99,7 @@ h1,h2,h3,h4,h5,h6{
 #main{
   /*background:yellow;*/
   margin-top: 100vh;
-  background: none;
+  background: white;
   z-index: 999;
   /*height: 6000px;*/
 
