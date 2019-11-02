@@ -1,0 +1,100 @@
+{{ define "main" }}
+<div class="container article-container home-container">
+    <div class="article-rightbar ">
+        <div class="article-rightbar-child roundit shadowbox container1em">
+            <div class="article-content">
+                {{ .Content }}
+            </div>
+        </div>
+        <div class="article-rightbar-child roundit shadowbox container1em">
+            <h4> 笑神论坛 </h4>
+            <div class="article-content">
+                {{ partial "flarum_card.html" . }}
+            </div>
+        </div>
+
+        <div class="article-rightbar-child roundit tagcloud shadowbox container1em">
+            <h4><a href="/bangumis"></a> 一朵云 </h4>
+            {{ partial "tag_cloud.html" .}}
+        </div>
+    </div>
+    <div class="article-metamain">
+
+        <div class = "roundit  container1em shadowbox">
+            <main class="list">
+            {{ range first 5 (shuffle (where .Site.RegularPages "Section" "post")) }}
+                {{ partial "article_justfig_title.html" . }}
+            {{ end }}
+            </main>
+        </div>
+
+
+
+        <div class="homeblock roundit shadowbox container1em">
+            <h1 class="strong"> 节目 </h1>
+            <main class="list container1em">
+                {{ range first 2 (where .Site.RegularPages "Params.bangumi" "not in" site.Params.otherbangumis) }}
+                {{ partial "article_justfig_title.html" . }}
+                {{ end }}
+                    <table>
+                        {{ range first 9 (after 1 (where .Site.RegularPages "Params.bangumi" "not in" site.Params.otherbangumis)) }}
+                        {{ partial "article_table_simple.html" .}}
+                        {{ end }}
+                    </table>
+                
+            </main>
+            <a href="/bangumis">
+                <h2 class="linkbutton" style=" text-align:center;">=More=</h2>
+            </a>
+        </div>
+        <div class="homeblock roundit shadowbox container1em">
+            <h1 class="strong"> 段子 </h1>
+            <main class="list container1em">
+                {{ range first 2 (where .Site.RegularPages "Section" "neta") }}
+                {{ partial "article_justfig_neta.html" . }}
+                {{ end }}
+
+                    <table>
+                        {{ range first 9 (after 1 (where .Site.RegularPages "Section" "neta")) }}
+                        {{ partial "article_table_simple.html" .}}
+                        {{ end }}
+                    </table>
+
+            </main>
+            <a href="/neta">
+                <h2 class="linkbutton" style="text-align:center;">=More=</h2>
+            </a>
+        </div>
+        <div class="homeblock roundit shadowbox container1em ">
+            <h1 class="strong"> cut/其他 </h1>
+            <main class="list container1em ">
+                {{ range first 2 (where .Site.RegularPages "Params.bangumi" "in" .Site.Params.otherbangumis2) }}
+                {{ partial "article_justfig_title.html" . }}
+                {{ end }}
+                
+                    <table>
+                        {{ range first 9 (after 1 (where .Site.RegularPages "Params.bangumi" "in" .Site.Params.otherbangumis2)) }}
+                        {{ partial "article_table_simple.html" .}}
+                        {{ end }}
+                    </table>
+                
+            </main>
+            <a href="/post">
+                <h2 class="linkbutton" style=" text-align:center;">=More=</h2>
+            </a>
+        </div>
+        <div class="article-rightbar-child roundit container1em">
+            <h4> 由以下字幕组强力驱动 </h4>
+            <div class="flexcol">
+                {{ range $.Site.Data.authors.list }}
+                <a href="/categories/{{ .name }}">
+                    <img class="author-img" src="{{ .image }}" alt="{{ .name }}" />
+                </a>
+                {{ end }}
+            </div>
+        </div>
+
+
+    </div>
+</div>
+{{ end }}
