@@ -1,5 +1,6 @@
-http://owarai.netlify.com/* http://owaraiclub.com/:splat  301!
-https://owarai.netlify.com/* http://owaraiclub.com/:splat  301!
+https://owaraiclub.com/* https://owarai.netlify.com/:splat 301!
+https://www.owaraiclub.com/* https://owarai.netlify.com/:splat 301!
+
 /post/neta_matome_lmz /matome/neta_matome_lmz
 
 /post/2019-06-09-na-hosokinshi /matome/2019-06-09-na-hosokinshi
