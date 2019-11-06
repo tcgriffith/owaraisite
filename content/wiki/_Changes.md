@@ -60,9 +60,9 @@
 * 77bdaba - Updated _Sidebar (markdown) (1 year, 1 month ago) <TC>
 * 5cf3a83 - Created 镰鼬 (markdown) (1 year, 1 month ago) <TC>
 * 9b294db - Updated _footer (markdown) (1 year, 1 month ago) <TC>
-* 8f7f368 - Updated _Sidebar (markdown) (1 year, 5 months ago) <TC>
-* ea97c77 - structure (1 year, 5 months ago) <tcgriffith>
-* 51a4865 - Created 千鸟 (markdown) (1 year, 5 months ago) <TC>
+* 8f7f368 - Updated _Sidebar (markdown) (1 year, 6 months ago) <TC>
+* ea97c77 - structure (1 year, 6 months ago) <tcgriffith>
+* 51a4865 - Created 千鸟 (markdown) (1 year, 6 months ago) <TC>
 * 0fda774 - Updated Tutorial (markdown) (1 year, 6 months ago) <TC>
 * cce4d29 - Updated 东方收音机 (markdown) (1 year, 6 months ago) <TC>
 * c21b311 - Updated 日本搞笑史 (markdown) (1 year, 11 months ago) <TC>
