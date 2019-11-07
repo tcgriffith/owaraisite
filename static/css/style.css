@@ -1210,6 +1210,10 @@ article{
 
 /* parallax*/
 
+.bubblelogo{
+  padding-top: 30%;
+}
+
 .bubble {
     position: fixed;
     background: url(/img/baloon/bubble_pk.png) no-repeat;
@@ -1232,7 +1236,7 @@ article{
     margin-left: -20%;
     margin-right: 1rem;
 
-    max-width: 80%;
+    max-width: 60%;
     /*min-width: 15rem;*/
 
 
