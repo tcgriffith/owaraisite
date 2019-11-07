@@ -1230,6 +1230,8 @@ article{
     margin-top: -15rem;
     margin-left: -15rem;
 
+    max-width: 80%;
+
 }
 
 .logo {
@@ -1240,6 +1242,14 @@ article{
     width: 100%;
     margin: auto;
     /*height: 100%;*/
+}
+
+.banner-layer{
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
 }
 
 .img-bubble {
@@ -1405,7 +1415,7 @@ article{
 }
 
 .speed-1 {
-    transform: translateZ(-1px) scale(5);
+    transform: translateZ(-1px) scale(2);
 }
 
 .speed-2 {
@@ -1413,21 +1423,21 @@ article{
 }
 
 .speed-3 {
-    transform: translateZ(-9px) scale(5);
+    transform: translateZ(-9px) scale(10);
 }
 
 .speed-4 {
-    transform: translateZ(-16px) scale(5);
+    transform: translateZ(-16px) scale(17);
 }
 
 
 .speed-5 {
-    transform: translateZ(-25px) scale(5);
+    transform: translateZ(-25px) scale(26);
 }
 
 
 .speed-6 {
-    transform: translateZ(-36px) scale(5);
+    transform: translateZ(-36px) scale(37);
 }
 
 

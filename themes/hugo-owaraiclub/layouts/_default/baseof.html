@@ -6,15 +6,11 @@
 
 <body>
     <div id="universe" class="parallax">
-
-
-    {{ partial "parallax_bg.html" . }}
-
-    <div class="object-wrapper" id="main"> 
-        {{- block "main" . }}{{- end }}
-        {{- partial "footer.html" . -}}
-    </div>
-        
+        {{ partial "parallax_bg.html" . }}
+        <div class="object-wrapper" id="main">
+            {{- block "main" . }}{{- end }}
+            {{- partial "footer.html" . -}}
+        </div>
     </div>
 </body>
 
