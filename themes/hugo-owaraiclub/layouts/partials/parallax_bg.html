@@ -1,16 +1,24 @@
-<div class="bubble">
-    <img class="logo" src="/img/baloon/logo_large.png">
+<div class="bubble"><a href="/">
+    <img src="/img/baloon/logo_large.png"> 
+    </a>
 </div>
-{{ range (seq 100) }}
-{{ $.Scratch.Set "rand1" (index (seq 3 | shuffle) 0)}}
-{{ $.Scratch.Set "rand2" (index (seq 3 | shuffle) 0)}}
 
-<div class="object-wrapper speed-{{$.Scratch.Get "rand1"}}">
-    <div class="img-bubble filter-{{$.Scratch.Get "rand2"}}" style="
-            top:{{index (seq 10 80 | shuffle) 0}}%;
-            left:{{index (seq 100 | shuffle) 0}}%; 
-            width: 8em; height: 8em;
-            animation-delay: {{index (seq 10 | shuffle) 0}}s;
-            "></div>
+<div class="banner-layer object-wrapper speed-3">
+    <div style="background: url(/img/banner_new/banner_layer4.png) no-repeat; width: 100%; height: 100%; background-size: 100% auto;
+    background-position: center 99%;"></div>
 </div>
-{{ end }}
+
+
+<div class="banner-layer object-wrapper speed-2">
+    <div style="background: url(/img/banner_new/banner_layer3.png) no-repeat; width: 100%; height: 100%; background-size: 100% auto;
+        background-position: center 99%;"></div>
+</div>
+
+
+<div class="banner-layer object-wrapper speed-1">
+    <div style="background: url(/img/banner_new/banner_layer2.png) no-repeat; width: 100%; height: 100%; background-size: 100% auto;background-position: center 99%;"></div>
+</div>
+
+<div class="banner-layer object-wrapper speed-0">
+    <div style="background: url(/img/banner_new/banner_layer1.png) no-repeat; width: 100%; height: 100%; background-size: 100% auto;background-position: center 99%;"></div>
+</div>
