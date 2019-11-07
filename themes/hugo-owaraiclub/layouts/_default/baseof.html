@@ -1,13 +1,13 @@
 <!DOCTYPE html>
 <html>
 {{- partial "head.html" . -}}
-{{ partial "sidebar.html" . }}
+
 {{- partial "header" . -}}
 
 <body>
     <div id="universe" class="parallax">
         {{ partial "parallax_bg.html" . }}
-        <div class="object-wrapper" id="main">
+        <div  id="main">
             {{- block "main" . }}{{- end }}
             {{- partial "footer.html" . -}}
         </div>
