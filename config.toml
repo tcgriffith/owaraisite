@@ -19,46 +19,46 @@ refLinksNotFoundURL = '#'
 
 
 
-[[menu.top]]
+[[menu.side]]
     name = "本部"
     url = "/"
     weight = 1
-[[menu.top]]
+[[menu.side]]
     name = "节目"
     url = "/bangumis/"
     weight = 2
-[[menu.top]]
+[[menu.side]]
     name = "段子"
     url = "/combi/"
     weight = 3
-[[menu.top]]
+[[menu.side]]
     name = "论坛"
     url = "https://d.owaraiclub.com/"
-    weight = 5
+    weight = 4
 
 
 
 [[menu.side]]
     name = "时间线-节目"
     url = "/post/"
-    weight = 1
+    weight = 5
     desc = "haha"
 [[menu.side]]
     name = "时间线-段子"
     url = "/neta/"
-    weight = 2
+    weight = 6
 [[menu.side]]
     name = "分类-标签"
     url = "/tags/"
-    weight = 3
+    weight = 7
 [[menu.side]]
     name = "分类-字幕组"
     url = "/categories/"
-    weight = 4
+    weight = 8
 [[menu.side]]
     name = "百科"
     url = "/wiki/"
-    weight = 5
+    weight = 9
 
 
 
@@ -67,11 +67,11 @@ refLinksNotFoundURL = '#'
 [[menu.side]]
     name = "RSS订阅"
     url = "/index.xml"
-    weight = 8
+    weight = 10
 [[menu.side]]
     name = "转载规则"
     url = "/rules/"
-    weight = 9
+    weight = 11
 
 
 [params]
