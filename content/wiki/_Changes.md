@@ -13,8 +13,8 @@
 * 8ce2812 - Created 搞笑第七世代 (markdown) (3 weeks ago) <TC>
 * 8dcf631 - Updated _Sidebar (markdown) (3 weeks ago) <TC>
 * a6b8307 - Created 花子 (markdown) (3 weeks ago) <TC>
-* 2f4d112 - Updated 剧团一人 (markdown) (3 weeks ago) <TC>
-* df90681 - Updated 伦敦之心 (markdown) (3 weeks ago) <TC>
+* 2f4d112 - Updated 剧团一人 (markdown) (4 weeks ago) <TC>
+* df90681 - Updated 伦敦之心 (markdown) (4 weeks ago) <TC>
 * 09ecd63 - Updated Engei Grand Slam (markdown) (4 weeks ago) <TC>
 * 9679d96 - Updated _Sidebar (markdown) (4 weeks ago) <TC>
 * 465a15b - Created 短剧之王大赛 (markdown) (4 weeks ago) <TC>
