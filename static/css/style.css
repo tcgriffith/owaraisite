@@ -847,7 +847,7 @@ article{
     position: fixed;
     left: 0;
     width: 250px;
-    /*margin-top: 60px;*/ 
+    margin-top: 60px; 
     transform: translateX(-250px);
     -webkit-transform: translateX(-250px);
     transition: transform 250ms ease-in-out;
