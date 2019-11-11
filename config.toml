@@ -33,7 +33,7 @@ refLinksNotFoundURL = '#'
     weight = 3
 [[menu.side]]
     name = "论坛"
-    url = "https://d.owaraiclub.com/"
+    url = "http://35.221.198.211"
     weight = 4
 
 
