@@ -23,7 +23,7 @@
 * 3d95b8f - Updated Speed Wagon (markdown) (4 weeks ago) <TC>
 * 9e7d912 - add more (4 weeks ago) <tcgriffith>
 * 474d1cc - Updated 伦敦之心 (markdown) (4 weeks ago) <TC>
-* 9e399da - Updated 吉本兴业 (markdown) (4 weeks ago) <TC>
+* 9e399da - Updated 吉本兴业 (markdown) (5 weeks ago) <TC>
 * f0fd6d2 - Updated 中川家 (markdown) (5 weeks ago) <TC>
 * 645f8cb - Updated 足球时间 (markdown) (5 weeks ago) <TC>
 * 371785d - Updated Non Style (markdown) (5 weeks ago) <TC>
