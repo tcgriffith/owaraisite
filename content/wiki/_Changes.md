@@ -1,9 +1,9 @@
-* 590201e - (HEAD -> master, origin/master, origin/HEAD) Created 日文维基收录的搞笑组合 (markdown) (3 weeks ago) <TC>
-* b9aba14 - Updated _Sidebar (markdown) (3 weeks ago) <TC>
-* 651f3e7 - Updated 日文维基收录的搞笑艺人 (markdown) (3 weeks ago) <TC>
-* 88c62f1 - Updated 日文维基收录的搞笑艺人 (markdown) (3 weeks ago) <TC>
-* f833ce1 - Updated 日文维基收录的搞笑艺人 (markdown) (3 weeks ago) <TC>
-* 1e61082 - Created 日文维基收录的搞笑艺人 (markdown) (3 weeks ago) <TC>
+* 590201e - (HEAD -> master, origin/master, origin/HEAD) Created 日文维基收录的搞笑组合 (markdown) (4 weeks ago) <TC>
+* b9aba14 - Updated _Sidebar (markdown) (4 weeks ago) <TC>
+* 651f3e7 - Updated 日文维基收录的搞笑艺人 (markdown) (4 weeks ago) <TC>
+* 88c62f1 - Updated 日文维基收录的搞笑艺人 (markdown) (4 weeks ago) <TC>
+* f833ce1 - Updated 日文维基收录的搞笑艺人 (markdown) (4 weeks ago) <TC>
+* 1e61082 - Created 日文维基收录的搞笑艺人 (markdown) (4 weeks ago) <TC>
 * 0029542 - Updated 搞笑组合译名对照 (markdown) (4 weeks ago) <TC>
 * 1c679b9 - Created 搞笑组合译名对照 (markdown) (4 weeks ago) <TC>
 * ce0f6b4 - Created R1大赛 (markdown) (4 weeks ago) <TC>
