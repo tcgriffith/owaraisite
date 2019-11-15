@@ -850,7 +850,11 @@ article{
     margin-top: 60px; 
     transform: translateX(-250px);
     -webkit-transform: translateX(-250px);
+
     transition: transform 250ms ease-in-out;
+    -webkit-transition: -webkit-transform 250ms ease-in-out;
+
+
     background: linear-gradient(180deg, #e0f5ff 0%, pink 100%);
     /*background-image: linear-gradient(to top, #777796, white);*/
     /*background: #777796*/
@@ -889,8 +893,9 @@ article{
 
 
 input[type="checkbox"]:checked ~ #sidebarMenu {
+   -webkit-transform: translateX(0);
     transform: translateX(0);
-    -webkit-transform: translateX(0);
+    
 }
 
 input[type=checkbox] {
