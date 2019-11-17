@@ -44,8 +44,8 @@
 * ac75f2b - Updated 水曜日的DownTown (markdown) (5 weeks ago) <TC>
 * 6f3fb33 - Updated _Sidebar (markdown) (5 weeks ago) <TC>
 * 75578d4 - Updated _Sidebar (markdown) (5 weeks ago) <TC>
-* f9d87ad - Updated Home (markdown) (5 weeks ago) <TC>
-* 60d9ae1 - Updated Home (markdown) (5 weeks ago) <TC>
+* f9d87ad - Updated Home (markdown) (6 weeks ago) <TC>
+* 60d9ae1 - Updated Home (markdown) (6 weeks ago) <TC>
 * 4f39476 - rm index (6 weeks ago) <tcgriffith>
 * 61e9df4 - Updated Engei Grand Slam (markdown) (6 weeks ago) <TC>
 * 689920e - Updated Ametalk (markdown) (6 weeks ago) <TC>
