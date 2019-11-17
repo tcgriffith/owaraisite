@@ -1,5 +1,5 @@
 {{ define "main" }}
-<div class="article-container container">
+<div class="article-container">
 
     {{ if .Params.nometa }}
     {{ else }}
@@ -99,3 +99,9 @@
 
 </div>
 {{ end}}
+
+{{ define "parallax_bg" }}
+
+{{ partial "parallax_regular.html" . }}
+
+{{ end }}

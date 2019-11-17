@@ -6,7 +6,10 @@
 
 <body>
     <div id="universe" class="parallax">
-        {{ partial "parallax_bg.html" . }}
+        
+
+        {{- block "parallax_bg" . }}{{- end }}
+
         <div  id="main" class="banner-layer speed-0">
             {{- block "main" . }}{{- end }}
             {{- partial "footer.html" . -}}
