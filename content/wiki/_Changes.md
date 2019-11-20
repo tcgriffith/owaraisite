@@ -88,8 +88,8 @@
 * 5eaf4cc - Updated 后藤辉基 (markdown) (1 year, 11 months ago) <TC>
 * 93546ab - Updated 后藤辉基 (markdown) (1 year, 11 months ago) <TC>
 * 446e3a4 - Created 后藤辉基 (markdown) (1 year, 11 months ago) <TC>
-* 39d3202 - modify it (1 year, 11 months ago) <tcgriffith>
-* 274bbba - add logo (1 year, 11 months ago) <tcgriffith>
+* 39d3202 - modify it (2 years ago) <tcgriffith>
+* 274bbba - add logo (2 years ago) <tcgriffith>
 * cc06dc6 - Updated 岛田绅助 (markdown) (2 years ago) <TC>
 * 2a5cc38 - Updated 伦敦之心节目表 (markdown) (2 years ago) <TC>
 * dcf4393 - Updated 伦敦之心 (markdown) (2 years ago) <TC>
