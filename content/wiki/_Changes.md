@@ -7,13 +7,13 @@
 * 1e61082 - Created 日文维基收录的搞笑艺人 (markdown) (5 weeks ago) <TC>
 * 0029542 - Updated 搞笑组合译名对照 (markdown) (5 weeks ago) <TC>
 * 1c679b9 - Created 搞笑组合译名对照 (markdown) (5 weeks ago) <TC>
-* ce0f6b4 - Created R1大赛 (markdown) (5 weeks ago) <TC>
-* 107ce8c - Updated _Sidebar (markdown) (5 weeks ago) <TC>
-* dae2cc8 - Updated _Sidebar (markdown) (5 weeks ago) <TC>
-* 6516558 - Created 霜降明星 (markdown) (5 weeks ago) <TC>
-* 8ce2812 - Created 搞笑第七世代 (markdown) (5 weeks ago) <TC>
-* 8dcf631 - Updated _Sidebar (markdown) (5 weeks ago) <TC>
-* a6b8307 - Created 花子 (markdown) (5 weeks ago) <TC>
+* ce0f6b4 - Created R1大赛 (markdown) (6 weeks ago) <TC>
+* 107ce8c - Updated _Sidebar (markdown) (6 weeks ago) <TC>
+* dae2cc8 - Updated _Sidebar (markdown) (6 weeks ago) <TC>
+* 6516558 - Created 霜降明星 (markdown) (6 weeks ago) <TC>
+* 8ce2812 - Created 搞笑第七世代 (markdown) (6 weeks ago) <TC>
+* 8dcf631 - Updated _Sidebar (markdown) (6 weeks ago) <TC>
+* a6b8307 - Created 花子 (markdown) (6 weeks ago) <TC>
 * 2f4d112 - Updated 剧团一人 (markdown) (6 weeks ago) <TC>
 * df90681 - Updated 伦敦之心 (markdown) (6 weeks ago) <TC>
 * 09ecd63 - Updated Engei Grand Slam (markdown) (6 weeks ago) <TC>
@@ -82,8 +82,8 @@
 * b99e092 - Updated 绝对不准笑系列 (markdown) (1 year, 11 months ago) <Humi2314>
 * be8004f - restructure it (1 year, 11 months ago) <tcgriffith>
 * 96deb6a - Updated 水曜日的DownTown (markdown) (1 year, 11 months ago) <Humi2314>
-* 52c998c - Updated 流星 (markdown) (1 year, 11 months ago) <tohrusnbs>
-* 1410968 - Updated 足球时间 (markdown) (1 year, 11 months ago) <TC>
+* 52c998c - Updated 流星 (markdown) (2 years ago) <tohrusnbs>
+* 1410968 - Updated 足球时间 (markdown) (2 years ago) <TC>
 * 885652d - Updated Engei Grand Slam (markdown) (2 years ago) <TC>
 * 5eaf4cc - Updated 后藤辉基 (markdown) (2 years ago) <TC>
 * 93546ab - Updated 后藤辉基 (markdown) (2 years ago) <TC>
