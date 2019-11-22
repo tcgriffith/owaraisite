@@ -80,8 +80,8 @@
 * 820c803 - Updated 剧团一人 (markdown) (1 year, 11 months ago) <TC>
 * a8abe08 - Created 岩尾望 (markdown) (1 year, 11 months ago) <TC>
 * b99e092 - Updated 绝对不准笑系列 (markdown) (1 year, 11 months ago) <Humi2314>
-* be8004f - restructure it (1 year, 11 months ago) <tcgriffith>
-* 96deb6a - Updated 水曜日的DownTown (markdown) (1 year, 11 months ago) <Humi2314>
+* be8004f - restructure it (2 years ago) <tcgriffith>
+* 96deb6a - Updated 水曜日的DownTown (markdown) (2 years ago) <Humi2314>
 * 52c998c - Updated 流星 (markdown) (2 years ago) <tohrusnbs>
 * 1410968 - Updated 足球时间 (markdown) (2 years ago) <TC>
 * 885652d - Updated Engei Grand Slam (markdown) (2 years ago) <TC>
