@@ -75,8 +75,8 @@
 * 9befadb - Updated 东京03 (markdown) (1 year, 11 months ago) <TC>
 * ef8d39f - Created 东京03 (markdown) (1 year, 11 months ago) <TC>
 * 8cad247 - Updated _Sidebar (markdown) (1 year, 11 months ago) <TC>
-* 8c42f50 - Updated _Sidebar (markdown) (1 year, 11 months ago) <TC>
-* 465995c - Created IPPON (markdown) (1 year, 11 months ago) <TC>
+* 8c42f50 - Updated _Sidebar (markdown) (2 years ago) <TC>
+* 465995c - Created IPPON (markdown) (2 years ago) <TC>
 * 820c803 - Updated 剧团一人 (markdown) (2 years ago) <TC>
 * a8abe08 - Created 岩尾望 (markdown) (2 years ago) <TC>
 * b99e092 - Updated 绝对不准笑系列 (markdown) (2 years ago) <Humi2314>
