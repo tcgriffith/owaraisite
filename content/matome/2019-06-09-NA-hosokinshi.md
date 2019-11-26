@@ -40,9 +40,7 @@ brief: "# 简介 放送禁止"
 |03 跟踪狂地狱编||[网盘](https://pan.baidu.com/s/1dT9-u-VboHPZb26vE1uV0g) q05k|
 |04 恐怖的邻里纠纷||[网盘](https://pan.baidu.com/s/1oFN9P9unvHtc5iDDBcs4jg) sfqz |
 |05 诗人之村||[网盘](https://pan.baidu.com/s/1cGNkyOsz5nAThhMTUN0htA) bv6x|
-|06 DEATH LIMIT|||
-
-
+|06 DEATH LIMIT||[网盘](https://pan.baidu.com/s/1aT40iuyAEKr7UNG8UyVt4w) 7h6u|
 
 
 #### 相关资料
