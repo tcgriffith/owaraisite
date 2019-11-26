@@ -1,13 +1,5 @@
 {{ define "main" }}
-<div class="sidenav">
-
-    <h1>  播出时间 </h1>
-
-    {{ range .Data.Pages.GroupByPublishDate "2006-01" }}
-    <a href="#{{.Key}}">{{.Key}}</a>
-    {{ end }}
-</div>
-<div class="container article-container">
+<div class="article-container">
     <div class="article-rightbar">
         <div class="article-rightbar-child">
             <h1><a href="/{{ .Data.Plural }}"> {{.Section}}</a>/{{.Title}}</h1>
@@ -26,5 +18,16 @@
             {{ end }}
         </table>
     </div>
+</div>
+{{ end }}
+{{ define "parallax_bg" }}
+{{ partial "parallax_regular.html" . }}
+{{ end }}
+{{ define "stickynav" }}
+<div class="sidenav">
+    <h1> 播出时间 </h1>
+    {{ range .Data.Pages.GroupByPublishDate "2006-01" }}
+    <a href="#{{.Key}}">{{.Key}}</a>
+    {{ end }}
 </div>
 {{ end }}

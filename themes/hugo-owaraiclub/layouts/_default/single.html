@@ -1,80 +1,60 @@
 {{ define "main" }}
 <div class="article-container">
-
     {{ if .Params.nometa }}
     {{ else }}
-
-
-
     <div class="article-rightbar">
-
-
         <div class="article-rightbar-child  ">
             {{ partial "author_card.html" .}}
         </div>
         {{ if .Params.combi }}
         <div class="article-rightbar-child roundit  container1em">
             <div class="card-container">
-            <h2> {{ default "Combi: " (index $.Site.Params.text "combi") }}</h2>
-            {{ with .Params.combi }}
-            <p class="tags taxonomy-cloud">
-                <a href="/combi/{{.}}">{{ . }}</a>
-            </p>
-            {{ end }}
+                <h2> {{ default "Combi: " (index $.Site.Params.text "combi") }}</h2>
+                {{ with .Params.combi }}
+                <p class="tags taxonomy-cloud">
+                    <a href="/combi/{{.}}">{{ . }}</a>
+                </p>
+                {{ end }}
             </div>
         </div>
         {{ end }}
-        <div class="article-rightbar-child roundit  container1em ">
+        <div class="article-rightbar-child roundit  container1em">
             <div class="card-container ">
-            <h2> {{ default "Bangumis: " (index $.Site.Params.text "bangumi") }}</h2>
-            {{ with .Params.bangumis }}
-            <p class="tags taxonomy-cloud">
-                {{ range $i, $e := . }}
-                {{ if $i }} {{ end }}
-                <a href="{{ relURL (print "/bangumis/" $e | urlize) }}">{{ $e }}</a>
-                {{ end }}
-            </p>
-            {{end}}
+                <h2> {{ default "Bangumis: " (index $.Site.Params.text "bangumi") }}</h2>
+                {{ with .Params.bangumis }}
+                <p class="tags taxonomy-cloud">
+                    {{ range $i, $e := . }}
+                    {{ if $i }} {{ end }}
+                    <a href="{{ relURL (print "/bangumis/" $e | urlize) }}">{{ $e }}</a>
+                    {{ end }}
+                </p>
+                {{end}}
             </div>
         </div>
         <div class="article-rightbar-child roundit  container1em ">
             <div class="card-container ">
-            <h2> {{ default "Tags: " (index $.Site.Params.text "tags") }}</h2>
-            {{ with .Params.tags }}
-            <p class="tags taxonomy-cloud">
-                {{ range $i, $e := . }}
-                {{ if $i }} {{ end }}
-                <a href="{{ relURL (print "/tags/" $e | urlize) }}">{{ $e }}</a>
+                <h2> {{ default "Tags: " (index $.Site.Params.text "tags") }}</h2>
+                {{ with .Params.tags }}
+                <p class="tags taxonomy-cloud">
+                    {{ range $i, $e := . }}
+                    {{ if $i }} {{ end }}
+                    <a href="{{ relURL (print "/tags/" $e | urlize) }}">{{ $e }}</a>
+                    {{ end }}
+                </p>
                 {{ end }}
-            </p>
-            {{ end }}
             </div>
         </div>
-
     </div>
-
     {{ end }}
-
-
-    <div class="article-metamain roundit ">
-
-
-    
+    <div class="article-metamain roundit shadowbox ">
         <div class="article-meta">
             <h1><span class="title">{{ .Title }}</span></h1>
         </div>
-
         <div class="article-content">
             {{ .Content }}
         </div>
-
-
         {{ if .Params.minimo }}
-
-
         {{ else }}
-
-
         <div class="article-related">
             <h1><span class="title"> {{.Params.bangumi}} 最新 </span></h1>
             <main class="list">
@@ -83,7 +63,6 @@
                 {{ end }}
             </main>
         </div>
-
         <div class="article-related">
             <h1><span class="title"> {{.Params.zmz}}最近更新</span></h1>
             <main class="list">
@@ -92,16 +71,22 @@
                 {{ end }}
             </main>
         </div>
-
         {{ end }}
     </div>
-
-
 </div>
 {{ end}}
-
 {{ define "parallax_bg" }}
-
 {{ partial "parallax_regular.html" . }}
+{{ end }}
 
+
+{{ define "stickynav" }}
+
+{{ if .Params.toc }}
+
+<div class="sidenav">
+{{ partial "toc_fixed.html" .}}
+</div>
+
+{{ end }}
 {{ end }}

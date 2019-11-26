@@ -1,32 +1,26 @@
 {{ define "main" }}
-
+<div class="article-container">
+    <div class="article-rightbar">
+        <div class="article-rightbar-child">
+            <h1><a href="/{{ .Data.Plural }}"> {{ .Section }}</a>
+                <h1>
+                    {{ partial "wiki_card.html" . }}
+        </div>
+    </div>
+    <div class="article-metamain">
+        {{ range $key, $value := .Data.Terms.ByCount }}
+        <h2 id="{{ .Page.Title }}"> <a href="{{ .Page.Permalink }}" style="font-size:{{ add (div .Count 200) 1 }}em">{{ .Page.Title }}</a> ({{ .Count }})</h2>
+        {{ range first 5 $value.Pages }}
+        <li>{{ partial "article_li.html" .}}</li>
+        {{ end }}
+        {{ end }}
+    </div>
+</div>
+{{ end }}
+{{ define "stickynav" }}
 <div class="sidenav">
     {{ range $.Site.Data.authors.list }}
     <a href="#{{ .name }}">{{ .name }}</a>
     {{ end }}
 </div>
-
-
-<div class="container article-container">
-    <div class="article-rightbar">
-        <div class="article-rightbar-child">
-            <h1><a href="/{{ .Data.Plural }}"> {{ .Section }}</a><h1>
-                
-            {{ partial "wiki_card.html" . }}
-        </div>
-    </div>
-    <div class="article-metamain">
-        {{ range $key, $value := .Data.Terms.ByCount }}
-           <h2 id="{{ .Page.Title }}"> <a href="{{ .Page.Permalink }}"style="font-size:{{ add (div .Count 200) 1 }}em">{{ .Page.Title }}</a> ({{ .Count }})</h2>
-
-                {{ range first 5 $value.Pages }}
-                    <li>{{ partial "article_li.html" .}}</li>
-                {{ end }}
-
-        {{ end }}
-    </div>
-
-</div>
 {{ end }}
-
-

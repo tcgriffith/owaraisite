@@ -1,10 +1,5 @@
 {{ define "main" }}
-<div class="sidenav">
-    {{ range .Data.Terms.ByCount }}
-    <a href="#{{ .Page.Title }}">{{ .Page.Title }}</a>
-    {{ end }}
-</div>
-<div class="container article-container">
+<div class=" article-container">
     <div class="article-rightbar">
         <div class="article-rightbar-child">
             <h1><a href="/{{ .Data.Plural }}"> {{ .Section }}</a></h1>
@@ -24,5 +19,15 @@
         </div>
         {{ end }}
     </div>
+</div>
+{{ end }}
+{{ define "parallax_bg" }}
+{{ partial "parallax_regular.html" . }}
+{{ end }}
+{{ define "stickynav" }}
+<div class="sidenav">
+    {{ range .Data.Terms.ByCount }}
+    <a href="#{{ .Page.Title }}">{{ .Page.Title }}</a>
+    {{ end }}
 </div>
 {{ end }}

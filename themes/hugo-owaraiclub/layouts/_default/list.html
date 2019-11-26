@@ -1,26 +1,11 @@
 {{ define "main" }}
-<div class="sidenav">
-
-    <h1> 更新时间 </h1>
-
-    {{ range .Data.Pages.GroupByDate "2006-01" }}
-    <a href="#{{.Key}}">{{.Key}}</a>
-    {{ end }}
-</div>
-<div class="container article-container">
+<div class="article-container">
     <div class="article-rightbar">
         <div class="article-rightbar-child">
             <h1><a href="/{{ .Data.Plural }}"> {{.Section}}</a>/{{.Title}}</h1>
-
-
             {{ if gt (len .Content) 0 }}
-
-              {{ .Content }}
-
+            {{ .Content }}
             {{ end}}
-
-
-
             {{ partial "wiki_summary.html" . }}
         </div>
     </div>
@@ -36,5 +21,13 @@
             {{ end }}
         </table>
     </div>
+</div>
+{{ end }}
+{{ define "stickynav" }}
+<div class="sidenav">
+    <h1> 更新时间 </h1>
+    {{ range .Data.Pages.GroupByDate "2006-01" }}
+    <a href="#{{.Key}}">{{.Key}}</a>
+    {{ end }}
 </div>
 {{ end }}
