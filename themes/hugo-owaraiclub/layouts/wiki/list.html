@@ -1,26 +1,33 @@
 {{ define "main" }}
-<div class="container article-container ">
-    <div class="article-rightbar">
-        <div class="article-rightbar-child">
-            <h3>/{{.Title}}</h1>
+<div class=" article-container  ">
+
+        <div class="article-rightbar">
+            <div class="article-rightbar-child container1em">
+                <h3>/{{.Title}}</h1>
+            </div>
+            <div class="article-rightbar-child container1em">
+                {{ with .Site.GetPage "/_Sidebar.md" }}
+                {{ .Content }}
+                {{ end }}
+            </div>
         </div>
-        <div class="article-rightbar-child">
-            {{ with .Site.GetPage "/_Sidebar.md" }}
-            {{ .Content }}
-            {{ end }}
+        <div class="article-metamain shadowbox">
+            <div class="article-content">
+                {{ with .Site.GetPage "/Home.md" }}
+                {{ .Content }}
+                {{ end }}
+            </div>
+            <div class="article-content">
+                {{ with .Site.GetPage "/_footer.md" }}
+                {{ .Content }}
+                {{ end }}
+            </div>
         </div>
-    </div>
-    <div class="article-metamain">
-        <div class="article-content">
-            {{ with .Site.GetPage "/Home.md" }}
-            {{ .Content }}
-            {{ end }}
-        </div>
-        <div class="article-content">
-            {{ with .Site.GetPage "/_footer.md" }}
-            {{ .Content }}
-            {{ end }}
-        </div>
-    </div>
+
 </div>
+{{ end }}
+
+
+{{ define "parallax_bg" }}
+{{ partial "parallax_regular.html" . }}
 {{ end }}

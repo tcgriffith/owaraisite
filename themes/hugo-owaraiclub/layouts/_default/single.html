@@ -46,7 +46,7 @@
         </div>
     </div>
     {{ end }}
-    <div class="article-metamain roundit shadowbox ">
+    <div class="article-metamain roundit shadowbox padding1em ">
         <div class="article-meta">
             <h1><span class="title">{{ .Title }}</span></h1>
         </div>
@@ -57,20 +57,11 @@
         {{ else }}
         <div class="article-related">
             <h1><span class="title"> {{.Params.bangumi}} 最新 </span></h1>
-            <main class="list">
-                {{ range first 5 (where .Site.RegularPages "Params.bangumi" .Params.bangumi) }}
-                {{ partial "article_justfig_neta.html" .}}
-                {{ end }}
-            </main>
-        </div>
-        <div class="article-related">
-            <h1><span class="title"> {{.Params.zmz}}最近更新</span></h1>
-            <main class="list">
                 {{ range first 5 (where .Site.RegularPages "Params.zmz" .Params.zmz) }}
-                {{ partial "article_justfig_title.html" .}}
+                <ul>{{ partial "article_li.html" .}}</ul>
                 {{ end }}
-            </main>
         </div>
+
         {{ end }}
     </div>
 </div>
@@ -84,7 +75,9 @@
 
 {{ if .Params.toc }}
 
+
 <div class="sidenav">
+    <h3>   ᕙ(`▿´)ᕗ </h3>
 {{ partial "toc_fixed.html" .}}
 </div>
 

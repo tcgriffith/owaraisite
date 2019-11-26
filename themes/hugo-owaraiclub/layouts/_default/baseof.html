@@ -11,9 +11,14 @@
             {{- block "parallax_bg" . }}{{- end }}
             <div id="main" class="banner-layer speed-0">
                 {{- block "main" . }}{{- end }}
-            </div>
-        
+
+                {{- partial "footer.html" . -}}
+            </div>        
     </div>
+
+
 </body>
+
+
 
 </html>

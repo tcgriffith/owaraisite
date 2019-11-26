@@ -511,30 +511,52 @@ pre code {
 
 
 
-.footer, .footer a { color: #fff; }
-.copyright, .copyright a { color: #ccc; }
-.menu {
-  margin-bottom: .5em;
-  flex-wrap: wrap;
-  position:inherit;
-  z-index: 1;
-}
-.menu li {
-  display: inline-block;
-  font-weight: bolder;
-    position:inherit;
-  z-index: 1;
-}
-.menu a { padding: .5em;
-    position:inherit;
-  z-index: 1;
+.footer {
+  position: absolute;
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  height: 100px;
 
 }
-.menu a:hover {
-  color: #000;
-  background: #fff;
-    position:inherit;
-  z-index: 1;
+
+.copyright{
+  width: 100%;
+}
+
+.footermenu{
+  position: absolute;
+  width: 100%;
+}
+
+.copyright{
+  width: 100%;
+}
+
+.footer, .footer a {  }
+.copyright, .copyright a { color: #ccc; }
+
+
+.menu-bottom{
+  display: flex;
+  vertical-align: middle;
+  justify-content: center;
+}
+
+.menu-bottom li{
+  display: flex;
+  width: 1em;
+  word-break: break-all;
+  padding: 0 .5em;
+  font-weight: bolder;
+  align-items:flex-start;
+  border-top:  solid;
+  border-color: red;
+}
+
+.menu-bottom li:hover{
+  background:#777796;
+  color: white;
 }
 
 hr {
@@ -779,6 +801,9 @@ hr {
   margin:1em;
 }
 
+.padding1em{
+  padding:1em;
+}
 
 article{
   margin-right: 170px;

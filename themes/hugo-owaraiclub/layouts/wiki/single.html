@@ -1,7 +1,7 @@
 {{ define "main" }}
-<div class="article-container container">
-    <div class="article-rightbar">
-        <div class="article-rightbar">
+<div class="article-container">
+    <div class="article-rightbar container1em">
+        <div class="article-rightbar ">
             <div class="article-rightbar-child">
                 <h1><a href="/{{ .Section }}"> {{ .Section }}</a>
                     <h1>
@@ -54,7 +54,7 @@
         </div>
         {{ end }}
     </div>
-    <div class="article-metamain">
+    <div class="article-metamain container1em shadowbox">
         <div class="article-meta">
             <h1><span class="title">{{ .Title }}</span></h1>
         </div>
@@ -64,3 +64,7 @@
     </div>
 </div>
 {{ end}}
+
+{{ define "parallax_bg" }}
+{{ partial "parallax_regular.html" . }}
+{{ end }}

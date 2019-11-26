@@ -15,9 +15,35 @@
     </div>
     <div class="article-metamain">
 
+        <div class = "homeblock roundit  container1em shadowbox">
+            <h1 class="strong"> 最近更新 </h1>
+            <main class="list ">
+
+
+            {{ range first 20 (where .Site.RegularPages "Section" "post") }}
+
+                {{ if lt (sub (now.Unix) (.Lastmod.Unix)) 172800 }}
+                    {{ partial "article_justfig_title.html" . }}
+                {{ end }}
+            {{ end }}
+
+
+            {{ range first 20 (where .Site.RegularPages "Section" "neta") }}
+
+                {{ if lt (sub (now.Unix) (.Lastmod.Unix)) 172800 }}
+                    {{ partial "article_justfig_title.html" . }}
+                {{ end }}            
+
+            {{ end }}
+
+            </main>
+
+        </div>
+
         <div class = "roundit  container1em shadowbox">
+            <h1 class="strong"> 随机 </h1>
             <main class="list">
-            {{ range first 5 (shuffle (where .Site.RegularPages "Section" "post")) }}
+            {{ range first 6 (shuffle (where .Site.RegularPages "Section" "post")) }}
                 {{ partial "article_justfig_title.html" . }}
             {{ end }}
             </main>
@@ -25,54 +51,35 @@
 
 
 
-        <div class="homeblock roundit shadowbox container1em">
+        <div class=" roundit  container1em shadowbox">
             <h1 class="strong"> 节目 </h1>
-            <main class="list container1em">
-                {{ range first 2 (where .Site.RegularPages "Params.bangumi" "not in" site.Params.otherbangumis) }}
+            <main class="list">
+                {{ range first 6 (where .Site.RegularPages "Params.bangumi" "not in" site.Params.otherbangumis) }}
                 {{ partial "article_justfig_title.html" . }}
                 {{ end }}
-                    <table>
-                        {{ range first 9 (after 1 (where .Site.RegularPages "Params.bangumi" "not in" site.Params.otherbangumis)) }}
-                        {{ partial "article_table_simple.html" .}}
-                        {{ end }}
-                    </table>
-                
+
             </main>
             <a href="/bangumis">
                 <h2 class="linkbutton" style=" text-align:center;">=More=</h2>
             </a>
         </div>
-        <div class="homeblock roundit shadowbox container1em">
+        <div class=" roundit  container1em shadowbox">
             <h1 class="strong"> 段子 </h1>
-            <main class="list container1em">
-                {{ range first 2 (where .Site.RegularPages "Section" "neta") }}
-                {{ partial "article_justfig_neta.html" . }}
+            <main class="list ">
+                {{ range first 6 (where .Site.RegularPages "Section" "neta") }}
+                {{ partial "article_justfig_title.html" . }}
                 {{ end }}
-
-                    <table>
-                        {{ range first 9 (after 1 (where .Site.RegularPages "Section" "neta")) }}
-                        {{ partial "article_table_simple.html" .}}
-                        {{ end }}
-                    </table>
-
             </main>
             <a href="/neta">
                 <h2 class="linkbutton" style="text-align:center;">=More=</h2>
             </a>
         </div>
-        <div class="homeblock roundit shadowbox container1em ">
+        <div class=" roundit shadowbox container1em ">
             <h1 class="strong"> cut/其他 </h1>
-            <main class="list container1em ">
-                {{ range first 2 (where .Site.RegularPages "Params.bangumi" "in" .Site.Params.otherbangumis2) }}
+            <main class="list  ">
+                {{ range first 6 (where .Site.RegularPages "Params.bangumi" "in" .Site.Params.otherbangumis2) }}
                 {{ partial "article_justfig_title.html" . }}
                 {{ end }}
-                
-                    <table>
-                        {{ range first 9 (after 1 (where .Site.RegularPages "Params.bangumi" "in" .Site.Params.otherbangumis2)) }}
-                        {{ partial "article_table_simple.html" .}}
-                        {{ end }}
-                    </table>
-                
             </main>
             <a href="/post">
                 <h2 class="linkbutton" style=" text-align:center;">=More=</h2>

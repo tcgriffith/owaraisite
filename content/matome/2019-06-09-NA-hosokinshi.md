@@ -20,9 +20,10 @@ categories:
   - 小水小风
   - 疾了个风
 brief: "# 简介 放送禁止"
+toc: true
 ---
 
-
+## 地址
 
 ![](https://raw.githubusercontent.com/tcgriffith/owaraisite/master/static/tmpimg/hosokinshi.jpg)
 
@@ -43,7 +44,7 @@ brief: "# 简介 放送禁止"
 |06 DEATH LIMIT||[网盘](https://pan.baidu.com/s/1aT40iuyAEKr7UNG8UyVt4w) 7h6u|
 
 
-#### 相关资料
+## 相关资料
 
 - [我们做了个放送禁止中文解析](http://fsjz.netlify.com)
 
