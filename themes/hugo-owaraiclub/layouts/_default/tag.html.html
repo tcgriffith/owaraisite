@@ -7,7 +7,7 @@
             {{ partial "wiki_summary.html" . }}
         </div>
     </div>
-    <div class="article-metamain">
+    <div class="article-metamain shadowbox">
         <table>
             {{ range .Data.Pages.GroupByDate "2006-01" }}
             <th id="{{.Key}}">

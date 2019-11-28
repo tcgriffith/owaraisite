@@ -1,0 +1,40 @@
+{{ define "main" }}
+<div class="article-container">
+    <div class="article-rightbar">
+        <div class="article-rightbar-child">
+            <h1><a href="/{{ .Data.Plural }}"> {{.Section}}</a>/{{.Title}}</h1>
+            {{ if gt (len .Content) 0 }}
+            {{ .Content }}
+            {{ end}}
+            {{ partial "wiki_summary.html" . }}
+        </div>
+    </div>
+    <div class="article-metamain shadowbox">
+
+        <h3>合集</h3>
+        <table>
+            {{ range .Data.Pages.GroupByDate "2006-01" }}
+
+                {{ range .Pages }}
+                {{ partial "article_table_recomm.html" .}}
+                {{end}}
+            {{ end }}
+
+            {{ range .Data.Pages.GroupByDate "2006-01" }}
+
+                {{ range .Pages }}
+                {{ partial "article_table.html" .}}
+                {{end}}
+            {{ end }}
+
+              {{ range first 6 (where .Site.RegularPages "Params.bangumi" "not in" site.Params.otherbangumis) }}
+                {{ partial "article_table_recomm.html" .}}
+              {{ end }}
+
+        </table>        
+    </div>
+
+
+</div>
+{{ end }}
+

@@ -106,4 +106,5 @@ refLinksNotFoundURL = '#'
   category = "categories"
   bangumi = "bangumis"
   combi = "combi"
+  author = "author"
   
