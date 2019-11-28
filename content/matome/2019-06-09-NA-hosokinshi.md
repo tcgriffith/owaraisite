@@ -23,16 +23,21 @@ brief: "# 简介 放送禁止"
 toc: true
 ---
 
-## 地址
 
-![](https://raw.githubusercontent.com/tcgriffith/owaraisite/master/static/tmpimg/hosokinshi.jpg)
-
-校对是风物诗字幕组的橙子小天使，感谢！
-
+## 简介
 
 放送禁止系列为不定期播放的推理作品，以“事实的堆叠未必能抵达真相”为宗旨，导演长江俊和以伪纪录片的形式记录了一个个“初看平常但细思恐极”的故事。
 
 你看到真相了吗
+
+校对是风物诗字幕组的橙子小天使，感谢！
+
+## 地址
+
+![](https://raw.githubusercontent.com/tcgriffith/owaraisite/master/static/tmpimg/hosokinshi.jpg)
+
+
+
 
 |分集    |在线  |网盘 |
 |:----|:----|:-----|
@@ -46,6 +51,10 @@ toc: true
 
 ## 相关资料
 
+### 文字
+
 - [我们做了个放送禁止中文解析](http://fsjz.netlify.com)
+
+### 视频
 
 - [B站UP主朝夕观影的解说](https://space.bilibili.com/3285014/video?keyword=%E6%94%BE%E9%80%81%E7%A6%81%E6%AD%A2)
