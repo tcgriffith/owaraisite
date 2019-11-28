@@ -1,13 +1,13 @@
 ---
 combi: 加鲁加鲁
-title: 【中字】JARUJARU TOWER 340「说「让我放心嘛～」的家伙」
+title: 【中字】JARUJARU TOWER 228「饮料洒到客人之前从店里辞职的家伙」
 author: 今天鱼
 zmz: 今天鱼
 bangumi: 段子
 bangumis: 
   - 段子
 description: 段子&#8226;NA
-weight: 8974
+weight: 8872
 nodate: true
 brief: "JARUJARU自称拥有8000个段子，现在以「JARU JARU TOWER」的形式在公式HP和油管每天更新一个。更新一次即是加建一层，居民则是短剧角色：由JARUJARU扮演的奇怪的人。距离「JARU JARU TOWER」建成8000层的2039年11月7日还有二十年。"
 ---
@@ -185,6 +185,9 @@ brief: "JARUJARU自称拥有8000个段子，现在以「JARU JARU TOWER」的形
 | 240|不情愿做剑玉兄弟的家伙（休息室）                  |2019-02-22 |[去B站观看](https://www.bilibili.com/video/av44308677) |
 | 239|不情愿做剑玉兄弟的家伙                            |2019-02-21 |[去B站观看](https://www.bilibili.com/video/av44299754) |
 | 238|剑玉兄弟的家伙                                    |2019-02-21 |[去B站观看](https://www.bilibili.com/video/av44295936) |
+| 228|饮料洒到客人之前从店里辞职的家伙                  |2019-10-30 |[去B站观看](https://www.bilibili.com/video/av73827571) |
+| 227|饮料洒到客人的同时从店里辞职的家伙                |2019-10-29 |[去B站观看](https://www.bilibili.com/video/av73699070) |
+| 226|饮料洒到客人的瞬间从店里辞职的家伙                |2019-10-28 |[去B站观看](https://www.bilibili.com/video/av73696523) |
 | 223|得到父爱而长大的家伙                              |2019-03-19 |[去B站观看](https://www.bilibili.com/video/av46643503) |
 | 222|没有父爱而长大的家伙                              |2019-03-18 |[去B站观看](https://www.bilibili.com/video/av46581162) |
 | 219|赌在漫才上的家伙④                                 |2019-09-01 |[去B站观看](https://www.bilibili.com/video/av65743839) |

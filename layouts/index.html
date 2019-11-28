@@ -15,30 +15,6 @@
     </div>
     <div class="article-metamain">
 
-        <div class = "homeblock roundit  container1em shadowbox">
-            <h1 class="strong"> 最近更新 </h1>
-            <main class="list ">
-
-
-            {{ range first 20 (where .Site.RegularPages "Section" "post") }}
-
-                {{ if lt (sub (now.Unix) (.Lastmod.Unix)) 172800 }}
-                    {{ partial "article_justfig_title.html" . }}
-                {{ end }}
-            {{ end }}
-
-
-            {{ range first 20 (where .Site.RegularPages "Section" "neta") }}
-
-                {{ if lt (sub (now.Unix) (.Lastmod.Unix)) 172800 }}
-                    {{ partial "article_justfig_title.html" . }}
-                {{ end }}            
-
-            {{ end }}
-
-            </main>
-
-        </div>
 
         <div class = "roundit  container1em shadowbox">
             <h1 class="strong"> 随机 </h1>
