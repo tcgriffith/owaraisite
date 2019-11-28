@@ -693,7 +693,7 @@ hr {
 .article-container{
   display: flex;
   flex-wrap: wrap;
-  margin-right: 170px;
+  
 
   margin-top: 30vh;
 
@@ -760,6 +760,15 @@ hr {
   }
 }
 
+@media(max-width: 700px){
+  .taxonomy-cloud{
+    justify-content: flex-start;
+  }
+  .card-container{
+    text-align: left;
+  }
+}
+
 @media (min-width: 700px) {
 
   .article-rightbar{
@@ -770,7 +779,9 @@ hr {
   .article-metamain{
     max-width: 75%;
   }
+
 }
+
 
 /* new stuff*/
 
@@ -1056,6 +1067,14 @@ input[type=checkbox]:checked ~ .sidebarIconToggle > .diagonal.part-2 {
 }
 
 @media (min-width: 1366px) {
+
+
+.article-container{
+    margin-right: 170px;
+  }
+
+
+
 .sidenav {
   margin-top: 30vh;
   height:auto;  
