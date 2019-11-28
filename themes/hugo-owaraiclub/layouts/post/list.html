@@ -41,10 +41,3 @@
 </div>
 {{ end }}
 
-{{ define "stickynav" }}
-<div class="sidenav">
-    {{ range .Data.Pages.GroupByDate "2006-01" }}
-    <a href="#{{.Key}}">{{.Key}}</a>
-    {{ end }}
-</div>
-{{ end }}

@@ -16,7 +16,7 @@
             {{ partial "wiki_summary.html" . }}
         </div>
     </div>
-    <div class="article-metamain">
+    <div class="article-metamain shadowbox">
 
         {{ range .Data.Pages.GroupByDate "2006-01" }}
 
@@ -40,10 +40,3 @@
 </div>
 {{ end }}
 
-{{ define "stickynav" }}
-<div class="sidenav">
-    {{ range .Data.Pages.GroupByDate "2006-01" }}
-    <a href="#{{.Key}}">{{.Key}}</a>
-    {{ end }}
-</div>
-{{ end }}
