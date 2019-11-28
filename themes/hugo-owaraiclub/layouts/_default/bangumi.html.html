@@ -5,6 +5,13 @@
             <h1><a href="/{{ .Data.Plural }}"> {{.Section}}</a>/{{.Title}}</h1>
             {{ partial "wiki_summary.html" . }}
         </div>
+        <div class="article-rightbar-child container1em ">
+            <div class="sidenav-rightbar">
+                {{ range .Data.Terms.ByCount }}
+                <a href="#{{ .Page.Title }}">{{ .Page.Title }}</a>
+                {{ end }}
+            </div>            
+        </div>
     </div>
     <div class="article-metamain">
         <table>
@@ -20,14 +27,7 @@
     </div>
 </div>
 {{ end }}
+
 {{ define "parallax_bg" }}
 {{ partial "parallax_regular.html" . }}
-{{ end }}
-{{ define "stickynav" }}
-<div class="sidenav">
-    <h1> 播出时间 </h1>
-    {{ range .Data.Pages.GroupByPublishDate "2006-01" }}
-    <a href="#{{.Key}}">{{.Key}}</a>
-    {{ end }}
-</div>
 {{ end }}

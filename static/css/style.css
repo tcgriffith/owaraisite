@@ -589,11 +589,20 @@ hr {
   color: #000;
   border-radius: 5px;
   padding: 5px;
-  background: #cce5ff;
+  /*background: #cce5ff;*/
 
   transition: background .5s;
+  margin: 5px;
 
 }
+
+.tagterm1 { background: #e4ffcc }
+
+.tagterm2 { background: #CCE5FF }
+
+
+.tagterm3 { background: #ffcce5 }
+
 
 .tags a:hover{
   background: #f8ee79;
@@ -1066,12 +1075,93 @@ input[type=checkbox]:checked ~ .sidebarIconToggle > .diagonal.part-2 {
   /*float: right;*/
 }
 
+.sticky-container {
+  position: sticky;
+}
+
+.sidenav-rightbar {
+  /*margin-top: 30vh;*/
+  list-style: none;
+  /*text-align: left;*/
+  height:auto;  
+  /*width: 160px;  Set the width of the sidebar */
+  position: sticky; /* Fixed Sidebar (stay in place on scroll) */
+  /*z-index: 1;  Stay on top */
+  /*top: 350px; */
+  /*top: 60px;*/
+  /*right: 5%;*/
+  /*border-left-style: solid;*/
+  /*border-left-width: 1px;*/
+  /*border-left-color: #ccc;*/
+  /*background-color: #111;  Black   */
+  /*background-color: rgba(255, 255, 255, 0.65);*/
+  overflow-x: hidden; 
+  /*padding-top: 20px;*/
+  /*float: right;*/
+}
+
+
+#TableOfContents{
+  text-align: left;
+  background: #e9f3ff;
+  /*border-right: solid red;*/
+}
+
+#TableOfContents a {
+  color: black;
+}
+
+
 @media (min-width: 1366px) {
 
 
 .article-container{
     margin-right: 170px;
-  }
+}
+
+
+
+
+.sidenav-rightbar {
+  /*margin-top: 30vh;*/
+  list-style: none;
+  /*text-align: right;*/
+  height:auto;  
+  /*width: 160px;  Set the width of the sidebar */
+  position: sticky; /* Fixed Sidebar (stay in place on scroll) */
+  /*z-index: 1;  Stay on top */
+  /*top: 350px; */
+  /*top: 60px;*/
+  /*right: 5%;*/
+  /*border-left-style: solid;*/
+  /*border-left-width: 1px;*/
+  /*border-left-color: #ccc;*/
+  /*background-color: #111;  Black   */
+  /*background-color: rgba(255, 255, 255, 0.65);*/
+  overflow-x: hidden; 
+  /*padding-top: 20px;*/
+  /*float: right;*/
+}
+
+.sidenav-rightbar ul{
+  /*direction: rtl;*/
+}
+
+
+.sidenav-rightbar a {
+  padding: 2px 8px 2px 16px;
+  text-decoration: none;
+  font-size: 1.1em;
+  /*color: #818181;*/
+  display: block;
+  transition: background .5s;
+}
+
+.sidenav-rightbar a:hover {
+  color: #f1f1f1;
+  background:#3c3c66;
+}
+
 
 
 

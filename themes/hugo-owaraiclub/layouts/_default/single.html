@@ -3,47 +3,56 @@
     {{ if .Params.nometa }}
     {{ else }}
     <div class="article-rightbar">
+
+
         <div class="article-rightbar-child  ">
             {{ partial "author_card.html" .}}
         </div>
-        {{ if .Params.combi }}
-        <div class="article-rightbar-child roundit  container1em">
-            <div class="card-container">
-                <h2> {{ default "Combi: " (index $.Site.Params.text "combi") }}</h2>
-                {{ with .Params.combi }}
-                <p class="tags taxonomy-cloud">
-                    <a href="/combi/{{.}}">{{ . }}</a>
-                </p>
-                {{ end }}
-            </div>
-        </div>
-        {{ end }}
-        <div class="article-rightbar-child roundit  container1em">
-            <div class="card-container ">
-                <h2> {{ default "Bangumis: " (index $.Site.Params.text "bangumi") }}</h2>
-                {{ with .Params.bangumis }}
-                <p class="tags taxonomy-cloud">
-                    {{ range $i, $e := . }}
-                    {{ if $i }} {{ end }}
-                    <a href="{{ relURL (print "/bangumis/" $e | urlize) }}">{{ $e }}</a>
-                    {{ end }}
-                </p>
-                {{end}}
-            </div>
-        </div>
+
         <div class="article-rightbar-child roundit  container1em ">
             <div class="card-container ">
                 <h2> {{ default "Tags: " (index $.Site.Params.text "tags") }}</h2>
-                {{ with .Params.tags }}
+                
                 <p class="tags taxonomy-cloud">
+
+                {{ with .Params.combi }}
+                    <a class="tagterm1" href="/combi/{{.}}">{{ . }}</a>
+                {{ end }}
+                
+                {{ with .Params.bangumis }}
                     {{ range $i, $e := . }}
                     {{ if $i }} {{ end }}
-                    <a href="{{ relURL (print "/tags/" $e | urlize) }}">{{ $e }}</a>
+                    <a class="tagterm2" href="{{ relURL (print "/bangumis/" $e | urlize) }}">{{ $e }}</a>
                     {{ end }}
-                </p>
+                {{end}}
+
+                {{ with .Params.tags }}
+                    {{ range $i, $e := . }}
+                    {{ if $i }} {{ end }}
+                    <a class="tagterm3" href="{{ relURL (print "/tags/" $e | urlize) }}">{{ $e }}</a>
+                    {{ end }}
+                
                 {{ end }}
+
+
+
+                </p>
+
             </div>
         </div>
+
+        {{ if .Params.toc }}
+
+        <div class="article-rightbar-child container1em">
+
+            <div class="sidenav-rightbar card-container">
+                <h2>   目录 </h2>
+            {{ partial "toc_fixed.html" .}}
+            </div>
+        </div>
+
+        {{ end }}
+
     </div>
     {{ end }}
     <div class="article-metamain roundit shadowbox padding1em ">
@@ -71,15 +80,3 @@
 {{ end }}
 
 
-{{ define "stickynav" }}
-
-{{ if .Params.toc }}
-
-
-<div class="sidenav">
-    <h3>   ᕙ(`▿´)ᕗ </h3>
-{{ partial "toc_fixed.html" .}}
-</div>
-
-{{ end }}
-{{ end }}

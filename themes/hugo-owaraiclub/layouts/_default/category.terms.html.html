@@ -17,10 +17,7 @@
     </div>
 </div>
 {{ end }}
-{{ define "stickynav" }}
-<div class="sidenav">
-    {{ range $.Site.Data.authors.list }}
-    <a href="#{{ .name }}">{{ .name }}</a>
-    {{ end }}
-</div>
+
+{{ define "parallax_bg" }}
+{{ partial "parallax_regular.html" . }}
 {{ end }}
