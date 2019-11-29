@@ -1,5 +1,6 @@
 ---
 index: false
+title: 店长推荐
 ---
 
 # 推荐

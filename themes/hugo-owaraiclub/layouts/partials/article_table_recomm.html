@@ -1,35 +1,34 @@
 <tr>
     <td nowrap style="text-align:right">{{ .Params.bangumi }}</td>
-    <td><a href="{{ .Permalink }}">{{ .Params.title }}</a></td>
+    <td ><a href="{{ .Permalink }}">{{ .Params.title }}</a></td>
+    <td nowrap>
+        {{ with .Params.author }}
+            {{ if eq (substr (jsonify .) 0 1) "["}}
+            {{ $.Scratch.Set "page_author" .}}
+            {{ else }}
+            {{ $.Scratch.Set "page_author" (slice .) }}
+            {{ end }}
 
+            {{ with $.Scratch.Get "page_author" }}
+                {{ range . }}
+                    <a href="/author/{{.}}">{{ . }}</a>
+                {{ end }}
+            {{ end }}
+        {{ end }}
 
-
+    </td>
 
     <td>
-        {{ range (slice .Params.author)  }}
-        <a href="/author/{{.}}">{{ . }}</a>
-        {{ end }}
+        {{ .Date.Format "20060102" }}
     </td>
-    {{ $pan := findRE "pan.baidu.com" .Content 1 }}
-    {{ $aid := findRE "http.*www.bilibili.*/video/(av.*?)/" .Content 1 }}
 
     <td>
         {{ if .Params.recomm }}
-          <p>{{ .Params.recomm }}</p>
-
+          {{ .Params.recomm |markdownify}}
         {{ else }}
-          <p> test </p>
+           test 
         {{ end }}
     </td>
 
-    <td nowrap>
-        {{ if $pan }}
-        <a class="highlightit linkbutton" href="{{ .Permalink }}">网盘</a>
-        {{ end }}
-        {{ if $aid }}
-        {{ range $aid }}
-        <a class="linkbutton" href="{{print .}}">B站</a>
-        {{ end }}
-        {{ end }}
-    </td>
+
 </tr>

@@ -1,40 +1,54 @@
 {{ define "main" }}
 <div class="article-container">
     <div class="article-rightbar">
-        <div class="article-rightbar-child">
+        <div class="article-rightbar-child container1em">
             <h1><a href="/{{ .Data.Plural }}"> {{.Section}}</a>/{{.Title}}</h1>
             {{ if gt (len .Content) 0 }}
             {{ .Content }}
             {{ end}}
-            {{ partial "wiki_summary.html" . }}
         </div>
     </div>
     <div class="article-metamain shadowbox">
 
         <h3>合集</h3>
         <table>
-            {{ range .Data.Pages.GroupByDate "2006-01" }}
+            <tr>
+                <th>类型</th>
+                <th>标题</th>
+                <th>作者</th>
+                <th>更新时间</th>
+                <th>推荐理由</th>
+            </tr>
 
+
+
+            {{ range .Data.Pages.GroupByDate "2006-01" }}
                 {{ range .Pages }}
                 {{ partial "article_table_recomm.html" .}}
                 {{end}}
             {{ end }}
 
-            {{ range .Data.Pages.GroupByDate "2006-01" }}
+            <tr>
+                <th>  大大大大大</th>
+            </tr>
 
-                {{ range .Pages }}
-                {{ partial "article_table.html" .}}
-                {{end}}
+            {{ range  where (where .Site.RegularPages "Section" "in" site.Params.mainSections) ".Params.recomm" "!=" nil }}
+             
+                    {{ partial "article_table_recomm.html" .}}
+             
             {{ end }}
 
-              {{ range first 6 (where .Site.RegularPages "Params.bangumi" "not in" site.Params.otherbangumis) }}
-                {{ partial "article_table_recomm.html" .}}
-              {{ end }}
+
 
         </table>        
+
     </div>
 
 
 </div>
 {{ end }}
 
+
+{{ define "parallax_bg" }}
+{{ partial "parallax_regular.html" . }}
+{{ end }}

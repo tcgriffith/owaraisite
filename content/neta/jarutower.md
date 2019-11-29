@@ -2,6 +2,7 @@
 combi: 加鲁加鲁
 title: 【中字】JARUJARU TOWER 228「饮料洒到客人之前从店里辞职的家伙」
 author: 今天鱼
+date: 2019-10-15
 zmz: 今天鱼
 bangumi: 段子
 bangumis: 
@@ -10,6 +11,7 @@ description: 段子&#8226;NA
 weight: 8872
 nodate: true
 brief: "JARUJARU自称拥有8000个段子，现在以「JARU JARU TOWER」的形式在公式HP和油管每天更新一个。更新一次即是加建一层，居民则是短剧角色：由JARUJARU扮演的奇怪的人。距离「JARU JARU TOWER」建成8000层的2039年11月7日还有二十年。"
+recomm: "> JARUJARU自称拥有8000个段子，现在以「JARU JARU TOWER」的形式在公式HP和油管每天更新一个。更新一次即是加建一层，居民则是短剧角色：由JARUJARU扮演的奇怪的人。距离「JARU JARU TOWER」建成8000层的2039年11月7日还有二十年"
 ---
 
 
