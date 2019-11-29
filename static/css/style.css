@@ -1247,6 +1247,10 @@ article{
   font-size:1.5em;
 }
 
+.list2 section {
+  flex: 0 1 45%;
+}
+
 
 .homeblock{
 

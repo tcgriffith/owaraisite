@@ -56,13 +56,15 @@
             </a>
         </div>
 
-        <div class = "roundit  container1em shadowbox homeblock">
+        <div class = "roundit  container1em shadowbox ">
             <h1 class="strong"> 店长推荐 </h1>
-            <main class="list">
+            <main class="list2">
 
             {{ range  first 2 ( where (where .Site.RegularPages "Section" "in" site.Params.mainSections) ".Params.recomm" "!=" nil) }}
+
+
              
-                    {{ partial "article_justfig_title.html" . }}
+                    {{ partial "article_justfig_recomm.html" . }}
              
             {{ end }}
 
