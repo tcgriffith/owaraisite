@@ -782,11 +782,11 @@ hr {
 
   .article-rightbar{
     /*max-width: 20em;*/
-    max-width: 20%;
+    max-width: 16%;
   }
 
   .article-metamain{
-    max-width: 75%;
+    max-width: 83%;
   }
 
 }
@@ -826,7 +826,7 @@ hr {
 }
 
 article{
-  margin-right: 170px;
+  /*margin-right: 170px;*/
 }
 
 
@@ -1116,7 +1116,7 @@ input[type=checkbox]:checked ~ .sidebarIconToggle > .diagonal.part-2 {
 
 
 .article-container{
-    margin-right: 170px;
+    /*margin-right: 170px;*/
 }
 
 
@@ -1185,7 +1185,7 @@ input[type=checkbox]:checked ~ .sidebarIconToggle > .diagonal.part-2 {
 }
 
 article{
-  margin-right: 170px;
+  /*margin-right: 170px;*/
 }
 }
 

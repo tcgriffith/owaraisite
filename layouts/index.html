@@ -16,14 +16,7 @@
     <div class="article-metamain">
 
 
-        <div class = "roundit  container1em shadowbox">
-            <h1 class="strong"> 随机 </h1>
-            <main class="list">
-            {{ range first 6 (shuffle (where .Site.RegularPages "Section" "post")) }}
-                {{ partial "article_justfig_title.html" . }}
-            {{ end }}
-            </main>
-        </div>
+
 
 
 
@@ -50,6 +43,7 @@
                 <h2 class="linkbutton" style="text-align:center;">=More=</h2>
             </a>
         </div>
+
         <div class=" roundit shadowbox container1em ">
             <h1 class="strong"> cut/其他 </h1>
             <main class="list  ">
@@ -60,6 +54,23 @@
             <a href="/post">
                 <h2 class="linkbutton" style=" text-align:center;">=More=</h2>
             </a>
+        </div>
+
+        <div class = "roundit  container1em shadowbox homeblock">
+            <h1 class="strong"> 店长推荐 </h1>
+            <main class="list">
+
+            {{ range  first 2 ( where (where .Site.RegularPages "Section" "in" site.Params.mainSections) ".Params.recomm" "!=" nil) }}
+             
+                    {{ partial "article_justfig_title.html" . }}
+             
+            {{ end }}
+
+
+            </main>
+            <a href="/matome">
+                <h2 class="linkbutton" style=" text-align:center;">=More=</h2>
+            </a>            
         </div>
 
 
