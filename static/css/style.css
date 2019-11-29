@@ -1247,9 +1247,6 @@ article{
   font-size:1.5em;
 }
 
-.list2 section {
-  flex: 0 1 45%;
-}
 
 
 .homeblock{
@@ -1264,16 +1261,21 @@ article{
 
 
 .homeblock .article-img2 {
-  width:auto;
+  width:100%;
   height: auto;
+  /*max-width: 10em;*/
 
-  max-height: 16rem;
+  /*max-height: 16rem;*/
+  /*max-width: 30%;*/
 
 }
 
 .homeblock .list section{
   /*width: 50em;*/
-  flex: 1 0 45%;
+  /*max-width: 15em;*/
+  /*max-width: 30%;*/
+  min-width: 13em;
+  flex: 1 1 24%;
 }
 
 

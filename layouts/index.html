@@ -20,7 +20,7 @@
 
 
 
-        <div class=" roundit  container1em shadowbox">
+        <div class=" roundit  container1em shadowbox homeblock">
             <h1 class="strong"> 节目 </h1>
             <main class="list">
                 {{ range first 6 (where .Site.RegularPages "Params.bangumi" "not in" site.Params.otherbangumis) }}
@@ -32,7 +32,7 @@
                 <h2 class="linkbutton" style=" text-align:center;">=More=</h2>
             </a>
         </div>
-        <div class=" roundit  container1em shadowbox">
+        <div class=" roundit  container1em shadowbox homeblock">
             <h1 class="strong"> 段子 </h1>
             <main class="list ">
                 {{ range first 6 (where .Site.RegularPages "Section" "neta") }}
@@ -44,7 +44,7 @@
             </a>
         </div>
 
-        <div class=" roundit shadowbox container1em ">
+        <div class=" roundit shadowbox container1em homeblock ">
             <h1 class="strong"> cut/其他 </h1>
             <main class="list  ">
                 {{ range first 6 (where .Site.RegularPages "Params.bangumi" "in" .Site.Params.otherbangumis2) }}
@@ -56,9 +56,9 @@
             </a>
         </div>
 
-        <div class = "roundit  container1em shadowbox ">
+        <div class = "roundit  container1em shadowbox homeblock ">
             <h1 class="strong"> 店长推荐 </h1>
-            <main class="list2">
+            <main class="list">
 
             {{ range  first 2 ( where (where .Site.RegularPages "Section" "in" site.Params.mainSections) ".Params.recomm" "!=" nil) }}
 
