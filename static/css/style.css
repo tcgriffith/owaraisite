@@ -109,6 +109,14 @@ h1,h2,h3,h4,h5,h6{
 
 /*---------------article card*/
 
+.flex-col-title{
+  min-height:  4em;
+}
+
+.flex-col-recomm{
+  height: 10em;
+}
+
 .flex-container-evenly{
   display: flex;
   justify-content:space-evenly;
@@ -646,6 +654,8 @@ hr {
   display: flex;
   flex-wrap: wrap;
   /*flex-direction: column;*/ 
+  flex-direction: row-reverse;
+  /*align-items: flex-end;*/
   margin-left: -15px;
 }
 .list section {
@@ -1247,11 +1257,32 @@ article{
   font-size:1.5em;
 }
 
+@media (min-width: 300px) {
+
+  .homeblock .list section{
+    min-width: 14em;
+  }
+}
 
 
-.homeblock{
+@media (max-width: 300px) {
+
+  .homeblock .list section{
+    min-width: 200px;
+  }
+}
+
+
+
+
+.homeblock .list{
+  align-items: flex-end;
+
 
 }
+
+
+
 
 .homeblock table, thead, th, td {
   border-style: none;
@@ -1261,8 +1292,11 @@ article{
 
 
 .homeblock .article-img2 {
+  /*width:100%;*/
   width:100%;
   height: auto;
+
+  max-height: 20em;
   /*max-width: 10em;*/
 
   /*max-height: 16rem;*/
@@ -1270,12 +1304,17 @@ article{
 
 }
 
+
+
 .homeblock .list section{
   /*width: 50em;*/
   /*max-width: 15em;*/
   /*max-width: 30%;*/
-  min-width: 13em;
-  flex: 1 1 24%;
+  /*min-width: 13em;*/
+  /*max-width: 30%;*/
+  
+  flex: 1 0 20%;
+
 }
 
 

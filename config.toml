@@ -60,8 +60,8 @@ refLinksNotFoundURL = '#'
     url = "/tags/"
     weight = 9
 [[menu.side]]
-    name = "字幕组"
-    url = "/categories/"
+    name = "作者"
+    url = "/author/"
     weight = 10
 
 [[menu.side]]

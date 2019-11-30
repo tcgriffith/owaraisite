@@ -15,6 +15,20 @@
     </div>
     <div class="article-metamain">
 
+        <div class = "roundit  container1em shadowbox homeblock ">
+            <h1 > (*❦ω❦)ノ</h1>   
+            <main class="list">
+
+            {{ range  first 4 (shuffle ( where .Site.RegularPages.ByDate ".Params.recomm" "!=" nil)) }}
+             
+                    {{ partial "article_justfig_recomm.html" . }} 
+             
+            {{ end }}
+            </main>
+            <a href="/matome">
+                <h2 class="linkbutton" style=" text-align:center; margin-top: 3em;">=More=</h2> 
+            </a>            
+        </div>
 
 
 
@@ -56,24 +70,6 @@
             </a>
         </div>
 
-        <div class = "roundit  container1em shadowbox homeblock ">
-            <h1 class="strong"> 店长推荐 </h1>
-            <main class="list">
-
-            {{ range  first 2 ( where (where .Site.RegularPages "Section" "in" site.Params.mainSections) ".Params.recomm" "!=" nil) }}
-
-
-             
-                    {{ partial "article_justfig_recomm.html" . }}
-             
-            {{ end }}
-
-
-            </main>
-            <a href="/matome">
-                <h2 class="linkbutton" style=" text-align:center;">=More=</h2>
-            </a>            
-        </div>
 
 
 

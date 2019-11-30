@@ -1,0 +1,58 @@
+{{ define "main" }}
+<div class="article-container">
+    <div class="article-rightbar">
+        <div class="article-rightbar-child">
+            <h1><a href="/{{ .Data.Plural }}"> {{.Section}}</a>/{{.Title}}</h1>
+
+{{ with .Title }}
+    {{ if eq (substr (jsonify .) 0 1) "["}}
+        {{ $.Scratch.Set "page_author" .}}
+    {{ else }}
+        {{ $.Scratch.Set "page_author" (slice .) }}
+    {{ end }}
+    
+    {{ if $.Site.Data.authors }}
+        {{ $.Scratch.Set "author_info" (where $.Site.Data.authors.list "name" "in" ($.Scratch.Get "page_author")) }}
+    {{ end }}
+
+
+    {{ with $.Scratch.Get "author_info" }}
+        {{ range . }}
+        <div class="author-card-container">
+            <a href="{{ relURL (print "/categories/" .name | urlize) }}">
+                <div class="imgwrapper">
+                    <img class="author-img" src="{{ .image }}" alt="{{ .name }}" />
+                </div>
+                <div class="author-text">
+                    <h1 class="author-card-author">{{ .name }}</h1>
+                    <div class="author-card-desc">
+                        {{ .intro | markdownify }}
+                    </div>
+                </div>
+            </a>
+        </div>
+        {{ end }}
+    {{ end }}
+{{ end }}
+
+
+        </div>
+    </div>
+    <div class="article-metamain shadowbox">
+        <table>
+            {{ range .Data.Pages.GroupByDate "2006-01" }}
+            <th nowrap id="{{.Key}}">
+                <h4>{{.Key}}</h4>
+            </th>
+            {{ range .Pages }}
+            {{ partial "article_table_simple.html" .}}
+            {{end}}
+            {{ end }}
+        </table>
+    </div>
+</div>
+{{ end }}
+
+{{ define "parallax_bg" }}
+{{ partial "parallax_regular.html" . }}
+{{ end }}
