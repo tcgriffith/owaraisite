@@ -1260,7 +1260,7 @@ article{
 @media (min-width: 300px) {
 
   .homeblock .list section{
-    min-width: 14em;
+    min-width: 120px;
   }
 }
 
