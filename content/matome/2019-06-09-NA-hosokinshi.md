@@ -8,7 +8,7 @@ publishdate: '2001-01-03'
 bangumi: 电视剧
 date: '2019-06-09'
 description: 其他&#8226;NA
-weight: 9280.0
+weight: 8900.0
 tags:
     - 推理
     - 悬疑
@@ -35,7 +35,7 @@ toc: true
 
 ## 地址
 
-![](https://raw.githubusercontent.com/tcgriffith/owaraisite/master/static/tmpimg/hosokinshi.jpg)
+![image.png](https://i.loli.net/2019/12/02/py8bYi6RP4doEKO.png)
 
 
 

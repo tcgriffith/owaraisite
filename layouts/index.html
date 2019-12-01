@@ -15,11 +15,11 @@
     </div>
     <div class="article-metamain">
 
-        <div class = "roundit  container1em shadowbox homeblock ">
+        <div class = "roundit  container1em shadowbox homeblock halloffame ">
             <h1 > (*❦ω❦)ノ</h1>   
             <main class="list">
 
-            {{ range  first 4 (shuffle ( where .Site.RegularPages.ByDate ".Params.recomm" "!=" nil)) }}
+            {{ range  first 4  (where ( where .Site.RegularPages "Section" "in" .Site.Params.mainSections ) ".Params.recomm" "!=" nil) }}
              
                     {{ partial "article_justfig_recomm.html" . }} 
              
