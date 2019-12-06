@@ -15,6 +15,7 @@ bangumis:
   - 节目表
 weight: '`r (200000 - as.numeric(format(Sys.Date(),"%y%m%d")))`'
 draft: false
+recomm: "> 节目表"
 ---
 
 
@@ -33,7 +34,6 @@ load("~/GIT/lhdata/data/godtongue_list_cln.rda")
 
 ## 简介
 
-论坛的小伙伴[@lidaye](https://d.owaraiclub.com/d/3/14) 建议
 
 > 还有一个就是希望能有有完整的合集目录，即使当前那一期没有字幕，甚至没有资源，只需要有标题介绍也行啊，这样也心里有个数啊哈哈哈
 
@@ -45,7 +45,6 @@ load("~/GIT/lhdata/data/godtongue_list_cln.rda")
 
 [CSV下载](/godtongue.csv)
 
-[有建议的话欢迎论坛反馈](https://d.owaraiclub.com/d/3/14)
 
 ```{r}
 godtong_list.cln2 = 
