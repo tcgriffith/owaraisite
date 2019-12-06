@@ -7,15 +7,15 @@
 * 1e61082 - Created 日文维基收录的搞笑艺人 (markdown) (7 weeks ago) <TC>
 * 0029542 - Updated 搞笑组合译名对照 (markdown) (7 weeks ago) <TC>
 * 1c679b9 - Created 搞笑组合译名对照 (markdown) (7 weeks ago) <TC>
-* ce0f6b4 - Created R1大赛 (markdown) (7 weeks ago) <TC>
-* 107ce8c - Updated _Sidebar (markdown) (7 weeks ago) <TC>
-* dae2cc8 - Updated _Sidebar (markdown) (7 weeks ago) <TC>
-* 6516558 - Created 霜降明星 (markdown) (7 weeks ago) <TC>
-* 8ce2812 - Created 搞笑第七世代 (markdown) (7 weeks ago) <TC>
-* 8dcf631 - Updated _Sidebar (markdown) (7 weeks ago) <TC>
-* a6b8307 - Created 花子 (markdown) (7 weeks ago) <TC>
-* 2f4d112 - Updated 剧团一人 (markdown) (7 weeks ago) <TC>
-* df90681 - Updated 伦敦之心 (markdown) (7 weeks ago) <TC>
+* ce0f6b4 - Created R1大赛 (markdown) (8 weeks ago) <TC>
+* 107ce8c - Updated _Sidebar (markdown) (8 weeks ago) <TC>
+* dae2cc8 - Updated _Sidebar (markdown) (8 weeks ago) <TC>
+* 6516558 - Created 霜降明星 (markdown) (8 weeks ago) <TC>
+* 8ce2812 - Created 搞笑第七世代 (markdown) (8 weeks ago) <TC>
+* 8dcf631 - Updated _Sidebar (markdown) (8 weeks ago) <TC>
+* a6b8307 - Created 花子 (markdown) (8 weeks ago) <TC>
+* 2f4d112 - Updated 剧团一人 (markdown) (8 weeks ago) <TC>
+* df90681 - Updated 伦敦之心 (markdown) (8 weeks ago) <TC>
 * 09ecd63 - Updated Engei Grand Slam (markdown) (8 weeks ago) <TC>
 * 9679d96 - Updated _Sidebar (markdown) (8 weeks ago) <TC>
 * 465a15b - Created 短剧之王大赛 (markdown) (8 weeks ago) <TC>
