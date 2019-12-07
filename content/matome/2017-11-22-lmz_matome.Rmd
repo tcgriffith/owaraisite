@@ -23,7 +23,7 @@ tags:
 bangumis:
   - 合集
 description: 合集&#8226;NA
-weight: 1
+weight: 8800
 recomm: "> 好段子，就是不管你看多少遍，都会产生让你爆笑的新鲜感 (ღ′◡‵)"
 ---
 
