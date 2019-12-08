@@ -37,7 +37,7 @@
         <div class=" roundit  container1em shadowbox homeblock">
             <h1 class="strong"> 节目 </h1>
             <main class="list">
-                {{ range first 6 (where .Site.RegularPages "Params.bangumi" "not in" site.Params.otherbangumis) }}
+                {{ range first 6 (where (where .Site.RegularPages "Section" "post") "Params.bangumi" "not in" site.Params.otherbangumis) }}
                 {{ partial "article_justfig_title.html" . }}
                 {{ end }}
 
