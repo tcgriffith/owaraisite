@@ -36,14 +36,14 @@
 * 466ad5e - Updated 奥黛丽 (markdown) (8 weeks ago) <TC>
 * e6bee3b - Updated 流星 (markdown) (8 weeks ago) <TC>
 * 8375337 - Updated 东京03 (markdown) (8 weeks ago) <TC>
-* 655f674 - Updated M1大赛 (markdown) (8 weeks ago) <TC>
-* bdb732c - Updated Engei Grand Slam (markdown) (8 weeks ago) <TC>
-* 0831e88 - Updated Ametalk (markdown) (8 weeks ago) <TC>
-* b9c4d6f - Updated IPPON (markdown) (8 weeks ago) <TC>
-* 59d3be0 - Updated 伦敦之心 (markdown) (8 weeks ago) <TC>
-* ac75f2b - Updated 水曜日的DownTown (markdown) (8 weeks ago) <TC>
-* 6f3fb33 - Updated _Sidebar (markdown) (8 weeks ago) <TC>
-* 75578d4 - Updated _Sidebar (markdown) (8 weeks ago) <TC>
+* 655f674 - Updated M1大赛 (markdown) (9 weeks ago) <TC>
+* bdb732c - Updated Engei Grand Slam (markdown) (9 weeks ago) <TC>
+* 0831e88 - Updated Ametalk (markdown) (9 weeks ago) <TC>
+* b9c4d6f - Updated IPPON (markdown) (9 weeks ago) <TC>
+* 59d3be0 - Updated 伦敦之心 (markdown) (9 weeks ago) <TC>
+* ac75f2b - Updated 水曜日的DownTown (markdown) (9 weeks ago) <TC>
+* 6f3fb33 - Updated _Sidebar (markdown) (9 weeks ago) <TC>
+* 75578d4 - Updated _Sidebar (markdown) (9 weeks ago) <TC>
 * f9d87ad - Updated Home (markdown) (9 weeks ago) <TC>
 * 60d9ae1 - Updated Home (markdown) (9 weeks ago) <TC>
 * 4f39476 - rm index (9 weeks ago) <tcgriffith>
