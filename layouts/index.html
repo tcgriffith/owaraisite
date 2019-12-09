@@ -19,7 +19,7 @@
             <h1 > (*❦ω❦)ノ</h1>   
             <main class="list">
 
-            {{ range  first 4  (where ( where .Site.RegularPages "Section" "in" .Site.Params.mainSections ) ".Params.recomm" "!=" nil) }}
+            {{ range  first 3  (where ( where .Site.RegularPages "Section" "in" .Site.Params.mainSections ) ".Params.recomm" "!=" nil) }}
              
                     {{ partial "article_justfig_recomm.html" . }} 
              
@@ -37,7 +37,7 @@
         <div class=" roundit  container1em shadowbox homeblock">
             <h1 class="strong"> 节目 </h1>
             <main class="list">
-                {{ range first 6 (where (where .Site.RegularPages "Section" "post") "Params.bangumi" "not in" site.Params.otherbangumis) }}
+                {{ range first 7 (where (where .Site.RegularPages "Section" "post") "Params.bangumi" "not in" site.Params.otherbangumis) }}
                 {{ partial "article_justfig_title.html" . }}
                 {{ end }}
 
@@ -49,7 +49,7 @@
         <div class=" roundit  container1em shadowbox homeblock">
             <h1 class="strong"> 段子 </h1>
             <main class="list ">
-                {{ range first 6 (where .Site.RegularPages "Section" "neta") }}
+                {{ range first 7 (where .Site.RegularPages "Section" "neta") }}
                 {{ partial "article_justfig_title.html" . }}
                 {{ end }}
             </main>
@@ -61,7 +61,7 @@
         <div class=" roundit shadowbox container1em homeblock ">
             <h1 class="strong"> cut/其他 </h1>
             <main class="list  ">
-                {{ range first 6 (where .Site.RegularPages "Params.bangumi" "in" .Site.Params.otherbangumis2) }}
+                {{ range first 7 (where .Site.RegularPages "Params.bangumi" "in" .Site.Params.otherbangumis2) }}
                 {{ partial "article_justfig_title.html" . }}
                 {{ end }}
             </main>

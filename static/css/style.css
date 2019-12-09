@@ -114,7 +114,7 @@ h1,h2,h3,h4,h5,h6{
 }
 
 .flex-col-recomm{
-  height: 10em;
+  height: 6em;
 }
 
 .flex-container-evenly{
@@ -126,7 +126,7 @@ h1,h2,h3,h4,h5,h6{
   display: flex;
   flex-flow: column;
   /*align-items: center;*/
-  padding-bottom: 1rem;
+  padding-bottom: .3em;
 
 }
 
@@ -797,7 +797,8 @@ hr {
   }
 
   .article-metamain{
-    max-width: 81%;
+    max-width: 80%;
+    /*padding-right: 5em;*/
   }
 
 }

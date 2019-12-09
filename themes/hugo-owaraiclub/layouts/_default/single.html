@@ -4,6 +4,18 @@
     {{ else }}
     <div class="article-rightbar">
 
+        {{ if .Params.toc }}
+
+        <div class="article-rightbar-child container1em">
+
+            <div class="sidenav-rightbar card-container">
+                <h2>   目录 </h2>
+            {{ partial "toc_fixed.html" .}}
+            </div>
+        </div>
+
+        {{ end }}
+
 
         <div class="article-rightbar-child  ">
             {{ partial "author_card.html" .}}
@@ -41,17 +53,7 @@
             </div>
         </div>
 
-        {{ if .Params.toc }}
 
-        <div class="article-rightbar-child container1em">
-
-            <div class="sidenav-rightbar card-container">
-                <h2>   目录 </h2>
-            {{ partial "toc_fixed.html" .}}
-            </div>
-        </div>
-
-        {{ end }}
 
     </div>
     {{ end }}
@@ -65,7 +67,7 @@
         {{ if .Params.minimo }}
         {{ else }}
         <div class="article-related">
-            <h1><span class="title"> {{.Params.bangumi}} 最新 </span></h1>
+            <h1><span class="title"> 相关 </span></h1>
                 {{ range first 5 (where .Site.RegularPages "Params.zmz" .Params.zmz) }}
                 <ul>{{ partial "article_li.html" .}}</ul>
                 {{ end }}
