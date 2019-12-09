@@ -71,6 +71,9 @@ list:
   - name: akihoni
     image: /img/akihoni_avatar.jpg
     intro: 抽不到担当我要死了
+  - name: 驴三爷
+    image: /img/lvsan_avatar.jpg
+    intro: 喜欢画画的新晋社畜，日语自学中。水平超次，日常错漏，跪迎路过的各位批改作业！
   - name: 水清而深
     image: /img/sq_avatar.jpeg
     intro: 天心月圆
