@@ -1,22 +1,21 @@
 ---
-title: AMETALK节目表
-author: 疾了个风
+title: "AMETALK节目表"
+author: "疾了个风"
 date: '2019-10-24'
-publishdate: '2019-10-24'
-slug: ametalk-oalist
-categories:
-  - 疾了个风
-tags:
-  - matome
-  - ametalk
-minimo: true
-bangumi: 节目表
+categories: 疾了个风
 bangumis:
-  - 节目表
-  - ametalk
-weight: '`r (200000 - as.numeric(format(Sys.Date(),"%y%m%d")) +1)`'
-draft: false
-recomm: "> 节目表"
+- 节目表
+- ametalk
+draft: no
+minimo: yes
+publishdate: '2019-10-24'
+recomm: '> 节目表'
+slug: ametalk-oalist
+tags:
+- matome
+- ametalk
+bangumi: 节目表
+weight: 233
 ---
 
 
@@ -53,17 +52,22 @@ ame_list.cln2 =
 ame_list.cln %>%
   as_tibble() %>%
   mutate(date= publishdate,
-         title = ifelse(is.na(title.y), "", paste0("</br><mark>", title.y,"</mark>")),
+         title = ifelse(is.na(title.y), "", paste0("</br><a href=\"/post/",slug,"\">熟肉 ", title.y,"</a>")),
          title2=paste0(title.x, title)) %>%
-  mutate(link.y = ifelse(is.na(slug),NA,paste0("<a href=\"/post/",slug,"\">link</a>"))) %>%
+  mutate(link.y = ifelse(is.na(slug),NA,paste0())) %>%
   # select(date, id=a, title=title2, guest=d, link) %>%
-  select(date, title=title2, guest=summary, link=link.y) %>%
+  select(date, title=title2, guest=summary) %>%
   arrange(desc(date))
 
 readr::write_csv2(ame_list.cln, path= here::here("static/ametalk.csv"))
-  
-ame_list.cln2 %>%
-  DT::datatable(escape= FALSE) %>%
-  formatStyle(c("title","date"), "white-space"="nowrap")
+
+row.names(ame_list.cln2) =NULL
+
+  DT::datatable(
+    ame_list.cln2,
+    rownames = FALSE,
+    escape= FALSE,
+    extensions = 'Responsive')
 ```
+
 

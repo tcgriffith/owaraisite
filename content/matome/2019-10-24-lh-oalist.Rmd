@@ -54,9 +54,13 @@ lh_list.cln %>%
   arrange(desc(publishdate))
 
 readr::write_csv2(lh_list.cln, path= here::here("static/lonha.csv"))
-  
-lh_list.cln2 %>%
-  DT::datatable(escape= FALSE) %>%
-  formatStyle(c("publishdate", "title"), "white-space"="nowrap")
+
+row.names(lh_list.cln2) = NULL
+
+  DT::datatable(
+    lh_list.cln2,
+    rownames = FALSE,
+    escape= FALSE,
+    extensions = 'Responsive')
 ```
 

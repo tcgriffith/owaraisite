@@ -51,15 +51,21 @@ godtong_list.cln2 =
 godtong_list.cln %>%
   as_tibble() %>%
   mutate(date= publishdate,
-         title = ifelse(is.na(title), "", paste0("</br><mark>", title,"</mark>")),
+         title = ifelse(is.na(title), "", paste0("</br>熟肉 ", title,"")),
          title2=paste0(c, title)) %>%
   select(date, id=a, title=title2, guest=d, link) %>%
   arrange(desc(date))
 
 readr::write_csv2(godtong_list.cln, path= here::here("static/godtongue.csv"))
   
-godtong_list.cln2 %>%
-  DT::datatable(escape= FALSE) %>%
-  formatStyle(c("title","date"), "white-space"="nowrap")
+# godtong_list.cln2 %>%
+#   DT::datatable(escape= FALSE) %>%
+#   formatStyle(c("title","date"), "white-space"="nowrap")
+
+  DT::datatable(
+    godtong_list.cln2,
+    rownames = FALSE,
+    escape= FALSE,
+    extensions = 'Responsive')
 ```
 
