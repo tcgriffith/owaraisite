@@ -16,10 +16,10 @@
 * a6b8307 - Created 花子 (markdown) (9 weeks ago) <TC>
 * 2f4d112 - Updated 剧团一人 (markdown) (9 weeks ago) <TC>
 * df90681 - Updated 伦敦之心 (markdown) (9 weeks ago) <TC>
-* 09ecd63 - Updated Engei Grand Slam (markdown) (9 weeks ago) <TC>
-* 9679d96 - Updated _Sidebar (markdown) (9 weeks ago) <TC>
-* 465a15b - Created 短剧之王大赛 (markdown) (9 weeks ago) <TC>
-* 8956522 - Updated Home (markdown) (9 weeks ago) <TC>
+* 09ecd63 - Updated Engei Grand Slam (markdown) (10 weeks ago) <TC>
+* 9679d96 - Updated _Sidebar (markdown) (10 weeks ago) <TC>
+* 465a15b - Created 短剧之王大赛 (markdown) (10 weeks ago) <TC>
+* 8956522 - Updated Home (markdown) (10 weeks ago) <TC>
 * 2993d53 - Updated Speed Wagon (markdown) (10 weeks ago) <TC>
 * 3d95b8f - Updated Speed Wagon (markdown) (10 weeks ago) <TC>
 * 9e7d912 - add more (10 weeks ago) <tcgriffith>
@@ -44,8 +44,8 @@
 * ac75f2b - Updated 水曜日的DownTown (markdown) (10 weeks ago) <TC>
 * 6f3fb33 - Updated _Sidebar (markdown) (10 weeks ago) <TC>
 * 75578d4 - Updated _Sidebar (markdown) (10 weeks ago) <TC>
-* f9d87ad - Updated Home (markdown) (10 weeks ago) <TC>
-* 60d9ae1 - Updated Home (markdown) (10 weeks ago) <TC>
+* f9d87ad - Updated Home (markdown) (2 months ago) <TC>
+* 60d9ae1 - Updated Home (markdown) (2 months ago) <TC>
 * 4f39476 - rm index (2 months ago) <tcgriffith>
 * 61e9df4 - Updated Engei Grand Slam (markdown) (2 months ago) <TC>
 * 689920e - Updated Ametalk (markdown) (2 months ago) <TC>
