@@ -1,12 +1,12 @@
-* fda169c - (HEAD -> master, origin/master, origin/HEAD) updateit (5 weeks ago) <tcgriffith>
+* fda169c - (HEAD -> master, origin/master, origin/HEAD) updateit (6 weeks ago) <tcgriffith>
 * 590201e - Created 日文维基收录的搞笑组合 (markdown) (9 weeks ago) <TC>
 * b9aba14 - Updated _Sidebar (markdown) (9 weeks ago) <TC>
 * 651f3e7 - Updated 日文维基收录的搞笑艺人 (markdown) (9 weeks ago) <TC>
 * 88c62f1 - Updated 日文维基收录的搞笑艺人 (markdown) (9 weeks ago) <TC>
 * f833ce1 - Updated 日文维基收录的搞笑艺人 (markdown) (9 weeks ago) <TC>
 * 1e61082 - Created 日文维基收录的搞笑艺人 (markdown) (9 weeks ago) <TC>
-* 0029542 - Updated 搞笑组合译名对照 (markdown) (9 weeks ago) <TC>
-* 1c679b9 - Created 搞笑组合译名对照 (markdown) (9 weeks ago) <TC>
+* 0029542 - Updated 搞笑组合译名对照 (markdown) (10 weeks ago) <TC>
+* 1c679b9 - Created 搞笑组合译名对照 (markdown) (10 weeks ago) <TC>
 * ce0f6b4 - Created R1大赛 (markdown) (10 weeks ago) <TC>
 * 107ce8c - Updated _Sidebar (markdown) (10 weeks ago) <TC>
 * dae2cc8 - Updated _Sidebar (markdown) (10 weeks ago) <TC>
@@ -22,8 +22,8 @@
 * 8956522 - Updated Home (markdown) (10 weeks ago) <TC>
 * 2993d53 - Updated Speed Wagon (markdown) (10 weeks ago) <TC>
 * 3d95b8f - Updated Speed Wagon (markdown) (10 weeks ago) <TC>
-* 9e7d912 - add more (10 weeks ago) <tcgriffith>
-* 474d1cc - Updated 伦敦之心 (markdown) (10 weeks ago) <TC>
+* 9e7d912 - add more (2 months ago) <tcgriffith>
+* 474d1cc - Updated 伦敦之心 (markdown) (2 months ago) <TC>
 * 9e399da - Updated 吉本兴业 (markdown) (2 months ago) <TC>
 * f0fd6d2 - Updated 中川家 (markdown) (2 months ago) <TC>
 * 645f8cb - Updated 足球时间 (markdown) (2 months ago) <TC>
