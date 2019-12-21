@@ -90,7 +90,7 @@
 * 446e3a4 - Created 后藤辉基 (markdown) (2 years ago) <TC>
 * 39d3202 - modify it (2 years ago) <tcgriffith>
 * 274bbba - add logo (2 years ago) <tcgriffith>
-* cc06dc6 - Updated 岛田绅助 (markdown) (2 years ago) <TC>
+* cc06dc6 - Updated 岛田绅助 (markdown) (2 years, 1 month ago) <TC>
 * 2a5cc38 - Updated 伦敦之心节目表 (markdown) (2 years, 1 month ago) <TC>
 * dcf4393 - Updated 伦敦之心 (markdown) (2 years, 1 month ago) <TC>
 * acfb6af - Updated 伦敦之心节目表 (markdown) (2 years, 1 month ago) <TC>
