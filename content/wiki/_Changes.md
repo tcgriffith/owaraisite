@@ -85,9 +85,9 @@
 * 52c998c - Updated 流星 (markdown) (2 years ago) <tohrusnbs>
 * 1410968 - Updated 足球时间 (markdown) (2 years ago) <TC>
 * 885652d - Updated Engei Grand Slam (markdown) (2 years ago) <TC>
-* 5eaf4cc - Updated 后藤辉基 (markdown) (2 years ago) <TC>
-* 93546ab - Updated 后藤辉基 (markdown) (2 years ago) <TC>
-* 446e3a4 - Created 后藤辉基 (markdown) (2 years ago) <TC>
+* 5eaf4cc - Updated 后藤辉基 (markdown) (2 years, 1 month ago) <TC>
+* 93546ab - Updated 后藤辉基 (markdown) (2 years, 1 month ago) <TC>
+* 446e3a4 - Created 后藤辉基 (markdown) (2 years, 1 month ago) <TC>
 * 39d3202 - modify it (2 years, 1 month ago) <tcgriffith>
 * 274bbba - add logo (2 years, 1 month ago) <tcgriffith>
 * cc06dc6 - Updated 岛田绅助 (markdown) (2 years, 1 month ago) <TC>
