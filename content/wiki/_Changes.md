@@ -5,8 +5,8 @@
 * 88c62f1 - Updated 日文维基收录的搞笑艺人 (markdown) (9 weeks ago) <TC>
 * f833ce1 - Updated 日文维基收录的搞笑艺人 (markdown) (9 weeks ago) <TC>
 * 1e61082 - Created 日文维基收录的搞笑艺人 (markdown) (9 weeks ago) <TC>
-* 0029542 - Updated 搞笑组合译名对照 (markdown) (10 weeks ago) <TC>
-* 1c679b9 - Created 搞笑组合译名对照 (markdown) (10 weeks ago) <TC>
+* 0029542 - Updated 搞笑组合译名对照 (markdown) (2 months ago) <TC>
+* 1c679b9 - Created 搞笑组合译名对照 (markdown) (2 months ago) <TC>
 * ce0f6b4 - Created R1大赛 (markdown) (2 months ago) <TC>
 * 107ce8c - Updated _Sidebar (markdown) (2 months ago) <TC>
 * dae2cc8 - Updated _Sidebar (markdown) (2 months ago) <TC>
@@ -46,9 +46,9 @@
 * 75578d4 - Updated _Sidebar (markdown) (2 months ago) <TC>
 * f9d87ad - Updated Home (markdown) (2 months ago) <TC>
 * 60d9ae1 - Updated Home (markdown) (2 months ago) <TC>
-* 4f39476 - rm index (2 months ago) <tcgriffith>
-* 61e9df4 - Updated Engei Grand Slam (markdown) (2 months ago) <TC>
-* 689920e - Updated Ametalk (markdown) (2 months ago) <TC>
+* 4f39476 - rm index (3 months ago) <tcgriffith>
+* 61e9df4 - Updated Engei Grand Slam (markdown) (3 months ago) <TC>
+* 689920e - Updated Ametalk (markdown) (3 months ago) <TC>
 * 6dffba1 - diaaaaaazeeeeeeeeeepam (11 months ago) <tcgriffith>
 * b8e7afe - Created 短剧 (markdown) (1 year, 2 months ago) <TC>
 * 736ea19 - Created 中川家 (markdown) (1 year, 2 months ago) <TC>
