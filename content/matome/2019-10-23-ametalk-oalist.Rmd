@@ -15,7 +15,7 @@ tags:
 - matome
 - ametalk
 bangumi: 节目表
-weight: 8760
+weight: '`r (200000 - as.numeric(format(Sys.Date(),"%y%m%d")))`'
 ---
 
 
