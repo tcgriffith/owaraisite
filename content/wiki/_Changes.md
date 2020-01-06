@@ -53,14 +53,14 @@
 * b8e7afe - Created 短剧 (markdown) (1 year, 2 months ago) <TC>
 * 736ea19 - Created 中川家 (markdown) (1 year, 2 months ago) <TC>
 * 8790ef4 - Updated Home (markdown) (1 year, 2 months ago) <TC>
-* 0105276 - Updated Home (markdown) (1 year, 2 months ago) <TC>
-* 801f7a3 - test edit (1 year, 2 months ago) <TC>
-* 11bc8e1 - test edit (1 year, 2 months ago) <TC>
-* 77cc99d - Updated Home (markdown) (1 year, 2 months ago) <TC>
-* 4962098 - Updated _Sidebar (markdown) (1 year, 2 months ago) <TC>
-* 77bdaba - Updated _Sidebar (markdown) (1 year, 2 months ago) <TC>
-* 5cf3a83 - Created 镰鼬 (markdown) (1 year, 2 months ago) <TC>
-* 9b294db - Updated _footer (markdown) (1 year, 2 months ago) <TC>
+* 0105276 - Updated Home (markdown) (1 year, 3 months ago) <TC>
+* 801f7a3 - test edit (1 year, 3 months ago) <TC>
+* 11bc8e1 - test edit (1 year, 3 months ago) <TC>
+* 77cc99d - Updated Home (markdown) (1 year, 3 months ago) <TC>
+* 4962098 - Updated _Sidebar (markdown) (1 year, 3 months ago) <TC>
+* 77bdaba - Updated _Sidebar (markdown) (1 year, 3 months ago) <TC>
+* 5cf3a83 - Created 镰鼬 (markdown) (1 year, 3 months ago) <TC>
+* 9b294db - Updated _footer (markdown) (1 year, 3 months ago) <TC>
 * 8f7f368 - Updated _Sidebar (markdown) (1 year, 7 months ago) <TC>
 * ea97c77 - structure (1 year, 7 months ago) <tcgriffith>
 * 51a4865 - Created 千鸟 (markdown) (1 year, 7 months ago) <TC>
