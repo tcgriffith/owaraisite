@@ -14,7 +14,7 @@ bangumi: 节目表
 bangumis:
   - 节目表
   - 伦敦之心
-weight: '`r (200000 - as.numeric(format(Sys.Date(),"%y%m%d")) +1)`'
+weight: '`r (210000 - as.numeric(format(Sys.Date(),"%y%m%d")) +1)`'
 draft: false
 recomm: "> 节目表"
 ---
