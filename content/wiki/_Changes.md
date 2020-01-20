@@ -49,7 +49,7 @@
 * 4f39476 - rm index (3 months ago) <tcgriffith>
 * 61e9df4 - Updated Engei Grand Slam (markdown) (3 months ago) <TC>
 * 689920e - Updated Ametalk (markdown) (3 months ago) <TC>
-* 6dffba1 - diaaaaaazeeeeeeeeeepam (12 months ago) <tcgriffith>
+* 6dffba1 - diaaaaaazeeeeeeeeeepam (1 year ago) <tcgriffith>
 * b8e7afe - Created 短剧 (markdown) (1 year, 3 months ago) <TC>
 * 736ea19 - Created 中川家 (markdown) (1 year, 3 months ago) <TC>
 * 8790ef4 - Updated Home (markdown) (1 year, 3 months ago) <TC>
@@ -88,8 +88,8 @@
 * 5eaf4cc - Updated 后藤辉基 (markdown) (2 years, 1 month ago) <TC>
 * 93546ab - Updated 后藤辉基 (markdown) (2 years, 1 month ago) <TC>
 * 446e3a4 - Created 后藤辉基 (markdown) (2 years, 1 month ago) <TC>
-* 39d3202 - modify it (2 years, 1 month ago) <tcgriffith>
-* 274bbba - add logo (2 years, 1 month ago) <tcgriffith>
+* 39d3202 - modify it (2 years, 2 months ago) <tcgriffith>
+* 274bbba - add logo (2 years, 2 months ago) <tcgriffith>
 * cc06dc6 - Updated 岛田绅助 (markdown) (2 years, 2 months ago) <TC>
 * 2a5cc38 - Updated 伦敦之心节目表 (markdown) (2 years, 2 months ago) <TC>
 * dcf4393 - Updated 伦敦之心 (markdown) (2 years, 2 months ago) <TC>
