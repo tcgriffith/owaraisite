@@ -44,8 +44,8 @@
 * ac75f2b - Updated 水曜日的DownTown (markdown) (3 months ago) <TC>
 * 6f3fb33 - Updated _Sidebar (markdown) (3 months ago) <TC>
 * 75578d4 - Updated _Sidebar (markdown) (3 months ago) <TC>
-* f9d87ad - Updated Home (markdown) (3 months ago) <TC>
-* 60d9ae1 - Updated Home (markdown) (3 months ago) <TC>
+* f9d87ad - Updated Home (markdown) (4 months ago) <TC>
+* 60d9ae1 - Updated Home (markdown) (4 months ago) <TC>
 * 4f39476 - rm index (4 months ago) <tcgriffith>
 * 61e9df4 - Updated Engei Grand Slam (markdown) (4 months ago) <TC>
 * 689920e - Updated Ametalk (markdown) (4 months ago) <TC>
@@ -80,8 +80,8 @@
 * 820c803 - Updated 剧团一人 (markdown) (2 years, 1 month ago) <TC>
 * a8abe08 - Created 岩尾望 (markdown) (2 years, 1 month ago) <TC>
 * b99e092 - Updated 绝对不准笑系列 (markdown) (2 years, 1 month ago) <Humi2314>
-* be8004f - restructure it (2 years, 1 month ago) <tcgriffith>
-* 96deb6a - Updated 水曜日的DownTown (markdown) (2 years, 1 month ago) <Humi2314>
+* be8004f - restructure it (2 years, 2 months ago) <tcgriffith>
+* 96deb6a - Updated 水曜日的DownTown (markdown) (2 years, 2 months ago) <Humi2314>
 * 52c998c - Updated 流星 (markdown) (2 years, 2 months ago) <tohrusnbs>
 * 1410968 - Updated 足球时间 (markdown) (2 years, 2 months ago) <TC>
 * 885652d - Updated Engei Grand Slam (markdown) (2 years, 2 months ago) <TC>
