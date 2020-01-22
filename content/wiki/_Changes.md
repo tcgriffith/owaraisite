@@ -64,8 +64,8 @@
 * 8f7f368 - Updated _Sidebar (markdown) (1 year, 8 months ago) <TC>
 * ea97c77 - structure (1 year, 8 months ago) <tcgriffith>
 * 51a4865 - Created 千鸟 (markdown) (1 year, 8 months ago) <TC>
-* 0fda774 - Updated Tutorial (markdown) (1 year, 8 months ago) <TC>
-* cce4d29 - Updated 东方收音机 (markdown) (1 year, 8 months ago) <TC>
+* 0fda774 - Updated Tutorial (markdown) (1 year, 9 months ago) <TC>
+* cce4d29 - Updated 东方收音机 (markdown) (1 year, 9 months ago) <TC>
 * c21b311 - Updated 日本搞笑史 (markdown) (2 years, 1 month ago) <TC>
 * 754cc97 - Updated 日本搞笑史 (markdown) (2 years, 1 month ago) <TC>
 * 56e5282 - Created 日本搞笑史 (markdown) (2 years, 1 month ago) <TC>
@@ -77,9 +77,9 @@
 * 8cad247 - Updated _Sidebar (markdown) (2 years, 1 month ago) <TC>
 * 8c42f50 - Updated _Sidebar (markdown) (2 years, 1 month ago) <TC>
 * 465995c - Created IPPON (markdown) (2 years, 1 month ago) <TC>
-* 820c803 - Updated 剧团一人 (markdown) (2 years, 1 month ago) <TC>
-* a8abe08 - Created 岩尾望 (markdown) (2 years, 1 month ago) <TC>
-* b99e092 - Updated 绝对不准笑系列 (markdown) (2 years, 1 month ago) <Humi2314>
+* 820c803 - Updated 剧团一人 (markdown) (2 years, 2 months ago) <TC>
+* a8abe08 - Created 岩尾望 (markdown) (2 years, 2 months ago) <TC>
+* b99e092 - Updated 绝对不准笑系列 (markdown) (2 years, 2 months ago) <Humi2314>
 * be8004f - restructure it (2 years, 2 months ago) <tcgriffith>
 * 96deb6a - Updated 水曜日的DownTown (markdown) (2 years, 2 months ago) <Humi2314>
 * 52c998c - Updated 流星 (markdown) (2 years, 2 months ago) <tohrusnbs>
