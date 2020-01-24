@@ -72,9 +72,9 @@
 * c3d0f80 - Updated 搞笑艺人 (markdown) (2 years, 1 month ago) <TC>
 * 1641234 - Updated 不可接触 (markdown) (2 years, 1 month ago) <crossrx>
 * 765577f - Updated 搞笑艺人 (markdown) (2 years, 1 month ago) <TC>
-* 9befadb - Updated 东京03 (markdown) (2 years, 1 month ago) <TC>
-* ef8d39f - Created 东京03 (markdown) (2 years, 1 month ago) <TC>
-* 8cad247 - Updated _Sidebar (markdown) (2 years, 1 month ago) <TC>
+* 9befadb - Updated 东京03 (markdown) (2 years, 2 months ago) <TC>
+* ef8d39f - Created 东京03 (markdown) (2 years, 2 months ago) <TC>
+* 8cad247 - Updated _Sidebar (markdown) (2 years, 2 months ago) <TC>
 * 8c42f50 - Updated _Sidebar (markdown) (2 years, 2 months ago) <TC>
 * 465995c - Created IPPON (markdown) (2 years, 2 months ago) <TC>
 * 820c803 - Updated 剧团一人 (markdown) (2 years, 2 months ago) <TC>
