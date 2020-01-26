@@ -48,7 +48,7 @@ toc: true
 |04 恐怖的邻里纠纷||[网盘](https://pan.baidu.com/s/1oFN9P9unvHtc5iDDBcs4jg) sfqz |
 |05 诗人之村||[网盘](https://pan.baidu.com/s/1cGNkyOsz5nAThhMTUN0htA) bv6x|
 |06 DEATH LIMIT||[网盘](https://pan.baidu.com/s/1aT40iuyAEKr7UNG8UyVt4w) 7h6u|
-|剧场版1 密着68日复仇执行人||[网盘](https://pan.baidu.com/s/1ghS6l6gK_rL7W5yOibWR8A) 4pah|
+|剧场版1 密着68日复仇执行人||[网盘](https://pan.baidu.com/s/12UkfjhlmJt8THCXmnhKBQw) pl1l|
 
 ## 相关资料
 
