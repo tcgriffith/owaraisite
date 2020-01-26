@@ -74,12 +74,17 @@ list:
   - name: 驴三爷
     image: /img/lvsan_avatar.jpg
     intro: 喜欢画画的新晋社畜，日语自学中。水平超次，日常错漏，跪迎路过的各位批改作业！
+  - name: 东海毛绒芝士熊
+    image: https://i.loli.net/2020/01/26/rOB2noKPj1N9uis.png
+    intro: 最快爬墙吉尼斯纪录 诺贝尔多担奖
+  - name: 村上信五补给站
+    image: 村上信五个人字幕组，招人中，有意者请加企鹅群：1007557872
   - name: 水清而深
     image: /img/sq_avatar.jpeg
-    intro: 天心月圆
+    intro: 天心月圆 微博ID @寒塘的小鹤
   - name: 疾了个风
     image: /img/jf_avatar.png
-    intro: 坐标土澳，喜欢折腾代码和网站，自学乌干达日语，目前在跟小水一起做放送禁止，主页 https://tc.rbind.io
+    intro: 微博/B站ID @含糖的小鸡 お笑い好き
   - name: 莱姆籽
     image: /img/lmz_avatar.png
     intro: 出没于多个日综字幕组的大佬，活好声甜的00后B站网红UP主，高贵冷艳的macbook用户，据说喜欢星野源，是一只[INTJ](https://www.16personalities.com/intp-personality)。
