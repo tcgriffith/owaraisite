@@ -18,19 +18,28 @@ refLinksNotFoundURL = '#'
 
 
 
+[[menu.side]]
+    name = "搜索"
+    url = "/search/"
+    weight = 1
 
 [[menu.side]]
-    name = "本部"
-    url = "/"
-    weight = 1
-[[menu.side]]
     name = "节目"
-    url = "/bangumis/"
+    url = "/post/"
     weight = 2
 [[menu.side]]
     name = "段子"
-    url = "/combi/"
+    url = "/neta/"
     weight = 3
+[[menu.side]]
+    name = "标签"
+    url = "/tags/"
+    weight = 9
+[[menu.side]]
+    name = "字幕组"
+    url = "/author/"
+    weight = 10
+
 [[menu.side]]
     name = "论坛"
     url = "http://35.221.198.211"
@@ -40,34 +49,8 @@ refLinksNotFoundURL = '#'
     url = "/wiki/"
     weight = 5
 
-[[menu.side]]
-    name = "店长推荐"
-    url = "/matome/"
-    weight = 6
 
 
-[[menu.side]]
-    name = "节目"
-    url = "/post/"
-    weight = 7
-    desc = "haha"
-[[menu.side]]
-    name = "段子"
-    url = "/neta/"
-    weight = 8
-[[menu.side]]
-    name = "标签"
-    url = "/tags/"
-    weight = 9
-[[menu.side]]
-    name = "作者"
-    url = "/author/"
-    weight = 10
-
-[[menu.side]]
-    name = "RSS"
-    url = "/index.xml"
-    weight = 11
 [[menu.side]]
     name = "转载规则"
     url = "/rules/"
@@ -109,3 +92,5 @@ refLinksNotFoundURL = '#'
   combi = "combi"
   author = "author"
   
+[outputs]
+  home = ["HTML", "JSON","RSS"]

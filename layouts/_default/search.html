@@ -1,6 +1,14 @@
 {{ define "main" }}
+<script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/fuse.js/3.2.0/fuse.min.js"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/mark.js/8.11.1/jquery.mark.min.js"></script>
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+<script src="{{ "js/fuse_search.js" | absURL }}"></script>
+
+
 <div class=" article-container ">
-    {{ if .Params.nometa }}
+
+       {{ if .Params.nometa }}
     {{ else }}
     <div class="article-rightbar">
 
@@ -46,8 +54,6 @@
                 
                 {{ end }}
 
-
-
                 </p>
 
             </div>
@@ -57,30 +63,44 @@
 
     </div>
     {{ end }}
-    <div class="article-metamain roundit shadowbox padding1em ">
-        <div class="article-meta">
-            <h1><span class="title">{{ .Title }}</span></h1>
-        </div>
-        <div class="article-content">
-            {{ .Content }}
-        </div>
-        {{ if .Params.minimo }}
-        {{ else }}
-        <div class="article-related">
-            <h1><span class="title"> 相关 </span></h1>
-                {{ range first 5 (where .Site.RegularPages "Params.zmz" .Params.zmz) }}
-                <ul>{{ partial "article_li.html" .}}</ul>
-                {{ end }}
-        </div>
 
-        {{ end }}
-    </div>
+
+   <div class="article-metamain roundit shadowbox padding1em ">
+
+      <section class="resume-section p-3 p-lg-5 d-flex flex-column">
+        <div class="my-auto" >
+
+          <div class="wrap">
+          <form action="{{ "search" | absURL }}">
+            <input id="search-query" class="searchTerm" name="s" placeholder="Search..." />
+            <button type="submit" class="searchButton">
+              <i class="fa fa-search"></i>
+           </button>
+          </form>
+
+          </div>
+          <div id="search-results">
+           <h3>搜索很简单...</h3>
+          </div>
+        </div>
+      </section>
+
 </div>
-{{ end}}
 
+
+</div>
+<!-- this template is sucked in by search.js and appended to the search-results div above. So editing here will adjust style -->
+<script id="search-result-template" type="text/x-js-template">
+    <div id="summary-${key}" class="search-summary">
+      <h4><a href="${link}">${title}</a></h4>
+      <p>${snippet}</p>
+      ${ isset tags }<p>Tags: ${tags}</p>${ end }
+      ${ isset categories }<p>Categories: ${categories}</p>${ end }
+    </div>
+</script>
+
+{{ end}}
 
 {{ define "parallax_bg" }}
 {{ partial "parallax_regular.html" . }}
 {{ end }}
-
-

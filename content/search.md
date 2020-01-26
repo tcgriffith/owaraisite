@@ -1,61 +1,54 @@
 ---
-title: "搜索页"
-nocomment: true
-noauthor: true
-noedit: true
-nodate: true
-index: false
+title: "Search Results"
+sitemap:
+  priority : 0.1
+layout: "search"
+tags:
+  - 搜索
 ---
 
-<!-- <link rel="stylesheet" type="text/css" href="/css/style_search.css"> -->
-<!-- <style type="text/css">
-.ais-SearchBox-form { display: flex; }
-.ais-SearchBox-input {
-  width: 100%;
-  height:2rem;
-  flex: 1;
-}
 
-.ais-SearchBox-submitIcon {
-  width: 20px;
-  height: 20px;
-  margin-left: 10px;
-}
+This file exists solely to respond to /search URL with the related `search` layout template.
 
-.ais-SearchBox-resetIcon {
-  width: 20px;
-  height: 20px;
-  margin-left: 10px;
-}
+No content shown here is rendered, all content is based in the template layouts/page/search.html
 
-	
-</style>
- -->
+Setting a very low sitemap priority will tell search engines this is not important content.
 
-<style type="text/css">
-.ais-Hits-item{
-  list-style:none;
-}	
-</style>
-<body>
-  <!-- place holders -->
-  <header>
-      <div class="searchbox-container" id="searchbox" placeholder="Search for keywords">
-  </header>
- 
- <div id="results">
-  <div id="hits"></div>
-  <div class="pagination" id="pagination"></div>
- </div>
+This implementation uses Fusejs, jquery and mark.js
 
 
-  <!-- load algolia js and style, use instantsearch 3.4.0-->
+## Initial setup
 
-  <script src="https://cdn.jsdelivr.net/npm/instantsearch.js@3.4.0/dist/instantsearch.production.min.js" integrity="sha256-pM0n88cBFRHpSn0N26ETsQdwpA7WAXJDvkHeCLh3ujI=" crossorigin="anonymous"></script>
-  
-  <script src="https://cdn.jsdelivr.net/npm/algoliasearch@3.33.0/dist/algoliasearchLite.min.js" integrity="sha256-3Laj91VXexjTlFLgL8+vvIq27laXdRmFIcO2miulgEs=" crossorigin="anonymous"></script>
+Search  depends on additional output content type of JSON in config.toml
+\```
+[outputs]
+  home = ["HTML", "JSON"]
+\```
 
-  <!-- <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/instantsearch.css@7.3.1/themes/reset-min.css" integrity="sha256-t2ATOGCtAIZNnzER679jwcFcKYfLlw01gli6F6oszk8=" crossorigin="anonymous">  -->
-  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/instantsearch.css@7.3.1/themes/algolia-min.css" integrity="sha256-HB49n/BZjuqiCtQQf49OdZn63XuKFaxcIHWf0HNKte8=" crossorigin="anonymous">
-  <script src="/js/search_app2.js"></script>
-</body>
+## Searching additional fileds
+
+To search additional fields defined in front matter, you must add it in 2 places.
+
+### Edit layouts/_default/index.JSON
+This exposes the values in /index.json
+i.e. add `category`
+\```
+...
+  "contents":{{ .Content | plainify | jsonify }}
+  {{ if .Params.tags }},
+  "tags":{{ .Params.tags | jsonify }}{{end}},
+  "categories" : {{ .Params.categories | jsonify }},
+...
+\```
+
+### Edit fuse.js options to Search
+`static/js/search.js`
+\```
+keys: [
+  "title",
+  "contents",
+  "tags",
+  "categories"
+]
+\```
+
