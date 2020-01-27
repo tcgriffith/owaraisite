@@ -5,6 +5,7 @@ sitemap:
 layout: "search"
 tags:
   - 搜索
+nometa: true
 ---
 
 

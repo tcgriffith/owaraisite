@@ -3,8 +3,9 @@ summaryInclude=60;
 var fuseOptions = {
   shouldSort: true,
   includeMatches: true,
-  threshold: 0.0,
+  threshold: 0.6,
   tokenize:true,
+  matchAllTokens: true,
   location: 0,
   distance: 100,
   maxPatternLength: 32,
@@ -13,7 +14,10 @@ var fuseOptions = {
     {name:"title",weight:0.8},
     {name:"contents",weight:0.5},
     {name:"tags",weight:0.3},
-    {name:"categories",weight:0.3}
+    {name:"categories",weight:0.3},
+    {name:"author",weight:0.8},
+    {name:"combi",weight:0.8},
+    {name:"bangumi",weight:0.8}
   ]
 };
 
@@ -69,7 +73,16 @@ function populateResults(result){
     //pull template from hugo templarte definition
     var templateDefinition = $('#search-result-template').html();
     //replace values
-    var output = render(templateDefinition,{key:key,title:value.item.title,link:value.item.permalink,tags:value.item.tags,categories:value.item.categories,snippet:snippet});
+    var output = render(templateDefinition,
+      {key:key,
+      title:value.item.title,
+      link:value.item.permalink,
+      tags:value.item.tags,
+      categories:value.item.categories,
+      author:value.item.author,
+      combi:value.item.combi,
+      bangumi:value.item.bangumi,
+      snippet:snippet});
     $('#search-results').append(output);
 
     $.each(snippetHighlights,function(snipkey,snipvalue){
