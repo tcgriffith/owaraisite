@@ -779,6 +779,11 @@ hr {
   .tagcloud{
     display: none;
   }
+
+.searchTerm:focus{
+  width: 80%;
+  border: 3px solid #f46e31;
+}
 }
 
 @media(max-width: 700px){
@@ -1744,6 +1749,14 @@ article{
 .searchTerm:focus{
   width: 40%;
   border: 3px solid #f46e31;
+}
+
+
+@media (max-width: 930px) {
+.searchTerm:focus{
+  width: 80%;
+  border: 3px solid #f46e31;
+}
 }
 
 
