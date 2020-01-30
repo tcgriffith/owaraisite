@@ -66,8 +66,8 @@
 * 51a4865 - Created 千鸟 (markdown) (1 year, 8 months ago) <TC>
 * 0fda774 - Updated Tutorial (markdown) (1 year, 9 months ago) <TC>
 * cce4d29 - Updated 东方收音机 (markdown) (1 year, 9 months ago) <TC>
-* c21b311 - Updated 日本搞笑史 (markdown) (2 years, 1 month ago) <TC>
-* 754cc97 - Updated 日本搞笑史 (markdown) (2 years, 1 month ago) <TC>
+* c21b311 - Updated 日本搞笑史 (markdown) (2 years, 2 months ago) <TC>
+* 754cc97 - Updated 日本搞笑史 (markdown) (2 years, 2 months ago) <TC>
 * 56e5282 - Created 日本搞笑史 (markdown) (2 years, 2 months ago) <TC>
 * c3d0f80 - Updated 搞笑艺人 (markdown) (2 years, 2 months ago) <TC>
 * 1641234 - Updated 不可接触 (markdown) (2 years, 2 months ago) <crossrx>
