@@ -71,6 +71,15 @@ refLinksNotFoundURL = '#'
     othertags=["漫才", "短剧", "神舌","ametalk", "男女纠察队"]
     flarumurl="https://d.owaraiclub.com/api/discussions?filter[q]=tag:whatsnew"
     flarum="https://d.owaraiclub.com/d/"
+
+
+
+# autolink magic
+[[params.autolink]]
+    replace = "\\b(av\\d+)\\b"
+    with = "<a href='https://www.bilibili.com/video/$1'>$1</a>"
+
+
 [params.text]
     back = "&larr; 返回首页"
     edit = "&#9988;  编辑本页"

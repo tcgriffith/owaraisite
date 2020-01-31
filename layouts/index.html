@@ -3,7 +3,13 @@
     <div class="article-rightbar ">
         <div class="article-rightbar-child roundit shadowbox container1em sticky-container">
             <div class="article-content">
-                {{ .Content }}
+            
+
+            {{ $content := .Content }}
+            {{ range .Site.Params.autolink }}
+                {{ $content := replaceRE  .replace .with $content |safeHTML }}
+                {{ $content }}
+            {{ end }}
             </div>
         </div>
 

@@ -62,7 +62,15 @@
             <h1><span class="title">{{ .Title }}</span></h1>
         </div>
         <div class="article-content">
-            {{ .Content }}
+
+            <!-- implement autolink with regex -->
+            {{ $content := .Content }}
+
+            {{ range .Site.Params.autolink }}
+                {{ $content := replaceRE  .replace .with $content |safeHTML }}
+                {{ $content }}
+            {{ end }}
+
         </div>
         {{ if .Params.minimo }}
         {{ else }}
