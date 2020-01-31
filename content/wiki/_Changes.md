@@ -1,10 +1,10 @@
 * fda169c - (HEAD -> master, origin/master, origin/HEAD) updateit (3 months ago) <tcgriffith>
-* 590201e - Created 日文维基收录的搞笑组合 (markdown) (3 months ago) <TC>
-* b9aba14 - Updated _Sidebar (markdown) (3 months ago) <TC>
-* 651f3e7 - Updated 日文维基收录的搞笑艺人 (markdown) (3 months ago) <TC>
-* 88c62f1 - Updated 日文维基收录的搞笑艺人 (markdown) (3 months ago) <TC>
-* f833ce1 - Updated 日文维基收录的搞笑艺人 (markdown) (3 months ago) <TC>
-* 1e61082 - Created 日文维基收录的搞笑艺人 (markdown) (3 months ago) <TC>
+* 590201e - Created 日文维基收录的搞笑组合 (markdown) (4 months ago) <TC>
+* b9aba14 - Updated _Sidebar (markdown) (4 months ago) <TC>
+* 651f3e7 - Updated 日文维基收录的搞笑艺人 (markdown) (4 months ago) <TC>
+* 88c62f1 - Updated 日文维基收录的搞笑艺人 (markdown) (4 months ago) <TC>
+* f833ce1 - Updated 日文维基收录的搞笑艺人 (markdown) (4 months ago) <TC>
+* 1e61082 - Created 日文维基收录的搞笑艺人 (markdown) (4 months ago) <TC>
 * 0029542 - Updated 搞笑组合译名对照 (markdown) (4 months ago) <TC>
 * 1c679b9 - Created 搞笑组合译名对照 (markdown) (4 months ago) <TC>
 * ce0f6b4 - Created R1大赛 (markdown) (4 months ago) <TC>
@@ -66,10 +66,10 @@
 * 51a4865 - Created 千鸟 (markdown) (1 year, 8 months ago) <TC>
 * 0fda774 - Updated Tutorial (markdown) (1 year, 9 months ago) <TC>
 * cce4d29 - Updated 东方收音机 (markdown) (1 year, 9 months ago) <TC>
-* c21b311 - Updated 日本搞笑史 (markdown) (2 years, 1 month ago) <TC>
-* 754cc97 - Updated 日本搞笑史 (markdown) (2 years, 1 month ago) <TC>
-* 56e5282 - Created 日本搞笑史 (markdown) (2 years, 1 month ago) <TC>
-* c3d0f80 - Updated 搞笑艺人 (markdown) (2 years, 1 month ago) <TC>
+* c21b311 - Updated 日本搞笑史 (markdown) (2 years, 2 months ago) <TC>
+* 754cc97 - Updated 日本搞笑史 (markdown) (2 years, 2 months ago) <TC>
+* 56e5282 - Created 日本搞笑史 (markdown) (2 years, 2 months ago) <TC>
+* c3d0f80 - Updated 搞笑艺人 (markdown) (2 years, 2 months ago) <TC>
 * 1641234 - Updated 不可接触 (markdown) (2 years, 2 months ago) <crossrx>
 * 765577f - Updated 搞笑艺人 (markdown) (2 years, 2 months ago) <TC>
 * 9befadb - Updated 东京03 (markdown) (2 years, 2 months ago) <TC>
