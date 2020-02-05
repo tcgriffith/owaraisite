@@ -49,7 +49,7 @@
 * 4f39476 - rm index (4 months ago) <tcgriffith>
 * 61e9df4 - Updated Engei Grand Slam (markdown) (4 months ago) <TC>
 * 689920e - Updated Ametalk (markdown) (4 months ago) <TC>
-* 6dffba1 - diaaaaaazeeeeeeeeeepam (1 year ago) <tcgriffith>
+* 6dffba1 - diaaaaaazeeeeeeeeeepam (1 year, 1 month ago) <tcgriffith>
 * b8e7afe - Created 短剧 (markdown) (1 year, 3 months ago) <TC>
 * 736ea19 - Created 中川家 (markdown) (1 year, 3 months ago) <TC>
 * 8790ef4 - Updated Home (markdown) (1 year, 3 months ago) <TC>
@@ -61,9 +61,9 @@
 * 77bdaba - Updated _Sidebar (markdown) (1 year, 4 months ago) <TC>
 * 5cf3a83 - Created 镰鼬 (markdown) (1 year, 4 months ago) <TC>
 * 9b294db - Updated _footer (markdown) (1 year, 4 months ago) <TC>
-* 8f7f368 - Updated _Sidebar (markdown) (1 year, 8 months ago) <TC>
-* ea97c77 - structure (1 year, 8 months ago) <tcgriffith>
-* 51a4865 - Created 千鸟 (markdown) (1 year, 8 months ago) <TC>
+* 8f7f368 - Updated _Sidebar (markdown) (1 year, 9 months ago) <TC>
+* ea97c77 - structure (1 year, 9 months ago) <tcgriffith>
+* 51a4865 - Created 千鸟 (markdown) (1 year, 9 months ago) <TC>
 * 0fda774 - Updated Tutorial (markdown) (1 year, 9 months ago) <TC>
 * cce4d29 - Updated 东方收音机 (markdown) (1 year, 9 months ago) <TC>
 * c21b311 - Updated 日本搞笑史 (markdown) (2 years, 2 months ago) <TC>
