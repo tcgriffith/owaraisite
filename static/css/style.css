@@ -725,7 +725,7 @@ hr {
   padding: .5em 0;
 }
 
-.article-content img{
+.article-content img:nth-child(1){
   /*height: 20px;*/
   display: none;
 }
