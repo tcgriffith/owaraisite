@@ -67,11 +67,11 @@
             {{ $content := .Content }}
 
             {{ range .Site.Params.autolink }}
-                {{ $content := replaceRE  .replace .with $content }}
-                
+                {{ $content := replaceRE  .replace .with $content |safeHTML }}
+                {{ $content}}
             {{ end }}
 
-            {{ $content |safeHTML }}
+            
 
         </div>
         {{ if .Params.minimo }}
