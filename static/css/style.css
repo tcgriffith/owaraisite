@@ -84,7 +84,9 @@ header{
 
 body{
     /*background: url(/img/banner_2019_v2.jpg) no-repeat;*/
-    background: #e0f5ff;
+    background: rgb(6,35,84);
+    background: linear-gradient(180deg, rgba(6,35,84,1) 0%, rgba(224,245,255,1) 57%);
+    /*background: #e0f5ff;*/
     background-size: 100% auto;
     background-attachment: fixed;
     /*background-position: right 60px;*/
