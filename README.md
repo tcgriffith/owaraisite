@@ -1,5 +1,9 @@
 # Recent changes
 
+## 2020-02-19
+
+- reworked theme
+
 ## 2019-03-18
 
 - manually load comments
