@@ -567,9 +567,10 @@ pre code {
   border-color: red;
 }
 
-.menu-bottom li:hover{
-  background:#777796;
+.menu-bottom a:hover{
+  background:#0645ad;
   color: white;
+  transition: .5s;
 }
 
 hr {

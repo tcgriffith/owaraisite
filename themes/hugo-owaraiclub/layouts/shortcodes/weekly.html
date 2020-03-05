@@ -1,0 +1,13 @@
+<div>
+    <table>
+        <tr>
+            <th> Updated</th>
+            <th>Title</th>
+        </tr>
+        {{ range .Site.RegularPages.ByLastmod.Reverse }}
+        {{ if lt (sub (now.Unix) (.Lastmod.Unix)) 604800 }}
+        {{ partial "article_table.html" .}}
+        {{ end }}
+        {{ end }}
+    </table>
+</div>

@@ -32,15 +32,6 @@ refLinksNotFoundURL = '#'
     url = "/neta/"
     weight = 3
 [[menu.side]]
-    name = "标签"
-    url = "/tags/"
-    weight = 9
-[[menu.side]]
-    name = "字幕组"
-    url = "/author/"
-    weight = 10
-
-[[menu.side]]
     name = "论坛"
     url = "http://35.221.198.211"
     weight = 4
@@ -48,9 +39,18 @@ refLinksNotFoundURL = '#'
     name = "百科"
     url = "/wiki/"
     weight = 5
-
-
-
+[[menu.side]]
+    name = "最近一周"
+    url = "/lastweek/"
+    weight = 6
+[[menu.side]]
+    name = "标签"
+    url = "/tags/"
+    weight = 9
+[[menu.side]]
+    name = "字幕组"
+    url = "/author/"
+    weight = 10
 [[menu.side]]
     name = "转载规则"
     url = "/rules/"

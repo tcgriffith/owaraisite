@@ -5,6 +5,7 @@ title: test
 
 ## test
 
+{{% weekly %}}
 
 
 av123
