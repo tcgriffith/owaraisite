@@ -65,12 +65,19 @@
         <div class="article-content">
 
             <!-- implement autolink with regex -->
-            {{ $content := .Content }}
+            {{ $.Scratch.Set "newcontent" .Content }}
+            
 
             {{ range .Site.Params.autolink }}
-                {{ $content := replaceRE  .replace .with $content |safeHTML }}
-                {{ $content}}
+                {{ $content := ($.Scratch.Get "newcontent") }}
+                {{ $content := replaceRE  .replace .with $content }}
+                {{ $.Scratch.Set "newcontent" $content }}     
+
             {{ end }}
+
+            {{ $.Scratch.Get "newcontent" |safeHTML}}           
+            
+
 
             
 

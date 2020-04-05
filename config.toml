@@ -79,6 +79,10 @@ refLinksNotFoundURL = '#'
     replace = "\\s(av\\d+)\\s"
     with = "<a href='https://www.bilibili.com/video/$1'>$1</a>"
 
+[[params.autolink]]
+    replace = "@(.*?)\\s"
+    with = "<a href='/author/$1'>@$1</a>"
+
 
 
 
