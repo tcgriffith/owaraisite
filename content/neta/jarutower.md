@@ -1,13 +1,13 @@
 ---
 combi: 加鲁加鲁
-title: 【中字】「办吐槽讲座的家伙 5」JARUJARU TOWER 187
+title: 【中字】「有<我们的放屁房>的家伙」JARUJARU TOWER 906
 author: 今天鱼
 zmz: 今天鱼
 bangumi: 段子
 bangumis: 
   - 段子
 description: 段子&#8226;NA
-weight: -18417
+weight: -18424
 nodate: true
 brief: "JARUJARU自称拥有8000个段子，现在以「JARU JARU TOWER」的形式在公式HP和油管每天更新一个。更新一次即是加建一层，居民则是短剧角色：由JARUJARU扮演的奇怪的人。距离「JARU JARU TOWER」建成8000层的2039年11月7日还有二十年。"
 recomm: "> 距离「JARU JARU TOWER」建成8000层的2039年11月7日还有二十年."
@@ -22,6 +22,7 @@ recomm: "> 距离「JARU JARU TOWER」建成8000层的2039年11月7日还有二�
 
 |  id|TITLE                                             |UPDATE     |link                                                    |
 |---:|:-------------------------------------------------|:----------|:-------------------------------------------------------|
+| 906|有<我们的放屁房>的家伙                            |2020-06-11 |[去B站观看](https://www.bilibili.com/video/av540993341) |
 | 875|在同一个操场练习的棒球部和模特部的家伙            |2020-05-21 |[去B站观看](https://www.bilibili.com/video/av413133286) |
 | 869|做什么工作都能找到价值的家伙                      |2020-05-11 |[去B站观看](https://www.bilibili.com/video/av710747291) |
 | 839|手机震了却不看的家伙                              |2020-04-05 |[去B站观看](https://www.bilibili.com/video/av967605385) |
