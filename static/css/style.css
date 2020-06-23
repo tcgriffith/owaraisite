@@ -785,6 +785,9 @@ hr {
   .tagcloud{
     display: none;
   }
+  .onlywide{
+    display: none;
+  }
 
 .searchTerm:focus{
   width: 80%;

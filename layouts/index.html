@@ -1,7 +1,7 @@
 {{ define "main" }}
 <div class="container article-container home-container">
     <div class="article-rightbar ">
-        <div class="article-rightbar-child roundit shadowbox container1em sticky-container">
+        <div class="article-rightbar-child roundit shadowbox container1em sticky-container onlywide">
             <div class="article-content">
             
 
@@ -20,24 +20,6 @@
         </div>
     </div>
     <div class="article-metamain">
-
-        <div class = "roundit  container1em shadowbox homeblock halloffame ">
-            <h1 > (*❦ω❦)ノ</h1>   
-            <main class="list">
-
-            {{ range  first 3  (where ( where .Site.RegularPages "Section" "in" .Site.Params.mainSections ) ".Params.recomm" "!=" nil) }}
-             
-                    {{ partial "article_justfig_recomm.html" . }} 
-             
-            {{ end }}
-            </main>
-            <a href="/matome">
-                <h2 class="linkbutton" style=" text-align:center; margin-top: 3em;">=More=</h2> 
-            </a>            
-        </div>
-
-
-
 
 
         <div class=" roundit  container1em shadowbox homeblock">
