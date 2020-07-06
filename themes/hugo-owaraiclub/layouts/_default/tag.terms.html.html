@@ -10,7 +10,7 @@
         <ul class="taxonomy-cloud">
             {{ range $key, $value := .Data.Terms.ByCount }}
             {{ if gt .Count 3}}
-            <li id="{{ .Page.Title }}"> <a href="{{ .Page.Permalink }}" style="font-size:{{ add (div .Count 30) 1 }}em">{{ .Page.Title }}</a> ({{ .Count }})</li>
+            <li id="{{ .Page.Title }}"> <a href="{{ .Page.Permalink }}" >{{ .Page.Title }}</a> ({{ .Count }})</li>
             {{ end }}
             {{ end }}
         </ul>
