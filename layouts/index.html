@@ -25,7 +25,7 @@
         <div class=" roundit  container1em shadowbox homeblock">
             <h1 class="strong"> 节目 </h1>
             <main class="list">
-                {{ range first 7 (where (where .Site.RegularPages "Section" "post") "Params.bangumi" "not in" site.Params.otherbangumis) }}
+                {{ range first 7 (where .Site.RegularPages "Section" "post")  }}
                 {{ partial "article_justfig_title.html" . }}
                 {{ end }}
 
@@ -46,20 +46,17 @@
             </a>
         </div>
 
-        <div class=" roundit shadowbox container1em homeblock ">
-            <h1 class="strong"> cut/其他 </h1>
-            <main class="list  ">
-                {{ range first 7 (where .Site.RegularPages "Params.bangumi" "in" .Site.Params.otherbangumis2) }}
+        <div class=" roundit  container1em shadowbox homeblock">
+            <h1 class="strong"> 合集 </h1>
+            <main class="list ">
+                {{ range first 3 (where .Site.RegularPages "Section" "matome") }}
                 {{ partial "article_justfig_title.html" . }}
                 {{ end }}
             </main>
-            <a href="/post">
-                <h2 class="linkbutton" style=" text-align:center;">=More=</h2>
+            <a href="/matome">
+                <h2 class="linkbutton" style="text-align:center;">=More=</h2>
             </a>
         </div>
-
-
-
 
     </div>
 </div>
