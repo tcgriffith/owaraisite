@@ -1,13 +1,15 @@
 <section class="flex-col">
 
 <a href="{{ .Permalink }}">
-{{ $img := findRE "<img src=\"[^\"]+\"" .Content 1 }} 
+    <div class="article-card-div">
+    {{ $img := findRE "<img src=\"[^\"]+\"" .Content 1 }} 
 
-{{ range $img }}
+    {{ range $img }}
 
- <div>{{ (print . "class=\"article-img2\" alt=\"Thumbnail\" />") | safeHTML }}</div>
+    {{ (print . "class=\"article-img2\" alt=\"Thumbnail\" />") | safeHTML }}
 
-{{ end }}
+    {{ end }}
+    </div>
 </a>
 <span>{{ .Title }}</span>
 
