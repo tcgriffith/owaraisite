@@ -50,6 +50,7 @@ toc: true
 |06 DEATH LIMIT||[网盘](https://pan.baidu.com/s/1aT40iuyAEKr7UNG8UyVt4w) 7h6u|
 |剧场版1 密着68日复仇执行人||[网盘](https://pan.baidu.com/s/12UkfjhlmJt8THCXmnhKBQw) pl1l|
 |剧场版2 大家族||[网盘](https://pan.baidu.com/s/1EYhgOcZ395Lys7WyihwIyA) r7mq |
+|剧场版3 洗脑||[网盘](https://pan.baidu.com/s/1dycjCVOFSLbqbKbKjrTlCQ) tutv |
 
 ## 相关资料
 
